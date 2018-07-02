@@ -222,16 +222,16 @@ Ignorare queste regole non è tollerato essendo membro della community e può co
 Il progetto è nato per ampliare il team di traduttori di Mozilla Italia, cercando anche di capire i motivi che portano i nuovi volontari ad allontanarsi
 Ciascuno tramite il proprio profilo potrà tenere traccia dei compiti fatti e da fare, un team di volontari si occupa dei compiti eseguiti!
 Avendo a disposizione il codice è possibile cambiarlo, salvarlo od usarlo in altri progetti non legati all'originale
-La prima modalità, che permette al Comune di svolgere le funzioni anagrafiche utilizzando il sito web dell’ANPR, è completamente gratuita e consente comunque al Comune, nel caso se ne ravveda la necessità, di mantenere allineata una banca dati locale per l’espletamento di altre funzionalità (gestione tributi, elettorale, etc.).
+La prima modalità, che permette al Comune di svolgere le funzioni anagrafiche utilizzando il sito web dell’ANPR, è completamente gratuita e consente comunque al Comune, nel caso se ne ravveda la necessità, di mantenere allineata una banca dati locale per l’espletamento di altre funzionalità (gestione tributi, elettorale, ecc.).
 A carico del Comune è la predisposizione del file di subentro che contiene i dati delle proprie anagrafi.
 Qualora il Comune abbia esigenza di aggiornare automaticamente le proprie basi dati locali, necessarie per lo svolgimento dei propri compiti istituzionali diversi da quelli di natura propriamente anagrafica, utilizzerà i servizi che ANPR rende disponibili a questo scopo.
 Per utilizzare questa modalità è dunque necessario che il Comune modifichi il software anagrafico per integrarlo con ANPR.
 Il Comune in tal caso opera attraverso il proprio sistema gestionale modificato.
 La prima operazione da fare per poter utilizzare ANPR è la “compilazione della scheda di monitoraggio”.
-La compilazione di tale scheda consente al Ministero dell’Interno di predisporre il c.d.
+La compilazione di tale scheda consente al Ministero dell’Interno di predisporre la richiesta.
 “Piano di subentro” e assegnare a ogni Comune la data a partire dalla quale potrà iniziare a svolgere i passi propedeutici all’utilizzo effettivo di ANPR illustrati di seguito.
 Durante la fase di test , si dovrà inviare una parte dei dati registrati nella base dati comunale: tali dati popoleranno l’ANPR, facilitando in questo modo le successive fasi di apprendimento e test delle restanti funzionalità.
-L’ambiente di test è destinato prevalentemente ai fornitori dei SW anagrafici comunali prima del rilascio della nuova versione al comune per l’avvio dei test di pre-subentro.Per l’accesso all’ambiente di test si utilizza un certificato di postazione e una user-id e password che saranno trasmesse via PEC ai Comuni successivamente alla compilazione della scheda di monitoraggio, con almeno due mesi di anticipo rispetto alla data indicata dal comune per l’avvio dei test.
+L’ambiente di test è destinato prevalentemente ai fornitori dei SW anagrafici comunali prima del rilascio della nuova versione al comune per l’avvio dei test di pre-subentro. Per l’accesso all’ambiente di test si utilizza un certificato di postazione e una user-id e password che saranno trasmesse via PEC ai Comuni successivamente alla compilazione della scheda di monitoraggio, con almeno due mesi di anticipo rispetto alla data indicata dal comune per l’avvio dei test.
 È la fase immediatamente successiva a quella di test, che viene utilizzata per rilevare, preliminarmente al subentro, la presenza di eventuali criticità nella base dati.
 Per poter eseguire questa fase è necessario aver predisposto il file di subentro.
 Si utilizza in questa fase un ambiente diverso da quello di test, che consente di simulare il subentro e la successiva fase di esercizio.
@@ -728,7 +728,7 @@ La tecnologia d'oggi è segnata più dal software che dalla macchina ma ormai no
 L'hardware, ovvero i componenti fisici dell'apparecchio, ha si nuove funzioni importanti ma senza l'informatica ovvero il software non sarebbe niente.
 L'informatica è quello strumento che adatta la tecnologia a noi.
 Infatti come diceva Solly Zuckerman “la tecnologia è sempre stata con noi.
-Non è qualcosa al di fuori della società, qualche forza esterna dal quale veniamo sospinti..la società è la tecnologia sono riflessi l'una dell'altra”.
+Non è qualcosa al di fuori della società, qualche forza esterna dal quale veniamo sospinti. La società è la tecnologia sono riflessi l'una dell'altra”.
 In poche parole la tecnologia si adatta ai nostri bisogni.
 Siccome l'uomo inventa per dare benessere agli uomini perché dobbiamo rimanere indietro?
 Questo potrebbe definirsi lo slogan di una promozione che tra pochi giorni avverrà nel nostro bel paese.
@@ -860,7 +860,7 @@ Un uomo non si deve inchinare di fronte ad un superiore e accettare le sue condi
 Non deve permettersi di arrivare alla condizione utopica espressa in 1984.
 Blair è un uomo che ha sempre agito, non si è mai fermato, ha dimostrato di essere reattivo e di saper spiegare i fatti in modo critico.
 Ci dovrebbe essere un Orwell in ognuno di noi per infonderci la forza ed il desiderio di capire e approfondire tutto ciò che avviene intorno a noi.
-in tal modo si sviluppa lo spirito critico, una serie infinita di perché ai quali ,anche attraverso il confronto con gli altri, si possa trovare la risposta che ritiene più idonea.
+in tal modo si sviluppa lo spirito critico, una serie infinita di perché ai quali, anche attraverso il confronto con gli altri, si possa trovare la risposta che ritiene più idonea.
 1984 è un romanzo modernissimo anche se scritto più di 50 anni fa.
 Io mi sono avvicinato a quest'opera perché in ambito informatico il Grande Fratello sta diventando un'entità reale e non virtuale.
 Il termine informatico Trusted Computing, in italiano Informatica Fidata, indica l'inserimento di chip e/o software obbligatori che limiterebbero le libertà dell'utente per l'uso di altri software e/o di modifiche all'apparecchio.
@@ -1121,7 +1121,7 @@ I piccoli poi sono ancora più vivaci e curiosi dei genitori e sono impossibili 
 Sono simili a lunghi gattoni dalla lunga coda e dal naso molto sviluppato, i coati vivono a piccoli branchi nei boschi.
 Scavano nella terra per trovare insetti da mangiare.
 A differenza dei procioni, sono litigiosi.
-Quando un individuo cerca di avvicinarsi ad un compagno che sta mangiando,ne nascono zuffe furibonde, che non hanno mai conseguenze gravi.
+Quando un individuo cerca di avvicinarsi ad un compagno che sta mangiando, ne nascono zuffe furibonde, che non hanno mai conseguenze gravi.
 Non sono sanguinari ma semplicemente attaccabrighe.
 I vecchi maschi vivono lontani dal branco per riavvicinarsi nel periodo dell’accoppiamento.
 Anche in questa occasione nascono zuffe clamorose.
@@ -2026,7 +2026,7 @@ Di tanto in tanto Verga torna a narrare storie sentimentali borghesi.
 Dei suoi testi per il teatro quello che fa maggior successo è Cavalleria rusticana (1884), storia a forti tinte di un “delitto d’onore”.
 Nel 1893 compie a ritroso il viaggio della sua giovinezza e si trasferisce definitivamente a Catania.
 Tornato in Sicilia, continua a scrivere ma il lavoro che più gli sta a cuore non riesce a prender forma, e col passare degli anni finisce per rinunciare alla letteratura.
-Nel 1922 muore a Catania.Verga, durante il periodo Milanese, venne a contatto con gli studiosi Leopoldo Franchetti e Sidney Sonnino, i quali giornalisti presso una rivista, si erano interessati alla tematica dei “Carusi” in Sicilia e collaborava con essi.
+Nel 1922 muore a Catania. Verga, durante il periodo Milanese, venne a contatto con gli studiosi Leopoldo Franchetti e Sidney Sonnino, i quali giornalisti presso una rivista, si erano interessati alla tematica dei “Carusi” in Sicilia e collaborava con essi.
 Nell’ Inchiesta in Sicilia, scritta proprio da Franchetti e Sonnino, si dedica particolare attenzione al lavoro dei ragazzi, i cosiddetti carusi, impiegati come garzoni nel duro lavoro nelle miniere di zolfo.
 Il lavoro di questi fanciulli consisteva nel trasporto sulla schiena del minerale in sacchi o ceste, dalla galleria dove veniva scavato dal picconiere, fino al luogo dove all’aria aperta si faceva la basterella delle casse dei diversi picconieri.
 prima di riempire il calcarone (fornace).
@@ -2038,7 +2038,7 @@ I ragazzi impiegati all’aria aperta lavoravano per undici-dodici ore.
 Il carico variava secondo l’età e la forza dei ragazzi, ma era sempre molto superiore a quanto potesse portare una creatura di tenera età, senza grave danno alla salute, e senza pericolo di storpiarsi.
 I più piccoli portavano sulle spalle, incredibile a dirsi, un peso dai 25 ai 30 kg.
 Il numero dei viaggi che faceva ogni ragazzo in un giorno variava molto, a seconda delle profondità diverse delle miniere e delle gallerie .
-Il guadagno giornaliero di un ragazzo di otto anni era di £ 0,50,dei più piccoli e deboli era di £ 0,35.
+Il guadagno giornaliero di un ragazzo di otto anni era di £ 0,50, dei più piccoli e deboli era di £ 0,35.
 Questi poveri carusi uscivano dalle bocche delle gallerie dove la temperatura era caldissima, grondando sudore e contratti sotto i gravissimi pesi che portavano, e uscivano all’aria aperta, dove dovevano percorrere un’altra cinquantina di metri, esposti a un vento ghiaccio.
 Altre schiere di fanciulli lavoravano all’aria aperta trasportando il minerale dalla basterella  al calcarone.
 Là dei lavoranti riempivano le ceste e le caricavano sui ragazzi, che correndo le portavano fino alla bocca della fornace, dove un altro operaio li sorvegliava, gridando questo, spingendo quello, dando ogni tanto una sferzata a chi correva meno.”
@@ -2085,7 +2085,7 @@ potranno essere affidati agli organi di polizia giudiziaria per l’impiego dell
 potranno essere affidati all’Agenzia nazionale, agli enti territoriali, di protezione civile o di tutela ambientale.
 potranno essere venduti.
 A Gennaio 2013, tra immobili ed aziende, si stimano circa 11 mila beni sequestrati, di cui il 43% presenti in Sicilia, il 15% in Campania, il 14% in Calabria, solo il 9% in Puglia e il restante 19% suddiviso fra le altre regioni italiane.
-Dunque, c’è una concentrazione al Sud di beni posseduti dalla Mafia.Sin dalla sua istituzione, l’ANSBC ha emesso oltre 600 provvedimenti e numerosi progetti per la destinazione dei beni confiscati.
+Dunque, c’è una concentrazione al Sud di beni posseduti dalla Mafia. Sin dalla sua istituzione, l’ANSBC ha emesso oltre 600 provvedimenti e numerosi progetti per la destinazione dei beni confiscati.
 Occupazioni abusive, confisca di quote indivise, carenze strutturali.
 Per quanto riguarda soprattutto i beni immobili.
 Per le Aziende: La grave situazione finanziaria in cui erano alcune aziende al momento della confisca.
@@ -2100,10 +2100,10 @@ Sono di tipo cartolare (assegni) o non cartolare (bonifici, giroconti e compensa
 Con il diffondersi e il perfezionarsi dell’automazione la moneta bancaria sta diventando moneta elettronica.
 Esistono sportelli automatici(Bancomat) ai quali si rivolge la clientela e terminali installati presso negozi chiamati POS.
 Sono gli strumenti cartolari.
-Possono essere ordinari(bancari,circolari) o speciali.
+Possono essere ordinari(bancari, circolari) o speciali.
 Hanno in comune: pagabili a vista, sono titoli di credito all’ordine(trasferibili per girata) , emessi perché esiste un fondo.
 Vaglia cambiario della Banca d’Italia, del Banco di Napoli e del Banco di Sicilia È un assegno circolare rilasciato solo contro versamento di denaro contante, ha però nome diverso per ragioni di prestigio degli enti emittenti.
-Viene emesso da banche autorizzate dalla Banca d’Italia nelle località in cui non esiste una filiale della Banca d’Italia.È un titolo all’ordine emesso dal Banco di Napoli e dal Banco di Sicilia pagabile a vista presso qualunque loro filiale sul quale può essere indicata la causale del pagamento che può essere sottoposta all’accertamento della condizione che ha causato il pagamento.
+Viene emesso da banche autorizzate dalla Banca d’Italia nelle località in cui non esiste una filiale della Banca d’Italia. È un titolo all’ordine emesso dal Banco di Napoli e dal Banco di Sicilia pagabile a vista presso qualunque loro filiale sul quale può essere indicata la causale del pagamento che può essere sottoposta all’accertamento della condizione che ha causato il pagamento.
 La legge 109/96 costituisce lo strumento più avanzato di contrasto  alla criminalità organizzata nel campo culturale, sociale ed economico, prevedendo la  restituzione alla collettività di grandi patrimoni accumulati illecitamente e colpendo le mafie in uno degli ambiti più importanti: la creazione del consenso sociale.
 Se l’azione repressiva della magistratura punta ad indebolire le mafie attraverso la sottrazione delle ricchezze, mettendone in crisi il potere economico, l’azione costruttiva delle istituzioni e delle forze sociali punta ad indebolirne il consenso e dunque il potere politico.
 Il raggiungimento di tale obiettivo è tanto più alla portata quanto maggiore sarà il numero di beni che sono confiscati ed introdotti nel circolo virtuoso dell’uso sociale, ma anche quanto migliore sarà l’uso sociale degli stessi.
@@ -2318,7 +2318,7 @@ La spedizione lungo la strada rientrò quattro giorni dopo.
 era il giorno 11 di Ilraset, e l’atmosfera festiva in cui la città li aveva accolti si stava affievolendo, e pian piano la vita stava tornando alla normalità.
 Dalmor, il Re e il Governatore di Zorqun andarono alle porte della città ad attendere il ritorno della compagnia.
 approfittarono dell’occasione per discutere di una questione spinosa.
-Si trovavano appena fuori dalla Porta del Regno, sull’immenso spiazzale lastricato da cui si dipartivano le strade che uscivano dai Monti.A sera inoltrata si diresse verso l’ala del Palazzo in cui viveva la famiglia dello zio.
+Si trovavano appena fuori dalla Porta del Regno, sull’immenso spiazzale lastricato da cui si dipartivano le strade che uscivano dai Monti. A sera inoltrata si diresse verso l’ala del Palazzo in cui viveva la famiglia dello zio.
 la Luna era salita già oltre le cime dei monti circondanti, l’aria era fresca, e per il palazzo non vi era troppa gente.
 Raggiunse una piccola porta di legno chiaro, spinse la maniglia.
 era chiusa, quindi aprì con la chiave che aveva trovato assieme al biglietto.
@@ -2390,7 +2390,7 @@ La flotta aveva tentato più volte di aprirsi un varco, ma perse in casa propria
 La città non era ancora alla fame, ma lo sarebbe stata appena finita l’estate, quando non sarebbero arrivati rifornimenti da Nord, e sarebbe iniziata l’agonia della popolazione.
 Il Re continuava a fare avanti e indietro davanti le porte della città, senza proferire parola ma continuando a gesticolare, come se stesse tenendo una conversazione con qualcuno.
 Le truppe lo osservavano, ma nessuno osò disturbarlo o distrarlo, almeno finché le porte della città non cedettero sotto i colpi dell’ariete.
-A quel punto, qualcuno doveva comunicargli la notizia che stavano per entrare in città, ma nessuno, né i generali, né i soldati, avevano intenzione di farlo.La terza armata entrò in città e si trovò davanti quel terribile spettacolo ovunque.
+A quel punto, qualcuno doveva comunicargli la notizia che stavano per entrare in città, ma nessuno, né i generali, né i soldati, avevano intenzione di farlo. La terza armata entrò in città e si trovò davanti quel terribile spettacolo ovunque.
 L’unica zona dove non arrivarono fu la cittadella, il quartiere
 centrale della città, costruito sul versante di un colle.
 era un’area molto ampia e cinta da mura.
@@ -2555,7 +2555,7 @@ vi pose affianco la spada reale, il pugnale, la cintola.
 Osservò il complesso, ritenne di non aver dimenticato nulla e si avviò fuori dalla stanza.
 Una rapida occhiata al cielo gli bastò per comprendere che mancavano circa quattro o cinque ore alla notte senza luna.
 L’appuntamento era per il sorgere di essa, ma l’astro non sarebbe sorto quella notte: sposarsi in luna nuova, si diceva, portava male.
-A lui poco importava, e sperò lo stesso per la sua futura consorte.Quasi tutti i cortili esterni erano una rappresentazione dello stato cui appartenevano, le uniche eccezioni erano i Monti ed i Venti, quindi anche il cortile dei Deserti andava a rappresentare in scala ridotta la geografia fisica del regno.
+A lui poco importava, e sperò lo stesso per la sua futura consorte. Quasi tutti i cortili esterni erano una rappresentazione dello stato cui appartenevano, le uniche eccezioni erano i Monti ed i Venti, quindi anche il cortile dei Deserti andava a rappresentare in scala ridotta la geografia fisica del regno.
 caratterizzato da un alto e vastissimo altipiano, il Regno dei deserti era il meno popoloso, ma tra i più attivi nei commerci: Durtar Oslager era il terzo porto dell’esagono per grandezza e secondo in attività commerciale.
 con l’unione tra i due regni, Dalmor andava a tenere sotto controllo più del novantacinque percento dei traffici commerciali tra continente interno e paesi esterni.
 il restante cinque percento era diviso tra Durtar Hirin e Arat Vanur, per cui un tempo passavano oltre i sette decimi di merci del mondo, e i porti minori degli altri stati.
@@ -2733,7 +2733,7 @@ La leggenda narra che Anne a Laurens si guardarono a lungo e nel momento di affr
 Preso alla sprovvista, ammirato da tanta scaltrezza e seriamente preoccupato per la sua vita, Laurens si inginocchiò e chiese ad Anne di sposarlo.
 Vissero felici a lungo, depredando e razziando, tra un colpo di cannone e una bottiglia di rum.
 Spargendo terrore  mano nella mano e scrivendo, a colpi di pistola, la storia della pirateria.
-La morale di questa storia non è che prima o poi arriva il pirata azzurro che vuole ucciderti e poi ti sposa.La morale di questa storia è: quando tutti si aspettano una spada, tu caccia la pistola.
+La morale di questa storia non è che prima o poi arriva il pirata azzurro che vuole ucciderti e poi ti sposa. La morale di questa storia è: quando tutti si aspettano una spada, tu caccia la pistola.
 Tieni bene in testa che non puoi combattere per i tuoi sogni se non hai le armi giuste.
 Le mimose fanno starnutire, la determinazione colpisce al cuore.
 Certe volte il futuro succede all’improvviso.
@@ -2745,8 +2745,8 @@ Non si può più fermare, il futuro comincia a entrare da tutte le parti.
 Apri la porta e spunta uno che progetta e vende macchine elettriche che si guidano da sole, apri la credenza ed esce fuori quello che progetta treni superveloci, da sotto il tappeto spunta quello che sta scavando tunnel sotto Los Angeles perché si annoiava a stare nel traffico, infine ti atterra un booster sul balcone e non ci capisci
 In tv ci sono i pooh che cantano a Sanremo e attorno a me c’è Elon Musk che spunta da tutte le parti.
 Elon Musk è l’uomo del futuro.
-È colui che ha la soluzione a ogni problema.Le emissioni di gas serra stanno distruggendo il pianeta e compromettendo la vita su di esso?
-La soluzione è Tesla Motors, la ditta che produce macchine elettriche super tecnologiche che si guidano da sole, non emettono CO2 e hanno prezzi abbordabili.Il traffico a Los Angeles fa impazzire tutti?
+È colui che ha la soluzione a ogni problema. Le emissioni di gas serra stanno distruggendo il pianeta e compromettendo la vita su di esso?
+La soluzione è Tesla Motors, la ditta che produce macchine elettriche super tecnologiche che si guidano da sole, non emettono CO2 e hanno prezzi abbordabili. Il traffico a Los Angeles fa impazzire tutti?
 La soluzione è The Boring Company, la compagnia che scava tunnel sotterranei nei quali scorrono dei carrelli che permettono alla tua automobile di viaggiare velocissima ed evitare spiacevoli code.
 L’esplorazione spaziale è in stallo per via degli elevati costi di produzione dei razzi?
 La soluzione è SpaceX, la compagnia che produce “razzi riciclabili”, i cui booster sono in grado di tornare indietro e atterrare senza nemmeno un graffio, così da poter essere riutilizzati.
@@ -2759,12 +2759,12 @@ il treno delle 14:06 partito dalla stazione centrale di Benevento è arrivato al
 Io ero lì, io l’ho vissuto quel momento, quella sensazione di normalità, di sollievo per qualcosa che finalmente funziona, quella sensazione di futuro che può arrivare.
 Sensazione che non rivivrò mai più, perché certe volte il futuro succede solo se sei lontano da qui.
 È necessario.
-Non saprei trovare altre parole per spiegare perché sono piena di lividi, o perché torno a casa ricoperta di rossetto, o perché bastano poche ore di lavoro per sfinirmi.È necessario smuoversi, agitarsi, andare a pescare le emozioni più dense che erano sedimentate sul fondo.
+Non saprei trovare altre parole per spiegare perché sono piena di lividi, o perché torno a casa ricoperta di rossetto, o perché bastano poche ore di lavoro per sfinirmi. È necessario smuoversi, agitarsi, andare a pescare le emozioni più dense che erano sedimentate sul fondo.
 Ritornare nel punto in cui ti faceva più male e capire le ragioni di quel dolore.
 Tornare lì nel punto in cui faceva più bene e capire le ragioni di quel piacere.
 Stare nel mezzo tra dolore e piacere e non sapere assolutamente dove andare.
 Ricercare sempre, ricercare tutto, non assecondare mai quel morire naturale, mantenersi vivi.
-Fare teatro, è necessario.Affermare di fare teatro è insieme una trappola ed una scappatoia.
+Fare teatro, è necessario. Affermare di fare teatro è insieme una trappola ed una scappatoia.
 Il teatro è per natura, architettonica e ideologica, contenitore di tante cose e con l’affermazione “Io faccio teatro!” si sfugge facilmente alla necessità di dichiarare con onestà cosa diavolo si fa in teatro.
 Un po’ di esperienza l’ho maturata nel tempo, e proprio questa esperienza mi ha consentito di elaborare una mia personalissima definizione del “fare teatro” che comprende tante sensazioni, pensieri ed emozioni che è difficile tradurre in parole.
 Fare teatro è per me:Muoversi su un pavimento impolverato.
@@ -2842,7 +2842,7 @@ Non ci possono essere mezze misure : o sarà un successo totale o sarà una umil
 E lavorare per raggiungere il successo è la cosa più divertente del mondo.
 Mettere in piedi lo spettacolo “ Che Barba Lunga Che Hai!” è stato davvero divertente.
 In una settimana (scarsa) di prove abbiamo deciso di giocare e sperimentare, di solito siamo bravissimi a complicarci la vita e ad andare in ansia per i dettagli più insignificanti, ma questa volta andavamo incontro ad una situazione totalmente nuova per noi: uno spettacolo itinerante, all’aperto, sulle origini mitiche dei longobardi.
-Una robetta ,insomma.
+Una robetta, insomma.
 Non si poteva andare nel panico.
 È divertente tornare ad essere longobardi per una manciata di giorni,  guardarsi intorno e vedere spade, cavalli, tuniche e mantelli è emozionante , un bel colpo d’occhio.
 Considerato che il tutto avviene in una città che si prende talmente sul serio da eleggere Mastella sindaco, capite bene che una rievocazione medievale è un grande passo avanti.
@@ -4742,7 +4742,6 @@ Ed è per questo, vedete, commissario, che mi sarebbe stato assolutamente imposs
 fisicamente impossibile di aprire il ventre a quel vostro.
 tedesco, lassú all’ultimo piano.
 Chi vi ha detto che era.
-
 Non lo era?
 Già!
 Forse, non lo era.
@@ -4823,7 +4822,7 @@ L’avversario era di tempra.
 Che dice?
 Ha ragione lui, per ora.
 La prima mano, nella partita, è stata sua.
-Vedremo le altre..
+Vedremo le altre.
 Andiamo dal Questore.
 Quando si trovò davanti al suo Capo, De Vincenzi vide subito che vento tirava.
 Il Questore aveva il volto chiuso, lo sguardo diritto e penetrante.
@@ -5986,7 +5985,7 @@ Vuol parlarmi dei rapporti che correvano tra lei e il marchese suo zio?
 Adesso, quello aggrottò le sopracciglia e strinse le labbra.
 Commissario, il notaio mi ha informato del dubbio del medico sulla causa della morte del povero zio.
 Io stamattina ho saputo anche.
-sempre dal dottor Narboni, che alla zia era capitata..
+sempre dal dottor Narboni, che alla zia era capitata.
 una disgrazia.
 Immagino che sia per questo che lei m'interroga.
 Che cosa vuol sapere da me?
