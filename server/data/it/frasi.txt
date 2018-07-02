@@ -185,7 +185,7 @@ In un progetto, tutti devono tenere d’occhio le domande dei nuovi arrivati.
 I coordinatori del progetto non devono essere gli unici a fornire nozioni ed abilità ai nuovi arrivati.
 Tieni a mente quello che hai appreso su come le persone nella tua community vorrebbero essere riconosciute sulla base dei propri meriti.
 Mozilla Italia di base promuove e continua a promuovere ufficialmente tutte le attività, programmi e progetti promossi dalla Community Internazionale di Mozilla.
-Al fine di incrementare l'attrattiva della nostra community si è deciso di realizzare delle attività finalizzate a coinvolgere tutti i volontari generici che, non facendo parte di nessun programma nello specifico, vogliono collaborare alle attività promosse localmente da tutta la community Mozilla Italia.
+Al fine di incrementare l'attrattività della nostra community si è deciso di realizzare delle attività finalizzate a coinvolgere tutti i volontari generici che, non facendo parte di nessun programma nello specifico, vogliono collaborare alle attività promosse localmente da tutta la community Mozilla Italia.
 Al fine di organizzare e mantenere costantemente attiva la community locale è necessario determinare dei ruoli e delle responsabilità locali o decisionali.
 Esse non sono da intendersi di tipo verticale o gerarchiche ma funzionali.
 Volontari non facenti parte di programmi ufficiali Mozilla che hanno contribuito in modo significativo alle attività Locali e hanno ottenuto un “vouch” su mozillians.org
