@@ -436,7 +436,8 @@ In altri termini, la capacità di produrre beni e servizi minimizzando il tempo 
 La dimensione dell'efficacia, esprime l'adeguatezza dell'output erogato rispetto alle aspettative e alle necessità degli utenti (interni ed esterni).
 Per misurare l'efficacia dell'azione di una amministrazione, è quindi fondamentale individuare quali dimensioni siano rilevanti per gli utenti.
 L'insieme di queste dimensioni dipende dalla tipologia di amministrazione e dai suoi obiettivi, e proprio la loro definizione permette di specificare meglio il risultato atteso nei confronti dell'utenza.
-Ad esempio, per misurare l'efficacia di un servizio rivolto al pubblico è possibile prendere varie dimensioni: accessibilità, estetica, disponibilità, pulizia, comunicazione, affidabilità, tempestività di risposta.
+Ad esempio, per misurare l'efficacia di un servizio rivolto al pubblico è possibile prendere varie dimensioni.
+Accessibilità, estetica, disponibilità, pulizia, comunicazione, affidabilità, tempestività di risposta.
 La definizione degli indicatori che l'amministrazione utilizza per programmare, misurare e poi valutare la performance è un'attività di importanza critica.
 Spesso obiettivi sfidanti vengono misurati in modo non adeguato, fornendo informazioni incomplete o addirittura fuorvianti ai decisori.
 L'incompletezza e la scarsa precisione hanno implicazioni sia sulla fase di pianificazione che su quella di misurazione e valutazione.
@@ -532,6 +533,7 @@ Il viaggiatore che l’aveva ordinata passò il vassoio all’altro con rispetto
 Quegli bevve, quindi mormorò.
 Il viaggiatore vuotò il suo bicchiere, quindi ordinò a Menicuccio di dare il rimanente al cocchiere, e gli porse uno scudo, dicendogli.
 Da parte di questo signore che ha trovato buono il vostro vino.
+Mille grazie!
 Mille grazie! Esclamò l’oste inchinandosi fino a terra, mentre la carrozza partiva di buon trotto.
 Maledizione! Hanno anticipato di tre ore.
 Un bel colpo fallito.
@@ -6952,7 +6954,6 @@ Far vedere i sorci verdi.
 Far vedere la luna nel pozzo.
 Far venire il latte alle ginocchia.
 Far venire la barba.
-
 Farci la birra.
 Farci una croce sopra.
 Fare "semel in anno".
