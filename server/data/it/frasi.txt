@@ -223,7 +223,7 @@ Ignorare queste regole non è tollerato essendo membro della community e può co
 Il progetto è nato per ampliare il team di traduttori di Mozilla Italia, cercando anche di capire i motivi che portano i nuovi volontari ad allontanarsi
 Ciascuno tramite il proprio profilo potrà tenere traccia dei compiti fatti e da fare, un team di volontari si occupa dei compiti eseguiti!
 Avendo a disposizione il codice è possibile cambiarlo, salvarlo od usarlo in altri progetti non legati all'originale
-La prima modalità, che permette al Comune di svolgere le funzioni anagrafiche utilizzando il sito web dell’ANPR, è completamente gratuita e consente comunque al Comune, nel caso se ne ravveda la necessità, di mantenere allineata una banca dati locale per l’espletamento di altre funzionalità (gestione tributi, elettorale, ecc.).
+La prima modalità, che permette al Comune di svolgere le funzioni anagrafiche utilizzando il sito web dell’ANPR, è completamente gratuita e consente comunque al Comune, di mantenere allineata una banca dati locale per l’espletamento di altre funzionalità
 A carico del Comune è la predisposizione del file di subentro che contiene i dati delle proprie anagrafi.
 Qualora il Comune abbia esigenza di aggiornare automaticamente le proprie basi dati locali, necessarie per lo svolgimento dei propri compiti istituzionali diversi da quelli di natura propriamente anagrafica, utilizzerà i servizi che ANPR rende disponibili a questo scopo.
 Per utilizzare questa modalità è dunque necessario che il Comune modifichi il software anagrafico per integrarlo con ANPR.
@@ -232,7 +232,8 @@ La prima operazione da fare per poter utilizzare ANPR è la “compilazione dell
 La compilazione di tale scheda consente al Ministero dell’Interno di predisporre la richiesta.
 “Piano di subentro” e assegnare a ogni Comune la data a partire dalla quale potrà iniziare a svolgere i passi propedeutici all’utilizzo effettivo di ANPR illustrati di seguito.
 Durante la fase di test , si dovrà inviare una parte dei dati registrati nella base dati comunale: tali dati popoleranno l’ANPR, facilitando in questo modo le successive fasi di apprendimento e test delle restanti funzionalità.
-L’ambiente di test è destinato prevalentemente ai fornitori dei SW anagrafici comunali prima del rilascio della nuova versione al comune per l’avvio dei test di pre-subentro. Per l’accesso all’ambiente di test si utilizza un certificato di postazione e una user-id e password che saranno trasmesse via PEC ai Comuni successivamente alla compilazione della scheda di monitoraggio, con almeno due mesi di anticipo rispetto alla data indicata dal comune per l’avvio dei test.
+L’ambiente di test è destinato prevalentemente ai fornitori dei SW anagrafici comunali prima del rilascio della nuova versione al comune per l’avvio dei test di pre-subentro. 
+Per l’accesso all’ambiente di test si utilizza un certificato di postazione e una user-id e password che saranno trasmesse via PEC ai Comuni successivamente alla compilazione della scheda di monitoraggio, con almeno due mesi di anticipo rispetto alla data indicata dal comune per l’avvio dei test.
 È la fase immediatamente successiva a quella di test, che viene utilizzata per rilevare, preliminarmente al subentro, la presenza di eventuali criticità nella base dati.
 Per poter eseguire questa fase è necessario aver predisposto il file di subentro.
 Si utilizza in questa fase un ambiente diverso da quello di test, che consente di simulare il subentro e la successiva fase di esercizio.
@@ -535,13 +536,15 @@ Quegli bevve, quindi mormorò.
 Il viaggiatore vuotò il suo bicchiere, quindi ordinò a Menicuccio di dare il rimanente al cocchiere, e gli porse uno scudo, dicendogli.
 Da parte di questo signore che ha trovato buono il vostro vino.
 Mille grazie!
-Mille grazie! Esclamò l’oste inchinandosi fino a terra, mentre la carrozza partiva di buon trotto.
-Maledizione! Hanno anticipato di tre ore.
+Esclamò l’oste inchinandosi fino a terra, mentre la carrozza partiva di buon trotto.
+Maledizione! 
+Hanno anticipato di tre ore.
 Un bel colpo fallito.
 Nulla di perduto, rispose l’altro.
 Fra mezz’ora io li avrò sorpassati.
 La salita per la strada maestra è lunga, per i giri che fa la strada ed erta in modo che i cavalli non possono che andare al passo.
-E i compagni? Non ci pensare, li troverò io.
+E i compagni? 
+Non ci pensare, li troverò io.
 Non ci pensare.
 Il buio si era fatto intanto profondo e Menicuccio lieto della sua giornata, aveva chiuso l’albergo, ben certo che a quell’ora nessun altro avventore sarebbe capitato.
 Il cacciatore, fatto sicuro di non essere veduto, aperse la finestra, che distava pochi metri dal suolo e colla lestezza e agilità del dardo, discese nella via, tenendo il suo fucile ad armacollo.
@@ -731,7 +734,8 @@ La tecnologia d'oggi è segnata più dal software che dalla macchina ma ormai no
 L'hardware, ovvero i componenti fisici dell'apparecchio, ha si nuove funzioni importanti ma senza l'informatica ovvero il software non sarebbe niente.
 L'informatica è quello strumento che adatta la tecnologia a noi.
 Infatti come diceva Solly Zuckerman “la tecnologia è sempre stata con noi.
-Non è qualcosa al di fuori della società, qualche forza esterna dal quale veniamo sospinti. La società è la tecnologia sono riflessi l'una dell'altra”.
+Non è qualcosa al di fuori della società, qualche forza esterna dal quale veniamo sospinti. 
+La società è la tecnologia sono riflessi l'una dell'altra”.
 In poche parole la tecnologia si adatta ai nostri bisogni.
 Siccome l'uomo inventa per dare benessere agli uomini perché dobbiamo rimanere indietro?
 Questo potrebbe definirsi lo slogan di una promozione che tra pochi giorni avverrà nel nostro bel paese.
@@ -1287,6 +1291,7 @@ Come lei, volevo essere indipendente.
 Adoravo rubare le verdure dal campo, specialmente il granturco.
 Io e i miei amici eravamo esperti nel furto di verdure.
 Il cibo rubato ha un gusto migliore.
+Basta!
 Poi lo friggevamo e lo mangiavamo.
 La mamma usciva presto la mattina,
 ed è per questo che sono più attaccata a mio padre, ho trascorso più tempo con lui.
@@ -1596,6 +1601,14 @@ acquisisci il senso di sicurezza di poter vincere!
 Che stai facendo?
 Vorrei un bel pezzo di cioccolata.
 Fallo e basta!
+Ciao, sorellona.
+Cos'è tutto questo?
+Fiori?
+Pochissima.
+Grazie.
+Benvenuta, sorellona
+Come state tutte?
+Stiamo bene.
 Non ho sentito, puoi ripetere?
 Come è andata ieri?
 Com'era il concerto?
@@ -1853,6 +1866,7 @@ Lo stadio sta intonando un coro in perfetto unisono.
 Guarda, se spegni le luci si riescono a vedere un sacco di lucciole!
 Le coccinelle portano fortuna, non le schiacciare!
 Guarda quel geco com'è rosa!
+Buonasera!
 No, quello è un geco, non una lucertola.
 Sono due cose diverse!
 Quel ragno è gigante, sembra quasi una tarantola!
@@ -1991,6 +2005,7 @@ All'Assemblea costituente il giorno dopo la strage Girolamo Li Causi, segretario
 dopo il 20 aprile c'è stata una campagna di provocazioni politiche e di intimidazioni.
 durante la strage il maresciallo dei carabinieri si intratteneva con i mafiosi e tra gli sparatori c'erano monarchici e qualunquisti.
 Viene interrotto da esponenti dei qualunquisti e della destra e il ministro degli interni Mario Scelba dichiara che non c'è un "movente politico", si tratta solo di un "fatto di delinquenza".
+Magari!
 Nel frattempo i fermati vengono rilasciati e si afferma la pista che porta alla banda Giuliano, il cui nome viene fatto dall'Ispettore di Pubblica Sicurezza Ettore Messana.
 L'inchiesta giudiziaria si concentra sui banditi e procede con indagini frettolose e superficiali: Il 17 ottobre 1948 la sezione istruttoria della Corte d'appello di Palermo rinvia a giudizio Salvatore Giuliano e gli altri componenti della banda.
 La Corte di Cassazione, per legittima suspicione, decide la competenza della Corte d'assise di Viterbo, dove il dibattimento avrà inizio il 12 giugno 1950 e si concluderà il 3 maggio 1952, con la condanna all'ergastolo di 12 imputati.
@@ -2105,8 +2120,9 @@ Esistono sportelli automatici(Bancomat) ai quali si rivolge la clientela e termi
 Sono gli strumenti cartolari.
 Possono essere ordinari(bancari, circolari) o speciali.
 Hanno in comune: pagabili a vista, sono titoli di credito all’ordine(trasferibili per girata) , emessi perché esiste un fondo.
-Vaglia cambiario della Banca d’Italia, del Banco di Napoli e del Banco di Sicilia È un assegno circolare rilasciato solo contro versamento di denaro contante, ha però nome diverso per ragioni di prestigio degli enti emittenti.
-Viene emesso da banche autorizzate dalla Banca d’Italia nelle località in cui non esiste una filiale della Banca d’Italia. È un titolo all’ordine emesso dal Banco di Napoli e dal Banco di Sicilia pagabile a vista presso qualunque loro filiale sul quale può essere indicata la causale del pagamento che può essere sottoposta all’accertamento della condizione che ha causato il pagamento.
+Vaglia cambiario della Banca d’Italia, del Banco di Napoli e del Banco di Sicilia è un assegno circolare rilasciato solo contro versamento di denaro contante, ha però nome diverso per ragioni di prestigio degli enti emittenti.
+Viene emesso da banche autorizzate dalla Banca d’Italia nelle località in cui non esiste una filiale della Banca d’Italia. 
+È un titolo all’ordine emesso dal Banco di Napoli e dal Banco di Sicilia pagabile a vista presso qualunque loro filiale sul quale può essere indicata la causale del pagamento che può essere sottoposta all’accertamento della condizione che ha causato il pagamento.
 La legge 109/96 costituisce lo strumento più avanzato di contrasto  alla criminalità organizzata nel campo culturale, sociale ed economico, prevedendo la  restituzione alla collettività di grandi patrimoni accumulati illecitamente e colpendo le mafie in uno degli ambiti più importanti: la creazione del consenso sociale.
 Se l’azione repressiva della magistratura punta ad indebolire le mafie attraverso la sottrazione delle ricchezze, mettendone in crisi il potere economico, l’azione costruttiva delle istituzioni e delle forze sociali punta ad indebolirne il consenso e dunque il potere politico.
 Il raggiungimento di tale obiettivo è tanto più alla portata quanto maggiore sarà il numero di beni che sono confiscati ed introdotti nel circolo virtuoso dell’uso sociale, ma anche quanto migliore sarà l’uso sociale degli stessi.
@@ -2321,7 +2337,8 @@ La spedizione lungo la strada rientrò quattro giorni dopo.
 era il giorno 11 di Ilraset, e l’atmosfera festiva in cui la città li aveva accolti si stava affievolendo, e pian piano la vita stava tornando alla normalità.
 Dalmor, il Re e il Governatore di Zorqun andarono alle porte della città ad attendere il ritorno della compagnia.
 approfittarono dell’occasione per discutere di una questione spinosa.
-Si trovavano appena fuori dalla Porta del Regno, sull’immenso spiazzale lastricato da cui si dipartivano le strade che uscivano dai Monti. A sera inoltrata si diresse verso l’ala del Palazzo in cui viveva la famiglia dello zio.
+Si trovavano appena fuori dalla Porta del Regno, sull’immenso spiazzale lastricato da cui si dipartivano le strade che uscivano dai Monti. 
+A sera inoltrata si diresse verso l’ala del Palazzo in cui viveva la famiglia dello zio.
 la Luna era salita già oltre le cime dei monti circondanti, l’aria era fresca, e per il palazzo non vi era troppa gente.
 Raggiunse una piccola porta di legno chiaro, spinse la maniglia.
 era chiusa, quindi aprì con la chiave che aveva trovato assieme al biglietto.
@@ -4261,6 +4278,7 @@ Ecco la causa del nostro passeggero malessere.
 Sento con molto pungente rammarico l’essere stato privato della partecipazione allo sviluppo della personalità e della vita dei due bambini;
 eppure io diventavo subito amico dei bambini e riuscivo a interessarli.
 Il padre non la volle ascoltare, prese il mortaio, lo portò al re e disse che l'aveva trovato nella landa, e che glielo offriva come atto di omaggio.
+Iniziamo!
 Il re prese il mortaio e domandò se non avesse trovato altro.
 Il litigio fu portato dinanzi al re che sentenziò che il polledrino doveva rimanere là dove era stato trovato;
 e così se lo portò via il padrone dei buoi, al quale invece non apparteneva.
@@ -7045,6 +7063,7 @@ Fare la nanna.
 Fare la pelle.
 Fare la primadonna.
 Fare la puttana.
+fare la quadra.
 Fare la ronda.
 Fare la ruota.
 Fare la spola.
