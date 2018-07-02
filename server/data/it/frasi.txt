@@ -265,7 +265,9 @@ Questo processo porta all’individuazione dei contenuti imprescindibili del pro
 Progettare l’architettura dell’informazione significa soddisfare i bisogni degli utenti, creando contenuti utili e rilevanti che possano adattarsi al contesto di fruizione.
 Grazie alla ricerca sugli utenti e all’analisi del contesto, è possibile definire le funzioni principali del sito e di ogni sua pagina.
 I contenuti diventano quindi parte integrante del servizio all’utente.
-È bene prendere decisioni sulla base dell’analisi dei dati riferiti all’utente in particolare i dati statistici di navigazione sul sito per comprendere il comportamento dell’utente la realizzazione di interviste.
+È bene prendere decisioni sulla base dell’analisi dei dati riferiti all’utente in particolare i dati statistici di navigazione sul sito per comprendere il comportamento dell’utente, la realizzazione di interviste.
+Altri metodi di analisi qualitativa
+l’esperienza e la competenza generale di navigazione dell’utente target.
 Lo scopo primario dell’interfaccia di un servizio web è quello di aiutare l’utente a raggiungere ciò che cerca in modo naturale e immediato, in modo quasi trasparente.
 Per questo, la coerenza dei vari elementi che la compongono, anche su diversi dispositivi, è un elemento fondante per la creazione di prodotti funzionali e semplici da usare.
 No.
@@ -277,6 +279,7 @@ Saranno geo-localizzabili dai diciottenni nell’applicazione a loro dedicata.
 Per la geo-localizzazione di tutti i miei punti vendita occorre inserire nell’applicazione i dati dei singoli esercizi commerciali.
 Attraverso bonifico bancario sul c/c il cui IBAN è indicato in fattura.
 A tal proposito si evidenzia la necessità di verificare sempre con estrema attenzione il corretto inserimento del codice IBAN.
+nonché di controllare, soprattutto in caso di fusioni bancarie, che non siano intervenute eventuali variazioni o aggiornamenti che potrebbero causare storni e/o ritardi nelle liquidazioni.
 A pagamento effettuato verrà inviata una e-mail automatica di notifica di avvenuto accredito all’indirizzo mail indicato nella sezione Contatti all’interno della fattura elettronica.
 Si ritiene che la fattura, pur se diretta a documentare un’operazione esclusa da IVA, in quanto (fra l’altro) caratterizzata da numerazione progressiva apposta in continuità rispetto alle fatture precedenti e successive, debba essere registrata contabilmente
 rimane ovviamente ferma la sua irrilevanza agli effetti delle imposte sui redditi e del volume d’affari.
@@ -724,6 +727,9 @@ Un terzo gruppo ha dimostrato scarso impegno e frequenza molto discontinua, tutt
 Nella fase iniziale i Docenti hanno dedicato le prime lezioni al ripasso degli argomenti fondamentali e propedeutici svolti nell’anno precedente e successivamente hanno proceduto, ciascuno nella propria disciplina, ad una valutazione delle conoscenze e delle competenze acquisite attraverso  verifiche di diversa tipologia.
 Durante il corso dell’anno, si è controllato l’andamento didattico e disciplinare, mettendo a disposizione degli alunni l’eventuale utilizzo dello sportello pomeridiano per recupero e/o approfondimento.
 Le verifiche generalmente sono state effettuate a conclusione di ogni modulo didattico in forma orale, in forma scritta di vario tipo e di tipo pratico, esplicitando ogni volta agli studenti le modalità per lo svolgimento delle prove e dei criteri di valutazione.
+Composizioni, relazioni, soluzione di semplici problemi.
+test a risposta multipla.
+domande a risposta aperta.
 Per la valutazione è stata utilizzata l’intera gamma dei voti in decimi.
 Noi discendenti non siamo da meno?
 Uno dei paesi con il bagaglio culturale più ampio si arrende al progresso?
@@ -773,7 +779,8 @@ Anch'io ne approfitterò per prendere un televisore nuovo.” afferma ridendo.
 La borsa a quest'annuncio ha avuto subito dei rialzi, a dimostrazione che l'Italia ha sempre proposte nuove per aiutare i suoi italiani.
 Le grandi catene e i vari negozi stanno facendo moltissime richieste ai loro produttori per avere il prima possibile nuovi prodotti da aggiungere al loro magazzino, perché a quanto si vede dai pareri dei sondaggi ci sarà  un grande afflusso di acquirenti.
 La catena che ha avuto l'idea ha affermato che l'idea di partenza l'ha ricevuta proprio da un email di un cittadino italiano anonimo, a dimostrazione che l'informatica non serve solo per simulare ma anche per sconvolgere pareri.
-Infatti affermava G.O.Longo “la nostra capacità di agire ha superato di molto la nostra capacità di prevedere [grazie alla tecnologia informatica e scientifica].
+Infatti affermava G.O.Longo “la nostra capacità di agire ha superato di molto la nostra capacità di prevedere.
+grazie alla tecnologia informatica e scientifica.
 la tecnologia è importante per ciò che ci consente di fare, non di capire.”
 “Noi sentiamo che, anche una volta che tutte le possibili domande scientifiche hanno avuto risposta, i nostri problemi vitali non sono ancora neppur toccati.” Questo affermava Wittgenstein.
 La scienza studia tutti i fenomeni apparenti come funzionano ma non riuscirà mai a capire perché quella cellula esiste o perché i pianeti girano in questo modo.
@@ -1059,7 +1066,7 @@ Egli sviluppò l'agricoltura, l'arte, la tecnologia.
 Questo passaggio epocale corrisponde alla fine di quel lungo periodo che gli storici chiamano Preistoria.
 La teoria secondo cui gli ominidi si sono diffusi in tutto il globo è definita ipotesi dell'evoluzione multi-regionale rappresentata dal modello a candelabro perché un gruppo di ominidi si sposta sempre di più dividendosi in altri gruppi fino ad arrivare dappertutto contemporaneamente.
 Un'altra teoria è detta invece del modello dell'arca di Noè, è quella secondo cui un solo gruppo di esseri umani già evoluti si sposta diffondendosi dappertutto evolvendosi.
-L'era cenozoica detta terziaria iniziò 65 Ma di anni fa e fa parte dell'eone fanerozoico.
+L'era cenozoica detta terziaria iniziò 65 Ma di anni fa e fà parte dell'eone fanerozoico.
 In questo periodo storico abbiamo la formazione delle grandi catene montuose perché l'India alla deriva verso nord si scontra con l'Eurasia.
 Così viene a formarsi la catena Himalayana.
 Per quanto riguarda la vita, il cenozoico è definito era dei mammiferi che prendono il sopravvento sui rettili e i dinosauri che si sono estinti.
@@ -4762,11 +4769,12 @@ Certo ero stato un uomo misteriosissimo: non un amico, non una lettera, mai, da 
 Non sapendo che fare, sperando di distrarmi un po' da tante costernazioni, portai questi due morti a spasso per Pisa.
 Oh, fu una piacevolissima passeggiata!
 Adriano Meis, che c'era stato, voleva quasi quasi far da guida e da cicerone a Mattia Pascal;
-ma questi oppresso da tante cose che andava rivolgendo in mente, si scrollava con fosche maniere, scuoteva un braccio come per levarsi di torno quell'ombra esosa, capelluta, in abito lungo, col cappellaccio a larghe tese e con gli occhiali.
+ma questi oppresso da tante cose che andava rivolgendo in mente, si scrollava con fosche maniere
+scoteva un braccio come per levarsi di torno quell'ombra esosa, capelluta, in abito lungo, col cappellaccio a larghe tese e con gli occhiali.
 Pietro era sempre socialista, ma andava meno con gli operai.
 Si vergognava d'aver già vent'anni, e d'essere così a dietro degli studii: questa cosa l'avviliva.
 Presa a Firenze una camera in Via Cimabue, mangiava a una trattoria, lì vicina.
-Stava lunghe ore con la testa tra le mani, immaginandosi di studiare;
+Stava lunghe ore con la testa tra le mani, imaginandosi di studiare;
 con un ansia attraversata e tagliata in tutti i sensi da malumore e da malinconia, come da linee tirate con una squadra.
 Si sforzava d'essere soddisfatto e di affezionarsi alla scuola;
 ma gli pareva che i giorni fossero così staccati e separati l'uno dall'altro che sentiva prendersi dallo scoraggiamento.
@@ -4783,7 +4791,7 @@ e, allora, s'infastidiva anche di loro.
 Della città, invece, non sentiva né meno il rumore;
 perché la cinta, perpendicolare al muro della casa, era lunga e andava a finire a un fabbricato così grande che gli tappava quasi tutta la Piazza Beccaria;
 e, di qua e di là, altre case, quantunque più basse, quasi in semicerchio, chiudevano ogni cosa.
-Si trovava sempre a disagio: ed era come una cosa che non riusciva a spiegarsi.
+Si trovava sempre a disagio: ed era come una cosa che non riesciva a spiegarsi.
 Non si affidava agli amici, e ne sentiva la mancanza.
 Si annoiava di tutto;
 e la cupola di Santa Maria del Fiore, velata quasi sempre di nebbia in fondo a Via dei Servi, che egli vedeva prima di rientrare a scuola, quando andava a prendere cinque minuti di sole in Piazza dell'Annunziata, gli dava uno scoraggiamento languido, che ingrandiva se qualche campana suonava.
