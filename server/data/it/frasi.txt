@@ -2378,7 +2378,6 @@ Dannazione, questo è un bel problema.
 Pensavo di archiviare entro l’estate la conquista del Nord, ma a quanto pare  dovrò tenere la terza armata lì per un po’ ancora.
 Tutto questo mentre la prima armata resta impantanata a due giorni da Fortezza delle Acque.
 Che noia, mi toccherà preoccuparmi di tutte queste cose.
-Che cazzo è quell’uccello?
 Ah è solo un pollo.
 Un pollo sulle mura?!
 Bah, ultimamente anche questo posto è diventato strano.
@@ -2464,7 +2463,6 @@ La decisione del Re non era stata presa positivamente dall’esercito.
 Che cosa strana, la storia.
 In un attimo passo dall’essere l’invasore maledetto al liberatore osannato.
 Beh, osannato magari no.
-Cazzo pure i piccioni sono morti, guarda che moria a terra.
 Alla fine, ce ne torniamo a casa senza territori conquistati ma carichi d’oro, i soldati saranno felici quando lo sapranno.
 Per il Governatore, se la vedranno loro.
 Se Evelfo dovesse fare guerra a questo angolo del mondo, vedrò bene di starne lontano, Azhamor l’ha ben capito.
@@ -4633,7 +4631,6 @@ Essere una vera pacchia.
 Essere una zavorra.
 Essere un'acqua cheta.
 Essere un'anguilla imburrata.
-Essere uno coi coglioni.
 Essere uno scozzese.
 Essere viscido come un'alga.
 Essere vispo come un gallo.
@@ -7402,7 +7399,6 @@ Fare la muffa.
 Fare la nanna.
 Fare la pelle.
 Fare la primadonna.
-Fare la puttana.
 Fare la quadra.
 Fare la ronda.
 Fare la ruota.
