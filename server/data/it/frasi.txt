@@ -86,14 +86,15 @@ Tornando alla domanda iniziale, effettivamente quanto costa un software open sou
 Partiamo dal presupposto che un software open source non è detto che debba essere gratuito.
 Infatti la GPL specifica che il software deve essere rilasciato e che segua le 4 regole per il riuso e per la modifica.
 Ma non se debba essere a pagamento.
-La stessa licenza GPL ci permetterebbe di decidere di rilasciare il codice sorgente dietro richiesta protocollata o anche in cambio di una email.
+La stessa licenza GPL ci permetterebbe di decidere di rilasciare il codice sorgente.
+Il codice può essere richiesto dietro domanda protocollata o anche in cambio di una email.
 Premettendo che far funzionare del software richiede conoscenze tecniche.
 Dall'installazione, al capire come usare il software e come farlo funzionare per i propri bisogni.
 A queste si aggiungono le conoscenze per estenderlo.
 Programmando le cose che non sono incluse o disattivando e rimuovendo le funzionalità non necessarie.
 Bisogna pensare anche al costo di funzionamento.
 Ad esempio il server, la suite di software o servizi da abbinare, ed eventualmente anche i domini.
-Non dimentichiamoci inoltre del marketing per promuovere il software presso i nostri clienti o anche all’interno della nostra azienda.
+Non dimentichiamoci inoltre del marketing per promuovere il software presso i nostri clienti o la nostra azienda.
 Perché andrà spiegato come usarlo e perché si sta utilizzando.
 Non dimentichiamoci del supporto.
 In caso di problemi, dobbiamo poter risolvere il problema e quindi poter intervenire in modo avanzato o veloce a seconda delle necessità.
