@@ -3357,39 +3357,48 @@ Vogliamo creare momenti di confronto su come leggere, scrivere e partecipare nel
 Per noi è importante che le persone sappiano come interpretare il web, che possano sviluppare i loro contenuti e che riescano a partecipare in tutta sicurezza alla vita nei Social Network.
 Oggi giorno, sopratutto in Italia, l’università non propone a tutti i propri studenti delle realtà e delle occasioni che permettano di confrontarsi su queste tematiche o sviluppare nuove idee e innovazioni in modo collaborativo e inclusivo.
 Per questa ragione credo che questa sia una occasione a cui nessuno studente Universitario può rinunciare.
-Una occasione che permette a chiunque di mettersi in gioco, di sviluppare nuove idee e proteggere la libertà che sempre meno diventa importante nel web.
+Una occasione che permette a chiunque di mettersi in gioco, di sviluppare nuove idee e proteggere la libertà
+la libertà è sempre meno importante nel web.
 Vogliamo che gli utenti abbiano modo di poter avere una vita virtuale consapevole e sicura e per questo ci battiamo.
 Sono contento di poter ufficialmente annunciare l’arrivo tra noi del nuovo programma Universitario di Mozilla.
-Un programma che definitivamente abbraccia globalmente tutte le tematiche e gli obbiettivi della Fondazione, permettendo agli studenti di poter affrontare queste tematiche in prima persona e realizzando laboratori che possano incentivare l’innovazione e la collaborazione tra tutti gli studenti del nostro globo.
+Un programma che definitivamente abbraccia globalmente tutte le tematiche e gli obbiettivi della Fondazione,
+permettendo agli studenti di poter affrontare queste tematiche in prima persona e realizzando laboratori 
+si cerca di incentivare l’innovazione e la collaborazione tra tutti gli studenti del nostro globo.
 Oggi giorno tutti noi abbiamo la necessità di interagire con il web.
-Insegnare il web significa aiutare le persone ad avere le abilità necessarie a poter leggere, scrivere e partecipare alle attività quotidiane online, ossia, creare un mondo di cittadini digitali.
+Insegnare il web significa aiutare le persone ad avere le abilità necessarie a poter leggere, scrivere e partecipare online
+partecipare alle attività quotidiane online, significa creare un mondo di cittadini digitali.
 Nei Campus Club significa promuovere l’alfabetizzazione delle tecnologie Web all’interno della propria Università.
-Il Web ha la necessità sempre più crescente di community di makers e innovatori che costruiscano e supportino le tecnologie al fine mantenerle aperte e accessibili a tutti.
+Il Web ha la necessità sempre più crescente di community di makers e innovatori che costruiscano e supportino le tecnologie
 I Campus Club sono una opportunità per creare assieme una community tecnologica nella tua Università.
-Al fine di mantenere il Web aperto e accessibile a tutti, le persone hanno bisogno di sentirsi al sicuro online e devono sapere come combattere e difendersi davanti alle grandi sfide e opportunità che quotidianamente il Web presenta.
+Al fine di mantenere il Web aperto e accessibile a tutti, le persone hanno bisogno di sentirsi al sicuro online
+le persone devono sapere come combattere e difendersi davanti alle grandi sfide e opportunità
 I Campus Club sono una opportunità per confrontarsi circa le questioni che contano di più.
 E’ stata una esperienza fantastica per mettersi in gioco in modo cooperativo con tutta la community Europea di Mozilla.
-Un momento nel quale abbiamo avuto modo di lavorare tutti assieme e di imparare l’uno dall’altro, di conoscerci e di rimanere aggiornati sugli obbiettivi della Fondazione Mozilla.
-La potenza di questo Gathering è stata l’energia e la voglia di mettersi in gioco tutti assieme, sempre con il massimo rispetto e la vera voglia di conoscersi.
-Sono particolarmente contento di aver lavorato, durante il weekend, con tante altre persone che come me perseguono principalmente l’obbiettivo di lottare per mantere il Web una risorsa libera, accessibile e inclusiva.
+Un momento nel quale abbiamo avuto modo di lavorare tutti assieme e di imparare l’uno dall’altro, 
+per poterci conoscere e rimanere aggiornati sugli obbiettivi della Fondazione Mozilla.
+La potenza di questo Gathering è stata l’energia e la voglia di mettersi in gioco tutti assieme 
+sempre con il massimo rispetto e la vera voglia di conoscersi.
+Sono particolarmente contento di aver lavorato, durante il weekend, con tante altre persone
+queste persone come me perseguono principalmente l’obbiettivo di lottare per mantere il Web una risorsa libera e accessibile
 Vi voglio bene!
 Dal prossimo autunno dunque, ci saranno delle bellissime novità e prossimamente saranno annunciate ufficialmente.
-Quello che vi posso anticipare è che localmente qui a Cagliari, stiamo lavorando per offrire a tutta la popolazione degli incontri per poter scrivere, leggere e partecipare attivamente nel web
-Inoltre, a livello Europeo, stiamo lavorando a delle attività volte a evidenziare il grave gap che in Europa abbiamo tra le leggi sul Copyright e le tecnologie.
+Quello che vi posso anticipare è che localmente qui a Cagliari, stiamo lavorando per offrire degli incontri 
+in questi incontri si potrà scrivere, leggere e partecipare attivamente nel web
+stiamo lavorando ad attività volte a evidenziare il gap che in Europa abbiamo tra le leggi sul Copyright e le tecnologie
 Un po’ di storia.
 Introduzione.
 Floppy disk.
 Alla ricerca di Lala.
-Spesso mi capita di immaginare quali possano essere le motivazioni, alternative a quelle che si conoscono, al degrado che incontro camminando per le strade di Roma, la mia città.
-L’ultima spiegazione che mi sono dato è che tutto dipenda da una storia di hacker, sabotaggi dei servizi urbani e intelligenze artificiali milanesi.
+Spesso mi capita di immaginare quali possano essere le motivazioni al degrado che incontro camminando per le strade di Roma
+L’ultima spiegazione è che tutto dipenda da una storia di hacker, sabotaggi dei servizi urbani e intelligenze artificiali
 Potrebbero esserci dei problemi di consecutio temporum, ma comunque buona lettura.
 Dopo questa piccola digressione passiamo al tema principale.
-Romolo, dopo aver fondato Roma, chiese agli abitanti dei luoghi vicini alcune donne per procreare e accrescere in questo modo la popolazione della città appena nata.
+Romolo, dopo aver fondato Roma, chiese agli abitanti dei luoghi vicini alcune donne per accrescere la città appena nata.
 A suo tempo quello era un paese a crescita zero (come il nostro attualmente).
-Come risposta Romolo ottenne un rifiuto, così per raggiungere lo stesso il suo obiettivo, aggirando l’ostacolo, ebbe l'idea di organizzare un grande spettacolo per avvicinare più gente possibile.
+Come risposta Romolo ottenne un rifiuto, così ebbe l'idea di organizzare un grande spettacolo per avvicinare più gente.
 Una volta raccolte tutte le genti della regione nella sua terra, fece rapire le donne.
 Questa è una storia narrata sui libri di scuola, ma c'è un seguito che non viene mai raccontato.
-Segnalo, a scanso di equivoci, che ciò che sto per raccontare non è realmente accaduto e di conseguenza non è mai stato riportato da nessuno storiografo.
+Segnalo, che ciò che sto per raccontare non è realmente accaduto e non è mai stato riportato da nessuno storiografo.
 Potrei inventarmi che ne abbia scritto qualcosa Erodoto, ma so di certo che è antecedente alla fondazione di Roma.
 In questo modo, citerei anche fonti che non avrebbero potuto proprio tramandare quanto segue.
 Sapete perché a Roma si dice "tu sorella!"
