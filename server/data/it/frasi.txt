@@ -2655,7 +2655,8 @@ Quando esiste un traducente italiano ufficiale di un prodotto, va usato quello, 
 L’altra opzione è conferire al termine un traducente italiano.
 Prima c’è tutto un lavoro di ricerca della terminologia non solo corretta, ma anche coerente con lo stile Mozilla e con i prodotti localizzati in precedenza.
 Le traduzioni in italiano trasparenti e riconoscibili dei termini inglesi hanno il vantaggio “didattico” di portare a una consapevolezza più pragmatica e profonda dei termini
-Per evitare questo effetto può essere utile unire due periodi brevi in uno più lungo, quando possibile evidenziandone il nesso logico con una proposizione subordinata.
+Per evitare questo effetto può essere utile unire due periodi brevi in uno più lungo
+quando possibile evidenziandone il nesso logico con una proposizione subordinata.
 Questo darà al discorso un senso di continuità e renderà più facile seguirne il filo logico.
 Il campo dell’informatica ha senza dubbio adottato come lingua franca l’inglese.
 La prima opzione è lasciare il termine invariato.
@@ -2666,18 +2667,23 @@ Inserisce la traduzione nell’apposito campo.
 Il corpo dell’articolo, tecnicamente la traduzione vera e propria.
 Ciascuno ha le sue preferenze per gestire questa parte della traduzione.
 Naviga fino all’articolo da tradurre.
-Per gli studenti di marketing può essere un interessante sbocco per studiare applicazioni reali per la comunicazione, il brand, la gestione di community.
-Chi studia per una carriera manageriale può gestire un progetto, interfacciarsi con situazioni complesse e di problem solving.
+Per gli studenti di marketing può essere un interessante sbocco per studiare applicazioni reali per la comunicazione
+Chi studia per una carriera manageriale può gestire un progetto, interfacciarsi con situazioni complesse e di problem solving
 Studenti di economia possono scoprire modelli di business basati sul software libero e studiarli.
-L'ambito dei progetti open spazia notevolmente nel campo legislativo, la protezione delle proprietà intellettuali tramite GPL o forme di protezione che permettano la diffusione sono casi di studio molto particolari.
+L'ambito dei progetti open spazia notevolmente nel campo legislativo
+la protezione delle proprietà intellettuali tramite GPL
+forme di protezione che permettano la diffusione libera sono casi di studio molto particolari.
 Adattare dei termini legali alle varie legislazioni internazionali.
 Creare un portfolio su casi di studi in ambiti molto variegati.
-Un corso di scienze dell'Educazione e della Formazione ha come obbiettivo formatico l'acquisizione si una solida preparazione culturale, che fornisca competenze di carattere teorico e tecnico-metodologico.
+Un corso di scienze dell'Educazione e della Formazione ha come obbiettivo l'acquisizione di una solida preparazione culturale
+La preparazione culturale fornisca competenze di carattere teorico e tecnico-metodologico.
 Queste competenze risultano indispensabili per l'attività di educatore che operi nell'ambito di un sistema formativo.
-Uno studente di Lettere può invece ritenere interessante redare e revisionare testi riguardanti aree totalmente diverse dalla sua, come ad ad esempio testi scientifici o tecnici.
-Per quanto riguarda uno studente di Beni Culturali potrebbe essere interessato a sviluppare un sistema di audioguide per un museo e potrebbe farlo insieme a un ingegnere e un informatico.
-Che vantaggi ha tutto ciò?Inoltre quiz e feedback offrono un'apprendimento e una partecipazione attiva dove studenti e insegnanti possono interagire.
-La progettazione collaborativa, inoltre, permette di poter realizzare de progetti dove chiunque può offrire le proprie specifiche competenze o il proprio pensiero al fine di perseguire gli obbiettivi per il quale lo stesso progetto è nato.
+Uno studente di Lettere può ritenere interessante redare e revisionare testi riguardanti aree totalmente diverse dalla sua
+uno studente di Beni Culturali potrebbe essere interessato a sviluppare un sistema di audioguide per un museo
+Che vantaggi ha tutto ciò?
+Inoltre quiz e feedback offrono un'apprendimento e una partecipazione attiva dove studenti e insegnanti possono interagire.
+La progettazione collaborativa permette di poter realizzare dei progetti dove chiunque può offrire le proprie competenze
+collaborare con il proprio pensiero al fine di perseguire gli obbiettivi per il quale lo stesso progetto è nato.
 Si pongono come obiettivo finale la professionalizzazione di una figura che collabora con un team di lavoro alla creazione
 Un esempio di progetto potrebbe essere inerente all'impiego dell'energia nucleare, dai reattori, all'uso del combustibile
 la creazione di software utilizzati dall'ipotetica centrale nucleare.
