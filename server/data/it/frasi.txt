@@ -2639,22 +2639,24 @@ Per essere definita di qualità adeguata, una traduzione tecnica deve corrispond
 I traducenti scelti devono essere conformi all’uso comune nella lingua d’arrivo.
 La localizzazione prevede un passaggio in più della semplice traduzione: invece di limitarsi a trasporre un contenuto così com’è in una lingua diversa, lo adatta agli usi e alle convenzioni di uno specifico Paese o regione.
 Nel caso di gergo tecnico, è necessario svolgere un’accurata ricerca terminologica su fonti ufficiali o autorevoli, invece bisogna evitare di rimpiazzare i termini tecnici con equivalenti approssimativi o troppo  generici.
-Nel migliore dei casi, usare un formato diverso da quello della regione di destinazione può apparire come una trascuratezza stilistica, ma in alcuni casi, specialmente quando si esprime la data in cifre, può dare adito a gravi fraintendimenti.
-Durante una traduzione è importante essere consapevoli delle sottili differenze nell’uso della punteggiatura tra una lingua e l’altra.
+Nel migliore dei casi, usare un formato diverso da quello della regione di destinazione può apparire come una trascuratezza 
+Durante una traduzione è importante essere consapevoli delle sottili differenze nell’uso della punteggiatura tra le lingue
 Questo è il caso della virgola.
 Il punto va omesso alla fine dei titoli.
 Eccezione va fatta naturalmente per il discorso degli incisi.
-Viene utilizzato spesso (a volte abusato) nello stile informatico anglofono, specialmente nei messaggi di sistema che notificano un errore.
+Viene utilizzato spesso (a volte abusato) nello stile informatico anglofono
+specialmente nei messaggi di sistema che notificano un errore.
 In realtà il simbolo dell’ellissi ha la sua combinazione di tasti dedicata.
 Le regole della maiuscola sono diverse in italiano e in inglese.
 Di solito è l’uso comune a determinare il genere di un vocabolo straniero.
 Questa assegnazione avviene secondo un rapporto di tipo associativo con il più vicino corrispondente italiano.
 Per giunta possono esserci diverse interpretazioni a seconda del corrispondente italiano che ciascun individuo ha in mente.
-Non esiste un metodo intrinsecamente più giusto dell’altro, ma è opportuno che ogni organizzazione stabilisca delle convenzioni allo scopo di mantenere la coerenza terminologica interna.
+Non esiste un metodo più giusto dell’altro, ma è opportuno che ogni organizzazione stabilisca delle convenzioni
+si stabiliscano delle convenzioni allo scopo di mantenere la coerenza terminologica interna.
 Quando esiste un traducente italiano ufficiale di un prodotto, va usato quello, altrimenti si lascia la versione originale.
 L’altra opzione è conferire al termine un traducente italiano.
-Prima c’è tutto un lavoro di ricerca della terminologia non solo corretta, ma anche coerente con lo stile Mozilla e con i prodotti localizzati in precedenza.
-Le traduzioni in italiano trasparenti e riconoscibili dei termini inglesi hanno il vantaggio “didattico” di portare a una consapevolezza più pragmatica e profonda dei termini
+Prima c’è tutto un lavoro di ricerca della terminologia non solo corretta, ma anche coerente con lo stile Mozilla
+Le traduzioni in italiano dei termini inglesi hanno il vantaggio di portare a una consapevolezza più profonda dei termini
 Per evitare questo effetto può essere utile unire due periodi brevi in uno più lungo
 quando possibile evidenziandone il nesso logico con una proposizione subordinata.
 Questo darà al discorso un senso di continuità e renderà più facile seguirne il filo logico.
