@@ -1,0 +1,156 @@
+﻿Mozilla Italia al IHC
+Anche al IHC, tenutosi a Padova, Mozilla Italia e i suoi volontari italiani erano presenti!
+E, a dir la verità, anche tanti: in tutto 5
+Daniele, Eugenio, Saverio (me), Simone, Giovanni, e successivamente ci ha raggiunti anche Stefania.
+Ci sono stati molti talk interessanti;
+nello specifico me ne sono piaciuti alcuni particolarmente, come successivamente verrà descritto.
+Abbiamo cercato di promuovere maggiormente Common Voice, IHR e il Vademecum.
+Il primo grazie anche a una raccolta voci con dei premi in palio.
+Quindi, , venivano effettuate si poteva ricevere un premio specifico.
+in base a quante registrazioni (o revisioni, comunque)
+fino a esaurimento scorte
+È stato un successone, poiché la gente contribuiva più volentieri ottenendo anche un compenso di tipo gadget.
+Il primo giorno abbiamo dato via ben 5 magliette e tanti altri gadget
+tant’è che abbiamo dovuto raddoppiare il numero di registrazioni.
+L’ultimo giorno abbiamo dato a tutti coloro che si presentavano, se lo richiedevano, un braccialetto e degli stickers
+con il logo di Firefox.
+Tutto questo successo lo è stato soprattutto grazie alla pubblicità fatta al palio
+infatti abbiamo appeso ovunque locandine e volantini che rimandassero al nostro stand
+anche in punti strategici e simpatici, come vicino le fontane, vicino la cucina o al bar.
+È stato molto interessante anche perché ho incontrato molte persone interessate a contribuire a Mozilla
+e curiose di avere maggiori informazioni riguardo quest’ultima.
+Pochi conoscevano Common Voice, quasi nessuno invece conosceva l’IHR.
+A tutti, comunque, è stato detto di unirsi al canale Telegram “@mozItaHUB”
+ed è stato offerto, e consegnato, il Vademecum Generale e quello Tecnico
+e, inoltre, è stato presentato il progetto IHR dando anche tutti i volantini che lo riguardassero.
+Molti mi hanno comunicato che ciò che fa Mozilla è affascinate.
+dopo aver sentito la spiegazione di Common Voice, di IHR e dei vari progetti di Mozilla
+Molta gente è venuta anche perché incuriosita e interessata di sapere maggiori informazioni riguardo Rust.
+Occupandomi maggiormente della localizzazione
+poi, ho anche ribadito che Mozilla non necessita solo di volontari “programmatori”
+ma anche traduttori, designer, ecc.
+Tante persone, sentendo ciò, sono rimaste stupite.
+Tuttavia, posso probabilmente affermare che questo evento non è stato produttivo per il team L10N
+ma per il resto dei gruppi probabilmente sì!
+Personalmente ho avuto a che fare con persone molto interessanti e curiose;
+ho dato informazioni su Mozilla, su Rust, su Firefox, su Firefox Nightly, su Firefox Dev Edition, su Firefox Focus
+su Test Pilot, su Facebook Container, su IHR, su MDN e su Common Voice.
+I progetti che hanno riscosso maggiore successo sono stati Common Voice, IHR, Firefox Dev Edition, Firefox Focus, MDN e Rust
+ma anche gli altri progetti sono stati apprezzati molto.
+Alcuni mi hanno anche confidato che credevano molto in Firefox OS
+e che ci sono rimasti un po’ male dopo che il progetto fu ufficialmente abbandonato.
+Mi hanno anche chiesto informazioni sulle donazioni da fare verso Mozilla
+e alcuni mi hanno comunicato che avrebbero preferito che ci fosse una sede anche in Italia
+per poter beneficiare di varie agevolazioni.
+Ora, nel dettaglio, analizzerò i talk seguiti, spiegando cosa mi è, eventualmente, piaciuto e cosa meno.
+Hacking (and secure) a WordPress site
+Talk interessante tenuto da Mte90 (daniele scasciafratte)
+tuttavia mi sarei aspettato un maggiore tecnicismo invece ho trovato un talk che spiegasse gli argomenti bene
+ma a un pubblico non tecnico.
+Mi è piaciuto, comunque, il fatto che sia stato spiegato molto bene tutto nel dettaglio.
+Tesla’s LAN
+Anche in questo talk mi sarei aspettato, visto il pubblico a cui è indirizzato l’evento, qualcosa di più tecnico.
+È stato, tuttavia, molto interessante poiché è stato spiegato come "programmare" la tesla e alcune sue funzionalità.
+Privacy nelle criptovalute: da Monero a Bitcoin Private
+Talk molto generico e poco tecnico, a mio avviso.
+Ho apprezzato molto, comunque, lo sforzo di spiegare il funzionamento delle criptovalute.
+about:config in Firefox Quantum – Personalizza il browser più configurabile al mondo
+Probabilmente uno dei talk che ho apprezzato di più (tenuto da Eugenio Petullà e da daniele scasciafratte)
+in quanto utilizzatore di Firefox da sempre
+e non conoscevo molti dei comandi configurabili da “about:config” citati in questa presentazione (laboratorio).
+Anche questo talk è stato molto interessante anche se, forse, molto breve.
+Cosa ho imparato da una password salvata in chiaro
+È stato un talk davvero interessante, pieno anche di esempi e di iniziative.
+Mi è piaciuta molto l’idea di raccogliere tutti i siti web che ancora salvano in chiaro la password rendendo
+di fatto, l’utente a rischio affiché sempre più gente eviti di utilizzare suddetti siti web
+o che, comunque, questi ultimi prendano le dovute precauzioni.
+How git works
+È stato un talk estremamente interessante anche se l’ora non era delle migliori (circa le 23).
+è stato spiegato nel dettaglio e iniziando da zero il funzionamento di git.
+Analisi dei Metadati di rete: cosa un internet provider potrebbe sapere di voi
+Questo talk è stato interessante ma, comunque, avrebbe potuto trattare tematiche più dettagliate e meno superficiali.
+Ubuntu Touch, la rinascita
+È stato un talk molto interessante, lo speaker ha illustrato UbPorts
+ovvero il progetto sostenuto dalla comunità per lo sviluppo di Ubuntu Touch.
+Non sono riuscito a seguire alcuni altri talk a cui ero anche interessato per varie ragioni
+ma, per fortuna, dovrebbero essere stati registrati quindi anche in seguito è possibile visionarli.
+Stimando è possibile probabilmente dire che questa raccolta voci con premi in palio è stata un grande successo
+poiché le persone sono state invogliate a contribuire a Mozilla.
+Mi è piaciuta anche la disponibilità del personale dell’IHC
+ci hanno gentilmente stampato il Vademecum Tecnico e ci hanno anche plastificato alcuni Vademecum Generali
+e alcuni foglio per il contest “Presta la tua voce e vinci fantastici premi”.
+Concludendo posso dire che, come prima esperienza, è stata molto positiva.
+Credo che se Mozilla Italia continuerà a incentivare la collaborazione con giochi che permettano di ottenere dei gadget
+riuscirà a promuovere di gran lunga la filosofia di Mozilla Foundation e a diventare una community più grande.
+Unica miglioria sono le attività che un neo volontario può fare;
+infatti solamente il gruppo localizzazione può "vantare" di contenuti sempre pronti
+per non lasciare nuovi (ma anche vecchi!) volontari "liberi", gli altri gruppi meno.
+Ringrazio per questa bellissima esperienza Daniele che mi ha proposto di partecipare e mi ha sempre sostenuto
+anche quando volevo rinunciare.
+Ma ringrazio anche tutte le altre persone con cui ho avuto la fortuna di parlare e di scambiare le idee.
+Vedi tutte le foto dell'evento
+Link utili
+Telegiornale TG3 Veneto
+Video Report
+Common Voice
+Internet Health Report (IHR)
+Vademecum su GitHub
+Articolo su IHR di Mte90
+Ultima modifica: 08/08/2018
+Prendiamoci cura di Internet
+Internet è un servizio, prendiamocene cura.
+Ciascuno naviga svariate ore quotidianamente su Internet.
+Ma quali dati personali vengono raccolti dai vari siti web che si visitano?
+Si sa qual è lo stato di salute di Internet?
+Si conoscono tutte le potenzialità di Internet?
+Mozilla semplifica il lavoro di ricerca e di informazione
+essa, infatti, nell’IHR (Internet Health Report), raccoglie annualmente tutte le informazioni necessarie e utili
+circa lo stato di salute di Internet, circa la storia dello stesso e tutto ciò che lo riguarda.
+Internet è un servizio utilizzato in tutto il mondo e, come tale, dovrebbe essere trattato bene;
+ciascuno dovrebbe prendersene cura poiché non è un servizio scontato.
+Se a un tratto dovesse non esistere più?
+Magari per un problema che ognuno ignarava perché non adeguatamente informato
+ma che sarebbe potuto essere risolto facilmente?
+Ebbene, per suddette ragione dovrebbe essere compito di tutti tutelarlo, preservarlo
+e, molto importante, informarsi correttamente.
+Internet viene utilizzato per moltissime attività, sia quotidiane sia occasionali.
+Si pensi a quando si ascolta la musica
+quando si invia o si riceve un messaggio
+quando si effettua una chiamata
+quando si vede un film
+quando si cerca un luogo specifico, eccetera.
+Ma queste attività si fanno perchè rendono felici e perché sono effettivamente utili e necessarie, o per pura abitudine?
+Una ricerca scientifica del Center for Humane Technology del 2017
+essa ha evidenziato quali applicazioni vengano usate maggiormente, comparate con la soddisfazione che comportano.
+Sicuramente si evince che quelle più soddisfacenti risultano le app “educative”
+per imparare le lingue, per leggere libri o sentire audio-libri.
+Mentre, quelle che arrecano più tristezza sono le app “social”, Facebook, Instagram, Twitter.
+Fenomeno molto strano, però, è il tasso di utilizzo delle app
+e, infatti, quelle che rendono “infelici” vengono usate con più frequenza quotidiana rispetto alle altre.
+Questi dati dovrebbero portare a un’attenta riflessione.
+Bisognerebbe analizzare le motivazioni del perchè si favorisco app che rendono tristi.
+È interessante capire che si preferisce condividere i propri dati personali su social network volontariamente
+senza che qualcuno costringa a farlo
+piuttosto che arricchiarsi di cultura leggendo un bel libro…
+anche perchè, scusate l’ironia, sui social network vengono scritti numerosi post
+non sarebbe bello poterli scrivere in una lingua corretta lessicalmente, grammaticalmente?
+e, magari, usando anche citazioni varie prese da libri effettivamente letti?
+Forse ciascuno cerca in altri qualcosa da poter criticare per sentirsi, in qualche modo meglio.
+Ma, talvolta, si trovano più cose positive negli altri di quante se ne trovino in sè stessi
+e, per questo, si va in una depressione ancora peggiore.
+Un concetto importante, che tutti dovrebbero apprendere fin dall’infanzia è apprezzare sè stessi
+perchè ciascuno ha un proprio talento che, prima o poi, se ci si impegna viene fuori e crea grandi soddisfazioni.
+Internet, in questo, aiuta moltissimo.
+Ci sono infiniti corsi online, anche gratuiti, i quali permettono di scoprire un settore a cui si è portati
+o a cui ci si sente inspirati ed imparare tutto ciò che si vuole.
+Ci sono infiniti forum e piattaforme di scambio di idee
+nei quali è possibile chiedere consigli e aiuto a chi ha più esperienze.
+Internet rende liberi, ma sta alle persone sfruttare questa libertà.
+Anche le donne, su Internet, stanno avendo, sempre più, un ruolo importante.
+La comunità di Django per le donne
+la django girls, mette a disposizione moltissimi manuali, tutorial e contenuti gratuiti
+affinché si promuova la programmazione anche tra le donne.
+Dal 2014, infatti, già 1300 volontari si sono uniti, e il numero cresce costantemente.
+Internet, pertanto, è possibile definirlo come un creatore di opportunità, un apritore di menti;
+uno strumento che mette in comunicazione persone da parti opposte del mondo.
+E tutto questo, di solito, gratuitamente.
