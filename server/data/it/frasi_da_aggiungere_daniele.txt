@@ -1,6 +1,9 @@
-﻿Potremmo parlare a lungo della qualità della connessione come anche della qualità dei servizi offerti al cittadino di tipo digitale.
-Quando si parla di servizi al cittadino, di software e di licenze la politica può essere lasciata da parte ampiamente dal mio punto di vista.
-Cioè addirittura un forum pubblico dove ti rispondono quelli del team! E trovi altri che lasciano suggerimenti o chiedono informazioni.
+﻿Potremmo parlare a lungo della qualità della connessione
+come anche della qualità dei servizi offerti al cittadino di tipo digitale.
+Quando si parla di servizi al cittadino, di software e di licenze
+la politica può essere lasciata da parte ampiamente dal mio punto di vista.
+Cioè addirittura un forum pubblico dove ti rispondono quelli del team!
+E trovi altri che lasciano suggerimenti o chiedono informazioni.
 Hasta la vista, ci vediamo nella matrice e mai incrociare i flussi!
 il pacco dovrebbero ritirarlo nel pomeriggio, poi mi ti dico il costo.
 Forse ti può interessare.
@@ -32,10 +35,12 @@ C'è un pezzo di noi
 Riprendiamoci la libertà!
 Internet è una risorsa pubblica globale che deve rimanere aperta e accessibile.
 Internet deve arricchire la vita di ogni essere umano.
-L’efficacia di Internet come risorsa pubblica dipende dal suo carattere di interoperabilità decentralizzata a livello mondiale.
+L’efficacia di Internet come risorsa pubblica dipende dal suo carattere di interoperabilità
+decentralizzata a livello mondiale.
 La partecipazione commerciale allo sviluppo di Internet è in grado di apportare numerosi benefici
 è fondamentale un equilibrio tra profitto commerciale e benefici pubblici.
-La valorizzazione degli aspetti di pubblica utilità di Internet rappresenta un obiettivo importante, che merita tempo, attenzione ed impegno.
+La valorizzazione degli aspetti di pubblica utilità di Internet rappresenta un obiettivo importante
+che merita tempo, attenzione ed impegno.
 L’obiettivo di Mozilla è quello di aiutare chiunque a leggere, scrivere e partecipare nel web in modo informato.
 Il Diritto d’autore o CopyRight serve a tutelare l’autore e fornire una remunerazione per un lasso di tempo.
 Definisce la tutela dopo i 50 anni dalla morte dell’autore
