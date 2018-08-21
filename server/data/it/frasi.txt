@@ -697,27 +697,43 @@ Tutto questo circuito è contenuto in un For Loop per avere un aggiornamento in 
 Abbiamo sviluppato un progetto che ci permette di conoscere attraverso un grafico la resistenza sviluppata in 100 millisecondi (ms) alla temperatura di 100°C.
 Cambiando i valori delle frequenze modulanti invece vediamo che le linee dell’asse x si spostano verso il centro del grafico lungo l’asse principale graficato.
 Sono stati utilizzati 3 For Loop, uno che racchiude tutto il circuito, il secondo che si occupa della elaborazione della sinusoide grafica e infine il terzo per la realizzazione dell’array dei pulsanti.
-La parte più articolata è quella che comprende la realizzazione degli array dei pulsanti infatti qui sono stati utilizzate diverse funzioni.
+La parte più articolata è quella che comprende la realizzazione degli array dei pulsanti
+infatti qui sono stati utilizzate diverse funzioni.
 Per la sinusoide il procedimento di realizzazione è stato più rapido grazie all’utilizzo della sub-routine apposita.
-Infine il circuito si chiude con la combinazione dei due array iniziali su grafico che viene rappresentato sul pannello di controllo sottoforma di due grafici distinti.
+Infine il circuito si chiude con la combinazione dei due array iniziali su grafico
+che viene rappresentato sul pannello di controllo sottoforma di due grafici distinti.
 Il segnale che viene visualizzato nel grafico rosso è un onda quadra che permette solo valori di tipo booleano.
 L'esempio pratico per ottenere questi grafici è un pendolo a cui è attaccata una penna che scrive su un foglio.
 In questo modo possiamo ottenere i grafici ma di una sola frequenza.
 Per ottenere un grafico con 2 frequenze diverse basta utilizzare un piano oscillante su cui “scrive” il pendolo.
 In questo modo otterremo un grafico contenente due frequenze.
-Nel nostro progetto è stato possibile realizzare anche una terza frequenza che mostrasse nel grafico anche una terza ascissa z.
+Nel nostro progetto è stato possibile realizzare anche una terza frequenza
+che mostrasse nel grafico anche una terza ascissa z.
 Per poter visualizzare l'asse z è stata usata la stessa formula dell'asse x ottenendo un secondo grafico in 3D.
-Durante i test del progetto ci si è accorti che in alcuni casi si possono ottenere diverse figure geometriche definite, cerchio, ellisse, parabola e segmento.
-La figura sottostante rappresenta il rapporto con cui si presentano delle ellissi interconnesse tra di loro quando il rapporto non è uguale altrimenti si ottengono delle circonferenze.
-Questo accorpamento ha causato notevole disomogeneità nel gruppo classe (soprattutto nel periodo iniziale), difficoltà degli interventi didattici in quanto non tutti gli insegnanti conoscevano la classe nella sua globalità.
-I libri di italiano, in particolare, erano diversi, i programmi svolti nell’anno precedente avevano raggiunto obiettivi differenti.
-Il numero elevato di alunni ha ostacolato le modalità di valutazione nonché lo svolgimento dei programmi nelle singole discipline, non consentendo in alcuni casi di conseguire gli obiettivi prefissati.
+Durante i test del progetto ci si è accorti che in alcuni casi si possono ottenere diverse figure geometriche definite
+cerchio, ellisse, parabola e segmento.
+La figura sottostante rappresenta il rapporto con cui si presentano delle ellissi interconnesse tra di loro
+quando il rapporto non è uguale altrimenti si ottengono delle circonferenze.
+Questo accorpamento ha causato notevole disomogeneità nel gruppo classe
+soprattutto nel periodo iniziale
+difficoltà degli interventi didattici in quanto non tutti gli insegnanti conoscevano la classe nella sua globalità.
+I libri di italiano, in particolare, erano diversi
+i programmi svolti nell’anno precedente avevano raggiunto obiettivi differenti.
+Il numero elevato di alunni ha ostacolato le modalità di valutazione nonché lo svolgimento dei programmi
+nelle singole discipline
+non consentendo in alcuni casi di conseguire gli obiettivi prefissati.
 Nei laboratori soprattutto il numero elevato di alunni ha reso difficoltoso la normale attività.
 Un ulteriore ostacolo al normale svolgimento delle lezioni sono state le numerose assenze sia singole che collettive.
-Un esiguo gruppo di alunni ha sempre partecipato e dimostrato impegno sia in classe che nella rielaborazione a casa, conseguendo ottimi risultati.
-Un secondo gruppo, pur avendo seguito in modo discontinuo, ha comunque conseguito risultati discreti in quasi tutte le discipline.
-Un terzo gruppo ha dimostrato scarso impegno e frequenza molto discontinua, tuttavia alcuni di loro si stanno maggiormente impegnando in quest’ultima fase dell’anno scolastico.
-Nella fase iniziale i Docenti hanno dedicato le prime lezioni al ripasso degli argomenti fondamentali e propedeutici svolti nell’anno precedente e successivamente hanno proceduto, ciascuno nella propria disciplina, ad una valutazione delle conoscenze e delle competenze acquisite attraverso  verifiche di diversa tipologia.
+Un esiguo gruppo di alunni ha sempre partecipato e dimostrato impegno sia in classe che nella rielaborazione a casa
+conseguendo ottimi risultati.
+Un secondo gruppo ha comunque conseguito risultati discreti in quasi tutte le discipline.
+pur avendo seguito in modo discontinuo
+Un terzo gruppo ha dimostrato scarso impegno e frequenza molto discontinua
+tuttavia alcuni di loro si stanno maggiormente impegnando in quest’ultima fase dell’anno scolastico.
+Nella fase iniziale i Docenti hanno dedicato le prime lezioni al ripasso
+argomenti fondamentali e propedeutici svolti nell’anno precedente
+successivamente hanno proceduto, ciascuno nella propria disciplina, ad una valutazione delle conoscenze
+competenze acquisite attraverso verifiche di diversa tipologia.
 Durante il corso dell’anno, si è controllato l’andamento didattico e disciplinare
 Le verifiche generalmente sono state effettuate a conclusione di ogni modulo didattico in forma orale
 Per la valutazione è stata utilizzata l’intera gamma dei voti in decimi.
