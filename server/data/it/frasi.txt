@@ -280,68 +280,135 @@ Lo scopo primario dell’interfaccia di un servizio web è quello di aiutare l�
 Per questo, la coerenza dei vari elementi che la compongono, anche su diversi dispositivi, è un elemento fondante per la creazione di prodotti funzionali e semplici da usare.
 La fatturazione di buoni di spesa accettati relativi all’acquisto di tutti i beni e servizi previsti dalla normativa può avvenire in qualsiasi momento.
 In sede di registrazione al servizio 18app puoi inserire i tuoi punti negozio con i relativi dati di riferimento (provincia, comune ed indirizzo) corredati di recapiti telefonici, sito internet ed indirizzo di posta elettronica.
-I musei che fanno riferimento al Ministero dei beni e delle attività culturali e del turismo sono censiti direttamente dalla Direzione Generale Musei e saranno geo-localizzabili dai diciottenni nell’applicazione a loro dedicata.
-I monumenti, parchi naturali e le aree archeologiche che fanno riferimento al Ministero dei beni e delle attività culturali e del turismo sono censiti direttamente dalla Direzione Generale archeologia, belle arti e paesaggio.
+I musei che fanno riferimento al Ministero dei beni e delle attività culturali e del turismo
+sono censiti direttamente dalla Direzione Generale Musei
+e saranno geo-localizzabili dai diciottenni nell’applicazione a loro dedicata.
+I monumenti, parchi naturali e le aree archeologiche che fanno riferimento al Ministero dedicato
+Ministero dei beni e delle attività culturali e del turismo
+sono censiti direttamente dalla Direzione Generale archeologia, belle arti e paesaggio.
 Saranno geo-localizzabili dai diciottenni nell’applicazione a loro dedicata.
-Per la geo-localizzazione di tutti i miei punti vendita occorre inserire nell’applicazione i dati dei singoli esercizi commerciali.
+Per la geo-localizzazione di tutti i miei punti vendita
+occorre inserire nell’applicazione i dati dei singoli esercizi commerciali.
 Attraverso bonifico bancario sul c/c il cui IBAN è indicato in fattura.
-A tal proposito si evidenzia la necessità di verificare sempre con estrema attenzione il corretto inserimento del codice IBAN.
-A pagamento effettuato verrà inviata una e-mail automatica di notifica di avvenuto accredito all’indirizzo mail indicato nella sezione Contatti all’interno della fattura elettronica.
-Si ritiene che la fattura, pur se diretta a documentare un’operazione esclusa da IVA, in quanto (fra l’altro) caratterizzata da numerazione progressiva apposta in continuità rispetto alle fatture precedenti e successive, debba essere registrata contabilmente
+A tal proposito
+si evidenzia la necessità di verificare sempre con estrema attenzione il corretto inserimento del codice IBAN.
+A pagamento effettuato verrà inviata una e-mail automatica di notifica di avvenuto accredito all’indirizzo mail indicato
+nella sezione Contatti
+all’interno della fattura elettronica.
+Si ritiene che la fattura, pur se diretta a documentare un’operazione esclusa da IVA
+in quanto (fra l’altro) caratterizzata da numerazione progressiva apposta in continuità
+rispetto alle fatture precedenti e successive
+debba essere registrata contabilmente
 Rimane ovviamente ferma la sua irrilevanza agli effetti delle imposte sui redditi e del volume d’affari.
-La fattura emessa genera solo un credito nei confronti della pubblica amministrazione e attiene esclusivamente al profilo finanziario.
-Per l’esercente il ricavo è generato dall’operazione posta in essere con il cliente, documentato dal biglietto, scontrino o ricevuta messi dall’esercente medesimo secondo le consuete modalità e tempistica.
-In questo tema rientra tutto ciò che concerne lo sviluppo della società, le condizioni della società, la cittadinanza, la demografia, il welfare.
-In questo tema rientra tutto ciò che riguarda la ricerca, l’innovazione, la tecnologia, la banda larga e ultralarga, la psicologia, le scienze umane, lo spazio.
+La fattura emessa genera solo un credito nei confronti della pubblica amministrazione
+e attiene esclusivamente al profilo finanziario.
+Per l’esercente il ricavo è generato dall’operazione posta in essere con il cliente
+documentato dal biglietto, scontrino o ricevuta messi dall’esercente medesimo secondo le consuete modalità e tempistica.
+In questo tema rientra tutto ciò che concerne lo sviluppo della società
+le condizioni della società
+la cittadinanza, la demografia, il welfare.
+In questo tema rientra tutto ciò che riguarda la ricerca
+l’innovazione, la tecnologia, la banda larga e ultralarga
+la psicologia, le scienze umane, lo spazio.
 In questo tema rientra tutto ciò che riguarda i trasporti e le relative infrastrutture, la mobilità.
 E un’applicazione Web integrata nel catalogo per l’acquisizione e l’aggiornamento guidato dei metadati.
-L’editor, acceduto tipicamente previa autenticazione, alimenta automaticamente il catalogo in modo da garantire la conformità al profilo di metadatazione nazionale.
-Solo adottando un’ottica di miglioramento continuo possiamo sperare di renderle efficaci e utili per tutte le Pubbliche Amministrazioni.
-Poiché le linee guida evolvono continuamente (diciamo con frequenza mensile) diventa fondamentale introdurre il versionamento che consente di tenere traccia delle diverse release nel tempo.
-Grazie al versionamento, chi realizza siti aderenti alle linee guida può fare riferimento ad una precisa versione (da citare, ad esempio, quando si partecipa ad un bando di gara).
-Le competenze funzionali vanno dalla conduzione di attività di ricerca con gli utenti alla prototipazione, fino alla capacità di progettazione e realizzazione di interfacce e contenuti.
-Queste competenze generano dei ruoli che possono variare in funzione delle caratteristiche del progetto e dell’assetto di un team.
+L’editor, acceduto tipicamente previa autenticazione, alimenta automaticamente il catalogo
+in modo da garantire la conformità al profilo di metadatazione nazionale.
+Solo adottando un’ottica di miglioramento continuo
+possiamo sperare di renderle efficaci e utili per tutte le Pubbliche Amministrazioni.
+Poiché le linee guida evolvono continuamente
+diciamo con frequenza mensile
+diventa fondamentale introdurre il versionamento che consente di tenere traccia delle diverse release nel tempo.
+Grazie al versionamento, chi realizza siti aderenti alle linee guida può fare riferimento ad una precisa versione
+da citare, ad esempio, quando si partecipa ad un bando di gara.
+Le competenze funzionali vanno dalla conduzione di attività di ricerca con gli utenti alla prototipazione
+fino alla capacità di progettazione e realizzazione di interfacce e contenuti.
+Queste competenze generano dei ruoli che possono variare in funzione delle caratteristiche del progetto
+e dell’assetto di un team.
 Negli ultimi anni le soluzioni tecnologiche volte a supportare il processo di apertura dei dati sono diventate molteplici.
 Questo ha portato all’introduzione di vari modelli di classificazione e di descrizione dei dati pubblicati
-Alcuni dei quali dipendenti dalla piattaforma scelta per l’implementazione e alla proliferazione di portali pubblici di open data
+Alcuni dei quali dipendenti dalla piattaforma scelta per l’implementazione
+e alla proliferazione di portali pubblici di open data
 In molti casi non interoperabili né dal punto di vista semantico né da quello tecnologico.
-La situazione delineata evidenzia, quindi, ancora di più la necessità di standardizzare un profilo condiviso delle descrizioni dei dati anche a livello nazionale, in conformità anche alle regole e agli standard di interoperabilità definiti a livello internazionale.
-In questo tema rientra tutto ciò che riguarda la cultura, il turismo, l’istruzione e le attività sportive, eventi culturali e locali.
-In questo tema rientra tutto ciò che riguarda le politiche di governo, gli affari istituzionali, la trasparenza del settore pubblico (dati relativi ad amministrazione trasparente).
+La situazione delineata evidenzia, quindi, ancora di più la necessità di standardizzare un profilo
+descrizioni dei dati anche a livello nazionale
+in conformità anche alle regole e agli standard di interoperabilità definiti a livello internazionale.
+In questo tema rientra tutto ciò che riguarda la cultura, il turismo, l’istruzione e le attività sportive
+eventi culturali e locali.
+In questo tema rientra tutto ciò che riguarda le politiche di governo
+gli affari istituzionali
+la trasparenza del settore pubblico
+dati relativi ad amministrazione trasparente.
 In questo tema rientra tutto ciò che concerne le attività sulla salute e tutto ciò che riguarda gli animali.
-In questo tema rientra tutto ciò che concerne le relazioni internazionali, la cooperazione internazionale, i diritti umanitari, le organizzazioni internazionali e gli affari esteri.
-Parallelamente, il Team Digitale, in stretta collaborazione con le istituzioni competenti, lavorerà per l’individuazione di una PA che prenderà in carico il progetto.
-Il Team Digitale e la PA selezionata lavoreranno in sinergia durante la fase di messa in produzione del DAF, durante la quale si effettueranno i passaggi di consegna e training.
+In questo tema rientra tutto ciò che concerne le relazioni internazionali
+la cooperazione internazionale
+i diritti umanitari
+le organizzazioni internazionali e gli affari esteri.
+Parallelamente in stretta collaborazione con le istituzioni competenti
+il Team Digitale lavorerà per l’individuazione di una PA che prenderà in carico il progetto.
+Il Team Digitale e la PA selezionata lavoreranno in sinergia durante la fase di messa in produzione del DAF
+durante la quale si effettueranno i passaggi di consegna e training.
 Il mondo della ricerca e dell’innovazione.
-Grazie al DAF sarà, infatti, possibile promuovere iniziative atte a coinvolgere il mondo della ricerca e dell’innovazione su tematiche di interesse pubblico.
-Le presenti linee guida forniscono indicazioni sui temi dei dati, sui vocabolari controllati da utilizzare nonché una descrizione degli elementi principali del profilo di metadazione con le relative proprietà.
-Nell’ambito delle attività istituzionali relative alla promozione delle politiche di valorizzazione del patrimonio informativo pubblico nazionale, l’Agenzia per l’Italia Digitale è da tempo impegnata a favorire l’interoperabilità semantica di dati e servizi.
-Il presente servizio è volto a consentire agli esercenti commerciali, di incassare i buoni connessi all’utilizzo del bonus del valore di 500€.
-L’esercente prende atto ed accetta che il servizio lo identificherà, riconoscendogli accesso alle funzionalità di verifica, incasso e richiesta di liquidazione dei buono attraverso le citate credenziali.
-Pertanto chiunque entrasse fraudolentemente in possesso delle stesse potrà essere abilitato all’utilizzo del servizio medesimo al suo posto.
-Al riguardo l’utente prende atto di essere stato informato dell’obbligo di tempestiva denuncia in ogni ipotesi di perdita di possesso delle citate credenziali al fine di consentirne il blocco immediato.
+Grazie al DAF sarà, infatti, possibile promuovere iniziative atte a coinvolgere il mondo della ricerca e dell’innovazione
+su tematiche di interesse pubblico.
+Le presenti linee guida forniscono indicazioni sui temi dei dati, sui vocabolari controllati da utilizzare
+nonché una descrizione degli elementi principali del profilo di metadazione con le relative proprietà.
+Nell’ambito delle attività istituzionali relative alla promozione delle politiche di valorizzazione del patrimonio
+patrimonio informativo pubblico nazionale
+l’Agenzia per l’Italia Digitale è da tempo impegnata a favorire l’interoperabilità semantica di dati e servizi.
+Il presente servizio è volto a consentire agli esercenti commerciali di incassare i buoni
+connessi all’utilizzo del bonus del valore di 500€.
+L’esercente prende atto ed accetta che il servizio lo identificherà
+riconoscendogli accesso alle funzionalità di verifica, incasso e richiesta di liquidazione del buono
+attraverso le citate credenziali.
+Pertanto chiunque entrasse fraudolentemente in possesso delle stesse potrà essere abilitato all’utilizzo del servizio
+medesimo al suo posto.
+Al riguardo l’utente prende atto di essere stato informato dell’obbligo di tempestiva denuncia in ogni ipotesi
+di perdita di possesso delle citate credenziali al fine di consentirne il blocco immediato.
 Il DAF mette a disposizione la sua capacità di calcolo, la presenza (al suo interno) di basi di dati autoritative.
-Il DAF offre un supporto alle PA per la costruzione di modelli di interconnessione delle diverse sorgenti dati e l’analisi dei dati su tematiche di interesse per la PA.
+Il DAF offre un supporto alle PA per la costruzione di modelli di interconnessione delle diverse sorgenti dati
+e l’analisi dei dati su tematiche di interesse per la PA.
 Durante la fase sperimentale la governance del DAF è in carico al Team Digitale.
 Ha il compito di gestire attivamente la fase di sviluppo concettuale e implementativo dell’infrastruttura.
 Insieme a tutte le fasi del ciclo di vita del dato, dall’ingestione all’analisi e sviluppo di applicazioni.
-Il Team Digitale si farà anche carico di ingaggiare i rapporti con le PA coinvolte nella fase di sperimentazione e lavorerà insieme a loro per lo sviluppo di casi d’uso indicati nella roadmap.
-L’esercente prende altresì atto che ai fini della liquidazione dei buoni incassati dovrà disporre o dotarsi di un sistema di fatturazione elettronica conforme alla disciplina vigente.
+Il Team Digitale si farà anche carico di ingaggiare i rapporti con le PA coinvolte nella fase di sperimentazione
+e lavorerà insieme a loro per lo sviluppo di casi d’uso indicati nella roadmap.
+L’esercente prende altresì atto che dovrà disporre o dotarsi di un sistema di fatturazione elettronica
+conforme alla disciplina vigente.
+ai fini della liquidazione dei buoni incassati
 In assenza, non potrà, in alcun modo, vedersi liquidare il valore dei buoni eventualmente incassati.
-È, pertanto, vietato incassare i buoni generati attraverso il servizio da un soggetto diverso rispetto al titolare del buono il cui nome è riportato sullo stesso e/o a fronte della vendita di beni o servizi diversi rispetto a quelli di cui alle lettere da a) a c) che precedono.
-Il Ministero dei beni e delle attività culturali e del turismo vigila sulla corretta applicazione da parte dell’esercente delle regole che precedono nonché di quelle dettate nella disciplina vigente e, in caso di eventuali violazioni.
-Rendere facilmente disponibili e interoperabili una serie di dataset Open Data ritenuti strategici sotto il profilo dei fenomeni in essi descritti.
-Per questi dataset, si vogliono minimizzare i costi transattivi di utilizzo, prevedendo standard e regole di esposizione più stringenti rispetto a quelle normalmente previste per gli Open Data.
-Ricorda che tu non puoi rinunciare a diritti su una tua opera se non li possiedi, salvo che tu ne ottenga il permesso da parte del detentore.
-Per evitare di violare i diritti di terze parti, dovresti consultarti col tuo avvocato se non sei certo di possedere tutti i diritti necessari per distribuire l'opera.
-Sebbene molte biblioteche tedesche avessero familiarizzato con il tema del libero accesso già da tempo, poche di esse avevano poi in concreto utilizzato una simile forma di pubblicazione per i propri contenuti.
-L'iniziativa di Colonia rappresenta dunque un'interessante novità per la Germania, in tema di libera circolazione e condivisione dei dati.
-I dati pubblicati ricadono infatti in pubblico dominio ed è pertanto consentito a chiunque scaricarli, modificarli e riutilizzarli a piacere, secondo le proprie esigenze, senza alcuna restrizione.
-Vademecum, dal latino vade mecum, significato letterario vieni con me e figurativo ti do una mano è un progetto Mozilla Italia.
-Consiste nella realizzazione di un volantino (digitale e stampato) che permetta di capire in un foglio A4 (suddiviso in sezioni) cos'è Mozilla, Firefox e tutti i progetti correlati.
+È, pertanto, vietato incassare i buoni generati attraverso il servizio da un soggetto diverso rispetto al titolare del buono
+il cui nome è riportato sullo stesso e/o a fronte della vendita di beni o servizi diversi
+rispetto a quelli di cui alle lettere da a) a c) che precedono.
+Il Ministero dei beni e delle attività culturali e del turismo vigila sulla corretta applicazione da parte dell’esercente
+delle regole che precedono
+nonché di quelle dettate nella disciplina vigente
+e, in caso di eventuali violazioni.
+Rendere facilmente disponibili e interoperabili una serie di dataset Open Data ritenuti strategici
+sotto il profilo dei fenomeni in essi descritti.
+Per questi dataset, si vogliono minimizzare i costi transattivi di utilizzo
+prevedendo standard e regole di esposizione più stringenti rispetto a quelle normalmente previste per gli Open Data.
+Ricorda che tu non puoi rinunciare a diritti su una tua opera se non li possiedi
+salvo che tu ne ottenga il permesso da parte del detentore.
+Per evitare di violare i diritti di terze parti
+dovresti consultarti col tuo avvocato se non sei certo di possedere tutti i diritti necessari per distribuire l'opera.
+Sebbene molte biblioteche tedesche avessero familiarizzato con il tema del libero accesso già da tempo
+poche di esse avevano poi in concreto utilizzato una simile forma di pubblicazione per i propri contenuti.
+L'iniziativa di Colonia rappresenta dunque un'interessante novità per la Germania
+in tema di libera circolazione e condivisione dei dati.
+I dati pubblicati ricadono infatti in pubblico dominio
+ed è pertanto consentito a chiunque scaricarli, modificarli e riutilizzarli a piacere
+secondo le proprie esigenze, senza alcuna restrizione.
+Vademecum, dal latino vade mecum, significato letterario vieni con me e figurativo ti do una mano
+è un progetto Mozilla Italia.
+Consiste nella realizzazione di un volantino (digitale e stampato)
+che permetta di capire in un foglio A4 (suddiviso in sezioni) cos'è Mozilla, Firefox e tutti i progetti correlati.
 L'importanza sta nel fatto che tutti questi concetti vengano espressi in pochissimo spazio e debbano essere soddisfacenti.
 Innanzitutto è doveroso spiegare che cos'è Firefox.
-È un browser web unico che mette al primo posto gli utenti, ha il codice sorgente libero, è disponibile per tutti i principali sistemi operativi, è personalizzabile, è versatile, è veloce e, molto importante, è sicuro.
+È un browser web unico che mette al primo posto gli utenti
+ha il codice sorgente libero
+è disponibile per tutti i principali sistemi operativi
+è personalizzabile, è versatile, è veloce e, molto importante, è sicuro.
 Quindi tutti possono analizzarlo e modificarlo.
 Mozilla Foundation è l'organizzazione senza fini di lucro che, da oltre 15 anni, supporta Firefox e altri numerosi progetti.
 Questa organizzazione ha più di 10.000 volontari, provenienti da ogni parte del globo.
@@ -353,90 +420,161 @@ Firefox è creato dagli utenti per gli utenti.
 Non è realizzato per guadagnare (Mozilla è una fondazione no profit), ma per offrire un'esperienza di navigazione unica.
 Scegli il browser libero, sicuro, affidabile e indipendente.
 Firefox è il browser davvero “personale”.
-Grazie alle migliaia di estensioni disponibili è possibile aggiungere nuove funzionalità e, se non trovi l'estensione adatta alle tue esigenze, puoi svilupparla tu stesso.
-Inoltre, la moltitudine di temi disponibili consente di personalizzare anche l'interfaccia grafica e, se non dovessi trovare un tema che ti piace, puoi crearne uno tutto tuo!
-La sicurezza sul Web è fondamentale: Firefox integra moltissime funzioni in grado di migliorare la sicurezza della navigazione sul Web.
-La protezione anti-phishing, la gestione avanzata delle password, il controllo dei cookie e le impostazioni di sicurezza personalizzate.
+Grazie alle migliaia di estensioni disponibili è possibile aggiungere nuove funzionalità
+e, se non trovi l'estensione adatta alle tue esigenze, puoi svilupparla tu stesso.
+Inoltre, la moltitudine di temi disponibili consente di personalizzare anche l'interfaccia grafica
+e, se non dovessi trovare un tema che ti piace, puoi crearne uno tutto tuo!
+La sicurezza sul Web è fondamentale
+Firefox integra moltissime funzioni in grado di migliorare la sicurezza della navigazione sul Web.
+La protezione anti-phishing
+la gestione avanzata delle password
+il controllo dei cookie
+e le impostazioni di sicurezza personalizzate.
 Il sistema di aggiornamento automatico consente di mantenere il browser sempre aggiornato all’ultima versione disponibile.
 Il concetto di “comunità” è alla base della filosofia di Mozilla.
-Centinaia di persone in tutto il mondo collaborano alla pubblicazione di articoli di supporto e offrono assistenza agli utenti nelle principali lingue mondiali.
-In Italia questo compito è affidato a Mozilla Italia che offre supporto attraverso il suo forum o sui canali Telegram ufficiali.
+Centinaia di persone in tutto il mondo collaborano alla pubblicazione di articoli di supporto
+e offrono assistenza agli utenti nelle principali lingue mondiali.
+In Italia questo compito è affidato a Mozilla Italia che offre supporto
+attraverso il suo forum o sui canali Telegram ufficiali.
 Gli aggiornamenti di Firefox mirano a migliorare l'esperienza utente, quindi aggiungendo funzionalità utili e richieste.
 Alcune di queste funzionalità sono: la Modalità lettura, il Pulsante dimentica, la Barra degli indirizzi intelligente.
-Firefox offre diverse versioni, oltre alla stabile, la Dev Edition, rivolta agli sviluppatori, e la Nightly, rivolta a chi vuole collaborare segnalando eventuali problemi.
+Firefox offre diverse versioni oltre alla stabile
+la Dev Edition, rivolta agli sviluppatori
+e la Nightly, rivolta a chi vuole collaborare segnalando eventuali problemi.
 La realtà virtuale oggi permette di sperimentare nuove possibilità, anche unita alla realtà aumentata.
-Pocket è un servizio integrato in Firefox che permette di salvare, in un unico posto, con un semplice clic, tutte le pagine di proprio interesse per poterle leggere, condividere o rimuovere successivamente.
+Pocket è un servizio integrato in Firefox che permette di salvare tutte le pagine di proprio interesse
+per poterle leggere, condividere o rimuovere successivamente.
+in un unico posto
+con un semplice clic
 Un punto di forza di Firefox sono le estensioni.
-La libertà e la personalizzazione del browser sono le caratteristiche di Firefox, a dimostrazione del fatto che gli utenti sono di massima importanza per Mozilla.
+La libertà e la personalizzazione del browser sono le caratteristiche di Firefox
+a dimostrazione del fatto che gli utenti sono di massima importanza per Mozilla.
 Firefox, inoltre, è il solo browser web che dispone di estensioni anche nella versione mobile.
 Qui di seguito alcune delle migliori estensioni disponibili.
 Una versione alleggerita di AdBlock, impedisce il caricamento delle pubblicità e velocizza la navigazione.
 Mostra le statistiche sia delle risorse bloccate sia delle pubblicità bloccate della pagina che si sta visitando.
-Privacy Badger blocca i tentativi di tracciamento sul Web attraverso filtri specifici che riconoscono le pagine traccianti o malevole e ne impediscono il caricamento.
+Privacy Badger blocca i tentativi di tracciamento sul Web attraverso filtri specifici
+essi riconoscono le pagine traccianti o malevole e ne impediscono il caricamento.
 Come i pulsanti di condivisione dei social network.
-Consente di disattivare gli avvisi dei siti, resi obbligatori da una direttiva emanata della UE, sull'utilizzo di cookie di terze parti.
-Grazie a questa estensione è possibile pulire la cronologia di navigazione periodicamente secondo i propri gusti in maniera automatica e programmata.
+Consente di disattivare gli avvisi dei siti sull'utilizzo di cookie di terze parti.
+resi obbligatori da una direttiva emanata della UE
+Grazie a questa estensione è possibile pulire la cronologia di navigazione periodicamente
+secondo i propri gusti, in maniera automatica e programmata.
 Firefox Focus è un nuovo progetto della Mozilla Foundation che porta la navigazione privata a un livello più alto.
-Fornisce un browser dedicato alla privacy, attraverso un evoluto sistema di protezione antitracciamento e di blocco dei contenuti.
-Le avanzate funzionalità per la protezione della privacy sono sempre attive e la cronologia di navigazione, come anche i dati raccolti, vengono eliminati automaticamente al termine di ogni sessione di navigazione.
+Fornisce un browser dedicato alla privacy
+attraverso un evoluto sistema di protezione antitracciamento e di blocco dei contenuti.
+Le avanzate funzionalità per la protezione della privacy sono sempre attive
+e la cronologia di navigazione, come anche i dati raccolti, vengono eliminati automaticamente al termine di ogni sessione
+sessione di navigazione.
 Tutte queste caratteristiche avanzate sono disponibili in soli 5 MB, sia per Android sia per iOS.
 Il tuo aiuto è fondamentale per mantenere il Web una risorsa libera, accessibile e pubblica.
 I nostri volontari quotidianamente lavorano affinché questo sia possibile.
 Non è necessario che tu abbia delle abilità specifiche.
 Tra di noi potrai confrontarti con grafici, ingegneri, informatici, linguisti, studenti e insegnanti.
 Il nostro fattore comune è la volontà e la consapevolezza che l’unione fa la forza.
-Essere più sintetici possibile, quindi essere diretti: dal momento che verrà anche stampato potrebbe non entrare negli spazi prevesti ed, inoltre, un testo troppo lungo annoia, di conseguenza non viene letto.
+Essere più sintetici possibile, quindi essere diretti
+dal momento che verrà anche stampato potrebbe non entrare negli spazi prevesti
+e, inoltre, un testo troppo lungo annoia
+e di conseguenza non viene letto.
 Utilizzare un lessico non molto "aulico".
-Questo non perché gli utenti Mozilla siano "analfabetizzati" o "non istruiti", ma bensì per dare quel tocco di "amicizia" e "confidenzialità" che Mozilla Italia vuole dare.
-Utilizzare il lessico giusto, in base al luogo e alle persone con cui si sta parlando, in questo caso in base a ciò che si vuole comunicare.
-Non utilizzare molto tecnicismo: preferire all'hard tecnicismo un tecnicismo di base o per niente tecnicismo.
-Gli utenti potrebbero essere sia esperti nel settore informatico/tecnologico, sia utenti normali che si affacciano per le prime volte in questo grande mondo.
-Cercare di non inserire sigle o roba del genere se poi non la si spiega, ciò crea più confusione che informazione per un utente generico.
+Questo non perché gli utenti Mozilla siano "analfabeti" o "non istruiti"
+ma bensì per dare quel tocco di "amicizia" e "confidenzialità" che Mozilla Italia preferisce.
+Utilizzare il lessico giusto, in base al luogo e alle persone con cui si sta parlando
+in questo caso in base a ciò che si vuole comunicare.
+Non utilizzare molto tecnicismo
+preferire all'hard tecnicismo un tecnicismo di base o per niente tecnicismo.
+Gli utenti potrebbero essere sia esperti nel settore informatico/tecnologico, sia utenti normali
+che si affacciano per le prime volte in questo grande mondo.
+Cercare di non inserire sigle o roba del genere se poi non la si spiega
+ciò crea più confusione che informazione per un utente generico.
 Hai voglia di aiutare ma non sai da dove cominciare?
-Abbiamo rilasciato il codice e le credenziali per poter accedere all’ambiente di test dell’Anagrafe nazionale della popolazione residente
-Si tratta di un passaggio molto importante per lo sviluppo dell’anagrafe nazionale, perché permette a qualsiasi sviluppatore di lavorare più liberamente all’integrazione con ANPR, anche senza disporre delle credenziali di un comune.
-Una vera e propria apertura, che potrà accelerare il processo di diffusione dell’anagrafe e di servizi che si integrano con essa su tutto il territorio nazionale.
+Abbiamo rilasciato il codice e le credenziali per poter accedere all’ambiente di test dell’Anagrafe nazionale
+della popolazione residente
+Si tratta di un passaggio molto importante per lo sviluppo dell’anagrafe nazionale
+perché permette a qualsiasi sviluppatore di lavorare più liberamente all’integrazione con ANPR
+anche senza disporre delle credenziali di un comune.
+Una vera e propria apertura, che potrà accelerare il processo di diffusione dell’anagrafe
+e di servizi che si integrano con essa su tutto il territorio nazionale.
 Conferma della presenza sul luogo di lavoro.
-Tutto ciò verrà reso possibile grazie alle funzionalità di identificazione e sicurezza contenute nel microprocessore, le cui specifiche sono aperte e disponibili sia sul portale ufficiale del Ministero degli Interni, sia in questa pagina.
-Su Developers Italia, infatti, troverai tutte le informazioni tecniche e le librerie software per iniziare subito a sviluppare nuovi servizi.
+Tutto ciò verrà reso possibile grazie alle funzionalità di identificazione e sicurezza contenute nel microprocessore
+le cui specifiche sono aperte e disponibili sia sul portale ufficiale del Ministero degli Interni, sia in questa pagina.
+Su Developers Italia, infatti, troverai tutte le informazioni tecniche
+troverai le librerie software per iniziare subito a sviluppare nuovi servizi.
 Sul forum, avrai anche accesso diretto ai progettisti della CIE per avere tutti i chiarimenti tecnici necessari.
-Utilizziamo il nostro forum per discutere delle tematiche tecniche, per la progettazione di nuovi servizi, e per riportare problemi.
+Utilizziamo il nostro forum per discutere delle tematiche tecniche
+per la progettazione di nuovi servizi, e per riportare problemi.
 Contattaci pure nel canale dedicato alla CIE.
 L’integrazione di SPID è consentita sia per i siti Pubblica Amministrazione, sia per i siti e servizi online dei privati.
-I vantaggi nell’adottare SPID sono quindi molteplici: le banche e le assicurazioni, per esempio, potrebbero riconoscere il cittadino che vuole creare un conto o stipulare una polizza semplicemente facendogli fare login.
-Abbiamo aperto un’area di discussione nel nostro forum, per risolvere le problematiche tecniche di integrazione, e a breve sarà disponibile anche un issue tracker pubblico.
+I vantaggi nell’adottare SPID sono quindi molteplici
+le banche e le assicurazioni, per esempio, potrebbero riconoscere il cittadino che vuole creare un conto
+stipulare una polizza
+semplicemente facendogli fare login.
+Abbiamo aperto un’area di discussione nel nostro forum
+per risolvere le problematiche tecniche di integrazione
+e a breve sarà disponibile anche un issue tracker pubblico.
 PagoPA è il nodo di pagamenti della Pubblica Amministrazione.
-È una piattaforma che connette tra loro cittadini, Pubblica Amministrazione e i Prestatori di Servizi di Pagamento (PSP) per effettuare pagamenti verso la Pubblica Amministrazione in sicurezza e con semplicità.
-Integrare PagoPA rappresenta un grosso vantaggio per le Pubbliche Amministrazioni perché i pagamenti vengono accreditati in tempo reale, vengono correttamente rendicontati e di conseguenza può immediatamente essere rilasciato al cittadino la quietanza con valore legale.
-Per un cittadino, PagoPA permette di scegliere il metodo di pagamento tra i diversi a disposizione, a seconda delle comodità e del livello di digitalizzazione.
-Stiamo facendo evolvere il sistema in una ottica di mercato integrando canali di pagamento innovativi ed evolvendo l’interfaccia utente e le funzionalità del sistema verso gli standard consolidati sul mercato.
+È una piattaforma che connette tra loro cittadini, Pubblica Amministrazione e i Prestatori di Servizi di Pagamento (PSP)
+per effettuare pagamenti verso la Pubblica Amministrazione in sicurezza e con semplicità.
+Integrare PagoPA rappresenta un grosso vantaggio per le Pubbliche Amministrazioni
+perché i pagamenti vengono accreditati in tempo reale
+vengono correttamente rendicontati
+e di conseguenza può immediatamente essere rilasciato al cittadino la quietanza con valore legale.
+Per un cittadino, PagoPA permette di scegliere il metodo di pagamento tra i diversi a disposizione
+a seconda delle comodità e del livello di digitalizzazione.
+Stiamo facendo evolvere il sistema in una ottica di mercato integrando canali di pagamento innovativi
+ed evolvendo l’interfaccia utente e le funzionalità del sistema
+verso gli standard consolidati sul mercato.
 La trasformazione digitale è una priorità del Governo.
 Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini
-È il documento di indirizzo strategico ed economico destinato a tutta la Pubblica Amministrazione che accompagna la trasformazione digitale del Paese.
-Con il Piano Triennale prosegue la trasformazione digitale che permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni.
-L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale
-Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa.
+È il documento di indirizzo strategico ed economico destinato a tutta la Pubblica Amministrazione
+che accompagna la trasformazione digitale del Paese.
+Con il Piano Triennale prosegue la trasformazione digitale
+permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni.
+L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione
+liberare dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale
+Stiamo introducendo una modalità di partecipazione completamente nuova
+certi che per raggiungere l’obiettivo della trasformazione digitale sia necessario procedere in questa maniera
+dei servizi della Pubblica Amministrazione
+per fare ciò si debba agire in maniera collaborativa.
 Nelle pagine di questo sito vengono riassunti i contenuti del Piano Triennale, suddivisi per capitoli e azioni.
 Il documento completo è disponibile online in versione navigabile ottimizzata per dispositivi mobili o in PDF.
-Un elenco di parole della Pubblica Amministrazione, che in forma di glossario spiega (senza pretese di esaustività) in che modo scrivere alcuni termini ricorrenti nei servizi pubblici.
-Dei suggerimenti di scrittura, dove puoi trovare indicazioni per scrivere, strutturare, impaginare e gestire i tuoi contenuti, in modo da renderli efficaci e di facile utilizzo per gli utenti.
-Una guida sul tono di voce da utilizzare sui siti internet della Pubblica Amministrazione, a seconda delle attività e dei bisogni del cittadino.
+Un elenco di parole della Pubblica Amministrazione
+che in forma di glossario spiega tutto
+senza pretese di esaustività
+in che modo scrivere alcuni termini ricorrenti nei servizi pubblici.
+Suggerimenti di scrittura dove puoi trovare indicazioni per scrivere, strutturare, impaginare e gestire i tuoi contenuti
+in modo da renderli efficaci e di facile utilizzo per gli utenti.
+Una guida sul tono di voce da utilizzare sui siti internet della Pubblica Amministrazione
+a seconda delle attività e dei bisogni del cittadino.
 Per le finalità di queste linee guida è utile definire e distinguere le attività di misurazione da quelle di valutazione.
-Per misurazione si intende l'attività di quantificazione del livello di raggiungimento dei risultati e degli impatti da questi prodotti su utenti e stakeholder, attraverso il ricorso a indicatori.
-Per valutazione si intende l'attività di analisi e interpretazione dei valori misurati, che tiene conto dei fattori di contesto che possono avere determinato l'allineamento o lo scostamento rispetto ad un valore di riferimento.
-Misurazione e valutazione della performance sono attività distinte ma complementari, in quanto fasi del più ampio Ciclo della Performance.
+Per misurazione si intende l'attività di quantificazione del livello di raggiungimento dei risultati
+e degli impatti da questi prodotti su utenti e stakeholder
+attraverso il ricorso a indicatori.
+Per valutazione si intende l'attività di analisi e interpretazione dei valori misurati
+che tiene conto dei fattori di contesto che possono avere determinato l'allineamento o lo scostamento
+rispetto ad un valore di riferimento.
+Misurazione e valutazione della performance sono attività distinte ma complementari
+in quanto fasi del più ampio Ciclo della Performance.
 La figura seguente illustra il ciclo complessivo.
-La fase di misurazione serve a quantificare i risultati raggiunti dall'amministrazione nel suo complesso, i contributi delle articolazioni organizzative e dei gruppi (performance organizzativa).
+La fase di misurazione serve a quantificare i risultati raggiunti dall'amministrazione nel suo complesso
+i contributi delle articolazioni organizzative e dei gruppi (performance organizzativa).
 I contributi individuali (performance individuali).
 La misurazione può essere realizzata in momenti differenti in relazione alle esigenze dei diversi decisori.
-Tipicamente, infatti, i sistemi prevedono delle misurazioni intermedie (monitoraggio) ed una misurazione finale alla conclusione del periodo (anno) di riferimento.
+Tipicamente, infatti, i sistemi prevedono delle misurazioni intermedie (monitoraggio)
+ed una misurazione finale alla conclusione del periodo (anno) di riferimento.
 La frequenza del monitoraggio può variare a seconda delle caratteristiche dei fenomeni oggetto di osservazione.
 In tutti i casi le attività di monitoraggio devono essere documentate mediante un efficace sistema di reportistica.
-Nell'ultima fase, sulla base del livello misurato di raggiungimento degli obiettivi rispetto ai target prefissati, si effettua la valutazione.
-Ovvero si formula un “giudizio” complessivo sulla performance, cercando di comprendere i fattori (interni ed esterni) che possono aver influito positivamente o negativamente sul grado di raggiungimento degli obiettivi medesimi.
+Nell'ultima fase, sulla base del livello misurato di raggiungimento degli obiettivi rispetto ai target prefissati
+si effettua la valutazione.
+Ovvero si formula un “giudizio” complessivo sulla performance
+cercando di comprendere i fattori (interni ed esterni) che possono aver influito positivamente o negativamente
+valutazione sul grado di raggiungimento degli obiettivi medesimi.
 Anche al fine di apprendere per migliorare nell'anno successivo.
-In questa guida trovi una selezione di termini associati alla Pubblica Amministrazione che generano spesso dubbi di ortografia.
-Abbiamo elencato anche diversi esempi di termini tipici del contesto burocratico della Pubblica Amministrazione (cosiddetto “burocratese”) che possono essere sostituiti con parole più semplici senza perdere significato.
+In questa guida trovi una selezione di termini associati alla Pubblica Amministrazione
+generano spesso dubbi di ortografia.
+Abbiamo elencato anche diversi esempi di termini tipici del contesto burocratico della Pubblica Amministrazione
+il cosiddetto “burocratese”
+possono essere sostituiti con parole più semplici senza perdere significato.
 In alcuni casi esistono più alternative corrette relative alla grafia di un singolo termine.
 Abbiamo preferito fare una scelta, per favorire la diffusione di uno standard.
 Limita l’uso di questo termine ai contesti normativi.
@@ -444,45 +582,84 @@ Il nucleo centrale della performance organizzativa è costituito dalle dimension
 La dimensione dell'efficienza esprime la capacità di utilizzare le risorse (input) in modo sostenibile e tempestivo.
 Nel processo di produzione ed erogazione del servizio (output).
 In altri termini, la capacità di produrre beni e servizi minimizzando il tempo e/o le risorse impiegati.
-La dimensione dell'efficacia, esprime l'adeguatezza dell'output erogato rispetto alle aspettative e alle necessità degli utenti (interni ed esterni).
-Per misurare l'efficacia dell'azione di una amministrazione, è quindi fondamentale individuare quali dimensioni siano rilevanti per gli utenti.
-L'insieme di queste dimensioni dipende dalla tipologia di amministrazione e dai suoi obiettivi, e proprio la loro definizione permette di specificare meglio il risultato atteso nei confronti dell'utenza.
+La dimensione dell'efficacia, esprime l'adeguatezza dell'output erogato rispetto alle aspettative
+e alle necessità degli utenti (interni ed esterni).
+Per misurare l'efficacia dell'azione di una amministrazione
+è quindi fondamentale individuare quali dimensioni siano rilevanti per gli utenti.
+L'insieme di queste dimensioni dipende dalla tipologia di amministrazione e dai suoi obiettivi
+e proprio la loro definizione permette di specificare meglio il risultato atteso nei confronti dell'utenza.
 Ad esempio, per misurare l'efficacia di un servizio rivolto al pubblico è possibile prendere varie dimensioni.
 Accessibilità, estetica, disponibilità, pulizia, comunicazione, affidabilità, tempestività di risposta.
-La definizione degli indicatori che l'amministrazione utilizza per programmare, misurare e poi valutare la performance è un'attività di importanza critica.
-Spesso obiettivi sfidanti vengono misurati in modo non adeguato, fornendo informazioni incomplete o addirittura fuorvianti ai decisori.
-L'incompletezza e la scarsa precisione hanno implicazioni sia sulla fase di pianificazione che su quella di misurazione e valutazione.
-In fase di pianificazione, infatti, esse possono portare ad una scelta errata delle modalità operative più efficaci da adottare per raggiungere l'obiettivo.
-In fase di misurazione e valutazione possono, invece, comportare una valutazione non corretta del grado di raggiungimento degli obiettivi e la mancata corretta identificazione dei motivi di uno scostamento tra valori target previsti e risultati effettivi.
-Questo indicatore oltre ad essere incompleto e impreciso (vedi sopra), è spesso misurato direttamente dalle strutture che lo gestiscono, non condividendo procedure e database con gli uffici di supporto alla programmazione.
-Più in generale l'affidabilità delle fonti interne (quindi legate a sistemi informativi strutturati) o esterne (fonti ufficiali) è centrale.
-Occorre che la differenziazione diventi espressione di un orientamento organizzativo da condividere, in primo luogo, tra i soggetti valutatori e, in un momento successivo, con tutti gli altri attori presenti nel processo.
-Quando siamo venuti a scuola per salutare tutti i vecchi professori non l'abbiamo trovata e abbiamo deciso di scriverle quello che volevamo dirle.
+La definizione degli indicatori che l'amministrazione utilizza per programmare
+misurare e poi valutare la performance è un'attività di importanza critica.
+Spesso obiettivi sfidanti vengono misurati in modo non adeguato
+fornendo informazioni incomplete o addirittura fuorvianti ai decisori.
+L'incompletezza e la scarsa precisione hanno implicazioni gravi
+sia sulla fase di pianificazione sia su quella di misurazione e valutazione.
+In fase di pianificazione, infatti, esse possono portare ad una scelta errata delle modalità operative
+modalità operative più efficaci da adottare per raggiungere l'obiettivo.
+In fase di misurazione e valutazione possono, invece, comportare una valutazione non corretta
+del grado di raggiungimento degli obiettivi
+e la mancata corretta identificazione dei motivi di uno scostamento tra valori target previsti e risultati effettivi.
+Questo indicatore oltre ad essere incompleto e impreciso è spesso misurato direttamente dalle strutture che lo gestiscono
+non condividendo procedure e database con gli uffici di supporto alla programmazione.
+Più in generale l'affidabilità delle fonti interne
+quindi legate a sistemi informativi strutturati
+o esterne (fonti ufficiali) è centrale.
+Occorre che la differenziazione diventi espressione di un orientamento organizzativo da condividere
+in primo luogo, tra i soggetti valutatori e, in un momento successivo, con tutti gli altri attori presenti nel processo.
+Quando siamo venuti a scuola per salutare tutti i vecchi professori non l'abbiamo trovata
+e abbiamo deciso di scriverle quello che volevamo dirle.
 Luigi invece ha deciso di mettersi alla prova partendo come volontario per un anno nell'Esercito.
-Io invece quest'anno non ho trovato niente nell'ambito universitario di mio gradimento e quindi ho deciso di fare un anno sabbatico-lavorativo.
-Questo articolo nasce da esperienze dirette di clienti che mi hanno contattato per sistemare il loro sito perché il precedente autore non aveva fatto un buon lavoro.
-Perché i file obsoleti non vengono rimossi, per una questione di tempo, di corruzione dei file e di aggiornamenti automatici del database.
-Come abbiamo visto negli episodi precedenti una community non è altro che una grande azienda con un fine specifico più nobile dove l’obiettivo non sono il profitto ma il progetto stesso.
-In questo modo la soluzione è offerta da chi ha il problema, quindi il diretto interessato puó fornire una delle migliori soluzioni e si interviene successivamente.
+Io invece quest'anno non ho trovato niente nell'ambito universitario di mio gradimento
+e quindi ho deciso di fare un anno sabbatico-lavorativo.
+Questo articolo nasce da esperienze dirette di clienti che mi hanno contattato per sistemare il loro sito
+perché il precedente autore non aveva fatto un buon lavoro.
+Perché i file obsoleti non vengono rimossi
+per una questione di tempo
+di corruzione dei file
+e di aggiornamenti automatici del database.
+Come abbiamo visto negli episodi precedenti
+una community non è altro che una grande azienda con un fine specifico più nobile
+dove l’obiettivo non sono il profitto ma il progetto stesso.
+In questo modo la soluzione è offerta da chi ha il problema
+quindi il diretto interessato puó fornire una delle migliori soluzioni e si interviene successivamente.
 Tutto questo per portare i volontari a pensare in modo costruttivo e non solo “lamentoso”.
 In ambito open source il metodo più semplice è quello di scrivere.
-Scrivere guide, processi, regole, analisi su documenti pubblicamente accessibili e revisionarli insieme agli altri volontari.
+Scrivere guide, processi, regole, analisi su documenti pubblicamente accessibili e revisionarli insieme agli altri volontari
 Tutto questo però lo deve fare il primo interessato.
-In questo modo si ha un esempio di soluzione, utile nel tempo ed aggiornabile dove tutti possono partecipare per migliorarlo e diventa parte del materiale della comunità oltre che della sua filosofia di trasparenza.
-Una cosa piccola come una guida, ad esempio, su come fare una campagna promozionale online basata sulla propria esperienza, con l’aiuto degli altri e di altre campagne realizzate precedentemente.
+In questo modo si ha un esempio di soluzione
+utile nel tempo ed aggiornabile
+dove tutti possono partecipare per migliorarlo
+e diventa parte del materiale della comunità oltre che della sua filosofia di trasparenza.
+Una cosa piccola come una guida
+ad esempio, su come fare una campagna promozionale online basata sulla propria esperienza
+con l’aiuto degli altri e di altre campagne realizzate precedentemente.
 Nelle community il reclutamento è importante perché una community che non cresce, stagna ed è destinata a morire.
-Consideriamo poi che questo è il mio approccio, personale, da italiano verso altri italiani, altre culture potrebbero trovarlo troppo da contatto ma da noi si è dimostrato funzionante.
-In Italia puoi parlare con una persona quanto vuoi via email o chat ma una volta che la incontri dal vivo sarete amiconi per sempre.
-Specifica che la chiacchierata è per cercare di capire quali sono i progetti più interessanti per lui e delle persone ma anche perché vuoi migliorare la comunicazione in quella zona (intesa come territorio)
+Consideriamo poi che questo è il mio approccio, personale, da italiano verso altri italiani
+altre culture potrebbero trovarlo troppo da contatto ma da noi si è dimostrato funzionante.
+In Italia puoi parlare con una persona quanto vuoi via email o chat
+ma una volta che la incontri dal vivo sarete amiconi per sempre.
+Specifica che la chiacchierata è per cercare di capire quali sono i progetti più interessanti per lui
+e delle persone
+ma anche perché vuoi migliorare la comunicazione in quella zona
+intesa come territorio
 Racconta la tua esperienza come volontario, alle persone piace sentire le storie da parte dei “rappresentanti”.
 Una introduzione di due righe che spiega il progetto e il perché è nato senza un discorso di un'ora.
 Chiaro, conciso e facile da ricordare oltre che convincere le persone della bontà del progetto.
-In questo modo si forniscono molte informazioni senza entrare nei dettagli permettendo di offrire una varietà di argomenti con cui continuare la discussione e convincere la persona.
-Evitare i concetti filosofici all’inizio aiuta a rendere la discussione più leggera ed interessante perché sarà l’ascoltatore a volerti chiedere di più.
+In questo modo si forniscono molte informazioni senza entrare nei dettagli
+permettendo di offrire una varietà di argomenti con cui continuare la discussione e convincere la persona.
+Evitare i concetti filosofici all’inizio aiuta a rendere la discussione più leggera ed interessante
+perché sarà l’ascoltatore a volerti chiedere di più.
 Ad esempio un amante di grafica può essere di aiuto per la promozione del progetto nelle sue varie forme.
-Una persona brava con conoscenze sull’argomento può aiutare nella sensibilizzazione organizzando campagne online sfruttando le conoscenze di qualcuno che è bravo nella comunicazione online.
-Quando si parla a persone che vengono dal mondo tecnologico bisogna fornire motivazioni più forti per convincerli a mettere a disposizione le loro abilità per il progetto.
-Solitamente spiegare che si fornisce aiuto con corsi o vengono seguiti da altri più dentro al progetto li può convincere perché verranno aiutati ad imparare.
+Una persona brava con conoscenze sull’argomento può aiutare nella sensibilizzazione
+organizzando campagne online
+sfruttando le conoscenze di qualcuno che è bravo nella comunicazione online.
+Quando si parla a persone che vengono dal mondo tecnologico bisogna fornire motivazioni più forti
+per convincerli a mettere a disposizione le loro abilità per il progetto.
+Solitamente spiegare che si fornisce aiuto con corsi
+o vengono seguiti da altri più dentro al progetto
+li può convincere perché verranno aiutati ad imparare.
 Il mondo tecnologico è avido di nuove conoscenze sul tema
 quindi indirizzare la discussione su questi argomenti può risultare utile.
 Elencare anche i nuovi progetti o altri a cui l’interessato è adatto
