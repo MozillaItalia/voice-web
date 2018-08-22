@@ -143,7 +143,9 @@ per avere il miglior segnale come qualità
 se si rompono sono da buttare.
 Il libro, in quanto tale, appartiene all'autore, ma in quanto pensiero appartiene, senza voler esagerare, al genere umano.
 Tutti gli intelletti ne hanno diritto.
-Se uno dei due diritti, quello dello scrittore e quello dello spirito umano, dovesse essere sacrificato, sarebbe certo quello dello scrittore.
+Se uno dei due diritti dovesse essere sacrificato, sarebbe certo una catastrofe.
+sarebbe quello dello scrittore.
+quello dello scrittore e quello dello spirito umano.
 Dal momento che la nostra unica preoccupazione è l'interesse pubblico e tutti, lo dichiaro, vengono prima di noi.
 I nostri mercati, la nostra democrazia, la nostra scienza, le tradizioni della libertà di parola, e l'arte.
 Tutto dipende in maniera cruciale da un pubblico dominio di materiale liberamente accessibile.
@@ -151,18 +153,23 @@ Molto più di quanto non lo sia dal materiale informativo coperto da diritti di 
 Il pubblico dominio non è quanto rimane dopo che tutte le cose migliori siano state coperte dalle norme sulla proprietà.
 Il pubblico dominio è l'ambito da cui estraiamo i mattoni con cui costruire la nostra cultura.
 Rappresenta, di fatto, la maggior parte della nostra cultura.
-Per problemi di compatibilità intendiamo comportamenti diversi che i siti hanno in base al dispositivo e al browser che li visita.
-Contribuire è semplicissimo, in primo luogo a questo link trovi la discussione sul forum di Mozilla Italia che usiamo per coordinarci e segnalare i nuovi ticket aperti.
-Prima di segnalare un bug controlla che non ci sia già un issue aperto, sulla destra subito sotto il nome del sito trovi l'elenco coi link.
+Per problemi di compatibilità intendiamo comportamenti diversi che i siti hanno in base al dispositivo e al browser usato
+Contribuire è semplicissimo
+in primo luogo a questo link trovi la discussione sul forum di Mozilla Italia
+lo usiamo per coordinarci e segnalare i nuovi ticket aperti.
+Prima di segnalare un bug controlla che non ci sia già un issue aperto
+sulla destra, subito sotto il nome del sito, trovi l'elenco coi link.
 Sotto trovi i campi in parte pre-compilati per aprire il ticket.
-L'unico da compilare riguarda “altri commenti” in cui è consigliato l’inserimento di una spiegazione più dettagliata del problema.
+L'unico da compilare riguarda “altri commenti” in cui è consigliato l’inserimento di una spiegazione più dettagliata5.
 Dovete avere il profilo su mozillians e aver dimostrato interesse nelle nostre attività.
 Ogni stanza ha delle regole specifiche per le notifiche che possono essere diverse dal client desktop/mobile e browser.
-Cliccando sulla destra, sull’icona della campana, è possibile attivare le notifiche push in modo da essere aggiornati in tempo reale.
+Cliccando sulla destra, sull’icona della campana, è possibile attivare le notifiche push
+in modo da essere aggiornati in tempo reale.
 Partendo da questo punto, sviluppa in una frase o due qual è il problema che vuoi affrontare.
 Dopodiché bisogna analizzare in 4 punti: Attori, Ambiente, Interazione e Oggetti/Strumenti.
 Da questi 4 punti si realizza una storyboard con le cose fondamentali e più importanti del processo.
-Come possiamo coinvolgere i nostri volontari ad essere più attivi e promotori delle nostre attività in modo indipendente dal loro mentor?
+Come possiamo coinvolgere i nostri volontari ad essere più attivi e promotori delle nostre attività?
+in modo indipendente dal loro mentor?
 Il mentor ha un ruolo che ricopre, rispetto la sua community e rispetto a quella internazionale.
 Deve coinvolgere i suoi “allievi” nelle sue attività ed aiutarli nelle loro rendendoli liberi di sperimentare.
 Il mentor deve essere disponibile alle richieste, mai scorbutico e sempre gentile.
@@ -171,54 +178,76 @@ Inoltre le attività di un allievo come quelle di un mentor devono seguire gli i
 Tenerla aggiornata sulla situazione per una questione di trasparenza.
 Lo status delle attività deve essere tracciato per rendersi conto se la collaborazione funziona ed è produttiva.
 Per poter correggere il tiro e avere uno storico da riutilizzare in futuro.
-Un volontario esperto vuole organizzare un evento ma non ha ben chiaro come fare per coinvolgere i partecipanti al post evento.
+Un volontario esperto vuole organizzare un evento
+ma non ha ben chiaro come fare per coinvolgere i partecipanti al post evento.
 Abbiamo definito i primi punti chiave riguardo il problema ignorando l’organizzazione e l'evento in sé.
 Focalizzandoci sulla partecipazione della community nella organizzazione e valutazione della proposta.
-Organizzare un evento senza contare le necessità ed i feedback della community può anche permettere di fare un bell’evento ma senza nessun risultato utile.
+Organizzare un evento senza contare le necessità ed i feedback della community
+può anche permettere di fare un bell’evento ma senza nessun risultato utile.
 Quindi é importante l’intervento della community o del mentor per la creazione dell’incontro stesso.
 Alla fine della traduzione il documento sarà condiviso nella community per la revisione.
 Questo documento mira a fornire consigli concreti su come dovrebbe apparire attiva una community Mozilla.
-Il contenuto è frutto di vari studi e ricerche da esperienze passate di diverse community Mozilla, così come di altri progetti Open Source.
+Il contenuto è frutto di vari studi e ricerche da esperienze passate di diverse community Mozilla
+così come di altri progetti Open Source.
 Il primo passo per tutte le community è avere delle basi solide.
 Quella che segue è un’ottima documentazione per un modello governativo ideale e della sua organizzazione.
-Una volta raccolte queste informazioni, raggruppa i collaboratori per aree di interesse e fai scegliere loro almeno due persone a cui fare supervisionare i lavori.
+Una volta raccolte queste informazioni, raggruppa i collaboratori per aree di interesse
+e fai scegliere loro almeno due persone a cui fare supervisionare i lavori.
 Così da evitare e prevenire eventuali rallentamenti.
 È importante avere almeno una persona che faccia da coordinatore.
-I coordinatori dei progetti devono mantenersi in contatto con i team di coordinamento di Mozilla per scambiarsi feedback sugli obiettivi e sulle attività.
-Almeno una persona deve essere capace di esprimersi correttamente in lingua inglese per poter fare da tramite con i rispettivi collaboratori.
+I coordinatori dei progetti devono mantenersi in contatto con i team di coordinamento di Mozilla
+per scambiarsi feedback sugli obiettivi e sulle attività.
+Almeno una persona deve essere capace di esprimersi correttamente in lingua inglese
+per poter fare da tramite con i rispettivi collaboratori.
 Questo sarebbe il gruppo che prenderà le decisioni definitive sui temi della community.
 Deve essere aperto a chiunque abbia lavorato attivamente almeno per tre mesi all’interno della community.
 Avere già  molta esperienza da nuovo arrivato è la chiave per il successo e la crescita.
 Avere una chiara documentazione collegata alla vostra homepage potrebbe essere il primo passo.
 In un progetto, tutti devono tenere d’occhio le domande dei nuovi arrivati.
 I coordinatori del progetto non devono essere gli unici a fornire nozioni ed abilità ai nuovi arrivati.
-Tieni a mente quello che hai appreso su come le persone nella tua community vorrebbero essere riconosciute sulla base dei propri meriti.
-Mozilla Italia di base promuove e continua a promuovere ufficialmente tutte le attività, programmi e progetti promossi dalla Community Internazionale di Mozilla.
-Al fine di incrementare l'attrattiva della nostra community si è deciso di realizzare delle attività finalizzate a coinvolgere tutti i volontari generici che, non facendo parte di nessun programma nello specifico, vogliono collaborare alle attività promosse localmente da tutta la community Mozilla Italia.
-Al fine di organizzare e mantenere costantemente attiva la community locale è necessario determinare dei ruoli e delle responsabilità locali o decisionali.
+Tieni a mente quello che hai appreso su come le persone nella tua community vorrebbero essere riconosciute
+sulla base dei propri meriti.
+Mozilla Italia di base promuove e continua a promuovere ufficialmente tutte le attività, programmi e progetti Mozilla
+promossi dalla Community Internazionale di Mozilla.
+Al fine di incrementare l'attrattiva della nostra community
+si è deciso di realizzare delle attività finalizzate a coinvolgere tutti i volontari generici
+pur non facendo parte di nessun programma nello specifico
+vogliono collaborare alle attività promosse localmente da tutta la community Mozilla Italia.
+Al fine di organizzare e mantenere costantemente attiva la community locale
+è necessario determinare dei ruoli e delle responsabilità locali o decisionali.
 Esse non sono da intendersi di tipo verticale o gerarchiche ma funzionali.
-Volontari non facenti parte di programmi ufficiali Mozilla che hanno contribuito in modo significativo alle attività Locali e hanno ottenuto un “vouch” su mozillians.org
-I volontari, facenti parte di programmi specifici, devono prioritariamente svolgere le attività e sottostare alle regole generali definite dal programma stesso.
+Volontari non facenti parte di programmi ufficiali Mozilla
+che hanno contribuito in modo significativo alle attività Locali e hanno ottenuto un “vouch” su mozillians.org
+I volontari, facenti parte di programmi specifici, devono prioritariamente svolgere le attività
+devono sottostare alle regole generali definite dal programma stesso.
 Rispettare le norme comportamentali definite dalla community Internazionale e locale Italiana.
 Vedere paragrafo: Norme comportamentali.
-I volontari che non sono coinvolti in nessun programma specifico avranno, invece, la possibilità, attraverso il participation team locale, di esser coinvolti alle attività sopra menzionate.
+I volontari che non sono coinvolti in nessun programma specifico
+avranno, invece, la possibilità, attraverso il participation team locale, di esser coinvolti alle attività sopra menzionate.
 Con il supporto dei volontari che hanno ruoli attivi in programmi specifici, ove necessario.
-Le persone che vogliono far parte della community Italiana di Mozilla e non fanno parte di programmi promossi a livello internazionale.
+Le persone che vogliono far parte della community Italiana di Mozilla
+e non fanno parte di programmi promossi a livello internazionale.
 Attività già consolidate possono fare richiesta di iscrizione.
 Tale richiesta non è vincolante e selettiva.
-Si ritiene necessaria per poter eseguire un censimento della community, offrire la formazione e determinare quali attività i volontari sono più orientati a seguire.
-Tali attività dovranno essere supervisionate da membri del council o da coach specifici che dovranno offrire il loro supporto per l’organizzazione e la realizzazione delle stesse.
+Si ritiene necessaria per poter eseguire un censimento della community
+offrire la formazione e determinare quali attività i volontari sono più orientati a seguire.
+Tali attività dovranno essere supervisionate da membri del council o da coach specifici
+essi dovranno offrire il proprio supporto per l’organizzazione e la realizzazione delle stesse.
 Per ogni tipologia di attività verranno nominati dei coach specifici e in numero sufficiente.
 Poter gestire tutti i membri senza che il monte orario settimanale per questa attività superi un tetto massimo di due ore.
 tutti i volontari devono esser formati
 L'obiettivo di Mozilla Italia è quello di promuovere le attività, i programmi, le campagne a livello locale.
-Pertanto è necessario che i nuovi volontari vengano, in prima analisi, orientati verso tutte le iniziative ufficiali della fondazione.
-Nel caso in cui non possano prenderne parte, offrirgli la possibilità di realizzare attività promosse dal participation team nazionale.
-Inoltre, hanno l’opportunità di portare avanti progetti Open Source, collaborare con altre realtà locali che perseguono i nostri stessi obiettivi.
+Pertanto è necessario che i nuovi volontari vengano orientati verso tutte le iniziative ufficiali della fondazione.
+Nel caso in cui non possano prenderne parte
+offrirgli la possibilità di realizzare attività promosse dal participation team nazionale.
+Inoltre, hanno l’opportunità di portare avanti progetti Open Source
+collaborare con altre realtà locali che perseguono i nostri stessi obiettivi.
 Attività generiche proposte periodicamente da tutti i membri stessi della community oppure da campagne specifiche di Mozilla.
 Anche collaborazioni con altre community locali ma tali attività devono essere approvate dal council.
-Queste regole sono dei suggerimenti da seguire quando si parla con persone al di fuori del gruppo in modo da evitare discordanze e creare confusione con gli altri membri.
-Su profili social gestiti da più persone vige la regola di uniformare il testo in modo che non si capisca il tocco di persone diverse.
+Queste regole sono dei suggerimenti da seguire quando si parla con persone al di fuori del gruppo
+in modo da evitare discordanze e creare confusione con gli altri membri.
+Su profili social gestiti da più persone vige la regola di uniformare il testo
+in modo che non si capisca il tocco di persone diverse.
 Gli hashtag sono molto importanti ed è bene non abusarne ma si inseriscono alla fine della frase.
 Non va utilizzato gergo dialettale se non a scopi promozionali che segua sempre il codice di condotta.
 Non ci devono essere guerre di opinione nei messaggi se non a scopo promozionale ma allo stesso tempo equilibrati.
@@ -226,60 +255,119 @@ Evitare i flame che portano solo rumore e non benefico nella promozione.
 Sul profilo personale si può scrivere di essere un volontario Mozilla o Mozillian ma non che si lavori per Mozilla.
 Questo riguarda qualunque nomina si ricopre nella community nazionale e non.
 In caso di partecipazione in specifici programmi di Mozilla è possibile scrivere la qualifica.
-La comunicazione deve essere sempre di base formale e niente speculazioni anche se in alcuni tratti può non esserlo per cercare il coinvolgimento.
-In conclusione ricordati che il responsabile delle tue parole sei tu e che puoi mettere nei problemi tutta la community nazionale e non.
+La comunicazione deve essere sempre di base formale e niente speculazioni
+anche se in alcuni tratti può non esserlo per cercare il coinvolgimento.
+In conclusione ricordati che il responsabile delle tue parole sei tu
+e che puoi mettere nei problemi tutta la community nazionale e non.
 Ignorare queste regole non è tollerato essendo membro della community e può comportare l’allontanamento dalla stessa.
-Il progetto è nato per ampliare il team di traduttori di Mozilla Italia, cercando anche di capire i motivi che portano i nuovi volontari ad allontanarsi
-Ciascuno tramite il proprio profilo potrà tenere traccia dei compiti fatti e da fare, un team di volontari si occupa dei compiti eseguiti!
+Il progetto è nato per ampliare il team di traduttori di Mozilla Italia
+cercando anche di capire i motivi che portano i nuovi volontari ad allontanarsi
+Ciascuno tramite il proprio profilo potrà tenere traccia dei compiti fatti e da fare
+un team di volontari si occupa dei compiti eseguiti!
 Avendo a disposizione il codice è possibile cambiarlo, salvarlo od usarlo in altri progetti non legati all'originale
-La prima modalità, che permette al Comune di svolgere le funzioni anagrafiche utilizzando il sito web dell’ANPR, è completamente gratuita e consente comunque al Comune, di mantenere allineata una banca dati locale per l’espletamento di altre funzionalità
+La prima modalità
+permette al Comune di svolgere le funzioni anagrafiche utilizzando il sito web dell’ANPR
+è completamente gratuita e consente comunque al Comune, di mantenere allineata una banca dati locale
+per l’espletamento di altre funzionalità
 A carico del Comune è la predisposizione del file di subentro che contiene i dati delle proprie anagrafi.
-Qualora il Comune abbia esigenza di aggiornare automaticamente le proprie basi dati locali, necessarie per lo svolgimento dei propri compiti istituzionali diversi da quelli di natura propriamente anagrafica, utilizzerà i servizi che ANPR rende disponibili a questo scopo.
+Qualora il Comune abbia esigenza di aggiornare automaticamente le proprie basi dati locali
+necessarie per lo svolgimento dei propri compiti istituzionali diversi da quelli di natura propriamente anagrafica
+utilizzerà i servizi che ANPR rende disponibili a questo scopo.
 Per utilizzare questa modalità è dunque necessario che il Comune modifichi il software anagrafico per integrarlo con ANPR.
 Il Comune in tal caso opera attraverso il proprio sistema gestionale modificato.
 La prima operazione da fare per poter utilizzare ANPR è la “compilazione della scheda di monitoraggio”.
 La compilazione di tale scheda consente al Ministero dell’Interno di predisporre la richiesta.
-“Piano di subentro” e assegnare a ogni Comune la data a partire dalla quale potrà iniziare a svolgere i passi propedeutici all’utilizzo effettivo di ANPR illustrati di seguito.
-Durante la fase di test , si dovrà inviare una parte dei dati registrati nella base dati comunale: tali dati popoleranno l’ANPR, facilitando in questo modo le successive fasi di apprendimento e test delle restanti funzionalità.
-L’ambiente di test è destinato prevalentemente ai fornitori dei SW anagrafici comunali prima del rilascio della nuova versione al comune per l’avvio dei test di pre-subentro.
-Per l’accesso all’ambiente di test si utilizza un certificato di postazione e una user-id e password che saranno trasmesse via PEC ai Comuni successivamente alla compilazione della scheda di monitoraggio, con almeno due mesi di anticipo rispetto alla data indicata dal comune per l’avvio dei test.
-È la fase immediatamente successiva a quella di test, che viene utilizzata per rilevare, preliminarmente al subentro, la presenza di eventuali criticità nella base dati.
+“Piano di subentro” e assegnare a ogni Comune la data
+a partire dalla quale potrà iniziare a svolgere i passi propedeutici all’utilizzo effettivo di ANPR illustrati di seguito.
+Durante la fase di test, si dovrà inviare una parte dei dati registrati nella base dati comunale
+tali dati popoleranno l’ANPR
+facilitando in questo modo le successive fasi di apprendimento e test delle restanti funzionalità.
+L’ambiente di test è destinato prevalentemente ai fornitori dei SW anagrafici comunali
+prima del rilascio della nuova versione al comune per l’avvio dei test di pre-subentro.
+Per l’accesso all’ambiente di test si utilizza un certificato di postazione e una user-id e password
+che saranno trasmesse via PEC ai Comuni successivamente alla compilazione della scheda di monitoraggio
+con almeno due mesi di anticipo rispetto alla data indicata dal comune per l’avvio dei test.
+È la fase immediatamente successiva a quella di test
+viene utilizzata per rilevare, preliminarmente al subentro, la presenza di eventuali criticità nella base dati.
 Per poter eseguire questa fase è necessario aver predisposto il file di subentro.
-Si utilizza in questa fase un ambiente diverso da quello di test, che consente di simulare il subentro e la successiva fase di esercizio.
-In particolare, la validazione del codice fiscale consiste nel verificare se il codice fiscale e i dati che concorrono alla sua formazione, coincidono con quelli registrati dall’Agenzia delle Entrate.
-Durante il pre-subentro, i Comuni che riceveranno le segnalazioni di eventuali anomalie dovranno verificarle con attenzione, rimuoverle utilizzando le proprie applicazioni quando dipendono da cause imputabili al comune e, successivamente, effettuare un nuovo invio dei dati.
+Si utilizza in questa fase un ambiente diverso da quello di test
+consente di simulare il subentro e la successiva fase di esercizio.
+In particolare, la validazione del codice fiscale consiste nel verificare se il codice fiscale
+e i dati che concorrono alla sua formazione
+coincidono con quelli registrati dall’Agenzia delle Entrate.
+Durante il pre-subentro, i Comuni che riceveranno le segnalazioni di eventuali anomalie dovranno verificarle con attenzione
+rimuoverle utilizzando le proprie applicazioni quando dipendono da cause imputabili al comune
+e, successivamente, effettuare un nuovo invio dei dati.
 Le anomalie che non dipendono dal comune saranno gestite a livello centrale.
-Per l’accesso all’ambiente di pre-subentro si utilizzano al momento le stesse credenziali già distribuite per l’accesso all’ambiente di test e lo stesso certificato di postazione.
+Per l’accesso all’ambiente di pre-subentro si utilizzano al momento le stesse credenziali già distribuite per l’accesso
+accesso all’ambiente di test e lo stesso certificato di postazione.
 In quanto segue sono sintetizzati i controlli che il sistema ANPR assicura nella fase di emissione dei certificati.
-Per tutti i certificati anagrafici producibili dagli ufficiali di anagrafe attraverso il sistema ANPR, sono riportati i controlli e le condizioni sui dati che ne inibiscono l’emissione.
-L’applicazione 18app permette di gestire il beneficio nominale di 500 euro ai cittadini residenti nel territorio nazionale che compiono i diciotto anni di età nell’anno 2017.
+Per tutti i certificati anagrafici producibili dagli ufficiali di anagrafe attraverso il sistema ANPR
+sono riportati i controlli e le condizioni sui dati che ne inibiscono l’emissione.
+L’applicazione 18app permette di gestire il beneficio nominale di 500 euro ai cittadini residenti nel territorio nazionale
+che compiono i diciotto anni di età nell’anno 2017.
 In possesso, ove previsto, di permesso di soggiorno in corso di validità
-Sì, è necessario verificare l’identità del beneficiario tramite il confronto del nome e cognome presenti nel buono d’acquisto ed i riferimenti del documento d’identità esibito dal diciottenne.
+Sì, è necessario verificare l’identità del beneficiario tramite il confronto del nome e cognome presenti nel buono
+buono d’acquisto
+ed i riferimenti del documento d’identità esibito dal diciottenne.
 Questi ruoli possono richiedere specializzazioni verticali su temi specifici (es. visual design).
-Trasversali in grado di coprire diversi aspetti all’interno del processo progettuale (dalla ricerca alla prototipazione).
-Le competenze manageriali includono la capacità di lavorare in team in modo collaborativo, gestire le relazioni con tutti gli attori coinvolti nel percorso di innovazione, avere un forte orientamento al raggiungimento degli obiettivi e misurare costantemente l’andamento dei progetti.
-Competenze essenziali riguardano aspetti come l’empatia e la comunicazione, la capacità di inquadrare i problemi e gestire l’incertezza, quella di passare rapidamente dalla teoria alla pratica e saper risolvere i problemi.
-Le mappature del sistema sono delle rappresentazioni sintetiche di tutti gli attori coinvolti nell’erogazione del servizio, e dei flussi di motivazioni e valori che scambiano.
-Le mappe di sistema hanno il vantaggio di descrivere in modo visivo e sintetico una serie di contenuti che diversamente andrebbero descritti in modo testuale o verbale.
-Il vantaggio della rappresentazione visiva è quello di semplificare la complessità, portando alla luce i tratti salienti del sistema.
-Le mappe di sistema aiutano a chiarire le idee all’interno di gruppi di lavoro estesi, allineando il punto di vista su come è strutturato il sistema e quali sono gli scambi di valori in corso.
-Le mappature aiutano a focalizzare la discussione, ragionando in modo partecipato rispetto agli elementi che funzionano o non funzionano di un sistema e come potrebbero essere migliorati.
-Avere un’idea chiara delle necessità delle persone che utilizzano i servizi che progettiamo, e conoscere nel dettaglio la loro esperienza di interazione con i canali digitali o fisici che rappresentano il servizio, è fondamentale per costruire una base solida su cui strutturare il progetto o da cui partire per migliorarlo.
-Questi strumenti possono essere utilizzati dal gruppo di lavoro per ragionare sui vari aspetti che compongono il servizio e individuare funzionalità e flussi di interazione, oppure possono essere utilizzati per coinvolgere gli utenti all’interno del percorso di progettazione tramite delle sessioni di lavoro partecipato.
-In generale, si alimentano dei risultati di attività di ricerca quantitativa e qualitativa volta a comprendere i bisogni degli utenti.
-L’architettura dell’informazione consiste nell’organizzazione semantica e logica di ambienti informativi, sia fisici sia digitali, e serve a rendere i servizi pubblici più facili da trovare, da capire e da usare.
-Una buona architettura dell’informazione aiuta le persone a comprendere ciò che le circonda e a trovare ciò che cercano, sia online che offline.
+Trasversali in grado di coprire diversi aspetti all’interno del processo progettuale
+dalla ricerca alla prototipazione.
+Le competenze manageriali includono la capacità di lavorare in team in modo collaborativo
+gestire le relazioni con tutti gli attori coinvolti nel percorso di innovazione
+avere un forte orientamento al raggiungimento degli obiettivi
+e misurare costantemente l’andamento dei progetti.
+Competenze essenziali riguardano aspetti come l’empatia e la comunicazione
+la capacità di inquadrare i problemi e gestire l’incertezza
+la capacità di passare rapidamente dalla teoria alla pratica e saper risolvere i problemi.
+Le mappature del sistema sono delle rappresentazioni sintetiche di tutti gli attori coinvolti nell’erogazione del servizio
+e dei flussi di motivazioni e valori che scambiano.
+Le mappe di sistema hanno il vantaggio di descrivere in modo visivo e sintetico una serie di contenuti
+diversamente andrebbero descritti in modo testuale o verbale.
+Il vantaggio della rappresentazione visiva è quello di semplificare la complessità
+portando alla luce i tratti salienti del sistema.
+Le mappe di sistema aiutano a chiarire le idee all’interno di gruppi di lavoro estesi
+allineando il punto di vista su come è strutturato il sistema e quali sono gli scambi di valori in corso.
+Le mappature aiutano a focalizzare la discussione
+ragionando in modo partecipato rispetto agli elementi che funzionano o non funzionano di un sistema
+e come potrebbero essere migliorati.
+Avere un’idea chiara delle necessità delle persone che utilizzano i servizi che progettiamo
+e conoscere nel dettaglio la loro esperienza di interazione con i canali digitali o fisici che rappresentano il servizio
+è fondamentale per costruire una base solida su cui strutturare il progetto o da cui partire per migliorarlo.
+Questi strumenti possono essere utilizzati dal gruppo di lavoro per ragionare sui vari aspetti che compongono il servizio
+e individuare funzionalità e flussi di interazione
+oppure possono essere utilizzati per coinvolgere gli utenti all’interno del percorso di progettazione
+tramite delle sessioni di lavoro partecipato.
+In generale, si alimentano dei risultati di attività di ricerca quantitativa e qualitativa
+tale ricerca è volta a comprendere i bisogni degli utenti.
+L’architettura dell’informazione consiste nell’organizzazione semantica e logica di ambienti informativi
+sia fisici sia digitali
+e serve a rendere i servizi pubblici più facili da trovare, da capire e da usare.
+Una buona architettura dell’informazione aiuta le persone a comprendere ciò che le circonda
+e a trovare ciò che cercano, sia online che offline.
 Lavorare su questo ambito implica una seria riflessione sulla struttura dell’informazione e sul linguaggio.
-Il processo di progettazione dell’architettura dell’informazione di un sito web parte dall’analisi degli utenti, del contenuto del sito e del contesto nel quale si opera.
+Il processo di progettazione dell’architettura dell’informazione di un sito web parte dall’analisi degli utenti
+del contenuto del sito
+e del contesto nel quale si opera.
 Questo processo porta all’individuazione dei contenuti imprescindibili del progetto web.
-Progettare l’architettura dell’informazione significa soddisfare i bisogni degli utenti, creando contenuti utili e rilevanti che possano adattarsi al contesto di fruizione.
-Grazie alla ricerca sugli utenti e all’analisi del contesto, è possibile definire le funzioni principali del sito e di ogni sua pagina.
+Progettare l’architettura dell’informazione significa soddisfare i bisogni degli utenti
+creando contenuti utili e rilevanti che possano adattarsi al contesto di fruizione.
+Grazie alla ricerca sugli utenti e all’analisi del contesto
+è possibile definire le funzioni principali del sito e di ogni sua pagina.
 I contenuti diventano quindi parte integrante del servizio all’utente.
-È bene prendere decisioni sulla base dell’analisi dei dati riferiti all’utente in particolare i dati statistici di navigazione sul sito per comprendere il comportamento dell’utente la realizzazione di interviste.
-Lo scopo primario dell’interfaccia di un servizio web è quello di aiutare l’utente a raggiungere ciò che cerca in modo naturale e immediato, in modo quasi trasparente.
-Per questo, la coerenza dei vari elementi che la compongono, anche su diversi dispositivi, è un elemento fondante per la creazione di prodotti funzionali e semplici da usare.
-La fatturazione di buoni di spesa accettati relativi all’acquisto di tutti i beni e servizi previsti dalla normativa può avvenire in qualsiasi momento.
-In sede di registrazione al servizio 18app puoi inserire i tuoi punti negozio con i relativi dati di riferimento (provincia, comune ed indirizzo) corredati di recapiti telefonici, sito internet ed indirizzo di posta elettronica.
+È bene prendere decisioni sulla base dell’analisi dei dati riferiti all’utente
+in particolare i dati statistici di navigazione sul sito
+per comprendere il comportamento dell’utente la realizzazione di interviste.
+Lo scopo primario dell’interfaccia di un servizio web è quello di aiutare l’utente a raggiungere ciò che cerca
+in modo naturale e immediato
+in modo quasi trasparente.
+Per questo, la coerenza dei vari elementi che la compongono, anche su diversi dispositivi, è un elemento fondante
+per la creazione di prodotti funzionali e semplici da usare.
+La fatturazione di buoni di spesa accettati relativi all’acquisto di tutti i beni e servizi previsti dalla normativa
+può avvenire in qualsiasi momento.
+In sede di registrazione al servizio 18app puoi inserire i tuoi punti negozio con i relativi dati di riferimento
+provincia, comune ed indirizzo
+corredati di recapiti telefonici, sito internet ed indirizzo di posta elettronica.
 I musei che fanno riferimento al Ministero dei beni e delle attività culturali e del turismo
 sono censiti direttamente dalla Direzione Generale Musei
 e saranno geo-localizzabili dai diciottenni nell’applicazione a loro dedicata.
@@ -877,7 +965,8 @@ Appassionato cultore degli studi foscoliani
 fu egli eletto a far parte del Comitato per erigere un monumento in Santa Croce al Cantor dei Sepolcri.
 In quella occasione avendo avuto il piacere di ospitarlo in casa mia
 mi parve opportuno chiedergli il suo savio parere intorno a quel mio culinario lavoro.
-Dopo averlo esaminato, alle mie povere fatiche di tanti anni pronunziò la brutta sentenza: Questo è un libro che avrà poco esito.
+Dopo averlo esaminato, alle mie povere fatiche di tanti anni pronunziò la brutta sentenza
+Questo è un libro che avrà poco esito.
 Mi siete testimoni, che avrei potuto ammazzarlo e che gli faccio grazia
 per rispetto alla Santità di Nostro Signore, che ne affidò i preziosi giorni al suo Corriere
 Compiuta l’operazione, tornò alla sedia di posta e intimò al Corriere del Papa di scendere.
