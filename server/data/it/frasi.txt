@@ -10277,3 +10277,494 @@ Si risolvono tutte queste criticità.
 Il più utilizzato correntemente
 Tecnica più meccanica e quasi priva di ragionamento logico.
 Esistono anche altre 2 forme normalizzate, ma utilizzate raramente e in casi specifici.
+La diffusione dell'informatica ha avuto un fortissimo impatto sulla società moderna.
+Le nuove tecnologie hanno notevolmente rivoluzionato le nostre vite.
+La recente acquisizione di popolarità di un fenomeno.
+L'open source sta scatenando nel mercato del software una delle rivoluzioni maggiori degli ultimi anni.
+La Pubblica Amministrazione può trarre molti vantaggi dalle nuove opportunità che sono ora offerte.
+La mia analisi inizia con la nascita di questo fenomeno.
+Vi è un'analisi del rapporto con il mercato del software nel corso degli anni. 
+Nel secondo capitolo viene presentata la posizione della Pubblica Amministrazione in questo contesto.
+Il software open source può offrire nuove possibilità e vantaggi alle istituzioni scolastiche.
+Vi è un confronto tra software sviluppati e distribuiti liberamente e proprietari.
+Il capitolo conclusivo è incentrato sull'analisi dei risultati.
+Una ricerca empirica è stata svolta presso le scuole secondarie statali.
+Si è valutata la possibilità di implementare le stesse soluzioni.
+Esistono due principali tipologie di software: di base e applicativo.
+Il software di base é indispensabile al corretto funzionamento delle parti hardware del computer.
+Questo software è generalmente identificabile con il sistema operativo).
+Il software applicativo comprende i programmi rivolti a soddisfare le specifiche esigenze degli utenti.
+Il software proprietario ha restrizioni imposte dal creatore.
+Riguardano il suo utilizzo e la sua modifica.
+Queste restrizioni vengono ottenute tramite mezzi tecnici.
+Viene distribuito unicamente per trarne profitto.
+È necessario l'ottenimento di un permesso speciale dal proprietario.
+Per poter utilizzare questo tipo di software su uno specifico computer.
+Il freeware può essere copiato ed utilizzato gratuitamente.
+A volte gli sviluppatori richiedono come compenso solo le impressioni degli utenti.
+Il codice sorgente non viene distribuito dall'autore se non in casi eccezionali.
+Lo shareware viene liberamente distribuito tramite internet ma ha dei limiti.
+I limiti sono indicati nella licenza.
+Può prevedere un numero limitato di utilizzi
+Prima dell'acquisto della licenza sono disponibili solo una parte delle funzionalità.
+L’adware impone all'utente la visione di messaggi pubblicitari durante il suo impiego.
+È a fronte di un utilizzo gratuito.
+Ha un prezzo limitato.
+Nel software libero, il titolare dei diritti permette a chiunque di usufruire del programma e di ridistribuirlo.
+Può essere distribuito sia gratuitamente che a pagamento.
+Si trova in forma originale o anche dopo averlo modificato.
+L’accesso al codice sorgente é permesso.
+A questo tipo di software dedicheremo un ampio approfondimento nel prossimo paragrafo.
+Nei software di pubblico dominio, l’autore si priva di ogni diritto.
+Alcuni diritti vengono riconosciuti dalle norme in tema di proprietà intellettuale.
+Chiunque può copiare ed utilizzare il programma, assemblandolo ad altri o modificandolo.
+Non dover sostenere alcun costo di licenza.
+Questi programmi vengono spesso associati all’indicazione "no copyright".
+Il movimento Open Source si presenta come un modello di sviluppo e diffusione del software.
+È basato sulla cooperazione di una comunità mondiale di sviluppatori.
+Il codice sorgente del software viene distribuito.
+Permette a chiunque ne sia in grado di studiare nel dettaglio il funzionamento dei programmi.
+Si collabora allo sviluppo ed al miglioramento degli stessi.
+L’avvento di tale modello ha portato rilevanti modificazioni nelle dinamiche del mercato del software.
+Ha coinvolto sempre più ogni operatore del settore.
+È arrivato negli ultimi anni a suscitare l’interesse degli “addetti ai lavori” e dei singoli consumatori.
+La crescente popolarità del fenomeno ha contribuito allo sviluppo di esso.
+C'è un’erronea convinzione sul significato dell’espressione inglese "Free Software".
+Viene spesso letteralmente tradotta con l’espressione "Software Libero".
+Originariamente utilizzata per descrivere il modello.
+Il termine "free" in inglese significa sia libero sia gratuito.
+Si è diffusa la propensione a ritenerlo tale.
+Il software sviluppato e distribuito secondo questa filosofia debba necessariamente essere gratuito.
+Per evitare questo errore venne coniata nel 1998 l'espressione “Open Source”.
+L'espressione è volta a sottolineare la disponibilità dei sorgenti del software senza generare equivoci.
+La nuova espressione viene adottata con l'ulteriore obiettivo di rinnovare l'immagine del modello di sviluppo.
+Si vuole effettuare un riposizionamento nel mercato.
+Si sottolinea come potesse efficacemente avvicinarsi al contesto commerciale.
+Le due espressioni evidenziano anche due visioni diverse dello sviluppo del software.
+Secondo i sostenitori dell'“Open Source” si dovrebbe rilasciare il codice del proprio software .
+È una scelta commercialmente sostenibile e valida.
+L'espressione “Free Software” sottolinea invece questa convinzione.
+Il codice dovrebbe essere aperto per rispettare la libertà degli autori e degli utenti.
+È una citazione a Richard Stallman.
+Non pensiamo a 'free' come in 'free beer', ma piuttosto come in 'free speech'.
+La nascita del movimento Open Source è strettamente legata a Richard Marshall Stallman.
+È stato il suo primo protagonista.
+Richard Stallman ama definirsi “l’ultimo degli hacker”.
+Inizialmente si iscrive presso la prestigiosa università di Harvard.
+Stallman viene spinto dalla sua passione per i calcolatori.
+È insofferente verso burocrazia, assenza di cooperazione e di scambio culturale.
+Decide di trasferirsi presso il laboratorio di Intelligenza Artificiale del M.I.T.
+M.I.T é acronimo di Massachusetts Institute of Technology.
+Era all’epoca una comunità-baluardo degli hackers.
+Gli era stato offerto un posto come programmatore sistemista.
+Stallman racconta.
+Quando cominciai a lavorare nel laboratorio di Intelligenza Artificiale del MIT nel 1971.
+Entrai a far parte di una comunità in cui ci si scambiavano i programmi.
+Esisteva già da molti anni.
+La condivisione del software non si limitava alla nostra comunità.
+È una cosa vecchia quanto i computer.
+Condividere le ricette è antico come il cucinare.
+Nei primi anni ottanta il laboratorio di Intelligenza Artificiale dovette adeguarsi.
+Le richieste di sicurezza imponevano di limitare e controllare l’utilizzo dei calcolatori al suo interno.
+Contemporaneamente nascevano nuovi elaboratori dotati di un proprio sistema operativo.
+L’utilizzo era necessario per firmare un accordo di non-diffusione dello stesso.
+La nuova situazione creatasi all’interno del laboratorio.
+Non permetteva l’esistenza di una comunità cooperante.
+Nel 1983 Stallman lasciò il M.I.T.
+E' doverosa una specificazione a proposito del termine “hacker”.
+Viene troppe volte travisato dai media.
+Il Jargon File definisce il termine hacker come persone che “programmano con entusiasmo”.
+La condivisione delle informazioni è un bene positivo di formidabile efficacia.
+È un dovere etico condividere le loro competenze scrivendo free software.
+Devono facilitare l'accesso alle informazioni e alle risorse di calcolo ogniqualvolta sia possibile.
+Sempre più spesso viene erroneamente utilizzato il termine hacker al posto del più corretto cracker.
+Colui che distrugge le sicurezza di un sistema.
+Indica coloro che compiono atti di danneggiamento di sistemi informativi.
+Il dizionario online del gergo usato dagli hacker e dai professionisti dell'IT.
+Venne originariamente redatto da Raphael Finkel della Stanford University.
+È attualmente mantenuto da Eric S. Raymond, reperibile in inglese.
+Nel 1984 Stallman diede inizio al progetto GNU.
+Avendo come principale obiettivo la creazione di un sistema operativo disponibile gratuitamente.
+Potesse servire da piattaforma per i programmi che venivano sviluppati.
+Egli volle inoltre che il nuovo sistema operativo fosse compatibile con Unix.
+È il sistema operativo maggiormente utilizzato dai programmatori.
+Gli utenti potranno facilmente passare al suo utilizzo. 
+Il termine GNU è un acronimo che significa “GNU’s not Unix”.
+Fu scelto per sottolineare la distanza tra il nuovo sistema libero e Unix.
+Era all’epoca sistema proprietario della AT&T.
+Stallman impose come requisito fondamentale per GNU la distribuzione di tutti i sorgenti.
+Ognuno è libero di leggere, correggere e trasformare il codice.
+Si hanno in funzione delle sue specifiche esigenze.
+Nel 1985 Stallman costituì la Free Software Foundation.
+La FSF è un’organizzazione no profit basata su contributi volontari in lavoro e denaro degli aderenti.
+È finalizzata a raccogliere un insieme di professionisti.
+La FSF è progressivamente diventata un punto di riferimento per loro.
+Si è allo stesso tempo qualificata come garante della qualità e della protezione dei diritti.
+La FSF ha proposto una definizione di “software libero”.
+L'utente è libero di eseguire, copiare, distribuire, studiare, cambiare e migliorare il software.
+Più precisamente, esso si riferisce a quattro tipi di libertà per gli utenti del software.
+L'utente ha la libertà di eseguire il programma, per qualsiasi scopo (libertà 0).
+Egli ha la libertà di studiare come funziona il programma.
+L'utente può adattarlo in base alle proprie necessità (libertà 1).
+L’accesso al codice sorgente ne è un prerequisito.
+Libertà di ridistribuire copie in modo da aiutare il prossimo (libertà 2).
+Libertà  di  migliorare il programma e distribuirne pubblicamente i miglioramenti.
+Tutta la comunità ne trarrà beneficio (libertà 3).
+Stallman non ritenne opportuno rendere GNU di pubblico dominio.
+Un programma completamente libero avrebbe rischiato di estinguersi.
+Le sue varianti saebbero state utilizzate per un uso proprietario.
+Egli decise così di proteggere il prodotto con un nuovo tipo di licenza.
+La licenza GPL è acronimo di General Public Licence.
+Essa viene scherzosamente chiamata “copyleft”.
+Il “copyleft”, che Stallman chiama anche “permesso d’autore”.
+Consente a chi acquista un programma di utilizzarlo in un numero indefinito di copie.
+Può modificarlo a suo piacimento.
+Può distribuirlo nella forma originale o modificata, gratuitamente o a pagamento.
+Le condizioni sono di distribuirlo in formato sorgente e di imporre la firma del contratto.
+Nell’arco di sette anni la FSF realizzò un’enorme mole di programmi.
+Vennero realizzati compilatori, editor di testo, debugger.
+Nel 1990 il sistema GNU era quasi completo.
+Ma mancava ancora il kernel del sistema operativo.
+Il progetto di creazione del kernel era rimasto a livelli solo sperimentali.
+Grazie alla causa dell'attesa del rilascio del codice sorgente di una parte dello stesso.
+Si ebbero problemi nello sviluppo.
+Fu avviato all'interno del progetto GNU.
+Si tratta di un gioco di parole.
+Copyright è formato dalle parole “copy” (copia) e “right” (diritto, ma anche destra).
+Copyleft è formato delle parole "copy" (copia) e "left" (sinistra, ma anche lasciato).
+Egli chiarisce così il concetto.
+Il succo dell’idea di permesso d’autore consiste nel dare a chiunque il permesso.
+Era in grado di eseguire il programma, copiare il programma, modificare il programma.
+Poteva distribuirne versioni modificate, ma senza dare il permesso di aggiungere restrizioni.
+Le libertà essenziali che definiscono il “free software” sono garantite a chiunque ne abbia una copia.
+Diventano diritti inalienabili.
+Il kernel è come il “cuore” del sistema operativo.
+Si occupa di gestire l'utilizzo delle risorse hardware.
+da parte dei singoli programmi che essendo in esecuzione.
+Era uno studente ventenne di informatica dell’università di Helsinki.
+Nel 1990, Linus Benedict Torvalds, iniziò a scrivere per fini di studio un kernel.
+Si basò su Minix.
+Un sistema operativo didattico molto diffuso nelle università.
+Nel 1991 il kernel in versione 0.01 era pronto.
+Linus lo battezzò Linux.
+Adottò l'immagine di un pinguino, Tux, come suo simbolo.
+Decise di distribuirlo tramite Internet sotto licenza GPL.
+Negli anni seguenti il lavoro di centinaia di programmatori in tutto il mondo.
+Essendo stato coordinato dallo stesso Linus.
+Permise il raggiungimento della maturità del kernel stesso.
+Divenne nel 1992 quello del progetto GNU, dando origine così al sistema GNU/Linux.
+Completamente compatibile con lo Unix proprietario, ma Open Source.
+Il software Open Source si è sviluppato e diffuso in diversi ambiti.
+Dalla costituzione della FSF ad oggi.
+Creando perplessità soprattutto negli analisti di mercato.
+Si sono trovati a non riuscire ad applicare nessuno dei modelli economici conosciuti.
+La questione che si è aperta è stata la seguente.
+Come e perché distribuire un prodotto di questo tipo gratuitamente?
+Il mercato del software appartiene all'economia dell'informazione.
+È sostanzialmente diversa da quella degli altri prodotti.
+Nonostante il costo della copia di un'informazione sia infinitesimo.
+Perché qualcuno dovrebbe decidere di preoccuparsi del lavoro di sviluppo senza ricevere un compenso?
+La chiave di interpretazione può essere trovata nella filosofia degli sviluppatori.
+Il guadagno immediato che essi possono trovare seguendo questo tipo di sviluppo è nel prodotto finito stesso.
+Viene creato su misura per soddisfare le proprie specifiche esigenze.
+La condivisione delle informazioni e dei codici sorgente permette ad ognuno di apportare le modifiche che desidera.
+Nel contempo, garantisce la qualità e la sicurezza del codice stesso.
+Potendo essere continuamente controllato da chiunque.
+Non può contenere funzioni indesiderate o potenzialmente dannose.
+Presente in un messaggio al newsgroup comp.os.minix.
+Il 22 agosto 1991 Torvalds inizia a cercare aiuti e suggerimenti per il suo progetto tra gli appassionati.
+Il messaggio recitava.
+Ciao a tutti quelli che usano Minix.
+Sto realizzando un sistema operativo free.
+È solo per hobby, non sarà una cosa grossa e professionale come GNU per cloni 386 (486) AT.
+Ci lavoro da aprile e sta cominciando a prendere forma.
+Mi piacerebbe avere la vostra opinione su cosa vi piace/non vi piace in Minix.
+Perché il mio sistema operativo gli assomiglia in alcuni aspetti.
+Poco dopo, Torvalds mise a disposizione su Internet una prima versione sperimentale del suo lavoro.
+Questo messaggio chiarisce quanto il lavoro di Torvalds sia nato per interesse personale.
+Come sia diventato un ambizioso progetto internazionale.
+Grazie allo spirito di condivisione della conoscenza tipico della cultura hacker.
+Il modello di sviluppo del software open source è molto differente da quello del software proprietario.
+Eric Raymond ha definito i due diversi modelli organizzativi come “cattedrale” e “bazar”.
+Il modello “cattedrale” è tipico della progettazione del software proprietario.
+Coloro che lavorano a un progetto sono gerarchicamente organizzati.
+I tempi di sviluppo sono programmati in funzione delle esigenze di mercato. 
+Nel modello “bazar”, al contrario, non esiste una gerarchia predefinita.
+Ma ognuno ricopre il ruolo che è ritenuto in grado di svolgere al meglio.
+I rilasci sono frequenti.
+Permettere al più ampio numero possibile di programmatori e di utilizzatori di testare il programma.
+Il coordinamento è svolto da chi ha dato inizio al progetto.
+Da qualcuno che è ritenuto da tutti i collaboratori adatto a questo compito.
+Viene svolto principalmente grazie all'utilizzo di Internet.
+Gli sviluppatori sono talmente geograficamente distanti da rendere impossibile l'incontro di tutti i membri.
+La capacità di riconoscere le proposte che siano in grado di garantire la continuazione del progetto.
+Deve essere caratteristica principale garantire la stabilità del progetto senza intaccarne l'innovatività.
+Eric Raymond è uno dei maggiori attivisti a livello mondiale per la diffusione del software open source.
+Ha contribuito nel 1998 alla fondazione della “Open Source Initiative”.
+Un'associazione senza scopo di lucro.
+Favorire l'adozione dei principi del software open source nel mondo dell'industria.
+Concentrandosi prevalentemente sugli aspetti pratici.
+“The Cathedral and the Bazaar”, saggio del 1997 di Eric Raymond.
+Disponibile in italiano (“La cattedrale e il bazaar”) sul sito web dell'editore.
+Grazie a queste capacità che Linus Torvalds è stato in grado di far evolvere il suo progetto Linux.
+É ancora oggi riconosciuto da tutta la comunità come il principale mantainer del kernel.
+Gli analisti di mercato propongono una serie di argomentazioni a favore del software open source.
+Nel contempo rilevano una serie di argomentazioni contro l'adozione dello stesso.
+Per quanto riguarda gli argomenti a favore sono di maggior rilievo due argomentazioni.
+Il basso costo iniziale dovuto al risparmio dei costi delle licenze software.
+Per un'analisi più corretta dei costi si dovrebbe tenere conto dei costi delle diverse soluzioni.
+Confrontando i risultati con software proprietario o open source.
+La possibilità di rendersi indipendenti dai fornitori per l'assistenza e per aggiornamenti.
+Permette la scelta del fornitore più conveniente.
+Dà la possibilità di non essere danneggiati in caso di fallimento del fornitore scelto in partenza.
+La sicurezza data dal poter disporre del codice sorgente dei programmi utilizzati.
+Permette un più elevato controllo interno sia sui programmi che sui dati prodotti.
+Ha la possibilità di personalizzare il software.
+Adattarlo alle proprie esigenze sia di utilizzo che di implementazione sull'hardware.
+Delle argomentazioni a sfavore.
+Scarsa fiducia nel supporto fornito al software open source.
+L'instabilità del mercato, che potrebbe portare al rischio di fallimento di una società di servizi.
+Il periodo di assistenza previsto dal contratto è terminato.
+Mancanza di una versione compatibile di programmi proprietari dei quali non si può fare a meno.
+Carenza nel supporto delle periferiche.
+Mancanza di sviluppo di driver alternativi a quelli proprietari.
+La questione della valutazione è bene espressa dal Professor Angelo Raffaele Meo.
+La questione tratta della qualità del software open source.
+È molto difficile formulare un giudizio obiettivo sulla qualità di un prodotto software.
+Nasce probabilmente come conseguenza della soggettività del giudizio.
+Il dibattito sul confronto della qualità del software proprietario e del software libero è così infuocato. 
+I produttori del software proprietario sostengono un affermazione.
+Non può offrire alcuna garanzia di qualità il frutto di un lavoro collettivo.
+Viene svolto con modalità caotiche e anarcoidi.
+È svolto da una pluralità di lavoratori disseminati sulla superficie dell'intero pianeta.
+Riuscendo facilmente con questa argomentazione.
+Convinse la grande maggioranza degli imprenditori e dei manager nostrani.
+I sostenitori del software libero rilevano la qualità eccezionale dei prodotti più noti del loro mondo.
+Ne deducono una legge universale sulla superiorità del software libero.
+È un docente presso il Dipartimento di Automatica e Informatica del Politecnico di Torino.
+È anche il Presidente della commissione istituita dal Ministro per l'Innovazione e le Tecnologie
+Per svolgere un'indagine conoscitiva sul software open source.
+Per un'analisi più approfondita in questo senso si veda più avanti.
+A riprova della possibilità di successo del metodo di sviluppo del software open source.
+Possono essere citati numerosi progetti in sviluppo in tutto il mondo.
+Il progetto sicuramente più conosciuto è il già citato GNU/Linux.
+Esistono migliaia di applicativi.
+Molti di questi sono diventati molto popolari non solo tra gli appassionati, ma anche in ambito professionale.
+Arrivando in alcuni casi a produrre delle vere e proprie “killer application”.
+Un progetto di successo: Apache.
+Nel 1994 il mercato dei server era dominato da due prototipi.
+Ve ne era uno sviluppato al CERN di Ginevra.
+Ve ne è un altro realizzato dall'NCSA dell'Università dell'Illinois.
+NCSA è acronimo di National Center for Supercomputer Applications.
+Il sito internet che ospita e promuove la più grande raccolta di progetti open source.
+Essi vengono mantenuti da programmatori di tutto il mondo.
+Sono attualmente più di 160000.
+La "killer application" é un software, che riesce a penetrare nel mercato e ad imporsi sui prodotti concorrenti.
+Ci si riferisce quindi ad un prodotto di successo.
+Parliamo di Brian Behlendorf, il tecnico e programmatore ventunenne.
+Egli sarebbe diventato leader dello sviluppo di Apache.
+Gestiva allora uno dei primi Internet Service Provider (ISP) commerciali.
+Sentiva il bisogno di continui miglioramenti del servizio.
+I ricercatori dell'NCSA recepivano lentamente i suoi suggerimenti.
+Behlendorf e altri sei giovani costituirono un gruppo autonomo per la creazione di un nuovo web server.
+Rapidamente si espanse e produsse quell'autentica meraviglia che è Apache.
+La diffusione di questo prodotto, è stata eccezionale.
+Oggi Apache è considerato il più importante e diffuso "www server" a livello mondiale.
+Prima diffusa nella comunità scientifica e successivamente anche nelle imprese.
+La società americana Netcraft monitora costantemente i siti web attivi.
+Pubblica sul suo sito ogni mese un rapporto.
+Rende pubbliche le percentuali misurate di presenza dei diversi web server sul mercato. 
+Da questi dati si ricava come sia stata rapida l'espansione di Apache.
+La percentuale è cresciuta rapidamente.
+Dal 31% del 1996 riuscì a coprire il 70% del mercato dei server nel 2005.
+In seguito, la diffusione di Apache ha registrato un calo.
+Dovuto probabilmente al rilascio di nuove versioni.
+Molto più performanti ed affidabili dei principali concorrenti.
+Fino ad arrivare all'attuale 50% circa del mercato dei server.
+La rilevazione dei dati fatta dalla Netcraft risulta però in parte falsata.
+Nel maggio 2007 la società ha modificato il sistema di conteggio dei server sul quale si basano le statistiche.
+Aggiungendo agli sviluppatori rilevati Google.
+Prima era accomunato allo stesso Apache.
+La filosofia del software open source non è, come molti credono, contraria al commercio.
+Anzi ammette e incoraggia la vendita di servizi relativi al software prodotto secondo questo modello.
+Come ad esempio quando viene sviluppato nuovo software.
+La personalizzazione e la distribuzione di software esistente.
+L'insegnamento della programmazione o l'alfabetizzazione informatica.
+Esistono svariate aziende che esercitano queste attività sia a livello locale che mondiale.
+Per comprendere come guadagnano queste aziende.
+Ci si può affidare all'ottima analisi del mercato svolta da Eric Raymond nel saggio “Il calderone magico”.
+Raymond sottolinea come il mercato del software sia basato più sul valore d'uso del software stesso.
+Non è basato sul suo valore effettivo di mercato.
+É possibile ottenere un vantaggio economico “regalando” il codice sorgente.
+Guadagnando sui servizi ad esso collegati.
+Propone cinque modelli commerciali e due modelli teorici applicabili in questo contesto.
+Il software open source viene utilizzato per creare o mantenere una posizione sul mercato.
+Un software proprietario che sia fonte diretta di profitti.
+“Widget frosting”: questo modello riguarda i produttori di hardware.
+Il software è solo una spesa aggiuntiva.
+Distribuendo il codice del proprio software garantiscono maggiore affidabilità e flessibilità.
+I propri clienti che possono modificare il software secondo le loro esigenze.
+“Rivelare la ricetta, aprire un ristorante”.
+É il modello seguito dai distributori di Linux.
+Creano nicchie di mercato nel settore dei servizi grazie all'elevato valore aggiunto dei loro prodotti.
+Fornire accessori.
+Qesto modello si concretizza con la produzione e la vendita di accessori per il software open source.
+Partendo dalla documentazione di livello professionale.
+Fino ad arrivare al merchandising (a tutti i livelli, dalle tazze da the alle magliette).
+Liberare il futuro, vendere il presente.
+In questo modello il software viene rilasciato in file binario.
+Il codice sorgente è sotto licenza commerciale.
+Contenente una data di scadenza della non disponibilità del codice sorgente.
+Liberare il software, vendere il marchio.
+Questo modello rappresenta una strategia aziendale.
+Consiste nel rendere open source una tecnologia software.
+Vendere agli utenti un marchio.
+Certifichi la compatibilità dei loro prodotti con quella particolare tecnologia.
+Liberare il software, vendere il contenuto.
+Anche quest'ultimo modello rappresenta una possibile strategia aziendale.
+In questo caso viene reso disponibile il codice sorgente del software.
+Vendere abbonamenti per accedere ai contenuti erogati.
+Dato che il modello open source non è ancora maturo.
+Le dinamiche economiche che lo accompagnano sono in piena evoluzione.
+É quindi possibile che si sviluppino nuovi modelli commerciali oltre a quelli da lui presentati.
+Ci sono alcuni esempi di aziende che investono nel software libero.
+Seguendo questi modelli sono nate e si sono sviluppate molte aziende.
+Le più conosciute sono sicuramente le aziende che si occupano di distribuzioni di GNU/Linux.
+Il loro compito è quello di unire il sistema operativo a diversi applicativi.
+Aggiungere i tool di installazione del sistema.
+Preoccuparsi del packaging del prodotto finale.
+Comprende abitualmente i supporti per l'installazione e i manuali di utilizzo necessari.
+Tra le più importanti aziende di questo tipo possiamo ricordare Red Hat.
+É nata nel 1994 ed è stata per anni il più importante venditore del sistema operativo open source.
+Puntando soprattutto sulla vendita e sull'assistenza alle aziende con la linea “Enterprise Linux”. 
+Red Hat si è proposta come pioniere in un mercato all'epoca quasi inesplorato.
+É riuscita ad emergere arrivando nel 1999 ad essere quotata in borsa.
+Negli anni, il fiorire della concorrenza ha portato l'azienda a dei cambiamenti.
+Ci sono stati alcuni importanti cambiamenti nelle politiche di mercato.
+Stringere accordi per la distribuzione di prodotti e servizi.
+Con le maggiori aziende che producono hardware (Sun, Hp e IBM).
+Per almeno un decennio c'è poi l'azienda americana Novell Inc.
+Essa è stata seconda solo alla Red Hat.
+Ha inizialmente cercato di offrire un insieme di software e servizi basati su Unix.
+Sono stati sviluppati per competere con Microsoft.
+Ha nel tempo trovato in Linux un nuovo e più valido strumento per raggiungere i suoi obiettivi.
+Le principali tappe dell'evoluzione dell'azienda sono indubbiamente importanti.
+L'acquisizione della Ximian nell'autunno 2003
+L'acquisizione di Suse a gennaio 2004.
+Hanno portato al perfezionamento dell'offerta dell'azienda.
+Ora è in grado di offrire una soluzione completa.
+É disponibile sia per gli utenti desktop sia per le grandi aziende.
+Nel 2006, Novell ha stipulato una serie di accordi con Microsoft.
+Essi prevedono la collaborazione delle due società allo sviluppo.
+Prevedono la commercializzazione.
+Lo sviluppo di nuove soluzioni.
+Capaci di migliorare l'interoperabilità tra due piattaforme.
+La Ximian era specializzata nello sviluppo di ambienti desktop integrati per Linux.
+Servizi per la loro installazione e manutenzione a livello enterprise.
+La società tedesca Suse, nata nel 1992, aveva sviluppato una propria distribuzione Linux.
+Nota per la semplicità di installazione e di configurazione nonché per la stabilità.
+Era riuscita ad emergere nel mercato delle distribuzioni.
+È riuscita ad attestarsi come la seconda distribuzione più utilizzata.
+Altra grande distributrice del sistema operativo Linux è Mandriva.
+Nata nei primi mesi del 2005.
+Dall'acquisizione da parte della francese MandrakeSoft della brasiliana Conectiva.
+Manovra che permise all'azienda di uscire dalla grave crisi finanziaria.
+Nel 2003 l'aveva esposta al rischio di bancarotta.
+Mandriva si rivolge a diversi livelli di utenza.
+Grazie alle diverse soluzioni che ha posto sul mercato.
+Può contare su una distribuzione dalla testata stabilità.
+Infine, anche se ce ne sarebbero molte altre, citiamo la storica distribuzione Debian.
+Nota per la sua stabilità e per questo ampiamente utilizzata nel mondo professionale.
+La sua derivata Ubuntu e le più diffuse negli ultimi anni.
+Unisce alla garanzia data da Debian.
+Una facilità di utilizzo che la rende usufruibile anche dai meno esperti.
+Esistono poi molte altre aziende di dimensioni minori ma ugualmente qualificate.
+Svolgono questo servizio a livello nazionale o locale.
+Tra le distribuzioni Linux italiane possiamo citare QiLinux, Fox Linux e Bad Penguin.
+Questi accordi hanno scatenato innumerevoli polemiche soprattutto tra gli attori.
+La documentazione prodotta per la stampa dalle società coinvolte è disponibile sui rispettivi siti.
+MandrakeSoft, nata nel 1998, aveva sviluppato la propria distribuzione Mandrake Linux.
+Volendo essere un clone della distribuzione Red Hat alla quale aveva apportato modifiche.
+Esse riguardavano soprattutto la parte grafica.
+In modo tale che rendessero più intuitivo l'utilizzo.
+La strategia si era rivelata vincente.
+Aveva permesso all'azienda di raggiungere elevati valori a livello di fatturato.
+Avere un'ottima posizione nel mercato.
+Agli inizi del 2003 però, la società si è vista costretta a dichiarare bancarotta.
+Pur riuscendo a continuare la sua attività.
+Conectiva, era un'azienda con 60 dipendenti e sedi a Curitiba, São Paulo e Manaus.
+La sua distribuzione non era particolarmente diffusa al di fuori dell'America Latina.
+Tra i suoi clienti erano annoverati importanti istituzioni finanziarie.
+Senza contare degli governativi e militari brasiliani.
+L'azienda vantava inoltre accordi con colossi del settore come HP, IBM e Siemens.
+La distribuzione Debian nasce nel 1993 grazie all'americano Ian Murdock.
+Lo sviluppo del progetto segue delle rigide regole, formalizzate nel “Contratto Sociale Debian”.
+Permettono alla distribuzione di mantenere la stabilità che l'ha resa famosa.
+La distribuzione Ubuntu, sviluppata dalla Canonical del sudafricano Mark Shuttleworth, nasce nel 2004.
+La sua facilità la rende in breve tempo una delle più utilizzate.
+Ubuntu è inoltre disponibile in diverse versioni, adatte a utenti con diverse esigenze.
+Oltre ai distributori di Linux vi sono molte grandi e piccole aziende.
+Hanno negli ultimi anni deciso di investire nel software open source.
+A volte come prodotto di punta, altre volte come prodotto alternativo o semplicemente a livello di ricerca.
+La più nota è sicuramente l'americana IBM, che ha iniziato nel 2000 ad investire nel software open source.
+In particolar modo su Linux come sistema operativo per i suoi server.
+L'annuncio nel 2001 di un piano d'investimento di 1 milione di dollari da parte dell'azienda.
+Ha portato tutto il mercato a considerare seriamente le proposte dell'open source anche per le aziende.
+IBM ha dimostrato in pochi anni come la sua non fosse affatto una manovra avventata.
+Il progetto ha avuto un grande successo e oggi la società dispone di una strategia ramificata.
+Essa raggiunge tutti i livelli di mercato e di un portafoglio software.
+Dimostra quanto seriamente l'azienda abbia valutato le opportunità offerte dal software open source. 
+È un'altra grande azienda che ha deciso di puntare molto sull' open source.
+È senza dubbio l'americana Sun Microsystems che però è in una posizione più controversa.
+Da un lato l'azienda produce una tipologia di processori proprietari, i processori Sparc.
+Essa produce una versione proprietaria di Unix, Solaris.
+Dall'altro lato Sun è l'azienda che ha rilasciato il codice sorgente di alcuni prodotti.
+OpenOffice e Mozilla sono solo alcuni esempi.
+Fornisce sostegno economico diretto a questi e ad altri progetti open source.
+Queste due multinazionali sono solo esempi delle molte aziende grandi e piccole.
+Hanno deciso di entrare in questo mercato emergente.
+Tra le altre è possibile citare Hewlett-Packard, Nokia, Google.
+L'uso all'interno delle loro infrastrutture, Boeing, Ferrari, Ikea, Peugeot e Citroen.
+IBM (International Business Machines Corporation) è la più grande azienda di informatica nel mondo.
+È anche una delle più antiche.
+Fondata nel 1911, attiva dal 1888, ha sede ad Armonk nello stato di New York degli USA.
+L'azienda produce computer.
+Anche se recentemente la divisione della produzione è stata ceduta alla cinese Lenovo.
+Offre software e servizi informatici.
+Elio Catania, presidente di IBM Italia dal 1999 al 2004.
+Dichiara in un'intervista per “La Repubblica” nel marzo 2004.
+Lei mi chiede perché la Ibm è diventata molto favorevole al sistema Linux.
+Io le rispondo che non si tratta di una bizzarria nostra o di una trovata.
+In realtà, è il mercato che spinge molto in questa direzione.
+Noi, che serviamo il mercato, abbiamo dovuto prenderne atto.
+Linux è semplicemente un sistema operativo che riesce a dialogare con tutte le piattaforme.
+Non è chiuso su se stesso, è aperto e va bene con tutti. 
+E oggi il mercato rifiuta i sistemi che sono chiusi su se stessi.
+Oggi la gente sente che il mondo sta cambiando molto in fretta.
+Vuole essere vincolata a una tecnologia il meno possibile.
+Vuole essere in grado di poter cambiare tutto dalla sera alla mattina.
+E Linux consente questo.
+Su Linux gira qualsiasi cosa e Linux dialoga con qualsiasi altra piattaforma.
+In sostanza, è la risposta a quello che il mercato ci andava chiedendo.
+E noi glielo stiamo dando.
+Sun Microsystems, fondata nel 1982 con sede a Santa Clara nello stato della California degli USA.
+É un'azienda produttrice di software e semiconduttori.
+Nota per la sua innovatività.
+Tra le altre cose, soprattutto per avere prodotto il linguaggio di programmazione Java.
+Il software proprietario è, in gran parte degli ambiti, quello maggiormente utilizzato.
+E' diffuso da tempo nel mercato.
+Può così contare su un'ampia base di utilizzatori.
+Può contare su un'indubbia notorietà per quanto riguarda le principali applicazioni.
+Le case produttrici di software proprietario sono molte.
+Alcune sono produttrici di software di diverso tipo.
+Altre sono molto specializzate.
+La principale è senza dubbio Microsoft, una tra le più longeve.
+É una delle aziende con il maggior numero di mercati d'interesse.
+Microsoft Corporation è la più grande azienda produttrice di software nel mondo.
+Ha sede a Redmond, nello stato di Washington degli USA. 
+E' conosciuta in tutto il mondo per essere leader del mercato dei sistemi operativi.
+É leader del software di produttività d'ufficio.
+Grazie al suo carismatico fondatore, Bill Gates.
+Grazie a ad un'attenta strategia di marketing che accompagna la società fin dagli inizi.
+Nel 1975 l’informatica inizia a svilupparsi perlopiù da gruppi di appassionati.
+Come fosse un avventura condivisa all’interno delle università.
