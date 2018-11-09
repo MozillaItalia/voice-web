@@ -10097,8 +10097,8 @@ Amministrata oggi da Organizzazione mondiale per la proprietà intellettuale del
 Creata nel 2001.
 Ti ricordi com'era il mondo?
 Impedisce lo sviluppo di internet, ad esempio un video per la Francia potrebbe non essere accessibile in Spagna
-La durata é di 70 anni dalla morte dell’autore.
-Praticamente tutto il materiale dello scorso secolo é sotto diritto d’autore
+La durata è di 70 anni dalla morte dell’autore.
+Praticamente tutto il materiale dello scorso secolo è sotto diritto d’autore
 La crescita del materiale degli ultimi anni rende difficile la diffusione di servizi come Netflix o Spotify
 Ultima direttiva sugli ebook impone il pagamento delle tasse dal paese di residenza del compratore
 Diversa per ognuno dei 28 paesi dell’Unione Europea
@@ -10151,7 +10151,7 @@ Il fusibile era morto cambiato e ora possiamo ricaricare i telefoni
 Grazie della informazione, me lo segno subito
 Ho preso tanto sole in questi giorni e non vedo l'ora che si faccia nuovolo di nuovo!
 Finalmente si mangia come si deve e non come all'estero!
-Aggiungi un posto a tavola che c'é un amico in più!
+Aggiungi un posto a tavola che c'è un amico in più!
 Il libro, in quanto libro, appartiene all‘autore
 Ma in quanto pensiero appartiene, senza voler esagerare, al genere umano. 
 Se uno dei due diritti
@@ -10228,7 +10228,7 @@ Tutte le schermate richiedono un’accuratezza del 90%, così sicuramente dovrai
 Perché leggendo il tempo vola
 Dove leggere è un piacere irrinunciabile, dove la scrittura è arte
 Ancora una volta a sostegno della cultura.
-Aggiungi un posto a tavola che c'é un amico in più!
+Aggiungi un posto a tavola che c'è un amico in più!
 Nuoto, allenarsi per superare i propri limiti
 Concetto di limite matematico
 Limiti archivi fisici e database
@@ -10291,7 +10291,7 @@ Il capitolo conclusivo è incentrato sull'analisi dei risultati.
 Una ricerca empirica è stata svolta presso le scuole secondarie statali.
 Si è valutata la possibilità di implementare le stesse soluzioni.
 Esistono due principali tipologie di software: di base e applicativo.
-Il software di base é indispensabile al corretto funzionamento delle parti hardware del computer.
+Il software di base è indispensabile al corretto funzionamento delle parti hardware del computer.
 Questo software è generalmente identificabile con il sistema operativo).
 Il software applicativo comprende i programmi rivolti a soddisfare le specifiche esigenze degli utenti.
 Il software proprietario ha restrizioni imposte dal creatore.
@@ -10313,7 +10313,7 @@ Ha un prezzo limitato.
 Nel software libero, il titolare dei diritti permette a chiunque di usufruire del programma e di ridistribuirlo.
 Può essere distribuito sia gratuitamente che a pagamento.
 Si trova in forma originale o anche dopo averlo modificato.
-L’accesso al codice sorgente é permesso.
+L’accesso al codice sorgente è permesso.
 A questo tipo di software dedicheremo un ampio approfondimento nel prossimo paragrafo.
 Nei software di pubblico dominio, l’autore si priva di ogni diritto.
 Alcuni diritti vengono riconosciuti dalle norme in tema di proprietà intellettuale.
@@ -10327,7 +10327,7 @@ Permette a chiunque ne sia in grado di studiare nel dettaglio il funzionamento d
 Si collabora allo sviluppo ed al miglioramento degli stessi.
 L’avvento di tale modello ha portato rilevanti modificazioni nelle dinamiche del mercato del software.
 Ha coinvolto sempre più ogni operatore del settore.
-È arrivato negli ultimi anni a suscitare l’interesse degli “addetti ai lavori” e dei singoli consumatori.
+È arrivato negli ultimi anni a suscitare l’interesse degli "addetti ai lavori" e dei singoli consumatori.
 La crescente popolarità del fenomeno ha contribuito allo sviluppo di esso.
 C'è un’erronea convinzione sul significato dell’espressione inglese "Free Software".
 Viene spesso letteralmente tradotta con l’espressione "Software Libero".
@@ -10335,26 +10335,26 @@ Originariamente utilizzata per descrivere il modello.
 Il termine "free" in inglese significa sia libero sia gratuito.
 Si è diffusa la propensione a ritenerlo tale.
 Il software sviluppato e distribuito secondo questa filosofia debba necessariamente essere gratuito.
-Per evitare questo errore venne coniata nel 1998 l'espressione “Open Source”.
+Per evitare questo errore venne coniata nel 1998 l'espressione "Open Source".
 L'espressione è volta a sottolineare la disponibilità dei sorgenti del software senza generare equivoci.
 La nuova espressione viene adottata con l'ulteriore obiettivo di rinnovare l'immagine del modello di sviluppo.
 Si vuole effettuare un riposizionamento nel mercato.
 Si sottolinea come potesse efficacemente avvicinarsi al contesto commerciale.
 Le due espressioni evidenziano anche due visioni diverse dello sviluppo del software.
-Secondo i sostenitori dell'“Open Source” si dovrebbe rilasciare il codice del proprio software .
+Secondo i sostenitori dell'Open Source si dovrebbe rilasciare il codice del proprio software.
 È una scelta commercialmente sostenibile e valida.
-L'espressione “Free Software” sottolinea invece questa convinzione.
+L'espressione "Free Software" sottolinea invece questa convinzione.
 Il codice dovrebbe essere aperto per rispettare la libertà degli autori e degli utenti.
 È una citazione a Richard Stallman.
 Non pensiamo a 'free' come in 'free beer', ma piuttosto come in 'free speech'.
 La nascita del movimento Open Source è strettamente legata a Richard Marshall Stallman.
 È stato il suo primo protagonista.
-Richard Stallman ama definirsi “l’ultimo degli hacker”.
+Richard Stallman ama definirsi "l’ultimo degli hacker".
 Inizialmente si iscrive presso la prestigiosa università di Harvard.
 Stallman viene spinto dalla sua passione per i calcolatori.
 È insofferente verso burocrazia, assenza di cooperazione e di scambio culturale.
 Decide di trasferirsi presso il laboratorio di Intelligenza Artificiale del M.I.T.
-M.I.T é acronimo di Massachusetts Institute of Technology.
+M.I.T è acronimo di Massachusetts Institute of Technology.
 Era all’epoca una comunità-baluardo degli hackers.
 Gli era stato offerto un posto come programmatore sistemista.
 Stallman racconta.
@@ -10373,7 +10373,7 @@ Non permetteva l’esistenza di una comunità cooperante.
 Nel 1983 Stallman lasciò il M.I.T.
 E' doverosa una specificazione a proposito del termine “hacker”.
 Viene troppe volte travisato dai media.
-Il Jargon File definisce il termine hacker come persone che “programmano con entusiasmo”.
+Il Jargon File definisce il termine hacker come persone che "programmano con entusiasmo”.
 La condivisione delle informazioni è un bene positivo di formidabile efficacia.
 È un dovere etico condividere le loro competenze scrivendo free software.
 Devono facilitare l'accesso alle informazioni e alle risorse di calcolo ogniqualvolta sia possibile.
@@ -10500,14 +10500,15 @@ Gli sviluppatori sono talmente geograficamente distanti da rendere impossibile l
 La capacità di riconoscere le proposte che siano in grado di garantire la continuazione del progetto.
 Deve essere caratteristica principale garantire la stabilità del progetto senza intaccarne l'innovatività.
 Eric Raymond è uno dei maggiori attivisti a livello mondiale per la diffusione del software open source.
-Ha contribuito nel 1998 alla fondazione della “Open Source Initiative”.
+Ha contribuito nel 1998 alla fondazione della "Open Source Initiative".
 Un'associazione senza scopo di lucro.
 Favorire l'adozione dei principi del software open source nel mondo dell'industria.
 Concentrandosi prevalentemente sugli aspetti pratici.
-“The Cathedral and the Bazaar”, saggio del 1997 di Eric Raymond.
-Disponibile in italiano (“La cattedrale e il bazaar”) sul sito web dell'editore.
+"The Cathedral and the Bazaar", saggio del 1997 di Eric Raymond.
+È disponibile in italiano sul sito web dell'editore.
+Il libro è intitolato: "La cattedrale e il bazaar".
 Grazie a queste capacità che Linus Torvalds è stato in grado di far evolvere il suo progetto Linux.
-É ancora oggi riconosciuto da tutta la comunità come il principale mantainer del kernel.
+È ancora oggi riconosciuto da tutta la comunità come il principale mantainer del kernel.
 Gli analisti di mercato propongono una serie di argomentazioni a favore del software open source.
 Nel contempo rilevano una serie di argomentazioni contro l'adozione dello stesso.
 Per quanto riguarda gli argomenti a favore sono di maggior rilievo due argomentazioni.
@@ -10559,7 +10560,7 @@ NCSA è acronimo di National Center for Supercomputer Applications.
 Il sito internet che ospita e promuove la più grande raccolta di progetti open source.
 Essi vengono mantenuti da programmatori di tutto il mondo.
 Sono attualmente più di 160000.
-La "killer application" é un software, che riesce a penetrare nel mercato e ad imporsi sui prodotti concorrenti.
+La "killer application" è un software, che riesce a penetrare nel mercato e ad imporsi sui prodotti concorrenti.
 Ci si riferisce quindi ad un prodotto di successo.
 Parliamo di Brian Behlendorf, il tecnico e programmatore ventunenne.
 Egli sarebbe diventato leader dello sviluppo di Apache.
@@ -10576,18 +10577,19 @@ Pubblica sul suo sito ogni mese un rapporto.
 Rende pubbliche le percentuali misurate di presenza dei diversi web server sul mercato. 
 Da questi dati si ricava come sia stata rapida l'espansione di Apache.
 La percentuale è cresciuta rapidamente.
-Dal 31% del 1996 riuscì a coprire il 70% del mercato dei server nel 2005.
+Dal 31% del 1996 riuscì a ritagliarsi una buona fetta di mercato.
+Venne coperto nel 2005 il 70% del mercato dei server.
 In seguito, la diffusione di Apache ha registrato un calo.
 Dovuto probabilmente al rilascio di nuove versioni.
 Molto più performanti ed affidabili dei principali concorrenti.
 Fino ad arrivare all'attuale 50% circa del mercato dei server.
 La rilevazione dei dati fatta dalla Netcraft risulta però in parte falsata.
 Nel maggio 2007 la società ha modificato il sistema di conteggio dei server sul quale si basano le statistiche.
-Aggiungendo agli sviluppatori rilevati Google.
+Puoi provare ad utilizzare i server DNS di Google.
 Prima era accomunato allo stesso Apache.
 La filosofia del software open source non è, come molti credono, contraria al commercio.
 Anzi ammette e incoraggia la vendita di servizi relativi al software prodotto secondo questo modello.
-Come ad esempio quando viene sviluppato nuovo software.
+Come, ad esempio, quando viene sviluppato nuovo software.
 La personalizzazione e la distribuzione di software esistente.
 L'insegnamento della programmazione o l'alfabetizzazione informatica.
 Esistono svariate aziende che esercitano queste attività sia a livello locale che mondiale.
@@ -10595,20 +10597,20 @@ Per comprendere come guadagnano queste aziende.
 Ci si può affidare all'ottima analisi del mercato svolta da Eric Raymond nel saggio “Il calderone magico”.
 Raymond sottolinea come il mercato del software sia basato più sul valore d'uso del software stesso.
 Non è basato sul suo valore effettivo di mercato.
-É possibile ottenere un vantaggio economico “regalando” il codice sorgente.
+È possibile ottenere un vantaggio economico “regalando” il codice sorgente.
 Guadagnando sui servizi ad esso collegati.
 Propone cinque modelli commerciali e due modelli teorici applicabili in questo contesto.
 Il software open source viene utilizzato per creare o mantenere una posizione sul mercato.
 Un software proprietario che sia fonte diretta di profitti.
-“Widget frosting”: questo modello riguarda i produttori di hardware.
+Questo modello riguarda i produttori di hardware.
 Il software è solo una spesa aggiuntiva.
 Distribuendo il codice del proprio software garantiscono maggiore affidabilità e flessibilità.
 I propri clienti che possono modificare il software secondo le loro esigenze.
-“Rivelare la ricetta, aprire un ristorante”.
-É il modello seguito dai distributori di Linux.
+Rivelare la ricetta, aprire un ristorante.
+È il modello seguito dai distributori di Linux.
 Creano nicchie di mercato nel settore dei servizi grazie all'elevato valore aggiunto dei loro prodotti.
 Fornire accessori.
-Qesto modello si concretizza con la produzione e la vendita di accessori per il software open source.
+Questo modello si concretizza con la produzione e la vendita di accessori per il software open source.
 Partendo dalla documentazione di livello professionale.
 Fino ad arrivare al merchandising (a tutti i livelli, dalle tazze da the alle magliette).
 Liberare il futuro, vendere il presente.
@@ -10626,7 +10628,7 @@ In questo caso viene reso disponibile il codice sorgente del software.
 Vendere abbonamenti per accedere ai contenuti erogati.
 Dato che il modello open source non è ancora maturo.
 Le dinamiche economiche che lo accompagnano sono in piena evoluzione.
-É quindi possibile che si sviluppino nuovi modelli commerciali oltre a quelli da lui presentati.
+È quindi possibile che si sviluppino nuovi modelli commerciali oltre a quelli da lui presentati.
 Ci sono alcuni esempi di aziende che investono nel software libero.
 Seguendo questi modelli sono nate e si sono sviluppate molte aziende.
 Le più conosciute sono sicuramente le aziende che si occupano di distribuzioni di GNU/Linux.
@@ -10635,10 +10637,10 @@ Aggiungere i tool di installazione del sistema.
 Preoccuparsi del packaging del prodotto finale.
 Comprende abitualmente i supporti per l'installazione e i manuali di utilizzo necessari.
 Tra le più importanti aziende di questo tipo possiamo ricordare Red Hat.
-É nata nel 1994 ed è stata per anni il più importante venditore del sistema operativo open source.
-Puntando soprattutto sulla vendita e sull'assistenza alle aziende con la linea “Enterprise Linux”. 
+È nata nel 1994 ed è stata per anni il più importante venditore del sistema operativo open source.
+Puntando soprattutto sulla vendita e sull'assistenza alle aziende con la linea ““Enterprise Linux”. 
 Red Hat si è proposta come pioniere in un mercato all'epoca quasi inesplorato.
-É riuscita ad emergere arrivando nel 1999 ad essere quotata in borsa.
+È riuscita ad emergere arrivando nel 1999 ad essere quotata in borsa.
 Negli anni, il fiorire della concorrenza ha portato l'azienda a dei cambiamenti.
 Ci sono stati alcuni importanti cambiamenti nelle politiche di mercato.
 Stringere accordi per la distribuzione di prodotti e servizi.
