@@ -75,7 +75,7 @@ La community rappresenta il training perfetto per il mondo aziendale.
 Basato non su corsi o webinar ma sull’esperienza diretta di lavoro in team.
 I volontari sono sicuramente il patrimonio più grande sul quale le comunità di software libero possono contare.
 Una domanda molto comune per gli esperti.
-Affinché la maggior parte dei clienti quando leggono free od open source pensino subito “È gratis!”.
+Affinché la maggior parte dei clienti quando leggono free od open source pensino subito "È gratis!".
 A prescindere dal fatto che il sofware sia web, desktop o mobile.
 Effettivamente il fatto che il software open source sia gratuito è una leggenda metropolitana.
 La diffondiamo, sia noi produttori di software che noi fornitori di servizi.
@@ -160,7 +160,7 @@ Lo usiamo per coordinarci e segnalare i nuovi ticket aperti.
 Prima di segnalare un bug controlla che non ci sia già un issue aperto
 Sulla destra, subito sotto il nome del sito, trovi l'elenco coi link.
 Sotto trovi i campi in parte pre-compilati per aprire il ticket.
-L'unico da compilare riguarda “altri commenti” in cui è consigliato l’inserimento di una spiegazione più dettagliata5.
+L'unico da compilare riguarda "altri commenti" in cui è consigliato l’inserimento di una spiegazione più dettagliata5.
 Dovete avere il profilo su mozillians e aver dimostrato interesse nelle nostre attività.
 Ogni stanza ha delle regole specifiche per le notifiche che possono essere diverse dal client desktop/mobile e browser.
 Cliccando sulla destra, sull’icona della campana, è possibile attivare le notifiche push
@@ -171,7 +171,7 @@ Da questi 4 punti si realizza una storyboard con le cose fondamentali e più imp
 Come possiamo coinvolgere i nostri volontari ad essere più attivi e promotori delle nostre attività?
 In modo indipendente dal loro mentor?
 Il mentor ha un ruolo che ricopre, rispetto la sua community e rispetto a quella internazionale.
-Deve coinvolgere i suoi “allievi” nelle sue attività ed aiutarli nelle loro rendendoli liberi di sperimentare.
+Deve coinvolgere i suoi "allievi" nelle sue attività ed aiutarli nelle loro rendendoli liberi di sperimentare.
 Il mentor deve essere disponibile alle richieste, mai scorbutico e sempre gentile.
 Ma, soprattutto, preparato riguardo le attività dei suoi allievi in senso tecnico.
 Inoltre le attività di un allievo come quelle di un mentor devono seguire gli interessi della community.
@@ -217,7 +217,7 @@ Al fine di organizzare e mantenere costantemente attiva la community locale
 È necessario determinare dei ruoli e delle responsabilità locali o decisionali.
 Esse non sono da intendersi di tipo verticale o gerarchiche ma funzionali.
 Volontari non facenti parte di programmi ufficiali Mozilla
-Che hanno contribuito in modo significativo alle attività Locali e hanno ottenuto un “vouch” su mozillians.org
+Che hanno contribuito in modo significativo alle attività Locali e hanno ottenuto un "vouch" su mozillians.org
 I volontari, facenti parte di programmi specifici, devono prioritariamente svolgere le attività
 Devono sottostare alle regole generali definite dal programma stesso.
 Rispettare le norme comportamentali definite dalla community Internazionale e locale Italiana.
@@ -275,9 +275,9 @@ Necessarie per lo svolgimento dei propri compiti istituzionali diversi da quelli
 Utilizzerà i servizi che ANPR rende disponibili a questo scopo.
 Per utilizzare questa modalità è dunque necessario che il Comune modifichi il software anagrafico per integrarlo con ANPR.
 Il Comune in tal caso opera attraverso il proprio sistema gestionale modificato.
-La prima operazione da fare per poter utilizzare ANPR è la “compilazione della scheda di monitoraggio”.
+La prima operazione da fare per poter utilizzare ANPR è la "compilazione della scheda di monitoraggio".
 La compilazione di tale scheda consente al Ministero dell’Interno di predisporre la richiesta.
-“Piano di subentro” e assegnare a ogni Comune la data
+"Piano di subentro" e assegnare a ogni Comune la data
 A partire dalla quale potrà iniziare a svolgere i passi propedeutici all’utilizzo effettivo di ANPR illustrati di seguito.
 Durante la fase di test, si dovrà inviare una parte dei dati registrati nella base dati comunale
 Tali dati popoleranno l’ANPR
@@ -507,7 +507,7 @@ Trovi Mozilla Italia sia sul forum (forum.mozillaitalia.orgs) sia sui canali Tel
 Firefox è creato dagli utenti per gli utenti.
 Non è realizzato per guadagnare (Mozilla è una fondazione no profit), ma per offrire un'esperienza di navigazione unica.
 Scegli il browser libero, sicuro, affidabile e indipendente.
-Firefox è il browser davvero “personale”.
+Firefox è il browser davvero "personale".
 Grazie alle migliaia di estensioni disponibili è possibile aggiungere nuove funzionalità
 E, se non trovi l'estensione adatta alle tue esigenze, puoi svilupparla tu stesso.
 Inoltre, la moltitudine di temi disponibili consente di personalizzare anche l'interfaccia grafica
@@ -519,7 +519,7 @@ La gestione avanzata delle password
 Il controllo dei cookie
 E le impostazioni di sicurezza personalizzate.
 Il sistema di aggiornamento automatico consente di mantenere il browser sempre aggiornato all’ultima versione disponibile.
-Il concetto di “comunità” è alla base della filosofia di Mozilla.
+Il concetto di "comunità" è alla base della filosofia di Mozilla.
 Centinaia di persone in tutto il mondo collaborano alla pubblicazione di articoli di supporto
 E offrono assistenza agli utenti nelle principali lingue mondiali.
 In Italia questo compito è affidato a Mozilla Italia che offre supporto
@@ -654,14 +654,14 @@ La frequenza del monitoraggio può variare a seconda delle caratteristiche dei f
 In tutti i casi le attività di monitoraggio devono essere documentate mediante un efficace sistema di reportistica.
 Nell'ultima fase, sulla base del livello misurato di raggiungimento degli obiettivi rispetto ai target prefissati
 Si effettua la valutazione.
-Ovvero si formula un “giudizio” complessivo sulla performance
+Ovvero si formula un "giudizio" complessivo sulla performance
 Cercando di comprendere i fattori (interni ed esterni) che possono aver influito positivamente o negativamente
 Valutazione sul grado di raggiungimento degli obiettivi medesimi.
 Anche al fine di apprendere per migliorare nell'anno successivo.
 In questa guida trovi una selezione di termini associati alla Pubblica Amministrazione
 Generano spesso dubbi di ortografia.
 Abbiamo elencato anche diversi esempi di termini tipici del contesto burocratico della Pubblica Amministrazione
-Il cosiddetto “burocratese”
+Il cosiddetto "burocratese"
 Possono essere sostituiti con parole più semplici senza perdere significato.
 In alcuni casi esistono più alternative corrette relative alla grafia di un singolo termine.
 Abbiamo preferito fare una scelta, per favorire la diffusione di uno standard.
@@ -712,7 +712,7 @@ Una community non è altro che una grande azienda con un fine specifico più nob
 Dove l’obiettivo non sono il profitto ma il progetto stesso.
 In questo modo la soluzione è offerta da chi ha il problema
 Quindi il diretto interessato puó fornire una delle migliori soluzioni e si interviene successivamente.
-Tutto questo per portare i volontari a pensare in modo costruttivo e non solo “lamentoso”.
+Tutto questo per portare i volontari a pensare in modo costruttivo e non solo "lamentoso".
 In ambito open source il metodo più semplice è quello di scrivere.
 Scrivere guide, processi, regole, analisi su documenti pubblicamente accessibili e revisionarli insieme agli altri volontari
 Tutto questo però lo deve fare il primo interessato.
@@ -732,7 +732,7 @@ Specifica che la chiacchierata è per cercare di capire quali sono i progetti pi
 E delle persone
 Ma anche perché vuoi migliorare la comunicazione in quella zona
 Intesa come territorio
-Racconta la tua esperienza come volontario, alle persone piace sentire le storie da parte dei “rappresentanti”.
+Racconta la tua esperienza come volontario, alle persone piace sentire le storie da parte dei "rappresentanti".
 Una introduzione di due righe che spiega il progetto e il perché è nato senza un discorso di un'ora.
 Chiaro, conciso e facile da ricordare oltre che convincere le persone della bontà del progetto.
 In questo modo si forniscono molte informazioni senza entrare nei dettagli
@@ -768,7 +768,7 @@ Quindi con più esperienza e conoscenza.
 Il discorso lingua inglese spesso per alcuni è un problema
 Ma come abbiamo visto all’inizio è facilmente scavalcabile offrendo altre tipologie di attività
 Oltre al fatto che potranno imparare l’inglese.
-Bisogna parlare per reclutare e essere preparati con del materiale mentale per non risultare “presi alla sprovvista”.
+Bisogna parlare per reclutare e essere preparati con del materiale mentale per non risultare "presi alla sprovvista".
 Non dimenticare di lasciare un tuo recapito
 Non vorrai mica sprecare tutto il tempo di questa chiacchierata tralasciando questo dettaglio.
 Come ultima spiaggia se la persona non ha conoscenze specifiche
@@ -811,7 +811,7 @@ Anche per questo motivo, Wikimedia Italia da anni si batte
 Per ottenere una legislazione più favorevole al riutilizzo senza limiti
 E quindi anche a scopo commerciale
 Delle foto dei beni culturali in Italia.
-Un esempio del perché “riutilizzare senza limiti è bene” è dato dal concorso fotografico Wiki Love Monuments
+Un esempio del perché "riutilizzare senza limiti è bene" è dato dal concorso fotografico Wiki Love Monuments
 Il cui scopo è raccogliere immagini del patrimonio culturale mondiale affinché possano essere caricate su Wikipedia.
 Nato nel 2010 nei Paesi Bassi
 È il concorso fotografico più grande del mondo con oltre 10.000 partecipanti da 43 Paesi nel mondo.
@@ -936,7 +936,7 @@ Il tempo a disposizione non ci consente di esplorare tutte e cinque le vie che c
 Ma vorrei soffermarmi sulla quarta via.
 Ci dice qualcosa che forse può suonare antica alle orecchie del nostro mondo
 Spesso abituato a considerare l’elemosina come un gesto d’altri tempi
-“assistenziale” si direbbe.
+"assistenziale" si direbbe.
 Eppure, Giovanni Crisostomo ci invita a non disprezzare questa via per riconciliarci con Dio
 Recuperare il senso del rapporto personale con i poveri passa attraverso l'elemosina, l'amicizia.
 Nell’esperienza di Sant’Egidio ognuno, giovane o anziano,  impara che il primo gesto è fermarsi.
@@ -974,7 +974,7 @@ Questi non si fece pregare, e fu legato pur lui.
 L’ultimo a subire siffatta operazione fu il cocchiere.
 È una formalità, sai, gli diceva intanto il bandito, una semplice formalità.
 Per il buon funzionamento della scuola e la miglior riuscita del comune progetto educativo
-Si propone alle sue componenti fondamentali un “patto”
+Si propone alle sue componenti fondamentali un "patto"
 Cioè un insieme di principi, regole, comportamenti che ciascuno si impegna a rispettare.
 Questo patto va letto e sottoscritto dalla scuola, dalla famiglia, dallo studente all’atto di iscrizione.
 L’assunzione di questo impegno ha validità per l’intero periodo di permanenza
@@ -982,7 +982,7 @@ Di ciascun alunno nella nostra istituzione scolastica.
 Signor conte di Lavello  disse questi  non facciamo ragazzate.
 Arrivati a Tor Vergata piazza di Giovanni Paolo II
 Verso le 10:30 entrati nel grandioso teatro tenda creato appositamente per l’evento
-Abbiamo potuto assistere allo spettacolo teatrale “La Divina Commedia – L’opera”.
+Abbiamo potuto assistere allo spettacolo teatrale "La Divina Commedia – L’opera".
 Dopo esserci accomodati nei posti assegnatici siamo calati in un buio profondo
 All’improvviso è infranto da una luce che colpiva direttamente l’attore che personificava Dante
 Recitante i primi versi della Divina Commedia.
@@ -1006,7 +1006,7 @@ Dando così la sensazione di ricerca dell’entrata del monte.
 Fermatosi poi davanti ad un gruppo di anime che chiedevano a Dante di non dimenticarli e di pregare per loro.
 Ad ogni incontro con queste anime
 Durante tutto il tragitto inferno-purgatorio
-Dante ha potuto “intervistare” rimane sconvolto ed ha pietà di loro
+Dante ha potuto "intervistare" rimane sconvolto ed ha pietà di loro
 Ma Virgilio gli dice di avere pietà solo per se stesso.
 Dante arriva al girone dei poeti e degli artisti trovando così dei suoi amici.
 Dante durante il peregrinare chiede spesso di Beatrice
@@ -1150,7 +1150,7 @@ Che viene rappresentato sul pannello di controllo sottoforma di due grafici dist
 Il segnale che viene visualizzato nel grafico rosso è un onda quadra che permette solo valori di tipo booleano.
 L'esempio pratico per ottenere questi grafici è un pendolo a cui è attaccata una penna che scrive su un foglio.
 In questo modo possiamo ottenere i grafici ma di una sola frequenza.
-Per ottenere un grafico con 2 frequenze diverse basta utilizzare un piano oscillante su cui “scrive” il pendolo.
+Per ottenere un grafico con 2 frequenze diverse basta utilizzare un piano oscillante su cui "scrive" il pendolo.
 In questo modo otterremo un grafico contenente due frequenze.
 Nel nostro progetto è stato possibile realizzare anche una terza frequenza
 Che mostrasse nel grafico anche una terza ascissa z.
@@ -1206,9 +1206,9 @@ La tecnologia d'oggi è segnata più dal software che dalla macchina ma ormai no
 I componenti fisici dell'apparecchio
 Ha nuove funzioni importanti ma senza l'informatica ovvero il software non sarebbe niente.
 L'informatica è quello strumento che adatta la tecnologia a noi.
-Infatti come diceva Solly Zuckerman “la tecnologia è sempre stata con noi.
+Infatti come diceva Solly Zuckerman "la tecnologia è sempre stata con noi.
 Non è qualcosa al di fuori della società, qualche forza esterna dal quale veniamo sospinti.
-La società è la tecnologia sono riflessi l'una dell'altra”.
+La società è la tecnologia sono riflessi l'una dell'altra".
 In poche parole la tecnologia si adatta ai nostri bisogni.
 Siccome l'uomo inventa per dare benessere agli uomini perché dobbiamo rimanere indietro?
 Questo potrebbe definirsi lo slogan di una promozione che tra pochi giorni avverrà nel nostro bel paese.
@@ -1267,7 +1267,7 @@ I progressi della scienza sono un capitolo tra i più affascinanti nella storia 
 I suoi enormi successi sono stati raggiunti, peraltro, attraverso una delimitazione metodica.
 Ci si è limitati strettamente e del tutto consapevolmente a ricercare soltanto ciò che poteva essere misurato e contato.
 Ogni delimitazione comporta anche dei confini
-Sono “rimaste fuori” tutte le questioni che riguardano il perché dell’esistenza, da dove veniamo, dove andiamo.
+Sono "rimaste fuori" tutte le questioni che riguardano il perché dell’esistenza, da dove veniamo, dove andiamo.
 In Italia è uscita da poco la famosa rivista americana Wired.
 Questa rivista è l'anello di congiunzione per la tecnologia scienza e informatica per chi non né un esperto.
 Chissà cosa potrebbe diventare per l'Italia che è famosa per la sua arretratezza tecnologica.
@@ -1406,13 +1406,13 @@ La preoccupazione maggiore sorge se i risultati di questo controllo venissero co
 Questo sviluppo informatico provocò diverse teorie filosofiche sviluppate da matematici agli albori dell'informatica.
 Questo matematico fu l'ideatore della terminologia e dei test sull'Intelligenza Artificiale
 All'epoca era soltanto teoria
-Oggi questi test vengono usati sui modernissimi computer per verificare la loro “umanità”.
+Oggi questi test vengono usati sui modernissimi computer per verificare la loro "umanità".
 Infatti questo test permetterebbe di capire come i computer riescono a concatenare idee ed esprimerle.
 Attualmente nessun computer è riuscito a passare questo test
 La fantascienza robotica è ancora molto lontana
 La fantascienza informatica profetizzata da Turing è appena iniziata.
 La fantascienza utopica, di invasione della privacy, della libertà, del controllo sulle proprie azioni è reale.
-Non dimenticate che “Il Grande Fratello vi guarda”.
+Non dimenticate che "Il Grande Fratello vi guarda".
 Che cosa sono le aree cicloniche e le aree anticic1oniche?
 Sono le aree in cui i cicloni possono formarsi facilmente grazie alla bassa pressione
 I cicloni non si formano dove c'è alta pressione.
@@ -1510,7 +1510,7 @@ L'essere per se invece è trasparente e conferisce il significato alle cose.
 La capacità principale della coscienza è quella di saper trascendere la situazione
 Di conseguenza la coscienza è libertà perché tende a rifiutare ogni limite e ciò che rappresenta il mondo.
 Essa è sempre innovativa.
-Sartre afferma che “la coscienza è il nulla” perché può nullificare i dati di fatto e progettarli in nuovi modi.
+Sartre afferma che "la coscienza è il nulla" perché può nullificare i dati di fatto e progettarli in nuovi modi.
 Il filosofo afferma che se Dio esistesse l'uomo non sarebbe libero mentre lo è quindi Dio non esiste.
 Questa libertà però provoca soltanto dolore e angoscia perché l'uomo non sceglie la sua esistenza
 Non decide la propria libertà e siccome la libertà porta a essere liberi
@@ -1531,7 +1531,7 @@ Questo conflitto porta ad un confronto tra me e gli altri infinito che non mi pe
 Per capire questa limitazione si può pensare allo sguardo altrui che su di me provoca vergogna
 Prende il sopravvento su di me limitando la mia libertà.
 Per riaffermare la mia libertà devo giudicare a mia volta l'altro proseguendo questo ciclo infinito.
-Sartre dirà “l'inferno sono gli altri” perché sono il mezzo che permette di conoscersi mettendosi contro se stessi.
+Sartre dirà "l'inferno sono gli altri" perché sono il mezzo che permette di conoscersi mettendosi contro se stessi.
 Tali sostanze (acqua o gas) sono spinti a seconda del caso ed aumenteranno la pressione interna alla sacca
 Spingeranno il petrolio verso la torre di trivellazione.
 Dal petrolio greggio si possono ottenere attraverso la distillazione cherosene, benzene, benzina, pece, asfalto e bitumi.
@@ -1578,7 +1578,7 @@ La postura eretta permette alla testa un orientazione migliore così si può gua
 Gli ominidi discendono dalle scimmie catarrine che hanno la peculiarità di avere il naso rivolto verso il basso.
 Il primo ominide aveva un cranio molto simile a quello di un bambino e fu scoperto in Sud Africa.
 Le altre caratteristiche erano la postura eretta dovuta all'attacco della colonna vertebrale
-Diverso dalle scimmie e una rotondità del cranio più “umana”.
+Diverso dalle scimmie e una rotondità del cranio più "umana".
 La scoperta del cranio di Tuang, venne ignorata dagli scienziati
 Perché la culla della vita per loro non era l'Africa ma l'Asia o l'Europa
 E anche perché non erano stati trovati molti fossili all'epoca (1925) in quel continente.
@@ -1764,7 +1764,7 @@ I kaimichi dal collare sono alti 70-80 cm.
 Questo uccello vive soprattutto sul terreno e si  trovano vicino all’acqua ed alle paludi.
 Spesso camminano sui mucchi di vegetazione galleggiante per cercare del cibo.
 Di rado nuotano.
-Il suo nome "Kaimichi", in inglese “screamer”, ovvero urlatore
+Il suo nome "Kaimichi", in inglese "screamer", ovvero urlatore
 Perché il suo grido forte e profondo
 Di due note sonore
 Si può sentire a più di 1,5 km di distanza.
@@ -1772,7 +1772,7 @@ Questo uccello depone un gruppo di 4-6 uova entrambi i genitori covano.
 Possiede uno speroncino che nei combattimenti.
 Sono completamente coperti di una folta e soffice pelliccia grigio giallognola screziata sul muso.
 Che crea un  contrasto di colori più forte tanto da formare una curiosa mascherina nera.
-Prendono il soprannome di “orsetto lavatore” perché puliscono il loro cibo nell’acqua che poi si mangiano.
+Prendono il soprannome di "orsetto lavatore" perché puliscono il loro cibo nell’acqua che poi si mangiano.
 Mangiano di tutto da uova a pesci, da uccelli ad insetti, scoiattoli e frutta.
 Giocano con il cibo prima di mangiarlo e non perdono tempo a divertirsi con ramoscelli o con ciuffi d’erba
 Naturalmente lavano tutto.
@@ -1817,10 +1817,10 @@ Le femmine sono più piccole dei maschi.
 Si riconoscono dai ciuffi di peli intorno alla bocca.
 Sono mammiferi che hanno alcune caratteristiche che li differenziano da tutti gli altri animali.
 Non corrono bensì saltano con le zampe posteriori e usano la coda come bilanciere hanno una postura eretta.
-Possiedono una sacca chiamata “Marsupio” dove tengono i piccoli fino a quando diventano autonomi.
-La zampe anteriori le usano per difendere se stessi e i piccoli dando dei “pugni”.
+Possiedono una sacca chiamata "Marsupio" dove tengono i piccoli fino a quando diventano autonomi.
+La zampe anteriori le usano per difendere se stessi e i piccoli dando dei "pugni".
 Vivono in gruppi.
-Spesso fuggono dai visitatori “non amano la popolarità”.
+Spesso fuggono dai visitatori "non amano la popolarità".
 Sono dei parenti stretti dei cervi hanno delle corna molto fini verso la fine.
 Hanno il sedere bianco perché in presenza dei predatori scodinzolano la coda per prenderlo in giro
 E anche per avvisarli che gli possono fare del male.
@@ -1892,7 +1892,7 @@ Quando Apple ha permesso di sviluppare in Objective-C
 Le funzionalità del dispositivo sono diventate accessibili
 Ha portato una ventata di innovazione.
 Purtroppo, le web app non hanno ottenuto accesso alle caratteristiche del dispositivo
-E sono state abbandonate come “cittadini di seconda classe”
+E sono state abbandonate come "cittadini di seconda classe"
 Questo le ha rese meno interessanti sia per gli sviluppatori che per gli utenti
 In quanto non competitive in confronto alle app native di quei sistemi.
 L’idea alla base di tutto è che Mozilla non mette alcun limite.
@@ -2762,7 +2762,7 @@ E assolveva altri imputati per insufficienza di prove.
 Con sentenza del 14 maggio 1960
 La Corte di Cassazione dichiarava inammissibile il ricorso del pubblico ministero
 E così la sentenza d'appello diventava definitiva.
-Oggi viene ricordato l’eccidio grazie al “Memoriale di Portella della Ginestra”
+Oggi viene ricordato l’eccidio grazie al "Memoriale di Portella della Ginestra"
 Realizzato da Ettore De Conciliis, in collaborazione con Rocco Falciano e Giorgio Stockel.
 Ancor’oggi, l’eccidio è una delle stragi meno conosciute ma resta la più sanguinosa di tutte.
 Verga nasce nel 1840 a Catania da una famiglia benestante di idee liberali.
@@ -2789,16 +2789,16 @@ Le cupe storie di contadini e pescatori risultano sgradevoli.
 Così i Malavoglia fanno fiasco.
 Mastro don Gesualdo và un po’ meglio ma non raggiunge il successo dei romanzi mondani.
 Di tanto in tanto Verga torna a narrare storie sentimentali borghesi.
-È il caso del romanzo Il marito di Elena, definito dallo scrittore “una ciambella riuscita senza buco”.
+È il caso del romanzo Il marito di Elena, definito dallo scrittore "una ciambella riuscita senza buco".
 Dei suoi testi per il teatro quello che fa maggior successo è Cavalleria rusticana (1884)
-Storia a forti tinte di un “delitto d’onore”.
+Storia a forti tinte di un "delitto d’onore".
 Nel 1893 compie a ritroso il viaggio della sua giovinezza e si trasferisce definitivamente a Catania.
 Tornato in Sicilia, continua a scrivere ma il lavoro che più gli sta a cuore non riesce a prender forma
 E col passare degli anni finisce per rinunciare alla letteratura.
 Nel 1922 muore a Catania.
 Verga, durante il periodo Milanese, venne a contatto con gli studiosi Leopoldo Franchetti e Sidney Sonnino
 Erano giornalisti presso una rivista
-Si erano interessati alla tematica dei “Carusi” in Sicilia e collaborava con essi.
+Si erano interessati alla tematica dei "Carusi" in Sicilia e collaborava con essi.
 Nell’Inchiesta in Sicilia, scritta proprio da Franchetti e Sonnino
 Si dedica particolare attenzione al lavoro dei ragazzi
 I cosiddetti carusi, impiegati come garzoni nel duro lavoro nelle miniere di zolfo.
@@ -3130,7 +3130,7 @@ Quando terminò il consiglio, era notte inoltrata, e la Luna stava già discende
 Si diresse immediatamente, senza altri pensieri, verso la fortezza
 Ed entrò prima di ogni altra cosa nelle cucine, dove mangiò a sazietà, Uldor con lui.
 Era strano che un principe andasse a pranzare nelle stesse cucine del castello
-Ma egli soleva ripetere “Il cibo si raffredda su per le scale”
+Ma egli soleva ripetere "Il cibo si raffredda su per le scale"
 Nessuno poteva in qualche modo convincerlo a consumare i pasti nei suoi appartamenti
 Ne egli voleva convincersi di ciò.
 Dopo aver chiuso il buco che si sentiva allo stomaco da ore, salì la quarta torre e si fece un bagno
@@ -3981,7 +3981,7 @@ Le tesla non emettono CO2 e hanno prezzi abbordabili. Il traffico a Los Angeles 
 La soluzione è The Boring Company, la compagnia che scava tunnel sotterranei
 Nei tunnel scorrono dei carrelli che permettono alla tua automobile di viaggiare velocissima ed evitare spiacevoli code.
 L’esplorazione spaziale è in stallo per via degli elevati costi di produzione dei razzi?
-La soluzione è SpaceX, la compagnia che produce “razzi riciclabili"
+La soluzione è SpaceX, la compagnia che produce "razzi riciclabili"
 I booster sono in grado di tornare indietro e atterrare senza nemmeno un graffio, così da poter essere riutilizzati.
 Certe volte il futuro succede solo se ti rimbocchi le maniche e lo fai succedere.
 Il 6 febbraio 2018 in tanti si sono rimboccati le maniche e hanno spedito il Falcon Heavy verso Marte
@@ -4004,9 +4004,9 @@ Stare nel mezzo tra dolore e piacere e non sapere assolutamente dove andare.
 Ricercare sempre, ricercare tutto, non assecondare mai quel morire naturale, mantenersi vivi.
 Fare teatro, è necessario. Affermare di fare teatro è insieme una trappola ed una scappatoia.
 Il teatro è per natura, architettonica e ideologica, contenitore di tante cose
-Con l’affermazione “Io faccio teatro!” si sfugge facilmente alla necessità di dichiarare con onestà cosa si fa in teatro.
+Con l’affermazione "Io faccio teatro!" si sfugge facilmente alla necessità di dichiarare con onestà cosa si fa in teatro.
 Un po’ di esperienza l’ho maturata nel tempo
-Questa esperienza mi ha consentito di elaborare una mia personalissima definizione del “fare teatro”
+Questa esperienza mi ha consentito di elaborare una mia personalissima definizione del "fare teatro"
 Comprende tante sensazioni, pensieri ed emozioni che è difficile tradurre in parole.
 Fare teatro è per me:Muoversi su un pavimento impolverato.
 Non importa quante volte sarà stato pulito, lo strato di polvere ci sarà sempre.
@@ -4088,7 +4088,7 @@ Non c’è curiosità.
 C’è solo che a Morcone hanno una specie di mini rassegna teatrale estiva.
 Ma che vuoi farci lì non hanno Savastano.
 Lo spettacolo è strano.
-È decisamente un musical, la presenza e le musiche de “I posteggiatori tristi” lo rendono piuttosto chiaro
+È decisamente un musical, la presenza e le musiche de "I posteggiatori tristi" lo rendono piuttosto chiaro
 La scenografia, fatta come un libro rende chiaro il messaggio
 In ogni fiaba che si rispetti questi personaggi dopo un po’ escono fuori dal libro e diventano la realtà.
 Un operaio perfetto che non accusi mai stanchezza è surreale
@@ -4106,7 +4106,7 @@ Si ha sempre la sensazione che non sia abbastanza.
 Non è abbastanza divertente, non è abbastanza ritmato, non è abbastanza colorato.
 Non ci possono essere mezze misure : o sarà un successo totale o sarà una umiliazione.
 E lavorare per raggiungere il successo è la cosa più divertente del mondo.
-Mettere in piedi lo spettacolo “ Che Barba Lunga Che Hai!” è stato davvero divertente.
+Mettere in piedi lo spettacolo " Che Barba Lunga Che Hai!" è stato davvero divertente.
 In una settimana (scarsa) di prove abbiamo deciso di giocare e sperimentare
 Di solito siamo bravissimi a complicarci la vita e ad andare in ansia per i dettagli più insignificanti,
 Questa volta andavamo incontro ad una situazione totalmente nuova per noi
@@ -4531,16 +4531,16 @@ Vesti un palo che bel t'appare.
 Vive bene chi prende il mondo come viene.
 Voce di popolo, voce di Dio.
 Zotici e villani discuton con le mani.
-Cosa significa “Inclusione Digitale” ?
+Cosa significa "Inclusione Digitale" ?
 Siamo pronti ad accettare un Internet realmente globale?
-Chi è benvenuto “online”?
+Chi è benvenuto "online"?
 Siamo abituati e circondati da slogan che dichiarano che il web sia un rete globale.
 Purtroppo questo non sempre è vero!
 Non basta contare quante siano le persone che hanno accesso alla rete
 Bisogna considerare anche per quanti di noi l’accesso sia sicuro e significativo.
 Allo stato attuale circa metà della popolazione mondiale è già online e giorno dopo giorno il numero è destinato a crescere
-Questa crescita però non può sminuire il problema del “Digital divide” che purtroppo persiste
-Il “Digital divide” si sposta da un aspetto tecnologico ad un problema di conoscenze e abilità necessarie per poter navigare
+Questa crescita però non può sminuire il problema del "Digital divide" che purtroppo persiste
+Il "Digital divide" si sposta da un aspetto tecnologico ad un problema di conoscenze e abilità necessarie per poter navigare
 L’Inclusione Digitale dunque è un problema che rimane costante malgrado gli utenti della rete siano destinati a crescere
 Per creare una vera inclusione digitale non basta dare il libero accesso.
 Quanti sono i contenuti a cui possiamo avere accesso dalla nostra nazione?
@@ -4573,7 +4573,7 @@ Grazie a tutti coloro che in un modo o in un’altro hanno voluto condividere co
 Tra il pubblico erano presenti artisti, professionisti, nonché rappresentati del Collegio dei Periti Industriali
 Al termine di questa parentesi, abbiamo voluto realizzare una tavola rotonda inclusiva tra tutti gli spettatori e i relatori
 I temi principali sono stati le implicazioni che questa normativa ha nel quotidiano per i relatori coinvolti
-Le prospettive future derivate da quelle che sono le proposte in dibattimento a Bruxelles e i “side effect”
+Le prospettive future derivate da quelle che sono le proposte in dibattimento a Bruxelles e i "side effect"
 Derivano da una normativa inadeguata come quella attuale.
 Durante l’incontro si è parlato anche delle Fake News e di quelli che sono i fattori Sociali
 I fattori sociali influenzano sia il mercato che come viene recepita e applicata dalla cittadinanza una normativa
@@ -4608,7 +4608,7 @@ Le sessioni Demo sono state organizzate in tre differenti orari per ogni giornat
 Una per le Americhe, Una per Europa, Asia e Africa e Una per l’estremo Oriente e l’Australia.
 Le demo live hanno permesso a tutte le persone Online e Offline di poter conoscere meglio i progetti coinvolti
 O stato di salute di un giardino condivide molti attributi con lo stato di salute di Internet.
-Entrambi gli ecosistemi ci “nutrono” e ci danno l’opportunità di contribuire.
+Entrambi gli ecosistemi ci "nutrono" e ci danno l’opportunità di contribuire.
 Per questa ragione speriamo che ti unirai a noi dal 27 al 29 Ottobre
 Al Ravensbourne di Londra, per condividere con noi il divertimento!
 Un Giardino in salute ha la necessità di esser vario tanto quanto ha la necessità di difendersi da insetti e malattie.
@@ -4686,9 +4686,9 @@ Potevi incontrare ovunque un membro che ne faceva parte e non riconoscerlo.
 Una di quelle donne della setta, poteva anche essere in casa tua, poteva essere persino tua sorella senza che tu lo sapessi.
 È qui che nasce il modo di dire "se, tu sorella…".
 Quando accadeva qualche problema e non si conosceva la causa, ipotizzavano di avere una sovversiva in casa.
-L'arcaico "tu sorella", o sorellam tua (sì, non è il termine latino esatto, ma “sorellam” fa più ridere di soror)
+L'arcaico "tu sorella", o sorellam tua (sì, non è il termine latino esatto, ma "sorellam" fa più ridere di soror)
 Veniva spesso anche usato come malaugurio per auspicare a qualcuno di avere in casa una militante.
-La stessa accezione negativa può essere estesa anche a “tu zia”, in questo caso il malaugurio è di avere una zia sovversiva.
+La stessa accezione negativa può essere estesa anche a "tu zia", in questo caso il malaugurio è di avere una zia sovversiva.
 Tutti i peggiori avvenimenti di Roma si dice che furono progettati da questa setta segreta, la setta delle Toga Nigra.
 Dall'incendio di Roma del 64 a.C.
 Sotto Nerone, alla crisi idrica estiva del 2017 (riaccendete i nasoni per favore);
@@ -4717,7 +4717,7 @@ Negli anni, le combattenti di questa setta si sono dovute aggiornare e modernizz
 Un tempo le loro armi erano analogiche, ora possiedono arsenali digitali e hanno molti computer.
 Però, non quelli da fighetto hipster.
 Sono computer old school tipo l’IBM Thinkpad x60 e naturalmente usano solo ethical distro Linux come fa Richard Stallman
-Sistemi operativi che contengono solo codice free al loro interno. Free non come “free beer”.
+Sistemi operativi che contengono solo codice free al loro interno. Free non come "free beer".
 Nell'era digitale uno dei mezzi più utili per mettere in ginocchio il sistema è proprio il cyber-terrorismo
 Le ragazze della Toga Nigra, queste cyber-sorelle, sono ovunque e sanno fare bene il loro mestiere.
 Non scrivono comunicati come Anonymous, non twittano #tangodown quando tirano giù qualche sito.
@@ -4751,10 +4751,10 @@ So che in questo non c’entra la Toga Nigra e i disservizi urbani, però volevo
 C’è il problema del bancomat: tutti si lamentano che spesso a Roma non accettano le carte.
 Sono loro che lanciano attacchi DoS ai sistemi bancari.
 L’altro giorno mi trovavo in un ufficio pubblico ed era tutto sporco e malandato.
-Ho pensato: “È probabile siano stati sabotati gli addetti alle pulizie.
+Ho pensato: "È probabile siano stati sabotati gli addetti alle pulizie.
 Poco dopo la fondazione di Roma nel 753
 Avvenne uno dei fatti più leggendari che riguarda la mia città: il ratto delle Sabine.
-Da piccolo ero troppo impegnato a focalizzare la mia attenzione sulla parola “ratto”.
+Da piccolo ero troppo impegnato a focalizzare la mia attenzione sulla parola "ratto".
 Ho pensato quindi di utilizzare questo evento per iniziare il mio racconto.
 È un po’ come quando studiai Anacreonte e la professoressa mi raccontò del suo giovane amico.
 Il giovinetto Smerdi.
@@ -4763,8 +4763,8 @@ Space Cowboy era solo.
 I suoi compagni erano intrappolati nel caos cittadino e non avrebbero potuto aiutarlo.
 Dava uno sguardo ai binari del treno, a una Roma che lo affascinava, e subito si metteva davanti al computer.
 Come Mongoose anche lui lavorava nel buio della sua stanza, tra monitor, tastiere e tecnologia old school poco fighetta.
-Ho già usato l’epiteto “fighetto” in relazione alla tecnologia ed è ora che spieghi di cosa sto parlando.
-In poche parole, le cose della Apple sono considerate “fighette”, il resto no.
+Ho già usato l’epiteto "fighetto" in relazione alla tecnologia ed è ora che spieghi di cosa sto parlando.
+In poche parole, le cose della Apple sono considerate "fighette", il resto no.
 C'era una mappa sul monitor di Space Cowboy con un punto verde che si muoveva.
 Lui lo fissava con attenzione e lo seguiva con il dito.
 Sussurrava: <<Dai, dai, dai… su forza!>>.
@@ -4785,10 +4785,10 @@ Dal punto di vista dell’educazione alimentare, il giovane era una fogna, ma il
 Quell’oggetto non identificato era sempre più vicino, la musica di sottofondo si faceva più tenebrosa
 Space Cowboy sorseggiava impazientemente il suo tazzone di caffè.
 Niente più dubbi, il segnale era sotto casa sua.
-“Preparati giovane Space, adesso tutte le tue malefatte verranno a galla.
+"Preparati giovane Space, adesso tutte le tue malefatte verranno a galla.
 Per pigrizia non hai lanciato gli hard disk dalla finestra eh?
 Ti prenderanno.
-Finirai come Neo in Matrix nell’interrogatorio con Mr Smith”.
+Finirai come Neo in Matrix nell’interrogatorio con Mr Smith".
 Si sentivano dei passi, qualcuno stava salendo le scale.
 Possibile che il giorno prima Space Cowboy avesse lasciato tracce?
 Erano veramente gli sbirri?
@@ -4800,7 +4800,7 @@ Era sulla buona strada quando fuori dal call center vide Cinnamon Girl abbastanz
 Pareva avesse un aspetto robotico.
 Evidentemente Skynet aveva preso il controllo di Cinnamon, oppure lei era già da prima un cyborg.
 La ragazza entrò nell’internet point e iniziò a lanciare tutti i monitor, verso Space Cowboy per cercare di ucciderlo.
-Probabilmente lei vedeva tutto rosso, ed è possibile che leggesse il messaggio “target” sopra la faccia di Space Cowboy.
+Probabilmente lei vedeva tutto rosso, ed è possibile che leggesse il messaggio "target" sopra la faccia di Space Cowboy.
 I due ingaggiarono una lotta all’ultimo sangue.
 Il problema è che Space Cowboy, in quanto nerd flaccido, non avrebbe mai potuto contrastare una forza così potente.
 Quando il giovane volò in strada, lanciato da Cinnamon Girl, pensò fosse arrivata la sua fine.
@@ -4834,7 +4834,7 @@ Ora il problema principale è: dove si trova il router cittadino e come bisogna 
 L’apparato si trova a Forte Antenne, Municipio II, all’interno di Villa Ada.
 Nei sotterranei del forte, che è tuttora zona militare.
 Introdursi lì è quasi impossibile, quel luogo è inespugnabile.
-Poi Lala diede una passata di scopa molto forte sui fili e inavvertitamente riavviò il “routerone” cittadino.
+Poi Lala diede una passata di scopa molto forte sui fili e inavvertitamente riavviò il "routerone" cittadino.
 Cinnamon si bloccò e cadde a terra.
 E Skynet Milanese smise di funzionare del tutto, per sempre.
 Era stata sconfitta.
@@ -5781,7 +5781,7 @@ Nella prima edizione era stata usata la chiave della grammatica
 Nella seconda la punteggiatura
 Questa volta, un argomento senz’altro più divertente: l’italiano delle canzoni.
 Sensibilizzare sull’uso corretto della lingua
-È necessario in quest’epoca in cui, ad esempio, si usa sempre più spesso “kk” invece che “cch”
+È necessario in quest’epoca in cui, ad esempio, si usa sempre più spesso "kk" invece che "cch"
 Si scrivono tante parole sbagliate
 Oppure non si esprime a pieno ciò che era nelle intenzioni
 Anche a causa della modalità T9 del cellulare
@@ -6181,7 +6181,7 @@ La guardia al vederlo in atteggiamento di preghiera gli domandò:"Cosa fate?"
 Al nostro arrivo abbiamo trovato uno dei nostri confratelli in lutto a motivo della morte di suo fratello giovane
 Ella era cuoca nell’edificio delle Nazioni Unite.
 La famiglia, che abbiamo visitata immediatamente, ne dovette aspettare la salma durante sei giorni!
-È quel che i militari chiamano “danni collaterali”.
+È quel che i militari chiamano "danni collaterali".
 La giovane sposa di Saad è avvilita
 E così pure i suoi fratelli
 Vari dei quali fecero già la guerra di Iran
@@ -6452,7 +6452,7 @@ Sapete in quale albergo vi trovate?
 Ma s’interruppe.
 Dal terzo piano scendeva il dottore.
 Era lungo e allampanato.
-Masticava con rabbia un pezzo di “toscano,” facendoselo passeggiare per la bocca.
+Masticava con rabbia un pezzo di "toscano," facendoselo passeggiare per la bocca.
 Si fermò davanti a De Vincenzi.
 Salute, dottore!
 Eravate di servizio voi, stanotte, alla Guardia Medica?
@@ -6486,10 +6486,10 @@ Distese in una specie di ghigno pauroso sopra una dentatura bianca e brillante
 Aguzza come quella d’un caimano.
 Anche Sani e l’albergatore erano rimasti senza parola, fulminati da quella apparizione di incubo.
 Non aveva mai dovuto vedere il suo inquilino ridotto a quel modo
-“Proprio come al teatro,” esclamò Cruni.
-“Ma che diavolo faceva.
+"Proprio come al teatro," esclamò Cruni.
+"Ma che diavolo faceva.
 De Vincenzi riuscí a ritrovare il raziocinio.
-“Mettetelo a sedere e lasciatelo.
+"Mettetelo a sedere e lasciatelo.
 Un agente prese una seggiola dallo sgabuzzino e l’uomo sedette.
 Sembrava disarticolato e ghignava sempre.
 Gli occhi gli splendevano, però, mobili e astuti, pieni d’intelligenza.
@@ -6537,13 +6537,13 @@ E tutti gli altri, che abbiamo trovati nelle camere, c’erano o sono entrati do
 Parte c’erano e parte sono arrivati dopo.
 Qualcuno, che abitava nell’albergo, quando ha veduto le guardie, ha tagliato la corda piú che in fretta.
 De Vincenzi fissò l’uomo negli occhi.
-“Voi chi pensate che possa essere stato a fare il colpo?
+"Voi chi pensate che possa essere stato a fare il colpo?
 Signor commissario.
 Un macellaio.
 Prese tempo.
 Non rideva.
 Non era ironico.
-“Un macellaio,” ripeté.
+"Un macellaio," ripeté.
 Soltanto uno del mestiere può fare una ferita di quel genere.
 Creda a me.
 I macellai sono per natura sanguinari.
@@ -6665,7 +6665,7 @@ Che stava già sulla porta dell’albergo.
 Tutti quei particolari facevano trepidare De Vincenzi
 Egli temeva che essi fossero forniti per ritardare il piú possibile qualche annunzio spiacevole.
 Dati con voce sempre piú affannata
-“Va’ avanti!
+"Va’ avanti!
 È salito su un taxi e ha mormorato qualche parola al conducente.
 Il taxi è partito di carriera.
 Forse, essi hanno pensato che il loro pedinamento mi desse noia.
@@ -6757,7 +6757,7 @@ Uscí dal centralino e fece in tempo a vedere Vehrehan tornare in sala da pranzo
 In quel punto, entrava nella hall Cruni con la valigia.
 Consegnala al portiere, la prenderò piú tardi.
 Cruni lasciò la valigia, poi tornò verso di lui.
-Il Questore mi ha dato questa per voi, dottore,” e gli porse una busta chiusa.
+Il Questore mi ha dato questa per voi, dottore," e gli porse una busta chiusa.
 De Vincenzi, senza aprirla, se la mise nella tasca interna della giacca.
 Partite, dottore?
 Il commissario lo guardò.
@@ -6770,7 +6770,7 @@ Non c’era da contare sulla sua iniziativa
 Ché l’intelligenza del brigadiere era limitata
 Ma in compenso quanto fedele e come pronto a farsi uccidere per lui e per il servizio.
 L’esitazione fu breve.
-“Avverti il vice-commissario che parti con me.
+"Avverti il vice-commissario che parti con me.
 Regolerò poi io il resto.
 Riprendi la valigia e trovati al treno delle 22,20 per Venezia.
 Prendi due biglietti, uno di prima per me e uno di seconda per te.
@@ -6850,7 +6850,7 @@ Dunque, Osman Mascali ieri sera credette conveniente farsi uccidere in una camer
 In quell’albergo c’ero io e c’era miss Bigland.
 Intendo dire, per esser preciso come ricostruzione, Virginia Olcombi.
 Ebbene, commissario, se vi affermo che né io, né miss Bigland abbiamo ucciso quell’uomo, mi credete?
-Ma certo,” si affrettò ad acconsentire De Vincenzi.
+Ma certo," si affrettò ad acconsentire De Vincenzi.
 Né voi né miss Bigland potete avere aperto il ventre di quell’uomo.
 Non avreste mai commesso un atto tanto selvaggiamente inutile, voi due.
 Il volto di Vehrehan si contrasse e le mani di May strinsero convulsamente la stoffa dell’abito sulle ginocchia.
@@ -9557,10 +9557,10 @@ Storia del nuoto.
 Il nuoto è uno sport molto antico, praticato sin dall’antichità.
 È indispensabile per la sopravvivenza e fu uno dei primi sport ad essere praticato dalle tribù primitive.
 Insieme a corsa, equitazione e lotta.
-Testimonianze del nuoto sono state ritrovate nella “caverna dei Nuotatori”
+Testimonianze del nuoto sono state ritrovate nella "caverna dei Nuotatori"
 Queste pitture risalgono all’età preistorica.
 Seppur molto primitivo.
-Il primo stile di nuoto “nato” e praticato fu una primitivissima rana.
+Il primo stile di nuoto "nato" e praticato fu una primitivissima rana.
 Un importante sigillo egiziano mostra alcuni nuotatori praticare uno stile riconducibile allo stile libero.
 Importante passo avvenne nel 1952
 Lo stile farfalla venne riconosciuto ufficialemente come stile distinto dalla rana
@@ -9571,11 +9571,11 @@ E che fosse meno dispendioso di energie.
 Quindi si pensò di effettuare la bracciata fuori dall’acqua piuttosto che internamente
 La resistenza dell’acqua è maggiore rispetto a quella dell’aria.
 Proprio per questo motivom inizialmente le gambe della farfalla erano analoghe a quelle della rana.
-Nella nuotata “nuova” regolamentare sono differenti e richiamano il movimento oscillatorio del delfino.
+Nella nuotata "nuova" regolamentare sono differenti e richiamano il movimento oscillatorio del delfino.
 Infatti in Italia c’è differenza tra delfino e farfalla.
-Ufficialmente lo stile rimane “butterfly stroke”, quindi farfalla.
+Ufficialmente lo stile rimane "butterfly stroke", quindi farfalla.
 Ancora ora, infatti, lo stile più dispendioso di energie è la rana
-Tutte le fasi sono in subacquea e poichè non esiste una fase di “spinta” come negli altri.
+Tutte le fasi sono in subacquea e poichè non esiste una fase di "spinta" come negli altri.
 In generale in Europa (anche in Italia) viene insegnato primo il dorso
 Poi lo stile libero
 Poi la rana e per ultimo la farfalla.
@@ -9610,7 +9610,7 @@ Le federazione sono importanti poichè gestiscono i regolamenti e le certificazi
 Aggiornando costantemente le metodologie adottate.
 Istruttore ed allenatore di nuoto.
 La differenza tra istruttore ed allenatore non è sottile
-Infatti il primo deve “istruire” quindi deve insegnare il saper stare in acqua, incluse le nuotare.
+Infatti il primo deve "istruire" quindi deve insegnare il saper stare in acqua, incluse le nuotare.
 È pronto ad iniziare l’allenamento agonistico vero e proprio
 Quindi avrà bisogno di un allenatore.
 Una volta che l’allievo consegue il 5 livello SNF è pronto
@@ -9639,7 +9639,7 @@ Livelli tecnici SNF.
 I livelli della (SNF) Scuola Nuoto Federale italiana (gestita dalla FIN) sono 5.
 Questo livello molto spesso viene identificato come il livello dei bambini più piccoli
 Non c’è cosa più falsa
-Ogni individuo che inizia ad approcciarsi con l’acqua ha necessità di effettuare la fase iniziale, di “ambientamento”.
+Ogni individuo che inizia ad approcciarsi con l’acqua ha necessità di effettuare la fase iniziale, di "ambientamento".
 Questa fase prevede l’insegnamento del galleggiamento, della respirazione, degli scivolamenti
 Inizio della propulsione (elementare).
 Questo livello prevede l’insegnamento delle gambe a dorso e crawl
@@ -9662,21 +9662,21 @@ Essi vengono suddivisi in base alla specializzazione.
 Pallanuoto, nuoto sincronizzato, nuoto per salvamento.
 Tecnica di nuotata dei 4 stili canonici.
 Gli stili riconosciuti ufficialmente dalla FINA sono quattro: il dorso, lo stile libero, la rana e la farfalla.
-In Italia chiamato spesso come “delfino”.
+In Italia chiamato spesso come "delfino".
 Lo stile dorso è l’unico stile in posizione supina.
 Venne approvato come stile ufficiale e regolamentato nel 1896.
 La bracciata si compone di 4 fasi.
-Presa: è la fase in cui la mano effettua una “presa” sull’acqua.
+Presa: è la fase in cui la mano effettua una "presa" sull’acqua.
 La mano entra in acqua ed effettua una mini rotazione per poi iniziare la fase di trazione.
 Importante sottolineare che il primo dito ad entrare in acqua, nel dorso, è il mignolo
 Trazione: è la fase in cui la mano (e il braccio) dalla posizione di presa
-Spinge creando un “appoggio”
+Spinge creando un "appoggio"
 Arrivando fino alla posizione del petto circa.
 Il gomito si troverà in basso formando un angolo di circa 60°.
-Spinta: è la fase in cui il braccio effettuerà la spinta, quindi sarà la fase di maggior “movimento”.
+Spinta: è la fase in cui il braccio effettuerà la spinta, quindi sarà la fase di maggior "movimento".
 Dalla posizione in cui la fase di trazione terminava si arriva fino ad avere il braccio allineato lungo i fianchi.
 La mano in questa fase è importante che sia ben aperta, per sfruttare maggiore volume, quindi maggiore spinta.
-Recupero: è l’unica fase in cui il braccio è fuori dall’acqua (fase “aerea”).
+Recupero: è l’unica fase in cui il braccio è fuori dall’acqua (fase "aerea").
 La mano esce ed il primo dito ad uscire non sarà il migliolo come nella presa, ma il pollice.
 Quindi il braccio tornerà in fase di presa.
 Importante in questa fase è il rollio delle spalle
@@ -9688,12 +9688,12 @@ La testa è sempre fuori dall’acqua anche se c’è una sincronizzazione tra l
 La testa deve essere rivolta leggermente verso avanti
 Altrimenti non si ha un assetto buono ed è molto probabile che si beva dell’acqua.
 Infatti in questa fase è importante che si abbia un buon galleggiamento (quindi anche un buon assetto).
-Le gambe in questo stile sono di “equilibrio” e di propulsione
+Le gambe in questo stile sono di "equilibrio" e di propulsione
 Non hanno fasi nettamente distinte
 Anche se è possibile dividerle in 2 fase.
 Spinta: Le gambe dal basso spingono verso l’alto.
 Importante ricordare che le ginocchia mai devono uscire fuori dall’acqua, così come anche i piedi.
-Il movimento deve essere come quello di una frustata. I piedi sono sempre “a punta” (non “a martello”).
+Il movimento deve essere come quello di una frustata. I piedi sono sempre "a punta" (non "a martello").
 Recupero: Le gambe dall’alto vanno verso il basso.
 È molto più facile rispetto alla precedente poichè le gambe sono la parte del corpo più pesate
 Avendo i muscoli maggiormente sviluppati.
@@ -9712,7 +9712,7 @@ Circa 30° sul piano trasverso
 Come se si stessa per afferrare qualcosa
 Quindi la mano ruota leggermente
 Sul piano sagittale e coronale.
-Nella fase drazione si porterà il braccio fino a metà petto (circa) effettuando un movimento ad “S”.
+Nella fase drazione si porterà il braccio fino a metà petto (circa) effettuando un movimento ad "S".
 Con il braccio lungo sopra la testa
 Spinta: Questa fase parte dal petto fino a finire quando il braccio è lungo i fianchi.
 È la fase di maggior movimento e fatica.
@@ -9728,12 +9728,12 @@ La testa deve necessariamente tornare immersa quando il braccio si trova a circa
 Il braccio opposto deve rimanere sempre dritto avanti, non deve andare in affondo.
 La testa, quando è immersa, è rivolta verso il basso, inclinata leggermente verso avanti.
 Anche in questo stile, come nel dorso e nella farfalla, la gambata non ha un peso eccessivo
-È “solo” di propulsione ed equilibrio.
+È "solo" di propulsione ed equilibrio.
 La si può differenziare in 2 fasi, che saranno esattamente opposte a quelle del dorso.
 Spinta: La gamba dall’alto si muove verso il basso. Il piede deve essere necessariamente a punta.
 Recupero: La gamba dal basso ritorna in alto.
 Importante è non fare uscire il piede fuori dall’acqua
-Produrrà molta “schiuma” ma effettivamente non produrrà movimento.
+Produrrà molta "schiuma" ma effettivamente non produrrà movimento.
 Quindi la gamba, incluso il piede, deve rimanere immerso.
 Effettivamente nelle distanze brevi, dove le gambe assumo un ruolo di maggiore importanza, il tallone può uscire.
 Infatti si noterà la creazione di schiuma.
@@ -9764,10 +9764,10 @@ Nella rana sono molto importanti le gambe
 Proprio per questo motivo la gambata han fasi ben definite e, come nella bracciata, sono 3 fasi.
 Recupero: le gambe da distese passano a piegate, quindi portare le gambe, con le ginocchia sempre vicine, avanti.
 Il tallone verso l’alto, quindi le ginocchia non vicine alla pancia.
-I piedi nella rana sono in posizione “a martello” non più a punta.
+I piedi nella rana sono in posizione "a martello" non più a punta.
 Nella fase di presa i piedi, con le ginocchia ancora vicine, si allargano all’esterno
 Quindi anche le ginocchia iniziano ad allontanarsi, ma non troppo.
-Una volta aperte le gambe aperte più o meno formando una “Y” o una “U”, finisce la fase di presa.
+Una volta aperte le gambe aperte più o meno formando una "Y" o una "U", finisce la fase di presa.
 Spinta: Dopa la presa, quindi, inizia la fase di spinta.
 Le gambe si chiudono tornando dritte, con i piedi a martello ed unite.
 Importante unire le gambe fino alla fine, poichè la spinta è molto importante specialmente (e non solo) in quel punto.
@@ -9779,8 +9779,8 @@ Prima di concludere con la rana
 È importante evidenziare che nell’evoluzione dei vari regolamenti si è sviluppata una rana diversa.
 Ora, infatti, molti nuotatori utilizzano molto più le braccia piuttosto che le gambe
 Arrivando a utilizzare le braccia per il 60-70% e le gambe solo per il 40-30%.
-Viene definita “rana delfinata”
-Poichè dopo la gambate è come se si effettuasse una leggera “gambata” a delfino
+Viene definita "rana delfinata"
+Poichè dopo la gambate è come se si effettuasse una leggera "gambata" a delfino
 Ma invece, si sfrutta al massimo lo scivolamento.
 Da notare, infatti, che da regolamento dare gambate differenti da quelle a rana è assolutamente vietato.
 Per questi motivi la rana è lo stile di maggiore interpretazioni.
@@ -9793,7 +9793,7 @@ Quindi ruotano all’esterno.
 Nella fase di trazione le braccia arrivano in corrispondenza della fine del petto
 Sul piano coronale e sagittale
 Come la tecnica del crawl
-Per arrivare in questa posizione si creerà una “S”
+Per arrivare in questa posizione si creerà una "S"
 In questo caso doppia.
 In questa fase avviene la prima gambata ed anche la respirazione.
 In genere la stessa avviene, come nel crawl, durante la terza bracciata, ma non è una regola.
@@ -9834,7 +9834,7 @@ O, più comunemente, un braccia lungo e l’altro lo raggiunge successivamente, 
 Importante differenza è che nello stile libero non è specificato in che posizione sia necessario staccare i piedi dal muro
 A differenza del dorso nel quale è regolamenta l’uscita in posizione supina.
 La virata nella rana e nella farfalla è la medesima
-Poichè entrambi gli stili sono “simmetrici”
+Poichè entrambi gli stili sono "simmetrici"
 Cambia ovviamente la partenza dopo la virata.
 Si compone nel toccare contemporaneamente, quindi simmetricamente, le mani al muro
 Dopodichè le gambe vengono portare rannicchiate, insieme alle ginocchia che toccano la pancia.
@@ -9851,27 +9851,27 @@ L’unico a fare eccezione è il dorso.
 Esistono 2 tipi di tuffi (stile libero/rana/farfalla).
 La grap start è la partenza più antica
 Adatta per un tuffo con una maggiore spinta ma ha una reazione allo start inferiore
-Quindi è più “lenta”.
+Quindi è più "lenta".
 I piedi sono allineati uno vicino all’altro.
-Al segnale “Al posto” bisogna portare il peso indietro, successivamente spingere in avanti.
+Al segnale "Al posto" bisogna portare il peso indietro, successivamente spingere in avanti.
 Il segnale "Take your marks… Beep", nelle gare ufficiali internazionali.
 La track start è partenza più utilizzata attualmente.
-I piedi sono posti uno (quello più “forte”) avanti, l’altro dietro.
+I piedi sono posti uno (quello più "forte") avanti, l’altro dietro.
 Inizialmente il peso ricade sul piede inferiore
-Successivamente il peso si porterà senza “caricare” ulteriormente sul piede di avanti, quindi ci si spingerà.
+Successivamente il peso si porterà senza "caricare" ulteriormente sul piede di avanti, quindi ci si spingerà.
 Una volta spinti bisogna acquisire l’assetto.
 Evidentemente la track start, dopo i recenti regolamenti, non ha più una velocità di reazione
 Era molto netta la differenza rispetto alla grap start
 Poichè gli ultimi regolamenti prevedono ciò
-Al segnale di “Al posto” bisogna rimanere completamente immobili, pena la squalifica.
+Al segnale di "Al posto" bisogna rimanere completamente immobili, pena la squalifica.
 Il tuffo a dorso è molto differente.
 Infatti gli atleti dovranno prima tuffarsi in acqua
 Ma la parte importante è quando si è effettivamente in acqua.
-Indicativamente si entra “a candela” o “a soldatino”
+Indicativamente si entra "a candela" o "a soldatino"
 Quindi braccia lungo i fianchi
 Bisogna aggrapparsi al tubo posto al di sotto del blocco di partenza
 I piedi alti e il peso verso avanti.
-Al segnale di “Beep” il corpo si porterà indietro formando un tuffo da posizione supina.
+Al segnale di "Beep" il corpo si porterà indietro formando un tuffo da posizione supina.
 Vale la regola dei 15 metri massimo prima di dover emergere obbligatoriamente, pena la squalifica.
 In entrambi gli stili
 La differenza dell’entrata nei 3 stili rimanenti è la seguente.
@@ -9891,7 +9891,7 @@ Le braccia in quest’ultima parte devono emergere quando si trovano nella fase 
 Farfalla: La partenza a farfalla.
 Le partenze sono le medesime delle partenze dopo le virate.
 Altri stili, non ufficiali.
-Per l’insegnamento del sapere stare in acqua vengono utilizzati numerosi “stili” non riconosciuti ufficialmente.
+Per l’insegnamento del sapere stare in acqua vengono utilizzati numerosi "stili" non riconosciuti ufficialmente.
 Sono perlopiù associati agli animali sia marini sia terrestri
 Questo perchè, specialmente i bambini, sono più invogliati ad imitare un qualcosa che già conoscono.
 Alcuni esempi potrebbero essere utili
@@ -9903,7 +9903,7 @@ Cagnolino: è il primo movimento insegnato, questo permette di poter galleggiare
 Potersi muovere liberamente ed autonomamente nella vasca.
 Il principio del cagnolino è nuotare sempre con la testa fuori dall’acqua
 Battere le gambe alternate e le braccia che scavano
-Quindi imitando la “nuotata” tipica e naturale dei cani.
+Quindi imitando la "nuotata" tipica e naturale dei cani.
 Elefante: molto importante, specialmente nella fase di ambientamento
 Il bambino si abitua all’acqua ed impara ad apprezzarla.
 Ma anche gli adulti
@@ -9912,9 +9912,9 @@ Squalo: molto importante poichè l’allievo impara a nuotare con la faccia in s
 Sviluppa e allena la respirazione.
 Canguro: anche questa tecnica è molto importante poichè l’allievo impara a sapere andare in subacquea in verticale
 Mette in pratica costantemente la respirazione naso-bocca.
-I “misti” sono un tipo di gare che comprende i quattro stili canonici
+I "misti" sono un tipo di gare che comprende i quattro stili canonici
 L'ordine dei misti individuali è: farfalla, dorso, rana, stile libero.
-Nei misti “staffetta”, invece, l’ordine è differente (in seguito descritto).
+Nei misti "staffetta", invece, l’ordine è differente (in seguito descritto).
 Le competizioni nei misti possono essere 200 e 400.
 Notare che nei 200 l’atleta deve effettuare 50m per ogni stile, mentre nei 400 deve effettuare 100m per stile.
 È importante evidenziare che ogni 50m/100m è visto come un inizio di un nuovo stile
@@ -9929,7 +9929,7 @@ Molto sono le modifiche apportate al regolamento.
 Col passare del tempo, infatti, gli stili si sono sempre più definiti e migliorati.
 Le modifiche più sostanziali identificabili sono queste.
 Modifica della nuotata a stile libero
-Prima era utilizzata la tecnica “trudgen” ora si utilizza la tecnica “crawl”.
+Prima era utilizzata la tecnica "trudgen" ora si utilizza la tecnica "crawl".
 Regolamentazione della partenza
 Prima era possibile fare tutta la vasca in apnea
 Ora invece sino ad un massimo di 15m (e non oltre) prima di dover riemergere.
@@ -9938,20 +9938,20 @@ Prima era analoga alla gambata a rana (poichè da quest’ultima deriva)
 Ora invece è necessario effettuare un movimento che parte dal bacino, con le gambe unite e simmetriche
 Muovendole dal basso verso l’alto e viceversa.
 Regolamentazione del blocco di partenza
-Prima era liscio o, comunque, primo di “sostegni”
-Ora è presente una “aletta” che permette di effettuare una partenza più veloce
-Usando la tecnica “track start”.
+Prima era liscio o, comunque, primo di "sostegni"
+Ora è presente una "aletta" che permette di effettuare una partenza più veloce
+Usando la tecnica "track start".
 Regolamentazione della partenza sul dorso
 Prima, come per gli altri stili, non era presente alcun supporto
 Ora è possibile avere una leva che viene posizionata sotto la superficie dell’acqua e spessa pochi centimetri
 Permette di non scivolare nella partenza a dorso.
 Ora è concesso di effettuare gare con 2 atleti per ciascun sesso.
-Denominati “mixed relay” o “misti misti” in italiano.
+Denominati "mixed relay" o "misti misti" in italiano.
 Il GUG è il gruppo ufficiali di gara, che è un organo tecnico della FIN.
 Tutela e verifica che il regolamento emanato dalla FIN sia rispettato.
 La giuria, necessaria per poter tenere una manifestazione natatoria (gara, competizione, …)
 È formata da differenti figure.
-Il giudice arbitro è quello che ha “maggiore” importanza
+Il giudice arbitro è quello che ha "maggiore" importanza
 Per grandi manifestazioni minimo 2, uno per ciascun sesso
 Il giudice di partenza è obbligatorio
 Almeno un giudice per ogni corsia
@@ -10008,15 +10008,15 @@ Quali possono essere il nuoto sincronizzato, la pallanuoto, i tuffi
 Da piattaforma o da trampolino.
 Nel gergo comune per nuoto si intendono, comunque, i 4 stili canonici con le relative tecniche
 Per cui esistono 4 specializzazioni di nuotatori.
-“Stile liberista”: Specializzato nello stile libero.
+"Stile liberista": Specializzato nello stile libero.
 Raggiunge i massimi e migliori risultati in quest’ultimo stile.
 Per lo più dei tempi.
-“Dorsista”: Specializzato nel dorso.
-“Ranista”: Specializzato nella rana.
-“Delfinista”: Specializzato nella farfalla.
+"Dorsista": Specializzato nel dorso.
+"Ranista": Specializzato nella rana.
+"Delfinista": Specializzato nella farfalla.
 Particolare attenzione bisogna dedicarla ai ranisti.
 Essi non potranno raggiungere mai risultati soddisfacenti nei rimanenti tre stili.
-La rana è definito uno stile “atipico”.
+La rana è definito uno stile "atipico".
 Perchè è l’unico stile che ha una propulsione delle gambe del ben 70-80%.
 Rispetto al 20-30% degli altri stili.
 Come descritto precedentemente.
@@ -10252,7 +10252,7 @@ Durante la seconda guerra mondiale Hitler era riuscito a conquistare e sottomett
 Ad esclusione del Regno Unito.
 Ciò non fu una scelta del dittatore, ma una conseguenza.
 Infatti il Regno Unito resistette con tutte le forze alla Germania.
-In quella che è soprannominata “La Battaglia d’Inghilterra” o, dagli inglesi, “The Blitz”
+In quella che è soprannominata "La Battaglia d’Inghilterra" o, dagli inglesi, "The Blitz"
 Essa ha inizio dopo il 14 giugno 1940 (esattamente il 10 luglio 1940)
 Quando Parigi fu presa dalle forze tedesche
 E termina solo il 15 settembre del 1940 (formalmente 31 ottobre 1940)
@@ -10371,9 +10371,9 @@ L’utilizzo era necessario per firmare un accordo di non-diffusione dello stess
 La nuova situazione creatasi all’interno del laboratorio.
 Non permetteva l’esistenza di una comunità cooperante.
 Nel 1983 Stallman lasciò il M.I.T.
-E' doverosa una specificazione a proposito del termine “hacker”.
+E' doverosa una specificazione a proposito del termine "hacker".
 Viene troppe volte travisato dai media.
-Il Jargon File definisce il termine hacker come persone che "programmano con entusiasmo”.
+Il Jargon File definisce il termine hacker come persone che "programmano con entusiasmo".
 La condivisione delle informazioni è un bene positivo di formidabile efficacia.
 È un dovere etico condividere le loro competenze scrivendo free software.
 Devono facilitare l'accesso alle informazioni e alle risorse di calcolo ogniqualvolta sia possibile.
@@ -10389,7 +10389,7 @@ Potesse servire da piattaforma per i programmi che venivano sviluppati.
 Egli volle inoltre che il nuovo sistema operativo fosse compatibile con Unix.
 È il sistema operativo maggiormente utilizzato dai programmatori.
 Gli utenti potranno facilmente passare al suo utilizzo. 
-Il termine GNU è un acronimo che significa “GNU’s not Unix”.
+Il termine GNU è un acronimo che significa "GNU’s not Unix".
 Fu scelto per sottolineare la distanza tra il nuovo sistema libero e Unix.
 Era all’epoca sistema proprietario della AT&T.
 Stallman impose come requisito fondamentale per GNU la distribuzione di tutti i sorgenti.
@@ -10400,7 +10400,7 @@ La FSF è un’organizzazione no profit basata su contributi volontari in lavoro
 È finalizzata a raccogliere un insieme di professionisti.
 La FSF è progressivamente diventata un punto di riferimento per loro.
 Si è allo stesso tempo qualificata come garante della qualità e della protezione dei diritti.
-La FSF ha proposto una definizione di “software libero”.
+La FSF ha proposto una definizione di "software libero".
 L'utente è libero di eseguire, copiare, distribuire, studiare, cambiare e migliorare il software.
 Più precisamente, esso si riferisce a quattro tipi di libertà per gli utenti del software.
 L'utente ha la libertà di eseguire il programma, per qualsiasi scopo (libertà 0).
@@ -10415,8 +10415,8 @@ Un programma completamente libero avrebbe rischiato di estinguersi.
 Le sue varianti saebbero state utilizzate per un uso proprietario.
 Egli decise così di proteggere il prodotto con un nuovo tipo di licenza.
 La licenza GPL è acronimo di General Public Licence.
-Essa viene scherzosamente chiamata “copyleft”.
-Il “copyleft”, che Stallman chiama anche “permesso d’autore”.
+Essa viene scherzosamente chiamata "copyleft".
+Il "copyleft", che Stallman chiama anche "permesso d’autore".
 Consente a chi acquista un programma di utilizzarlo in un numero indefinito di copie.
 Può modificarlo a suo piacimento.
 Può distribuirlo nella forma originale o modificata, gratuitamente o a pagamento.
@@ -10430,15 +10430,15 @@ Grazie alla causa dell'attesa del rilascio del codice sorgente di una parte dell
 Si ebbero problemi nello sviluppo.
 Fu avviato all'interno del progetto GNU.
 Si tratta di un gioco di parole.
-Copyright è formato dalle parole “copy” (copia) e “right” (diritto, ma anche destra).
+Copyright è formato dalle parole "copy" (copia) e "right" (diritto, ma anche destra).
 Copyleft è formato delle parole "copy" (copia) e "left" (sinistra, ma anche lasciato).
 Egli chiarisce così il concetto.
 Il succo dell’idea di permesso d’autore consiste nel dare a chiunque il permesso.
 Era in grado di eseguire il programma, copiare il programma, modificare il programma.
 Poteva distribuirne versioni modificate, ma senza dare il permesso di aggiungere restrizioni.
-Le libertà essenziali che definiscono il “free software” sono garantite a chiunque ne abbia una copia.
+Le libertà essenziali che definiscono il "free software" sono garantite a chiunque ne abbia una copia.
 Diventano diritti inalienabili.
-Il kernel è come il “cuore” del sistema operativo.
+Il kernel è come il "cuore" del sistema operativo.
 Si occupa di gestire l'utilizzo delle risorse hardware.
 da parte dei singoli programmi che essendo in esecuzione.
 Era uno studente ventenne di informatica dell’università di Helsinki.
@@ -10485,11 +10485,11 @@ Questo messaggio chiarisce quanto il lavoro di Torvalds sia nato per interesse p
 Come sia diventato un ambizioso progetto internazionale.
 Grazie allo spirito di condivisione della conoscenza tipico della cultura hacker.
 Il modello di sviluppo del software open source è molto differente da quello del software proprietario.
-Eric Raymond ha definito i due diversi modelli organizzativi come “cattedrale” e “bazar”.
-Il modello “cattedrale” è tipico della progettazione del software proprietario.
+Eric Raymond ha definito i due diversi modelli organizzativi come "cattedrale" e "bazar".
+Il modello "cattedrale" è tipico della progettazione del software proprietario.
 Coloro che lavorano a un progetto sono gerarchicamente organizzati.
 I tempi di sviluppo sono programmati in funzione delle esigenze di mercato. 
-Nel modello “bazar”, al contrario, non esiste una gerarchia predefinita.
+Nel modello "bazar", al contrario, non esiste una gerarchia predefinita.
 Ma ognuno ricopre il ruolo che è ritenuto in grado di svolgere al meglio.
 I rilasci sono frequenti.
 Permettere al più ampio numero possibile di programmatori e di utilizzatori di testare il programma.
@@ -10551,7 +10551,7 @@ Possono essere citati numerosi progetti in sviluppo in tutto il mondo.
 Il progetto sicuramente più conosciuto è il già citato GNU/Linux.
 Esistono migliaia di applicativi.
 Molti di questi sono diventati molto popolari non solo tra gli appassionati, ma anche in ambito professionale.
-Arrivando in alcuni casi a produrre delle vere e proprie “killer application”.
+Arrivando in alcuni casi a produrre delle vere e proprie "killer application".
 Un progetto di successo: Apache.
 Nel 1994 il mercato dei server era dominato da due prototipi.
 Ve ne era uno sviluppato al CERN di Ginevra.
@@ -10594,10 +10594,10 @@ La personalizzazione e la distribuzione di software esistente.
 L'insegnamento della programmazione o l'alfabetizzazione informatica.
 Esistono svariate aziende che esercitano queste attività sia a livello locale che mondiale.
 Per comprendere come guadagnano queste aziende.
-Ci si può affidare all'ottima analisi del mercato svolta da Eric Raymond nel saggio “Il calderone magico”.
+Ci si può affidare all'ottima analisi del mercato svolta da Eric Raymond nel saggio "Il calderone magico".
 Raymond sottolinea come il mercato del software sia basato più sul valore d'uso del software stesso.
 Non è basato sul suo valore effettivo di mercato.
-È possibile ottenere un vantaggio economico “regalando” il codice sorgente.
+È possibile ottenere un vantaggio economico "regalando" il codice sorgente.
 Guadagnando sui servizi ad esso collegati.
 Propone cinque modelli commerciali e due modelli teorici applicabili in questo contesto.
 Il software open source viene utilizzato per creare o mantenere una posizione sul mercato.
@@ -10638,7 +10638,7 @@ Preoccuparsi del packaging del prodotto finale.
 Comprende abitualmente i supporti per l'installazione e i manuali di utilizzo necessari.
 Tra le più importanti aziende di questo tipo possiamo ricordare Red Hat.
 È nata nel 1994 ed è stata per anni il più importante venditore del sistema operativo open source.
-Puntando soprattutto sulla vendita e sull'assistenza alle aziende con la linea ““Enterprise Linux”. 
+Puntando soprattutto sulla vendita e sull'assistenza alle aziende con la linea "Enterprise Linux". 
 Red Hat si è proposta come pioniere in un mercato all'epoca quasi inesplorato.
 È riuscita ad emergere arrivando nel 1999 ad essere quotata in borsa.
 Negli anni, il fiorire della concorrenza ha portato l'azienda a dei cambiamenti.
