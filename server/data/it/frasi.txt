@@ -10757,9 +10757,12 @@ Nuova versione annunciata da Gates al Microsoft Global Briefing di Atlanta del l
 Sostenuta da un'imponente campagna pubblicitaria mondiale.
 Questa nuova versione del sistema operativo, destinata a sostituire Windows XP, è commercializzata in ben 7 edizioni.
 Diversificare ulteriormente l'offerta in base alle esigenze di singoli individui e aziende.
-Per evitare che il nuovo sistema operativo rilasciato dalla Apple, "Mac OS X Leopard", aumenti la quota di mercato.
+Per evitare che il nuovo sistema operativo rilasciato dalla Apple aumenti la quota di mercato.
 Nel frattempo sono previsti il rilascio della nuova versione del sistema operativo destinata al mercato server.
-Per il 2008, "Windows Server 2008" e il lancio, per il 2010, del successore di Vista, Windows 7.
+Per il 2008.
+Windows Server 2008 e il suo lancio.
+Per il 2010.
+Del successore di Vista, ovvero Windows 7.
 Microsoft sta inoltre cercando di allargare la sua quota di mercato per quanto riguarda le applicazioni internet.
 Da alcuni anni punta in questa prospettiva sul software di messaggistica istantanea MSN Live Messenger.
 Windows Live Messenger si appoggia al portale MSN.com e al servizio di posta gratuito di Hotmail.
