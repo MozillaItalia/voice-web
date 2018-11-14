@@ -11038,7 +11038,6 @@ La verificabilità della correttezza delle ipotesi e la ripetibilità degli espe
 La verificabilità della correttezza delle ipotesi.
 Quindi il software libero funziona meglio perché è verificabile da una comunità di specialisti.
 Un altro punto che nelle scuole dovrebbe essere fondamentale è quello dell'educazione alla legalità.
-
 Le società distributrici propongono alle aziende diversi programmi di supporto in base alle diverse esigenze delle aziende.
 Dispongono della possibilità di assistenza anche per i privati.
 Anche in questo caso devono essere sottoscritti dei contratti a tempo.
@@ -11047,7 +11046,7 @@ Le società indipendenti per la consulenza informatica sono in grado di fornire 
 La flessibilità di questa soluzione è superiore rispetto a quella che è possibile ottenere affidandosi alle aziende.
 Risulta quindi sicuramente la più adatta alle esigenze di un istituto scolastico.
 Le garanzie offerte da una soluzione di questo tipo sono minori rispetto a quelle dei produttori dei sistemi operativi.
-Dal momento che la professionalità di queste società non è garantita da altri che dalle società stesse.
+Dal momento che la professionalità di queste società non è garantita da altri se non dalle società stesse.
 È necessario quindi informarsi e prestare molta attenzione nella scelta.
 I costi di acquisto al pubblico delle diverse versioni dei due sistemi operativi sono riportati nella tabella sottostante.
 Per Linux sono elencati i prezzi delle distribuzioni commerciali più diffuse.
@@ -11064,7 +11063,7 @@ I costi di acquisto delle macchine possono essere ridotti mediante il riutilizzo
 Questo non è possibile con le vecchie versioni di Windows, non più supportate dal produttore.
 I costi di supporto e aggiornamento del sistema variano solitamente in base alle scelte del singolo utente.
 Sono difficilmente confrontabili, anche se più testimonianze riportano che risultino inferiori per i sistemi Linux.
-Per quanto riguarda i costi di migrazione dei dati (se presenti), questi variano in base alla quantità di dati.
+Per quanto riguarda i costi di migrazione dei dati, se presenti, questi variano in base alla quantità di dati.
 Al di là dei costi da sostenersi per l'eventuale assunzione di sistemisti specializzati.
 Si reputa comunque che questi costi siano i meno incisivi sulla decisione del sistema operativo da adottare.
 Per quanto riguarda la portabilità su diverse architetture la situazione risulta essere molto diversa nei due casi.
@@ -11162,7 +11161,7 @@ Sembrano possedere fin troppe funzioni.
 Particolarmente apprezzata risulta essere la possibilità di avvalersi di modelli di documento e di presentazioni.
 È possibile aggiungere queste caratteristiche tramite l'installazione di una estensione liberamente scaricabile.
 Non esistono al momento dati pubblici significativi per quanto riguarda l'affidabilità delle suite di produttività.
-Si rintracciano soltanto considerazioni soggettive sulla "affidabilità e stabilità percepita dall’utente".
+Si rintracciano soltanto considerazioni soggettive sulla affidabilità e stabilità percepita dall’utente.
 Non viene tuttavia mai spiegato nel dettaglio come questi parametri vengano misurati.
 Per questi motivi, tali considerazioni sono giudicate poco utili e non vengono riportate.
 I requisiti minimi di sistema per l'installazione delle suite in esame sono riportati dai manuali ufficiali.
