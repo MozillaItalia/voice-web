@@ -10654,8 +10654,6 @@ Le principali tappe dell'evoluzione dell'azienda sono indubbiamente importanti.
 L'acquisizione della Ximian nell'autunno 2003.
 L'acquisizione di Suse a gennaio 2004.
 Hanno portato al perfezionamento dell'offerta dell'azienda.
-<<<<<<< HEAD
-=======
 Lo slogan pubblicitario di allora recitava una bella frase.
 Windows ti darà immediatamente un presente più produttivo.
 Il costo della prima versione era di circa $99.
@@ -11176,4 +11174,3 @@ Le estensioni elencate indicano il formato di default in cui le suite di produtt
 Il formato di MS Office è un formato chiuso e proprietario di Microsoft.
 Lo evolve attraverso le varie versioni di Office in modo che supporti le nuove funzionalità offerte.
 È possibile che documenti creati con versioni precedenti a quella con la quale vengono letti presentino degli errori.
->>>>>>> feb483407029c8ff803c325cce5fe8f38ef8a5eb
