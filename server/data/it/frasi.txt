@@ -1119,7 +1119,7 @@ Questo pezzo di rene, che è stato asportato con un bisturi.
 E molto sottile per poter essere analizzato meglio al microscopio.
 Contiene la capsula di Bowman e glomeruli.
 Però per poterli vedere è necessario usare i coloranti sopra citati.
-Questa sezione viene messa contatto con un colorante alla volta per 15 secondi.
+Questa sezione viene messa a contatto con un colorante alla volta per 15 secondi.
 E poi sciacquato.
 E si procede al secondo trattamento nello stesso modo.
 La necessità di usare 2 coloranti diversi è dovuta alla presenza di diversi elementi.
@@ -1143,7 +1143,7 @@ Uno che racchiude tutto il circuito.
 Il secondo che si occupa della elaborazione della sinusoide grafica.
 E infine il terzo per la realizzazione dell'array dei pulsanti.
 La parte più articolata è quella che comprende la realizzazione degli array dei pulsanti.
-Infatti qui sono stati utilizzate diverse funzioni.
+Infatti qui sono state utilizzate diverse funzioni.
 Per la sinusoide il procedimento di realizzazione è stato più rapido grazie all'utilizzo della sub-routine apposita.
 Infine il circuito si chiude con la combinazione dei due array iniziali su grafico.
 Che viene rappresentato sul pannello di controllo sottoforma di due grafici distinti.
@@ -1481,7 +1481,7 @@ I sovietici proseguirono l'avanzata respingendo i tedeschi fino a raggiungere Va
 Qui vennero fermati per un mese dai nazisti.
 Nel 1945 i sovietici riuscirono ad avanzare su Vienna e finalmente su Berlino.
 Al termine del conflitto la Russia ebbe dei paesi satelliti che controllava.
-Tutto questo grazie ai diversi tratta di pace.
+Tutto questo grazie ai diversi trattati di pace.
 Il dittatore controllò la Russia fino alla sua morte nel 1953 di cui è ancora incerta la causa.
 Ci sono moltissimi punti di contatto con la politica idolatrica e di repressione di Stalin e in 1984.
 Orwell volle pubblicare quest'opera, nella libera e democratica Inghilterra nel 1948.
@@ -1491,7 +1491,7 @@ La sovrascrizione della storia non è soltanto di tipo stalinista ma anche nazis
 Una chiara allusione e condanna di tutti i regimi dittatoriali.
 Ungaretti è definito il maestro e fondatore della poesia Ermetica in Italia.
 La letteratura simbolista e decadentista crede che la poesia debba essere uno strumento di conoscenza della realtà.
-Per conoscere il mondo esterno sono delle folgorazioni e illuminazioniattraverso la sua esperienza di vita.
+Per conoscere il mondo esterno sono delle folgorazioni e illuminazioni attraverso la sua esperienza di vita.
 La raccolta di tutte le poesie italiane di Ungaretti è chiamata Vita di un uomo.
 È la prima raccolta di Ungaretti che contiene tutte le poesie scritte sul fronte del Carso.
 Tra esse spiccano Veglia, Fratelli, San Martino del Carso e Soldati.
@@ -1582,7 +1582,7 @@ Diverso dalle scimmie e una rotondità del cranio più "umana".
 La scoperta del cranio di Tuang, venne ignorata dagli scienziati.
 Perché la culla della vita per loro non era l'Africa ma l'Asia o l'Europa.
 E anche perché non erano stati trovati molti fossili all'epoca (1925) in quel continente.
-Nel '59 vennero scoperti altri fossili in Africa e ciò confermò che era il continente della culla degli essere umani.
+Nel '59 vennero scoperti altri fossili in Africa e ciò confermò che era il continente della culla degli esseri umani.
 Venne scoperto tempo dopo un altro ominide chiamato Australopithecus Afarensis.
 Femmina databile sui 3 e 3,8 milioni di anni fa.
 Che era alta non più di 110 cm  e che avrebbe potuto pesare sui 23 kg.
@@ -1946,7 +1946,7 @@ Spesso mi viene da rispondere.
 Ma poi penso.
 Se rispondo con le parole, la gente potrebbe dimenticarsene.
 Ma se rispondo con le mie frecce, non lo scorderanno mai.
-11 agosto 2016 rio de janeiro, brasile.
+11 Agosto 2016 Rio de Janeiro, Brasile.
 La sede dell'annuale carnevale di Rio.
 Giochi olimpici rio 2016.
 Questi Giochi Olimpici, che ospitano la competizione femminile di Tiro con l'arco.
@@ -2040,7 +2040,7 @@ Il cibo e i vestiti venivano forniti.
 Venne con i suoi genitori.
 Avevano viaggiato tutti e tre per 130 chilometri su uno scooter.
 Il coach disse: "È così debole! Come può farcela?".
-Mi prese da pare e disse: "Mamma, posso dirgli una cosa?".
+Mi prese da parte e disse: "Mamma, posso dirgli una cosa?".
 Dissi: "Fa' pure".
 Disse: "Mi dia tre mesi.".
 Se non sono abbastanza brava, può cacciarmi dalla scuola.
@@ -2141,7 +2141,7 @@ Perde il coraggio e la sicurezza.
 I risultati sarebbero migliori nelle competizioni internazionali.
 Il Tiro con l'arco è un gioco di mente.
 Dunque è importante avere un coach per la mente.
-Migliorerebbe le mie prestazione.
+Migliorerebbe le mie prestazioni.
 Se vogliamo vincere una medaglia olimpica, dobbiamo prepararci con molto anticipo.
 Non sono più brave di noi, è solo che sono mentalmente più forti.
 Da Londra 2012 a Rio 2016.
@@ -4592,7 +4592,7 @@ Personalmente ho scelto il tour storico medievale.
 Personalmente è stata una esperienza grandiosa accompagnata da persone fantastiche.
 Contribuire al prossimo Mozilla Festival per me non solo è fantastico, ma è una grande opportunità per aiutare la Fondazione.
 Aiutare Mozilla a perseguire gli ideali di libertà, uguaglianza e inclusività nel web.
-Nei prossimi giorni verranno pubblicati sul sito ufficiale del summit le registrazione dei talk e le note delle sessioni.
+Nei prossimi giorni verranno pubblicati sul sito ufficiale del summit le registrazioni dei talk e le note delle sessioni.
 Sono estremamente contento di questa esperienza.
 Conoscere altre persone che hanno passioni simili alle mie, che portano avanti degli obiettivi attraverso delle community.
 Sono pronte a condividere le loro esperienze con gli altri in maniera spontanea, inclusiva, libera e aperta è fantastico.
@@ -4730,7 +4730,7 @@ Le sorelle provano ogni.
 Giorni svariati tipi di attacchi informatici e spesso riescono nel loro intento.
 La metro non passa da quasi 15 minuti?
 Dietro il ritardo probabilmente c'è una loro intrusione nei sistemi informatici della società dei trasporti.
-Spesso collegandosi al main-frame che gestisce gli scambi dei binari della metropolitani causano forti rallentamenti.
+Spesso collegandosi al main-frame che gestisce gli scambi dei binari della metropolitana causando forti rallentamenti.
 Accedono a qualsiasi sorta di device collegato in rete.
 Il distributore dei biglietti della metro non funziona?
 È sotto attacco.
@@ -5031,7 +5031,7 @@ Come se fosse ieri.
 Anche se gli uomini l'hanno già dimenticata.
 Infine aggiunge il prof.
 Rizzatti, le praterie del mare non sono un fenomeno esclusivo dell'Atlantico centrale.
-Naturalisti e pescatori costieri conoscono bene il plamkton.
+Naturalisti e pescatori costieri conoscono bene il plankton.
 Questa polvere vivente del mare.
 Fatta di microrganismi vegetali e animali.
 Dei quali sono grande parte ammassi enormi di diatomee.
@@ -5162,7 +5162,7 @@ Esaurito l'esplosivo della prima sezione questa si stacca e cade.
 Mentre l'accensione si comunica alla seconda.
 E da questa infine alla terza.
 La prima dovrebbe far giungere il razzo fino all'altezza di dieci km.
-Dopo la partenza che avviene con una velocità iniziale di 30 metri il secondo.
+Dopo la partenza che avviene con una velocità iniziale di 30 metri al secondo.
 La seconda dai dieci ai cinquanta chilometri e la terza oltre, fino all'esaurimento dell'esplosivo.
 Giunto il razzo al termine della sua possibilità ascensionale.
 Si stacca l'ultima sezione e non rimane che la testa del razzo.
@@ -5511,7 +5511,7 @@ Dar del filo da torcere.
 Dar le mele a uno.
 Dar l'erba trastulla.
 Dar nel naso.
-Darla bustarella.
+Dar la bustarella.
 Dare addosso a qualcuno.
 Dare i confetti di papa Sisto.
 Dare i numeri.
@@ -5907,7 +5907,7 @@ Quando egli moriva nell'anno 547.
 Già erano state gettate le solide fondamenta della disciplina monastica.
 La quale divenne il monachesimo occidentale.
 Specialmente dopo i sinodi dell'epoca carolingia.
-Questo, poi, attraverso le abazie e le altre case benedettine.
+Questo, poi, attraverso le abbazie e le altre case benedettine.
 Diffuse per ogni dove.
 Costituì la struttura della nuova Europa.
 Dell'Europa, diciamo.
@@ -5957,7 +5957,7 @@ Profondamente scosso dal degrado della situazione e dalla recrudescenza dei comb
 E di non assuefarci alle tribolazioni crudeli, che esso sopporta da sin troppo tempo.
 Non ho esitato nel continuare a bussare a tutte le porte.
 Affinché sia posto termine a ciò che è ben doveroso chiamare il massacro di un popolo.
-È cosa buona che tutta la Chiesa conosca gli sforzi intrapresi per il salvataggio di uni popolo in pericolo.
+È cosa buona che tutta la Chiesa conosca gli sforzi intrapresi per il salvataggio di un popolo in pericolo.
 Ma ho soprattutto parlato in favore dei cristiani e, naturalmente, dei cattolici.
 In particolare a fianco dei fratelli musulmani.
 Vivono e testimoniano in Libano la loro fede.
@@ -6568,7 +6568,7 @@ Che cosa volete che vi racconti ancora?
 Quando vi siete incontrato con Virginia Olcombi.
 Che non si chiama Olcombi e forse neppure Virginia?
 Anche prima aveva mentito.
-Forse, neppure una delle parole che aveva dette rispondeva a verità.
+Forse, neppure una delle parole che aveva detto rispondeva a verità.
 De Vincenzi sorrise.
 Se vi chiedessi di giurarmelo, mister Vehrehan?
 Come si fa nei tribunali.
@@ -6595,7 +6595,7 @@ Non lo era?
 Già!
 Forse, non lo era.
 Tutto il bagaglio di John Vehrehan consisteva, come lui stesso aveva detto, in due valige.
-Se valige si potevano chiamare quelle due specie di cassette rettangolari, nere e rigide, di cuoio duro.
+Se valigie si potevano chiamare quelle due specie di cassette rettangolari, nere e rigide, di cuoio duro.
 Anche queste le visiteremo in Questura.
 Falle portare nel mio ufficio.
 La sua attenzione fu subito attratta dal cassettone.
@@ -8381,7 +8381,7 @@ Ma si consolò rapidamente.
 Quella sorveglianza si risolveva, in fondo, a tutto loro vantaggio.
 Zipak aveva creduto di far sorvegliare quella parte dell'isola.
 Era segno ch'egli riteneva che soltanto da quella parte lui potesse fuggire.
-Ignorava, quindi, ancora la discesa che Carlo aveva scoperta dai due coni vulcanici e l'altro accesso al mare.
+Ignorava, quindi, ancora la discesa che Carlo aveva scoperto dai due coni vulcanici e l'altro accesso al mare.
 Pieno di fiducia e di coraggio, ritornò alla villa e cercò subito Magda per metterla a parte di quanto aveva veduto.
 La giovane polacca si trovava nel salone.
 Udendolo venire, aveva sussultato ma si era subito rimessa, non appena aveva veduto Carlo sorgere dall'ombra del corridoio.
@@ -8660,7 +8660,7 @@ L'assassino di Mira Lubiskaja aveva scavalcato il muro di cinta ed era fuggito s
 Tornò correndo da Sani.
 Appleby balzò in piedi, come se avesse voluto lanciarsi contro il suo accusatore.
 Ma istantaneamente si contenne.
-Con sarcasmo gelido, più tosto che con furore, disse.
+Con sarcasmo gelido, piuttosto che con furore, disse.
 Non lo trova un poco avventato, commissario?
 Afferma che io abbia potuto da me stesso tirarmi un colpo di rivoltella a quattro metri di distanza?
 De Vincenzi si volse.
@@ -9008,7 +9008,7 @@ Legare la vigna con le salsicce.
 Legare l'asino dove vuole il padrone.
 Legarsela al dito.
 Levar chiodi.
-Levar la pelle a qualcuno a qualcuno.
+Levar la pelle a qualcuno.
 Levare le tende.
 Levarsi il boccone di bocca.
 Lisciare il pelo a qualcuno.
@@ -9606,7 +9606,7 @@ Infatti già nel 1869 esisteva la British Swimming.
 Di cui fa parte la Swim England.
 La prima federazione esistente di nuoto al mondo.
 Nonchè la federazione di nuoto inglese.
-Le federazione sono importanti poichè gestiscono i regolamenti e le certificazioni del nuoto.
+Le federazioni sono importanti poichè gestiscono i regolamenti e le certificazioni del nuoto.
 Aggiornando costantemente le metodologie adottate.
 Istruttore ed allenatore di nuoto.
 La differenza tra istruttore ed allenatore non è sottile.
@@ -10155,16 +10155,13 @@ Aggiungi un posto a tavola che c'è un amico in più!
 Il libro, in quanto libro, appartiene all‘autore.
 Ma in quanto pensiero appartiene, senza voler esagerare, al genere umano.
 Se uno dei due diritti.
-Quello dello scrittore e quello dello spirito umano.
 Se dovesse essere sacrificato, sarebbe certo quello dello scrittore.
 I nostri mercati, la nostra democrazia, la nostra scienza.
 Le tradizioni della libertà di parola e l‘arte.
 Tutto dipende in maniera cruciale da un pubblico dominio.
 Il materiale liberamente accessibile è molto più di quanto non lo sia il materiale informativo proprietario.
 Coperto da diritti di proprietà.
-Il pubblico dominio non è quanto rimane dopo che tutte le cose migliori siano state coperte dalle norme sulla proprietà.
 Il pubblico dominio è l‘ambito da cui estraiamo i mattoni con cui costruire la nostra cultura.
-Rappresenta, di fatto, la maggior parte della nostra cultura.
 Ora che hai imparato una dozzina di nuove lettere.
 Noi possiamo fare la revisione.
 Tieni sempre gli occhi sullo schermo, e riuscirai a ricordare dove sono i tasti senza guardare.
@@ -10228,7 +10225,6 @@ Tutte le schermate richiedono un'accuratezza del 90%, così sicuramente dovrai e
 Perché leggendo il tempo vola.
 Dove leggere è un piacere irrinunciabile, dove la scrittura è arte.
 Ancora una volta a sostegno della cultura.
-Aggiungi un posto a tavola che c'è un amico in più!
 Nuoto, allenarsi per superare i propri limiti.
 Concetto di limite matematico.
 Limiti archivi fisici e database.
@@ -11055,7 +11051,6 @@ Imprese di grandi dimensioni che necessitino di dotare numerose piattaforme del 
 Esistono poi numerose distribuzioni Linux gratuite.
 Quelle sviluppate e testate con più regolarità sono adatte anche all'utilizzo professionale o a quello in un laboratorio.
 Le stesse Mandriva e Suse sono disponibili anche in una versione gratuita.
-Risulta quindi, all'acquisto, molto più conveniente Linux.
 Senza contare che per Windows viene venduta una licenza per ogni personal computer.
 Mentre tutte le versioni di Linux possono essere acquistate un'unica volta e poi installate anche su centinaia di macchine.
 Per quanto riguarda il TCO devono essere inoltre considerati i costi di acquisto delle macchine.
@@ -11168,9 +11163,719 @@ I requisiti minimi di sistema per l'installazione delle suite in esame sono ripo
 Dal punto di vista dell'integrazione con il resto del sistema non sono rilevabili significative differenze.
 Entrambe si integrano con i browser internet, con i programmi di gestione del sistema e con il sistema operativo stesso.
 È possibile effettuare da e verso gli altri applicativi operazioni di copia/incolla sia di testo che di immagini.
-La compatibilità dei documenti tra le diverse suite di produttività è argomento di grande importanza.
-In tabella si riepilogano le estensioni predefinite dei file prodotti dalle due suite.
-Le estensioni elencate indicano il formato di default in cui le suite di produttività salvano i documenti prodotti.
-Il formato di MS Office è un formato chiuso e proprietario di Microsoft.
-Lo evolve attraverso le varie versioni di Office in modo che supporti le nuove funzionalità offerte.
-È possibile che documenti creati con versioni precedenti a quella con la quale vengono letti presentino degli errori.
+Nel mondo del software, negli anni, si è sempre più diffuso il fenomeno della pirateria.
+La scuola non può certamente astenersi dal mandare un forte messaggio in questo senso.
+L'utilizzo di copie di software prive delle necessarie licenze nelle scuole deve essere disincentivato.
+L'utilizzo di copie di software prive delle necessarie licenze da parte dei ragazzi deve essere disincentivato.
+La possibilità di avvalersi di software open source.
+Software che può essere utilizzato senza bisogno di acquistare licenze d'utilizzo crea un'ottima alternativa legale.
+La possibilità di ridistribuzione del software.
+Permette ai docenti di fornire agli studenti gli strumenti per continuare a casa il lavoro iniziato a scuola.
+Senza gravare, quindi, in alcun modo sulle famiglie.
+Un progetto di successo è il FUSS.
+Il progetto di maggior successo in Italia per l'implementazione di software open source all'interno delle scuole.
+Ecco è, senza dubbio, il progetto FUSS.
+Promosso dall’Intendenza Scolastica Italiana della Provincia di Bolzano e finanziato dal Fondo Sociale Europeo.
+Questo progetto ha coinvolto tutte le scuole pubbliche di lingua italiana.
+Alcune scuole paritarie della Provincia di Bolzano.
+Ha previsto l'installazione di un sistema operativo e di applicativi open source in tutte le scuole partecipanti.
+La finalità principale nel breve periodo è stata quella di mettere tutti gli utenti in condizione di usare l'open-source.
+Utilizzare con facilità un sistema operativo interamente libero per lo svolgimento dell'attività didattica.
+Sia a scuola che a casa.
+Mentre nel lungo periodo il progetto ha altre finalità.
+Il progetto si propone di favorire la diffusione di una cultura informatica basata sulla condivisione del sapere.
+Studenti, famiglie, docenti ed operatori del mondo dell'educazione.
+Sul sito dedicato sono disponibili la documentazione del progetto e il software realizzato ed installato nelle scuole. 
+Ad una partecipazione attiva dei docenti e degli studenti al progetto.
+Ed alla condivisione delle metodologie didattiche stesse.
+In quest'ottica, dimostrando come il progetto realizzato resti aperto a nuove modifiche.
+E a collaborazioni con altre realtà.
+L'ispettore Paolo Lorenzi ha fatto una dichiarazione.
+Invitiamo chiunque lo voglia ad apportare modifiche migliorative del software.
+Dell'Intendenza Scolastica della Provincia di Bolzano.
+In cambio chiediamo solo di impegnarsi a condividere con tutti gli altri le innovazioni, per crescere assieme.
+Il progetto, studiato prima nel dettaglio a tavolino, si è articolato su 6 diverse fasi.
+La prima fase è quella di analisi.
+Infatti, è stato somministrato alle scuole un questionario con determinate finalità.
+Esso era finalizzato alla raccolta del maggior numero possibile di informazioni sulle dotazioni hardware presenti.
+Sulle esigenze formative tramite l'uso di elaboratore elettronico.
+E sui possibili usi futuri.
+Queste informazioni hanno permesso in seguito lo studio una soluzione compatibile con l'infrastruttura esistente.
+E con le reali esigenze delle diverse realtà scolastiche.
+Inoltre hanno reso possibile la personalizzazione delle soluzioni che sono state implementate.
+Il progetto ha coperto scuole di diverso ordine e grado.
+Si è resa necessaria un'attenta analisi dei bisogni dei docenti e degli alunni in relazione ai diversi programmi didattici.
+Realizzazione della soluzione software.
+È stata sviluppata la distribuzione GNU/Linux "Soledad".
+Tenendo conto delle esigenze didattiche delle diverse discipline di insegnamento.
+Della necessità di mantenere alta la semplicità di utilizzo, di installazione e di configurazione.
+La distribuzione è stata in seguito messa a disposizione nella versione "live", sotto licenza libera.
+Intervista apparsa sul quotidiano online "Punto Informatico".
+La distribuzione è stata sviluppata da una società di consulenza ben nota.
+Sulla base c'è la distribuzione GNU/Linux Debian.
+Scelta poiché sviluppata da un'ampia comunità mondiale che ha steso alla nascita del progetto delle rigide linee guida.
+Nel 1993 è nato questo progetto.
+Che devono essere seguite per garantirne la compatibilità e la stabilità nel tempo.
+Debian è adatta a svilupparsi in maniera modulare.
+Una distribuzione creata a partire da questa può dunque essere facilmente modificata.
+Basandosi sui bisogni e sulle esigenze di coloro ne che saranno i reali utilizzatori.
+Piuttosto che sui bisogni e sulle esigenze pratiche degli sviluppatori.
+Permettendo, così, agli studenti e agli insegnanti, di iniziare da subito ad utilizzarla.
+La terza fase è il dislocamento.
+In questa fase si è proceduto all'installazione e alla configurazione di 2,460 postazioni informatiche.
+E di 81 server tra quelli analizzati nella prima fase del progetto.
+La quarta fase è la verifica e la messa a regime e formazione del team.
+Dopo l'installazione del nuovo sistema operativo è stato fornito il supporto necessario alla completa messa a regime.
+In questa stessa fase è stato avviato un percorso di formazione rivolto ad otto persone.
+Tra docenti distaccati e tecnici.
+Destinate a diventare punti di riferimento nelle scuole per l'amministrazione e l'aggiornamento dei sistemi informatici.
+Sia dal punto di vista tecnico che da quello didattico- organizzativo.
+Questo corso ha permesso la formazione di quello che è poi diventato il team di supporto tecnico didattico.
+Della durata di 590 ore.
+Formazione dei docenti.
+Sono stati progettati e realizzati diversi corsi di formazione.
+Personalizzati per scuole elementari, medie e superiori.
+Rivolti al corpo docente.
+In totale sono state erogate 2400 ore di corsi di formazione ed aggiornamento.
+Divise tra 29 corsi introduttivi, di 20 ore ciascuno.
+Per l'utilizzo del computer e della suite OpenOffice.
+E 5 corsi per referenti, di 40 ore ciascuno.
+Sviluppo e ricerca.
+Il team di supporto tecnico didattico collabora.
+Questa fase, anche a progetto terminato, continua ad essere in atto.
+Con i docenti delle diverse scuole per sviluppare nuovi modelli didattici.
+Proporre modifiche al software utilizzato in aula in base alle esigenze emergenti.
+L'obiettivo finale è quello di favorire la partecipazione degli studenti al processo di apprendimento.
+Con un impiego mirato degli strumenti informatici.
+L'attenzione nella realizzazione delle varie fasi.
+Ciò ha permesso di raggiungere i risultati sperati.
+Hanno portato visibilità internazionale al progetto FUSS.
+I dati ufficiali parlano di parecchi dispositivi.
+83 scuole coinvolte.
+2460 computer.
+70 server.
+1,600 docenti.
+16,000 studenti.
+2,400 ore di corsi di aggiornamento.
+20,000 live-cd stampati.
+Più di 50 recensioni internazionali.
+753,000 accessi al sito web.
+Dal punto di vista economico.
+A fronte di un investimento di migrazione complessivo di 250,000€.
+Il progetto ha permesso di passare da una spesa annuale maggiore a una inferiore.
+Spesa per i sistemi informatici di € 269,000.
+Una spesa annuale di € 27,000.
+Altri progetti.
+Sono stati attivati diversi altri progetti di introduzione di software open source nelle scuole.
+Anche se meno capillari e conosciuti.
+La prima distribuzione di GNU/Linux dedicata alla didattica è stata Eduknoppix79.
+Realizzata da un insieme eterogeneo di interessati all'utilizzo di software open source nelle scuole.
+Coordinato dal professor Maurizio Paolini dell'Università Cattolica di Brescia.
+Nata principalmente per rispondere ad esigenze di tipo pratico dei docenti.
+I quali volevano sperimentare software open source.
+Eduknoppix è una versione modificata della tedesca Knoppix80
+Sul sito dedicato è possibile reperire la lista completa del software installato nella distribuzione.
+Nonché alcune guide all'utilizzo.
+E alcuni spunti per realizzare percorsi didattici che utilizzino gli strumenti disponibili. 
+Completamente tradotta in italiano.
+Alla quale sono sono stati aggiunti software didattici adatti a diverse discipline.
+Il materiale necessario per conseguire la Patente Europea per il Computer (ECDL).
+Quello per prepararsi alle Olimpiadi di Informatica.
+Successivamente nasce la distribuzione So.Di.Linux82.
+Software Didattico per Linux.
+Prendendo come base proprio il sistema Eduknoppix81.
+Risultato della collaborazione tra AICA83 e CRIAD85, dell'Università di Bologna.
+Associazione Italiana per l'Informatica ed il Calcolo Automatico.
+Istituto delle Tecnologie Didattiche del Centro Nazionale Ricerche di Genova84.
+Centro di Ricerche e Studi per l'Informatica applicata alla Didattica.
+Alla base del progetto So.Di.Linux troviamo la prima ricerca istituzionale mirata a questo scopo.
+Volta ad indagare le reali possibilità di utilizzo del software open source nella scuola.
+Per questo viene contattato un campione di insegnanti della regione Lombardia.
+Dallo studio di questo campione vengono identificate le esigenze dei docenti.
+I possibili utilizzi del software open source per soddisfarle.
+Vengono realizzati diversi CD.
+Successivamente unificati in un DVD.
+Ognuno dei quali contiene software specifico per un determinato campo disciplinare.
+Tutto il software utilizzato proviene dal progetto SD286.
+E ciò garantisce la disponibilità di documentazione online per i docenti.
+Il progetto Didatux nasce invece per volontà della professoressa Anna Franca Lombardi.
+Esso è concepito per essere utilizzato nell'ambito della scuola primaria.
+Anche in questo caso la distribuzione è creata sulla base di un'altra preesistente.
+In questo caso si tratta di Mandriva Linux.
+La distribuzione Knoppix ha la particolarità di non necessitare di installazione.
+Essendo eseguibile direttamente dal cdrom.
+Permette quindi di sperimentare liberamente il sistema operativo.
+Senza per questo dover modificare la configurazione del proprio computer.
+In seguito lo sviluppo del progetto è stato commissionato ad un'azienda.
+Ed ha preso una direzione diversa.
+Basandosi sulla distribuzione Ubuntu.
+L'Istituto si dedica allo studio dell'innovazione educativa.
+Legata all'uso delle Tecnologie dell'Informazione e della Comunicazione (TIC).
+Le ricerche svolte hanno per oggetto lo studio delle tecnologie innovative come risorsa per l'apprendimento.
+Sempre tenendo conto delle problematiche relative a differenti ambiti disciplinari e tematici.
+Per informazioni sul progetto si vedano i paragrafi precedenti.
+Il sito internet del progetto è reperibile all'indirizzo relativo.
+Alla ciò è stato aggiunto software didattico.
+Visto il particolare target è stato selezionato software facilmente utilizzabile dai docenti.
+Permetta un avvicinamento divertente dei bambini all'informatica.
+Nella distribuzione sono presenti anche diversi giochi.
+Quei giochi aiutano i bambini a familiarizzare con l'utilizzo di mouse e tastiera.
+La distribuzione Edubuntu.
+Derivata dalla più popolare Ubuntu Linux.
+È stata progettata per permettere a qualsiasi insegnante di utilizzarla.
+Ad amministratori di rete di realizzare in maniera piuttosto semplice ed intuitiva un laboratorio informatico.
+Con installati i relativi software didattici.
+Adatto ad ospitare una classe di studenti dai 6 ai 18 anni.
+Il successo di questa distribuzione è dato soprattutto dal fatto che è gratuito.
+Il software installabile e la documentazione relativa al sistema sono facilmente accessibili.
+A patto di possedere una connessione a banda larga.
+Spesso basandosi su questi progetti.
+Consistenti proprio nella realizzazione di una soluzione software completa.
+Diverse scuole di tutti gli ordini hanno iniziato ad implementare software libero al loro interno.
+Le informazioni a questo proposito sono frammentarie.
+È possibile reperire liste di esperienze riguardanti l'utilizzo di software open source.
+Ad esempio sul sito dell'Osservatorio Tecnologico per la Scuola.
+Ma anche sul sito del progetto Software Libero nella Didattica.
+La distribuzione è conosciuta per la sua facilità di utilizzo.
+È stata quindi ritenuta particolarmente adatta in questo caso.
+Precedentemente nota come Mandrake Linux.
+La distribuzione Ubuntu, nata nel 2004, è diventata una delle più utilizzate in tutto il mondo.
+La scelta della realizzazione di una versione adatta alle scuole.
+Ha incontrato il favore della comunità.
+Dal momento che viene garantito l'aggiornamento dei software inclusi senza dover dipendere da una società in particolare.
+Concorrenti diretti.
+Più di un prodotto open source si presenta come concorrente diretto degli analoghi prodotti proprietari.
+Ma le aziende inizialmente non hanno dato molto peso alla situazione.
+Non considerando una possibile minaccia questi prodotti.
+Prodotti ritenuti ben lontani da un livello qualitativo analogo a quelli commerciali.
+Negli ultimi anni, però, la maturità dei maggiori progetti ha permesso una notevole diffusione.
+In alcuni ambiti di software open source.
+È sempre più apprezzato dal pubblico, professionale e non.
+Benché il software proprietario sia ancora molto diffuso.
+Si stanno aprendo nuove prospettive per il mercato.
+Molti analisti si stanno occupando di tracciare possibili sviluppi di questa situazione per il prossimo futuro.
+In questo capitolo intendo confrontare i maggiori concorrenti open source con i corrispettivi prodotti proprietari.
+Al momento maggiormente diffusi.
+Sottolineando quali possano essere i vantaggi e gli svantaggi concreti per un utente.
+Un utente che decide di avvalersi di una soluzione o dell'altra.
+Tenendo in particolare considerazione le esigenze di un istituto scolastico.
+Per l'analisi del mercato di riferimento dei singoli prodotti.
+Si farà riferimento alla curva denominata "Hype Cycle".
+Adottata come principale modello di analisi dello sviluppo delle nuove tecnologie informatiche dalla Gartner Inc.
+È una delle più importanti società.
+La società è stata conosciuta fino al 2001 con il nome di "The Gartner Group".
+Per ulteriori informazioni sulla società si faccia riferimento alla documentazione.
+Uno dei più eclatanti casi di applicazione dell'hype cycle è l'analisi del fenomeno della new economy.
+Il suo crollo, in base a questo modello, si sarebbe addirittura potuto prevedere.
+Con sede a Stamford nello stato del Connecticut degli USA
+Scopi internazionali di ricerca e di sviluppo di modelli di mercato in ambito tecnologico.
+Nell'agosto 1995 era una giovane analista del Gartner Group.
+Jackie Fenn si accorse di come tutte le nuove tecnologie seguano lo stesso ciclo di vita.
+Sono portate, in principio, ad essere sopravvalutate.
+In seguito, per un meccanismo di disillusione, ad essere ritenute assolutamente inutili.
+Solo alla fine, ad essere utilizzate per quello che valgono realmente.
+Nasceva così l'hype cycle.
+Fu chiamata a studiare gli scenari di mercato di nuovi prodotti.
+Nello schema della Fenn l'hype cycle di vita di ogni nuova tecnologia si compone di cinque fasi.
+Traducibile come "iper-ciclo".
+Anche se hype letteralmente significa "esaltazione".
+Evidenziano come il successo di una tecnologia non dipende solo dal suo valore intrinseco.
+Dipende anche da una serie di variabili esogene.
+Variabili sociali, commerciali, psicologiche.
+Grazie a questo modello di analisi.
+Ha scalato la gerarchia della Gartner.
+Fino a diventarne vice presidente.
+Le fasi dell'hype cycle sono cinque.
+La fase dell'invenzioneo.
+La scoperta tecnologica parte dall'hype cycle.
+Sono disponibili applicazioni allo stato di prototipo.
+In questa fase solo i pionieri le utilizzano, ma tutti ne parlano.
+La fase della sopravvalutazione.
+La nuova tecnologia viene valutata oltre le sue reali possibilità.
+Si pensa di applicarla ovunque in maniera acritica.
+Gli unici vantaggi tangibili sono per chi ne cavalca l'onda mediatica.
+I guru del settore o gli speculatori in borsa.
+Supportati dagli analisti che adattano ad hoc modelli di analisi tipici degli scenari innovativi.
+La fase della disillusione.
+Qui emergono i fallimenti collegati all'implementazione della tecnologia.
+Ne fanno dimenticare gli effettivi vantaggi.
+I mass media abbandonano l'argomento.
+La fase della riprogettazione.
+La nuova tecnologia viene valutata in maniera critica.
+Continuando lo sviluppo solo dei progetti che garantiscono ritorni effettivi.
+La razionale applicazione della tecnologia ne consolida l'affidabilità presso tutti gli utilizzatori.
+Giunge così la fase di profittabilità per chi ha investito.
+La Gartner Inc. pubblica ogni anno le sue analisi basate sulla curva Hype-Cycle per diversi settori tecnologici.
+Quali, ad esempio, le tecnologie emergenti.
+La sicurezza informatica.
+L'integrazione tra applicazioni.
+L'analisi relativa allo scenario dello sviluppo del software open source.
+È stata presentata nel luglio 2007.
+Indica che in diversi settori c'è stata l'adozione a livello esteso in molte aziende di soluzioni open source.
+Richiederà meno di due anni.
+Richiederà da due a cinque anni.
+Aspettare oltre non farebbe che accrescere il vantaggio competitivo delle aziende.
+Le aziende, cogliendo le possibilità offerte da questi strumenti, li utilizzano già da tempo.
+Nello studio Gartner, acquistabile tramite il sito della società, si legge bene lo scopo.
+Nella figura 3.1 è riportato il grafico Hype Cycle per OSS, 2007.
+Fonte: Gartner Group.
+Finalità dell'analisi condotta in questo capitolo è comprendere in quali contesti possa trovarsi un utente.
+In particolar modo un'istituzione scolastica.
+Decidere di adottare soluzioni alternative a quelle proprietarie.
+Per questo motivo i software sono esaminati e confrontati relativamente ad alcune macro-aree.
+La funzionalità, intesa come copertura offerta dai prodotti dell’insieme delle funzioni normalmente più utilizzate.
+L'usabilità, intesa non in senso assoluto.
+Con riferimento all’impiego tipico dei programmi e alla curva di apprendimento.
+Tenendo presente le prassi lavorative ormai consolidate nel tempo.
+L'affidabilità, con particolare riferimento ai tempi di fermo attività e al recupero dati in situazioni di errore.
+Le prestazioni, intese come produttività piuttosto che in termini di tempi d’esecuzione.
+Integrazione con il resto del sistema informativo.
+Con riferimento alla interoperabilità.
+Con riferimento alla facilità d’integrazione con altre applicazioni.
+La compatibilità formato dei documenti prodotti.
+È intesa come compatibilità incrociata tra il formato dei documenti dei diversi prodotti.
+La facilità di migrazione di dati e documenti da un formato all'altro.
+Il supporto, inteso come qualità del servizio e diffusione sul territorio dello stesso.
+La disponibilità di aggiornamenti e di documentazione.
+I costi, comprendendo non solo il prezzo d’acquisto ma, se possibile, l’intero TCO.
+TCO indica il costo totale di possesso.
+La portabilità, intesa come compatibilità tra il prodotti in esame e le diverse piattaforme hardware o software.
+I sistemi operativi maggiormente usati sono Windows e Linux.
+Mercato di riferimento.
+Il mercato dei sistemi operativi è indubbiamente un mercato maturo.
+Trattandosi del settore delle nuove tecnologie è in continua evoluzione.
+I concorrenti presenti nel mercato sono principalmente Mac OS X e Unix.
+Presente in diverse versioni proprietarie.
+Oltre e Windows e a Linux.
+Microsoft Windows risulta al momento essere leader in entrambi gli ambiti.
+Sia nel settore desktop che nel settore server.
+Nelle scuole corrisponde perlopiù alle postazioni nei laboratori.
+Per le scuole è rappresentato principalmente da file server per l'archiviazione dei dati.
+Rappresentato da server di stampa per lo smistamento delle code di stampa.
+Proprio in questo settore, da sempre, la quota di mercato dei concorrenti non è da considerarsi trascurabile.
+Secondo un rapporto della Forrester Research Inc.
+Dall'aprile 2004.
+Sono state intervistate 140 grosse compagnie nordamericane.
+Il 53% degli intervistati utilizza Linux per applicazioni mission critical.
+Il 52% sceglie Linux per le nuove applicazioni.
+Il 44% lo sta utilizzando per il porting di vecchie applicazioni su nuovo hardware.
+Il 33% utilizza applicazioni che richiedono Linux.
+Bisogna comunque considerare che i dati ricavati da diversi analisti sono molto contrastanti.
+Sebbene IDC95 abbia valutato la quota di mercato server negli Stati Uniti.
+Quota di mercato server di Linux per il 2004 superiore al 25%.
+Gartner ha stimato, sempre per il 2004, che Linux funzionasse su quasi il 9% dei server negli USA.
+Con una proiezione di vendite nel mondo di quasi 2.5 miliardi di dollari.
+In generale, la difficoltà nello stimare il mercato dei server è reale.
+È dovuta a molteplici fattori esogeni e alle metodologie di rilevazione applicate.
+Secondo l'analisi presentata dalla Gartner Inc. nel luglio 2006.
+Linux è ancora un sistema giovane.
+Il cammino verso la maturità è ormai intrapreso.
+I progressi compiuti negli ultimi anni.
+Hanno portato ad un notevole incremento nella commercializzazione di Linux.
+Se esistono ancora dei problemi che ne ostacolano la diffusione.
+A livello business, per esempio, i costi di migrazione attualmente sono piuttosto onerosi.
+Rendono necessaria un'attenta valutazione della situazione per evitare si rivelino superiori ai benefici.
+Gartner studia l'andamento dell'adozione di sistemi Linux nelle aziende.
+Attraverso il grafico Hype Cycle for Linux 2006.
+Consiglia lo studio di strategie per abbassare i costi di migrazione.
+Viene consigliata una maggiore attenzione al supporto e al marketing.
+Per quanto riguarda l'espansione di Linux nel settore desktop.
+Ancora non rilevante.
+Gartner prevede che in un periodo limitato il sistema operativo open source potrà guadagnare quote di mercato rilevanti.
+Da questo punto di vista le previsioni si stanno rivelando corrette.
+Grazie anche all'inizio della commercializzazione di computer con preinstallate diverse distribuzioni di questo sistema.
+Compreso tra i due e i cinque anni.
+Nella figura 3.2 è rappresentato il grafico Hype Cycle per Linux del 2006.
+La divisione americana della Dell Inc.
+Essa ha iniziato nel maggio 2007 la commercializzazione di personal computer.
+Computer con preinstallata la distribuzione Ubuntu.
+Riscuotendo un buon successo di mercato.
+Nell'ultimo trimestre del 2007.
+Anche la grande catena di distribuzione americana Wal- Mart Stores Inc.
+Ha messo in vendita un prodotto simile, puntando alla fascia bassa del mercato.
+Anche in questo caso l'iniziativa è stata accolta con favore dal pubblico.
+Tanto da portare ad un rapido esaurimento delle scorte. 
+Analisi comparativa dei prodotti.
+1. Confronto funzionalità.
+Per il confronto delle funzionalità dei due sistemi operativi vengono presentate in tabella due versioni di ognuno.
+Per Windows vengono presi in considerazione diverse sue versioni.
+Windows XP Professional aggiornato con il Service Pack 2.
+Windows Vista Home Premium, rilasciato nel gennaio del 2007.
+Per Linux vengono invece prese in esame due diverse distribuzioni.
+Distribuzioni ritenute rappresentative.
+La francese Mandriva Linux 2008.
+L'ultima distribuzione rilasciata dalla Canonical.
+Ubuntu Linux 7.10.
+Tabella 3.1.
+Confronto funzionalità dei sistemi operativi.
+Funzionalità Windows.
+Supporto processori multipli.
+File System supportati.
+Supporto di diversi account utente.
+Supporto account limitati.
+Cifratura file, cartelle, partizioni, dischi.
+Funzione di backup.
+Password di sistema.
+Supporto multi-monitor.
+Desktop virtuali.
+L'usabilità.
+L'installazione di entrambi i sistemi operativi è piuttosto intuitiva.
+A meno di non necessitare di una configurazione eccessivamente personalizzata.
+Non richiede particolari competenze tecniche.
+Si tenga presente che all'utenza desktop non è richiesta normalmente l'installazione del sistema operativo.
+A seconda della potenza della macchina sulla quale i sistemi vengono installati.
+Varia la durata dell'installazione stessa.
+Si attesta, mediamente, sui 30-45 minuti.
+La scelta di includere nell'analisi anche Windows XP.
+Benché datato.
+È data dalla notevole diffusione della quale ancora gode.
+Inoltre il target di riferimento è quello delle istituzioni scolastiche.
+Spesso queste sono dotate di computer datati.
+Non è sembrata la scelta migliore.
+Considerare un sistema operativo in grado di non funzionare correttamente sull'hardware in dotazione.
+Il confronto poteva essere fatto anche con le distribuzioni Fedora.
+Attuale evoluzione della storica distribuzione Red Hat Linux.
+Oppure SuSe, ma i risultati sarebbero stati analoghi.
+Si è scelto, quindi, di prendere a titolo esemplificativo Mandriva e Ubuntu.
+Di quest'ultima, una delle più diffuse attualmente, esiste anche una versione specifica per la didattica.
+Edubuntu, del quale si parla nel capitolo precedente.
+Per la loro popolarità. 
+In questa versione come nelle precedenti.
+Windows ha, al suo interno, il database di driver per le periferiche più esaustivo e aggiornato che si possa trovare.
+Riconosce così la quasi totalità delle periferiche automaticamente, senza bisogno di alcun intervento manuale.
+Il database di driver di Linux.
+Pur permettendo il riconoscimento delle periferiche più comuni.
+Di un numero sempre maggiore di quelle di recente commercializzazione.
+Manca ancora del supporto per le funzioni avanzate di alcune componenti.
+Ad esempio alcune stampanti multifunzione o periferiche di acquisizione video.
+E di quello per parte dei modelli di modem interno.
+Si tratta in questi casi di periferiche particolari studiate per essere utilizzate solamente con Windows.
+In ogni caso sono ormai periferiche poco utilizzate vista l'espansione della banda larga.
+Della quale ormai tutte le scuole sono provviste.
+Cosa che può creare problemi ad utenti con poca esperienza.
+Per l'utilizzo tipico che può essere fatto in una scuola.
+Le principali periferiche che devono essere configurate sono penne USB, lettori CD-ROM, stampanti e scanner.
+Gli unici problemi di installazione potrebbero essere legati a stampanti e scanner.
+Visto l'elevato numero di periferiche compatibili.
+E visto il fatto che l'operazione va compiuta solamente per il primo utilizzo.
+Non si ritiene possano essere considerati ostacoli.
+Dal punto di vista dell'utilizzo di base.
+I due ambienti di lavoro sono abbastanza simili.
+È possibile ritrovare le funzionalità analoghe presenti nell'altro senza troppa difficoltà.
+Risulta quindi intuitivo il passaggio per quella fascia di utenti.
+In questo caso rappresentata dai docenti che utilizzano i laboratori informatici.
+Poiché si serve del personal computer per compiti non complessi.
+Come la scrittura di testi o la fruizione di contenuti multimediali.
+Avendo una discreta conoscenza di uno dei due sistemi.
+Per la gestione del sistema o la configurazione delle reti Linux.
+Risulta essere meno intuitivo e richiede delle precise competenze tecniche.
+In questo caso devono essere possedute dai responsabili dei laboratori.
+Questo è dovuto in parte alla scarsa diffusione, fino a qualche anno fa, di questo sistema operativo.
+Tra gli utenti non professionali.
+In parte alla mancanza di alcune funzioni, di alcuni tool, di configurazione grafica dedicata.
+Negli ultimi anni hanno però visto nascere diversi front-end grafici.
+Sono in grado di rendere più facile la maggior parte di queste procedure, altri sono in sviluppo.
+3. Affidabilità
+È difficile reperire dati certi.
+A proposito dell'affidabilità dei due sistemi operativi.
+Dal momento che la maggior parte delle analisi risulta non essere obiettiva.
+Vengono, quindi, riportate solo delle considerazioni generali ritrovate in più studi.
+Per valutare l'affidabilità di un sistema operativo sono fondamentali il numero di riavvii statisticament richiesti.
+L'aggiornabilità del sistema stesso.
+In conseguenza della continua scoperta di vulnerabilità di vario tipo.
+Per colpa di problemi che causano l'impossibilità di lavoro.
+In relazione al numero di riavvii richiesti dal sistema.
+In questo caso si parla prevalentemente di sistemi server.
+È possibile osservare come questo sia nettamente inferiore nelle macchine con installato Linux.
+IBM rende noto che i server Linux di alcuni dei suoi clienti sono operativi senza interruzione da più di un anno.
+Per quanto riguarda invece gli aggiornamenti dei sistemi Microsoft.
+La società provvede mensilmente a rilasciare, tramite Windows Update, gli aggiornamenti dei suoi sistemi operativi.
+Provvedendo solo in casi di forte necessità al rilascio di patch di sicurezza in tempi più ristretti.
+Per i sistemi Linux gli aggiornamenti vengono invece rilasciati ogni qualvolta si rendono necessario.
+Oppure, in casi particolari, può essere lo stesso amministratore del sistema a porre rimedio ad un problema che riscontra.
+La politica di gestione degli aggiornamenti per i sistemi operativi Linux.
+Aanche se, in questo caso, si è fatto un discorso generico.
+I distributori possono in alcuni casi adottare metodi diversi.
+Si rivela più efficiente per la gestione del sistema grazie soprattutto alla maggior tempestività.
+In questi casi è un fattore critico.
+4. Prestazioni
+Le richieste in termini di risorse di sistema dei due sistemi operativi.
+Così come riportate nelle edizioni commercializzate, sono elencate nella tabella allegata.
+Tabella 3.2: requisiti di sistema.
+Processore Pentium da 300 MHz.
+Processore Pentium da 800 MHz.
+Almeno 512 MB di RAM.
+Hard Disk da 20 GB.
+Processore Pentium.
+Processore Pentium da 500 MHz.
+Almeno 256 MB di RAM
+Hard Disk 4 Gb MHz 1GHz. 
+Almeno 128 MB di RAM.
+Almeno 256 MB di RAM.
+Hard Disk da 2 GB raccomandato.
+Hard Disk da 4 GB.
+I requisiti minimi di sistema dichiarati sono simili per Windows XP e Ubuntu Linux.
+Va però segnalato che su una macchina di questo tipo, soprattutto con Windows XP, le prestazioni non saranno ottimali.
+Ubuntu Linux risulta essere utilizzabile sempre.
+Anche se il caricamento delle applicazioni più complesse richiede un tempo non indifferente.
+Ad esempio l'editor di testi LibreOffice Writer.
+Mandriva 2008 ha dei requisiti leggermente superiori.
+Essi permettono, però, un utilizzo più fluido del sistema.
+Entrambe le distribuzioni Linux permettono inoltre di essere avviate senza modalità grafica.
+In queste condizioni risultano ottimamente utilizzabili.
+A condizione di buone conoscenze del sistema operativo.
+Questo, pur non permettendo l'utilizzo "classico" delle postazioni.
+Può risultare utile per il ripristino del sistema.
+Per la configurazione di una postazione che filtri l'accesso ad internet delle altre.
+Decisamente superiori sono i minimi requisiti richiesti da Windows Vista.
+Alla prova pratica risulta praticamente inutilizzabile su un pc così equipaggiato.
+Per la troppa lentezza nel caricamento di qualsiasi applicazione.
+Anche secondo diverse riviste di settore sottostimati.
+Windows Vista possiede un sistema interno di valutazione delle prestazioni.
+Rispetto ai requisiti del pc sul quale è installato.
+Vengono dati dei voti da 1 a 5 ai diversi componenti.
+Dove 5 indica un computer che permette ottime prestazioni.
+Questo sistema è utilizzabile anche dal sito dedicato.
+Per permettere una corretta valutazione della possibilità di installare il sistema su un computer.
+5. Integrazione e compatibilità.
+La compatibilità dei due sistemi operativi può essere analizzata sotto due diversi aspetti.
+La possibilità di farli convivere con sistemi diversi all'interno di una rete.
+La compatibilità dei programmi che possono essere installati nei due diversi ambienti.
+Per quanto riguarda l'interoperabilità del sistema in una rete mista che comprenda diversi sistemi operativi.
+Entrambi i sistemi sono in grado di effettuare moltissime operazioni.
+Sono in grado sia di coesistere all'interno della stessa rete sia di permettere la condivisione di file.
+Processi di stampa.
+Inoltre, entrambi possono ricoprire ottimamente il ruolo di server.
+All'interno di reti di piccole e grandi dimensioni.
+Per quanto riguarda la compatibilità dei programmi utilizzabili.
+È possibile riscontrare che la maggior parte dei programmi utilizzano gli stessi formati.
+Per il salvataggio di dati del medesimo tipo.
+E che, quindi, la gran parte dei file prodotti con un sistema operativo risulta leggibile dagli altri.
+Risulta essere leggibile dagli analoghi programmi utilizzabili sull'altro sistema operativo.
+Fanno eccezione i programmi commerciali che utilizzano un formato proprietario per il salvataggio dei dati.
+Risultano non leggibili con altri programmi.
+Sta aumentando il numero dei produttori di software che sviluppano sia la versione per Windows sia quella per Linux.
+Versione diversa dei propri programmi.
+Possiamo citare ad esempio la Adobe.
+Il programma di ritocco grafico Gimp.
+Il software di office automation OpenOffice.
+Sia di utilizzo comune sia di utilizzo professionale.
+Per quanto riguarda il software didattico.
+È possibile riscontrare un notevole aumento delle applicazioni disponibili per più sistemi operativi.
+Aache se si tratta ancora per la maggior parte di software open source.
+I Cd-Rom allegati ai libri di testo per la maggior parte risultano essere compatibili solo con Windows.
+Solo una pochi possono essere utilizzati anche con Linux.
+Non pare sia per il momento prevista una modifica del metodo di realizzazione dei cd stessi.
+L'unico ostacolo all'utilizzo dei dati prodotti con un sistema operativo.
+Attraverso l'altro.
+Può essere causata dall'utilizzo di due file system diversi per la formattazione dei dischi da parte di Windows.
+Di default utilizza il file system NTFS.
+Non è in grado, nativamente, di leggere i file system Linux.
+Linux, che utilizza a seconda delle versioni, ext3, ReiserFS o Xfs.
+È in grado di leggere dal file system NTFS ma non supporta ancora pienamente la scrittura su di esso.
+La soluzione al problema può essere trovata mediante lo spostamento dei dati.
+Trasferiti su supporti di archiviazione, come i cd-rom.
+Mediante l'utilizzo per l'immagazzinamento dei dati di un disco formattato.
+Con un file system utilizzabile da entrambi i sistemi, ad esempio il Fat32.
+6. Supporto.
+Il supporto per i sistemi operativi può essere delegato alle società fornitrici.
+A società esterne.
+Oppure a sistemisti interni.
+In ognuno di questi casi sarà necessario sostenere delle spese di entità variabile.
+A seconda della scelta fatta e del tipo di assistenza richiesto.
+Gli istituti scolastici si affidano per la maggior parte ad un responsabile interno.
+E, solo occasionalmente, a consulenti esterni.
+Per quanto riguarda Windows, la stessa Microsoft fornisce un servizio di supporto-
+A diversi livelli.
+Alle aziende che adottano il suo sistema operativo.
+Questo servizio è disponibile capillarmente sul territorio.
+Ma presenta costi piuttosto elevati e può essere sottoscritto solo con cadenze annuali.
+Queste caratteristiche lo rendono poco adatto all'adozione da parte di un istituto scolastico.
+Per quanto riguarda Linux, le società distributrici  propongono alle aziende diversi programmi di supporto.
+In base alle diverse esigenze delle aziende.
+Le società indipendenti per la consulenza informatica sono in grado di fornire supporto.
+A seconda delle competenze di ogni singola entità.
+Supporto a sistemi Windows, Linux o misti.
+Società come Canonical, Mandriva, Novell e Red Hat.
+La flessibilità di questa soluzione è decisamente superiore rispetto alle alternative.
+Rispetto a quella che è possibile ottenere affidandosi alle aziende distributrici dei sistemi.
+Dal momento che la professionalità di queste società non è garantita da altri che dalle società stesse.
+7. Costi.
+I costi di acquisto al pubblico.
+Delle diverse versioni dei due sistemi operativi.
+Sono riportati nella tabella sottostante.
+Pr Linux sono elencati i prezzi delle distribuzioni commerciali più diffuse.
+In particolare agli istituti scolastici.
+A imprese di grandi dimensioni che necessitino di dotare numerose piattaforme del medesimo sistema operativo. 
+Tabella 3.3: prezzi di acquisto dei sistemi operativi.
+Sistema operativo, versione e relativo prezzo.
+Windows XP Home Edition € 246,00.
+Windows XP Professional Edition € 368,00.
+Windows Vista Home Basic € 299,00.
+Windows Vista Home Premium € 359,00.
+Windows Vista Business € 449,00.
+Windows Vista Ultimate € 599,00.
+Windows Server 2003 Standard € 744,00.
+Windows Server 2003 Enterprise da € 2796,00.
+Windows Server 2003 Standard x64 Edition € 744,00.
+Windows Server 2003 Enterprise x64 Edition da € 2796,00.
+Suse Linux Professional € 93,00.
+Novell Enterprise Linux Desktop da € 39,00.
+Mandriva Linux PowerPack € 49,00.
+Linux Mandriva Corporate Desktop 4 € 99,00.
+Linux Mandriva Corporate Server 4 € 329,00.
+Reh Hat Enterprise Linux da € 209,00.
+Quelle sviluppate e testate con più regolarità sono adatte anche all'utilizzo professionale.
+All'utilizzo in un laboratorio scolastico.
+Ad esempio Debian, Ubuntu Linux, Fedora e Gentoo.
+Inoltre le stesse Mandriva e Suse sono disponibili anche in una versione gratuita.
+Risulta quindi, all'acquisto, molto più conveniente Linux.
+I costi di supporto, aggiornamento e mantenimento del sistema.
+I costi di migrazione dei dati e quelli di addestramento del personale.
+I costi di acquisto delle macchine.
+Identici in caso in installazione delle ultime versioni dei sistemi operativi.
+Possono essere ridotti mediante il riutilizzo di hardware datato e di apposite distribuzioni Linux ottimizzate.
+Quindi esposte a numerosi problemi soprattutto di sicurezza.
+Affidarsi ad un singolo sistemista, interno o esterno nelle aziende.
+Ad una società di consulenza.
+Al fornitore del sistema.
+E, quindi, sono difficilmente confrontabili.
+Anche se più testimonianze riportano che risultino inferiori per i sistemi Linux.
+Per quanto riguarda i costi di migrazione dei dati.
+Se presenti.
+E i costi di addestramento del personale.
+Questi variano in base alla quantità di dati e alle competenze di base del personale.
+Si reputa comunque che questi costi siano i meno incisivi sul mercato.
+Non prendendo in considerazione i costi da sostenersi per l'eventuale assunzione di sistemisti specializzati.
+Peraltro da sostenersi una sola volta.
+8. Portabilità.
+Per quanto riguarda la portabilità su diverse architetture degli os la situazione risulta essere molto diversa nei due casi.
+Il kernel Linux.
+Indipendentemente dalle varie distribuzioni.
+È sviluppato per tutte le architetture di personal computer.
+Oltre che per dispositivi diversi.
+Palmari, cellulari, sistemi di navigazione satellitare, console di gioco.
+Esistono distribuzioni precompilate per facilitarne l'utilizzo.
+Nella sezione dedicata a Linux del sito IBM.
+È riportata una descrizione accurata.
+Trovare staff con competenze su Microsoft NT Server.
+Sono molto più difficili da gestire in remoto di una equivalente implementazione del sistema Linux.
+Con sistemi operativi server come Microsoft Windows NT Server.
+L'organizzazione è spesso legata al vendor e ad un costoso ciclo di aggiornamenti.
+Fatti salvi i casi estremi con ingenti quantità di dati da migrare.
+Situazioni nelle quali l'addestramento del personale debba essere così specialistico.
+Rendere il costo fondamentale per l'adozione del sistema maggiore.
+Oppure può essere il singolo utente a personalizzare il sistema operativo.
+A seconda delle proprie esigenze hardware.
+All'interno di un istituto scolastico però, non sono presenti architetture particolari.
+Tutti i computer sono basati su processori Intel e AMD.
+Come nella maggior parte degli uffici.
+Prospettive di sviluppo.
+Nel prossimo futuro.
+Grazie al tentativo di produttori e distributori.
+La possibilità di migliorarsi continuamente per aumentare il numero dei propri utenti.
+Ci saranno molti cambiamenti.
+Il rilascio di Windows Vista.
+Supportato da una massiccia campagna pubblicitaria.
+Ha portato molto movimento nel mercato.
+Nello stesso tempo anche le società che distribuiscono Linux.
+Continuano a migliorare il codice dei loro sistemi.
+Aggiungendo, nella maggioranza, dei casi anche nuove funzionalità.
+La quota di mercato di Windows è oggi insidiata da quella di Linux.
+Sta crescendo a ritmi esponenziali soprattutto nel settore dei server.
+Dove potrebbe riuscire addirittura a soppiantare il monopolio Microsoft entro pochi anni.
+La diffusione di Linux.
+Pare non sia destinata ad eguagliare quella di Windows.
+Spesso non intenzionato a spendere tempo per apprendere le nuove procedure.
+Dal momento che può continuare ad utilizzare quelle che già conosce.
+Continuando ad utilizzare Windows.
+Il vantaggio più concreto.
+Si può riscontrare la rinnovata vitalità del mercato.
+Del mercato che pareva essersi fermato negli anni passati.
+Questo nuovo stimolo al miglioramento andrà a vantaggio di tutti gli utenti.
+Indipendentemente dal sistema operativo che questi decideranno di scegliere.
+Conclusioni.
+In una realtà come quella scolastica.
+Si rende necessario l'utilizzo di sistemi aggiornati e sempre efficienti.
+Entrambe le soluzioni possono soddisfare queste esigenze.
+A patto di investire delle risorse.
+Per avere sistemi Windows aggiornati e sicuri.
+È necessario un investimento di fondi.
+Sia per l'acquisto delle licenze sia per l'ammodernamento dell'infrastruttura hardware.
+Se pensata per versioni precedenti del sistema operativo.
+Risulterà sicuramente inadatta alle più recenti versioni.
+Per avere sistemi Linux aggiornati e sicuri.
+Sarà necessario un investimento di fondi sicuramente più limitato.
+Sono limitati anche i costi di aggiornamento dell'infrastruttura hardware.
+Saranno più contenuti.
+Dal momento che le risorse richieste dai sistemi, anche nelle nuove versioni, sono inferiori.
+A fronte di un notevole investimento in formazione dei responsabili di laboratorio e dei docenti.
+Nel complesso sembra più conveniente, nel lungo periodo, investire in formazione.
+Quindi preferire la soluzione offerta dal sistema operativo Linux.
+Anche se, soprattutto all'inizio, possono essere riscontrati dei problemi.
+Primo tra tutti la difficoltà di utilizzo del materiale informatico distribuito in allegato ai libri di testo.
+Può essere studiata una soluzione per questo problema.
+Cercando il modo di utilizzare detto materiale all'interno del sistema operativo Linux.
+Oppure mantenendo alcune postazioni di lavoro, da utilizzare solo per questo scopo, alla situazione attuale. 
+Suite di produttività: Microsoft Office e OpenOffice.
+Non è certo.
+E non lo era nemmeno agli inizi.
+L'unico nel suo genere.
+Capire cosa abbia determinato la vittoria di Office su pacchetti un tempo molto stimati.
+Si pensi, ad esempio, a Lotus di IBM o a WordPerfect di Corel.
+Ha goduto del ritorno di immagine derivante dalla diffusione dei sistemi operativi Microsoft, ma non solo.
+Senza contare il fatto che con il tempo la mancanza di concorrenti realmente competitivi lo ha reso uno standard.
+Negli anni '80 la situazione cambiò.
+In seguito alla nascita di un nuovo concorrente.
+StarOffice fu sviluppato, inizialmente, dalla tedesca Star Division.
+Poi acquistata dalla Sun Microsystems.
+In breve tempo, però, l'azienda si rese conto di non riuscire ad essere sufficientemente competitiva.
+Nonostante l'aggressiva politica dei prezzi praticata.
+Decise così, nel 2000, di creare il progetto OpenOffice.
+Per continuare lo sviluppo internazionale di una suite completa e competitiva.
+Una suite che fosse in grado di funzionare su tutte le piattaforme più importanti.
+Che utilizzasse XML, quale formato aperto di salvataggio dei documenti.
+La Star Division fu fondata ad Amburgo nel 1986 dal tedesco Marco Borris.
+Per distribuire StarOffice, il software per l'ufficio da lui sviluppato.
+Nel 1999 con la Sun Microsystems.
+Con l'obiettivo di intaccare il monopolio esercitato nel campo del software.
+Per l'ufficio di Microsoft.
+Acquistò per 73.5 milioni di dollari la Star Division.
+Distribuendo in seguito la prima versione di StarOffice con il nome Sun. 
+Fu concesso il codice sorgente di StarOffice 5.2.
+Con, in aggiunta, la tecnologia che Sun aveva sviluppato per le versioni successive della suite.
+Da quel momento si è creata una comunità internazionale.
+Ha sviluppato, integrato e migliorato, il codice iniziale.
+Fino a giungere alla realizzazione della prima vera suite open source per l'ufficio.
+OpenOffice 1.0 fu rilasciata nel 2002.
+Però era già un prodotto di indubbia validità.
+Per la prima volta presentava una valida alternativa.
+È open source e multipiattaforma rispetto alla suite di Microsoft.
+Dalla versione 1.0 in avanti, lo sviluppo è proseguito molto rapidamente.
+Ha portato, nell'ottobre del 2005, al rilascio ufficiale della versione 2.0.
+Destinata a testimoniare la validità di questo prodotto ormai maturo.
+Anche per il mercato aziendale.
+Grazie ad una comunità mondiale che oggi conta più di 30000 partecipanti.
+Nella sola community italiana.
+Non sono state introdotte nuove funzionalità rispetto alla versione 2.0.
+Ma sono state migliorate quelle esistenti.
+Creati, ad esempio, utilizzando Microsoft Office.
+La provata validità di OpenOffice ha portato parte degli utenti inizialmente a valutare.
+Poi, perfino a preferire questa soluzione a quella Microsoft.
+Pionieri sono stati gli utenti domestici.
+Presto seguiti dalle aziende.
+Negli Stati Uniti.
+Secondo uno studio Forrester Research.
+Nell'aprile 2004.
+Su 140 grosse imprese del Nord America, 12 stavano già utilizzando OpenOffice.
+Mentre 8 stavano pianificando il suo prossimo utilizzo.
+Ciò significa una quota di mercato per OpenOffice pari in quel periodo al 8,6%.
+Considerando che la migrazione ad una nuova suite di produttività può richiedere da 3 a 6 mesi ad un'azienda.
+Forrester prevedeva per OpenOffice, entro la fine del 2004 una crescita enorme.
+Commercializza utilizzando il codice sviluppato per OpenOffice.
+Aggiungendo a questo una serie di elementi proprietari.
+Sun garantisce il supporto per StarOffice.
+È uscita la versione 8.0 nell'agosto 2005.
+Insieme all'acquisto della licenza d'uso.
+Lo propone ad un prezzo molto conveniente.
+Si aggira intorno ai 40-50€.
