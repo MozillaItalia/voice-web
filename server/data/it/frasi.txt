@@ -10155,16 +10155,13 @@ Aggiungi un posto a tavola che c'è un amico in più!
 Il libro, in quanto libro, appartiene all‘autore.
 Ma in quanto pensiero appartiene, senza voler esagerare, al genere umano.
 Se uno dei due diritti.
-Quello dello scrittore e quello dello spirito umano.
 Se dovesse essere sacrificato, sarebbe certo quello dello scrittore.
 I nostri mercati, la nostra democrazia, la nostra scienza.
 Le tradizioni della libertà di parola e l‘arte.
 Tutto dipende in maniera cruciale da un pubblico dominio.
 Il materiale liberamente accessibile è molto più di quanto non lo sia il materiale informativo proprietario.
 Coperto da diritti di proprietà.
-Il pubblico dominio non è quanto rimane dopo che tutte le cose migliori siano state coperte dalle norme sulla proprietà.
 Il pubblico dominio è l‘ambito da cui estraiamo i mattoni con cui costruire la nostra cultura.
-Rappresenta, di fatto, la maggior parte della nostra cultura.
 Ora che hai imparato una dozzina di nuove lettere.
 Noi possiamo fare la revisione.
 Tieni sempre gli occhi sullo schermo, e riuscirai a ricordare dove sono i tasti senza guardare.
@@ -10228,7 +10225,6 @@ Tutte le schermate richiedono un'accuratezza del 90%, così sicuramente dovrai e
 Perché leggendo il tempo vola.
 Dove leggere è un piacere irrinunciabile, dove la scrittura è arte.
 Ancora una volta a sostegno della cultura.
-Aggiungi un posto a tavola che c'è un amico in più!
 Nuoto, allenarsi per superare i propri limiti.
 Concetto di limite matematico.
 Limiti archivi fisici e database.
@@ -11055,7 +11051,6 @@ Imprese di grandi dimensioni che necessitino di dotare numerose piattaforme del 
 Esistono poi numerose distribuzioni Linux gratuite.
 Quelle sviluppate e testate con più regolarità sono adatte anche all'utilizzo professionale o a quello in un laboratorio.
 Le stesse Mandriva e Suse sono disponibili anche in una versione gratuita.
-Risulta quindi, all'acquisto, molto più conveniente Linux.
 Senza contare che per Windows viene venduta una licenza per ogni personal computer.
 Mentre tutte le versioni di Linux possono essere acquistate un'unica volta e poi installate anche su centinaia di macchine.
 Per quanto riguarda il TCO devono essere inoltre considerati i costi di acquisto delle macchine.
@@ -11174,37 +11169,43 @@ Le estensioni elencate indicano il formato di default in cui le suite di produtt
 Il formato di MS Office è un formato chiuso e proprietario di Microsoft.
 Lo evolve attraverso le varie versioni di Office in modo che supporti le nuove funzionalità offerte.
 È possibile che documenti creati con versioni precedenti a quella con la quale vengono letti presentino degli errori.
-Microsoft offre livelli di servizio differenziati alle varie tipologie d’utenza consumer, enterprise, PMI.
-Per le grandi organizzazioni utenza di tipo enterprise Microsoft fornisce il livello di supporto più elevato.
+Microsoft offre livelli di servizio differenziati alle varie tipologie d’utenza.
+Casalingo, aziendale, PMI.
+Per le grandi organizzazioni.
+Utenza di tipo enterprise Microsoft fornisce il livello di supporto più elevato.
 Per intere 24 ore al giorno.
 La possibilità di personalizzare il servizio secondo le esigenze del cliente.
 La gamma dei servizi di supporto include la gestione di account dedicati.
 Oltre a servizi di consulenza volti a ridurre le problematiche di supporto.
-Risorse on line dedicate e focalizzate.
+Risorse online dedicate e focalizzate.
 Alla fornitura delle informazioni specifiche necessarie per le esigenze di supporto dell'azienda.
 L'offerta di supporto Microsoft per l'utenza enterprise include team di professionisti.
 Lavorano a stretto contatto con il supporto dell'azienda.
-Per le piccole e medie imprese Microsoft offre servizi di supporto tecnologico e consulenziale tramite i MCSC.
+Per le piccole e medie imprese, Microsoft offre servizi di supporto tecnologico e consulenziale tramite i MCSC.
 MCSC é l'acronimo di Microsoft Certified Support Center.
-Le aziende partner di Microsoft sono autorizzati a fornire l’intera gamma di servizi di assistenza per i prodotti Microsoft.
+Le aziende partner di Microsoft sono autorizzati
+A fornire l’intera gamma di servizi di assistenza per i prodotti Microsoft.
 Livelli di servizio superiori sono offerti tramite offerte del tipo Alliance Support.
-Questo servizio consente di avere a disposizione in modo tempestivo il know-how dei tecnici Microsoft.
+Questo servizio consente di avere a disposizione in modo tempestivo le conoscenze dei tecnici Microsoft.
 Oltre alle tecnologie più innovative e recenti.
-Il supporto su cui un utente OpenOffice.org può fare affidamento è sostanzialmente di due tipi: di comunità e professionale.
-A livello di comunità sono disponibili: pagine web dove poter trovare informazioni e scaricare la suite.
+Il supporto su cui un utente OpenOffice può fare affidamento
+È sostanzialmente di due tipi: di comunità e professionale.
+A livello di comunità sono disponibili numerosi strumenti tra i quali
+Pagine web dove poter trovare informazioni e scaricare la suite.
 Le mailing list e le FAQ.
 La documentazione essenziale.
 Svariate guide e materiale di supporto modelli, macro e brochure.
 Senza considerare forum e canali IRC.
 A livello professionale esiste una lista di imprese e liberi professionisti.
-Essi supportano e distribuiscono OpenOffice.org.
+Essi supportano e distribuiscono OpenOffice.
 I livelli di servizio offerti.
 Dipendono dal profilo professionale della singola impresa o libero professionista.
 Non sono necessariamente omogenei.
-Ad oggi esistono 151 entità di questo tipo registrate nella sezione italiana della comunità OpenOffice.org.
+Ad oggi esistono 151 entità di questo tipo
+registrate nella sezione italiana della comunità OpenOffice.
 Microsoft stipula con gli istituti scolastici e con le PA degli accordi.
 L'acquisto a prezzi inferiori a quelli di listino dei propri applicativi.
-Il costo di acquisto di OpenOffice.org è pari a zero.
+Il costo di acquisto di OpenOffice è pari a zero.
 Per quanto riguarda il supporto non è possibile farne una stima.
 Questo è a discrezione delle singole società che si occupano dell'assistenza.
 Qui di seguito sono elencate le piattaforme su cui le due suite sono portabili.
@@ -11216,7 +11217,7 @@ Si riferisce al totale delle aziende segnalate.
 Offrono servizi di installazione e distribuzione e assistenza del software.
 Nonché alle aziende che offrono servizi di apprendimento.
 Di queste aziende in particolare segnalano tra i loro servizi la voce assistenza e supporto.
-Inoltre il fatto che gli utenti.
+Inoltre, il fatto che gli utenti.
 Sia docenti che studenti.
 Essi possano utilizzare anche al di fuori dell'istituto.
 Ad esempio sul computer di casa.
@@ -11227,8 +11228,9 @@ Il confronto tra la due suite.
 Operato da sempre più utenti.
 Ha favorito una maggiore velocità nello sviluppo.
 Ha determinato il lancio delle nuove versioni da parte di tutti gli sviluppatori.
-Il rilascio della versione 2.3 di OpenOffice.org e quello della nuova versione di Office.
-Hanno portato molte novità nel mercato: OpenOffice.org integra ora un database.
+Il rilascio della versione 2.3 di OpenOffice e quello della nuova versione di Office.
+Hanno portato molte novità nel mercato.
+OpenOffice integra ora un database.
 Esso non è presente nelle versioni precedenti alla 2.0.
 Ha migliorato il supporto per i documenti creati con altre suite mentre Office 2007.
 Oltre ad una rinnovata interfaccia grafica.
@@ -11236,10 +11238,11 @@ Ora supporta nuove funzionalità per Access e Excel.
 Per contrastare la migrazione degli utenti.
 Microsoft propone sempre nuove offerte di acquisto delle sue licenze ai privati.
 Provengono dalle associazioni e agli enti statali.
-OpenOffice.org invece punta tutto sui clienti che decidono di abbandonare la suite Microsoft.
+OpenOffice invece punta tutto sui clienti che decidono di abbandonare la suite Microsoft.
 Facendosi conoscere soprattutto per mezzo del passaparola.
 Siti Internet e ultimamente sempre più dalle buone valutazioni delle riviste di settore.
-Non si può affermare che nel breve periodo la posizione di Microsoft sarà messa in pericolo dal concorrente in esame.
+Non si può affermare che nel breve periodo
+La posizione di Microsoft sarà messa in pericolo dal concorrente in esame.
 Per il futuro la situazione potrebbe portare anche a questa evenienza.
 L'indubbia qualità del prodotto open source.
 Sempre più riconosciuta.
@@ -11248,14 +11251,17 @@ Già oggi soprattutto le grandi imprese hanno deciso di migrare.
 Alla Microsoft Professional Developers Conference" PDC.
 Svoltasi a Los Angeles nel settembre 2005.
 Bill Gates ha dichiarato: che questa è la release di Office più significativa da Office95.
-Office 2007 ha tutti gli ingredienti che servono per incrementare le capacità produttive di milioni di persone nel mondo.
+Office 2007 ha tutti gli ingredienti
+Servono per incrementare le capacità produttive di milioni di persone nel mondo.
 Ma questa è solo metà della verità.
-L'espansione delle possibilità server e di sviluppo in Office 2007 dimostrano cosa possa fare una piattaforma moderna.
+L'espansione delle possibilità in Office 2007 dimostrano cosa possa fare una piattaforma moderna.
 Recentemente, oltre all'offerta per docenti e studenti che si ripete da anni.
-Microsoft ha lanciato un'offerta per l'acquisto cumulativo di due licenze di MS Office e di un antivirus.
-Il listino destinato alle pubbliche amministrazioni è sempre rinnovato e presente sul sito dell'azienda.
+Microsoft ha lanciato un'offerta
+per l'acquisto cumulativo di due licenze di MS Office e di un antivirus.
+Il listino destinato alle pubbliche amministrazioni
+è sempre rinnovato e presente sul sito dell'azienda.
 E presto potrebbero farlo anche le piccole imprese e le realtà scolastiche.
-Secondo quanto diffuso dalla convention della comunità OpenOffice.org a Berlino nell'ottobre 2004.
+Secondo quanto diffuso dalla convention della comunità OpenOffice a Berlino nell'ottobre 2004.
 La penetrazione all'interno delle aziende non risultava trascurabile.
 Si trattava allora del 14% nel settore delle grandi aziende.
 Promotrici tra l'altro del successo della suite open source.
@@ -11310,7 +11316,8 @@ La tecnica più utilizzata per raccogliere questo tipo di dati.
 Consiste nell'analisi dei software utilizzati per l'accesso a un determinato campione di siti.
 Ma come si può facilmente immaginare questo limita le indagini.
 Non ne garantisce la totale corrispondenza alla situazione reale.
-Qui vengono riportate le statistiche sull'utilizzo dei browser negli ultimi 6 anni rilevate dal portale.
+Qui vengono riportate le statistiche sull'utilizzo dei browser
+negli ultimi 6 anni rilevate dal portale.
 Lo stesso portale precisa come le statistiche potrebbero essere parzialmente falsate.
 Questi soggetti sono propensi all'utilizzo di software innovativo.
 I principali frequentatori del sito sono soggetti con un forte interesse verso le nuove tecnologie.
@@ -11327,13 +11334,15 @@ Permettono di aggiungere le funzioni desiderate al programma.
 Attraverso queste estensioni è possibile modificare non solo l'interfaccia grafica del programma.
 Ma anche il comportamento dello stesso.
 Esistono estensioni per la gestione dei siti preferiti dei download e dei video.
-Per un laboratorio scolastico possono essere particolarmente utili le estensioni sulla gestione dei contenuti dei siti.
+Per un laboratorio scolastico possono essere particolarmente utili
+le estensioni sulla gestione dei contenuti dei siti.
 Permettono di impostare delle variabili di controllo sui siti visitati.
 Il passaggio da un programma all'altro non crea particolari difficoltà ad un utente.
 In grado di utilizzare un browser per la navigazione internet.
 Quindi la migrazione può avvenire senza causare alcun problema.
 Una valutazione obiettiva a proposito dell'affidabilità dei due browser è difficilmente rintracciabile.
-Si può fare riferimento a singoli dati riguardanti la presenza di vulnerabilità nel codice dei programmi.
+Si può fare riferimento a singoli dati
+riguardanti la presenza di vulnerabilità nel codice dei programmi.
 La velocità di correzione degli stessi.
 Le richieste in termini di risorse di sistema dei due browser sono pressoché identiche.
 Per praticità di comparazione eseguiti in ambiente Windows XP
@@ -11346,7 +11355,7 @@ Sembra più ragionevole equiparare le richieste minime a quelle presentate da Fi
 Dal punto di vista dell'integrazione con il resto del sistema operativo.
 Non sono rilevabili significative differenze tra i due programmi.
 I due browser si integrano con tutti i programmi presenti nel sistema.
-Inoltre i plug-in di varie applicazioni di terze parti.
+Inoltre, i plug-in di varie applicazioni di terze parti.
 Ad esempio Acrobat Reader o Macromedia Flash) sono disponibili per entrambi.
 La compatibilità dei documenti tra i due browser è pressoché completa.
 Dal momento che gli standard del formato html sono definiti.
@@ -11357,7 +11366,8 @@ Non comprendono solo il formato html ma anche gli standard di formattazione css 
 Risulta da alcune analisi tecniche.
 Firefox presenta una maggiore aderenza alle direttive internazionali.
 Mentre Internet Explorer si avvale a volte di particolari protocolli non aderenti agli standard W3C.
-Unico particolare che impedisce la compatibilità di alcuni file creati con Internet Explorer è il formato mht.
+Unico particolare che impedisce la compatibilità di alcuni file è il formato mht.
+Esso è creato da Internet Explorer.
 Permette di salvare una pagina web in un unico file ma non è leggibile con Firefox.
 Non esiste un vero e proprio supporto per i browser.
 Sembra più utile comparare la velocità di rilascio di patch che correggano i problemi.
@@ -11370,7 +11380,7 @@ In Firefox e Mozilla è stato riscontrato un numero di falle di sicurezza.
 Quasi doppio rispetto ad Internet Explorer 6.
 Segnando un record negativo anche per quel che riguarda il livello di gravità delle stesse.
 Il presidente di Mozilla Europe, Tristan Nitot, ha risposto affermando.
-La velocità con cui la comunità open source è in grado di rilasciare le patch per la correzione di questi problemi.
+La velocità con cui la comunità è in grado di rilasciare le patch per la correzione di questi problemi.
 È decisamente superiore a quella di Microsoft.
 Portando numerosi esempi di correzione apportate anche nell'arco di sole 24 ore.
 Nitot ha poi spiegato.
@@ -11383,60 +11393,71 @@ Dal momento che il programma non è di rilascio relativamente recente come Firef
 I dati divulgati benché documentati non portano ad alcuna conclusione certa.
 Entrambi i programmi presentano problemi per quanto riguarda la sicurezza.
 I team di sviluppo cercano di porre rimedio a questi nel minor tempo possibile.
-Ma nessuno dei due browser può essere dichiarato senza esitazione il più sicuro oppure il più aggiornato.
-Dal momento che sia Internet Explorer sia Firefox sono gratuiti e liberamente scaricabili da Internet.
+Ma nessuno dei due browser può essere dichiarato il più sicuro oppure il più aggiornato.
+Ciò può essere affermato senza esitazione.
+Dal momento che entrambi sono gratuiti e liberamente scaricabili da Internet.
 Non esistono costi di acquisto né di aggiornamento dei prodotti.
 Per quanto riguarda il TCO risulta difficile un calcolo al riguardo.
 Non esistono nemmeno costi per l'addestramento del personale o per la migrazione dei dati.
 Le piattaforme sulle quali i due browser sono portabili.
-La cosiddetta "guerra dei browser" è ancora in pieno svolgimento: la conclusione è difficile da prevedere.
+La cosiddetta "guerra dei browser" è ancora in pieno svolgimento
+La conclusione è difficile da prevedere.
 Ognuno sta facendo il possibile per uscirne vincitore.
 Nonostante l'espansione di Firefox sembri in fase di arresto.
-Negli ultimi mesi infatti la crescita della quota di mercato del browser è rimasta perlopiù stabile.
-Microsoft riconosce da tempo che software come Firefox rappresentano una minaccia per la sua posizione nel mercato.
+Negli ultimi mesi la crescita della quota di mercato del browser è rimasta perlopiù stabile.
+Microsoft riconosce da tempo che software come Firefox.
+Rappresentano una minaccia per la sua posizione nel mercato.
 Mentre il team di sviluppo di Firefox è pronto a rilasciare la versione 3.0 del suo browser.
 Essa promette di essere più leggero e funzionale.
 Microsoft annuncia lo sviluppo della nuova versione 8.0 di Internet Explorer.
 Essendo Internet Explorer integrato in tutte le versioni di Windows in commercio.
 Si potrebbe obiettare che in questo caso il suo prezzo è compreso in quello del sistema operativo.
 In ogni caso tutti gli aggiornamenti sono gratuiti.
-La versione completa di Internet Explorer è disponibile per lo essere scaricata all'interno del sito della Microsoft.
+La versione completa di Internet Explorer è disponibile
+per essere scaricata all'interno del sito della Microsoft.
 Nel rapporto finanziario annuale consegnato alla Securities and Exchange Commission.
 Microsoft riconosce per la prima volta che software come Firefox rappresentano una minaccia reale.
-Concorrenti come Mozilla offrono software che competono con le funzionalità di navigazione web di Internet Explorer.
+Concorrenti come Mozilla offrono software che competono.
+Le funzionalità di navigazione web di Internet Explorer.
 Si legge nel documento dell'azienda di Bill Gates.
 Entrambi i browser svolgono ottimamente la funzione per la quale sono sviluppati.
 E l'interfaccia grafica dei due è tanto simile che un utente inesperto può confonderli.
-La scelta di adozione di Mozilla Firefox permette però di essere svincolati.
+La scelta di adozione di Mozilla Firefox permette, però, di essere svincolati.
 La scelta del sistema operativo e dalla versione dello stesso.
 L'ultima versione di Internet Explorer è disponibile solo per Windows Xp e Vista.
-Inoltre la possibilità di adattare il programma alle specifiche esigenze attraverso le estensioni.
+Inoltre, la possibilità di adattare il programma alle specifiche esigenze attraverso le estensioni.
 Essa può risultare molto utile.
 I concorrenti siano molto simili tra loro.
 In conclusione può essere più vantaggiosa per un istituto scolastico la scelta di Mozilla Firefox.
-La gestione degli studenti nei laboratori informatici è sicuramente una delle priorità degli insegnanti.
+La gestione degli studenti nei laboratori informatici è una delle priorità degli insegnanti.
 Qualunque attività si stia svolgendo: mantenere l'attenzione degli studenti.
 Far vedere loro le procedure da mettere in pratica.
 Allo stesso tempo controllare cosa si stia facendo in ogni singola postazione risulta difficile.
 Potrebbe essere impossibile per il docente.
-La soluzione a queste problematiche è fornita da diverse soluzioni software sia proprietarie che open source.
+La soluzione a questi problemi è fornita da diverse soluzioni software sia proprietarie che non.
 La soluzione proprietaria più diffusa è quella costituita da un software
 Esso è stato sviluppato da un inglese che lo distribuisce in diverse lingue.
-Grazie a questo software il docente ha la possibilità di avere una visuale completa delle schermate dei computer.
-Essi sono mostrati ai diversi studenti e per mezzo di esso si può interagire con i rispettivi computer.
+Grazie a lui.
+Il docente ha la possibilità di avere una visuale completa delle schermate dei computer.
+Essi sono mostrati ai diversi studenti.
+Per mezzo di esso si può interagire con i rispettivi computer.
 Per controllare il loro utilizzo del mezzo.
 Esistono anche altri software proprietari che svolgono funzioni analoghe.
 Probabilmente meno diffuso perché non offre una soluzione completa.
 Flessibile ed intuitiva come il precedente.
-Si compone di diversi moduli di utilizzo più specifico per creare ad esempio aule multimediali o laboratori linguistici.
-Per quanto riguarda le soluzioni open source la principale è senza dubbio costituita dal software iTALC.
+Si compone di diversi moduli di utilizzo più specifico
+per creare ad esempio aule multimediali o laboratori linguistici.
+Per quanto riguarda le soluzioni open source.
+La principale è senza dubbio costituita dal software iTALC.
 ITALC è acronimo di Intelligent Teaching and Learning with Computers.
 È stato sviluppato da Tobias Doerffel uno studente della Technical University di Chemnitz in Germania.
 Partendo dai più noti programmi di controllo remoto via rete.
 E modificandoli per creare un software adatto a realizzare reti didattiche.
-Per il confronto delle funzionalità dei due programmi ne vengono prese in considerazione le versioni più recenti.
+Per il confronto delle funzionalità dei due programmi
+Vengono prese in considerazione le versioni più recenti.
 Dal punto di vista dell'usabilità i due programmi presentano interfacce analoghe.
-Permettono di eseguire tutti i comandi tenendo contemporaneamente sotto controllo tutte le postazioni di lavoro.
+Permettono di eseguire tutti i comandi
+tenendo contemporaneamente sotto controllo tutte le postazioni di lavoro.
 Il passaggio da un software all'altro non dovrebbe creare grossi problemi all'utente medio.
 Senza competenze tecniche particolari.
 Non esistono studi relativi all'affidabilità dei due software in esame.
@@ -11447,10 +11468,10 @@ Le specifiche dichiarate risultano essere senza dubbio sottostimate.
 Dal momento che non sono sufficienti nemmeno per l'utilizzo del sistema operativo.
 Quelle dichiarate risultano essere più verosimili.
 In ogni caso sicuramente sufficienti al corretto funzionamento dei sistemi operativi supportati.
-Giudichiamo nel complesso equivalenti le specifiche tecniche realmente necessarie al funzionamento dei software.
+Giudichiamo nel complesso equivalenti le specifiche tecniche.
+Esse sono realmente necessarie al funzionamento dei software.
 Dal punto di vista dell'integrazione con il sistema operativo.
 Con le applicazioni installate sia sul server sia sui client.
-Non sono rilevabili significative differenze tra i due programmi.
 Il software che viene eseguito sui client.
 Non è minimamente influenzato dal software di gestione della rete didattica e viceversa.
 La riduzione delle prestazioni dei computer è relativamente poco influente.
@@ -11460,32 +11481,39 @@ In questo senso è sicuramente superiore all'altro programma dal momento che per
 La gestione di reti omogenee.
 All'interno delle quali tutti i client utilizzano il medesimo sistema operativo.
 All'interno delle quali i client possono utilizzare anche diversi sistemi operativi.
-I programmi non producono documenti di alcun tipo ad eccezione delle immagini scattate agli schermi dei client.
+I programmi non producono documenti di alcun tipo.
+eccezion fatta delle immagini scattate agli schermi dei client.
 Sono in formati standard e compatibili con i principali software.
 Il supporto viene fornito dalle società distributrici.
 Il rilascio delle nuove versioni è garantito entro un anno dal rilascio della licenza.
 Per quanto riguarda il supporto, questo può essere fornito da società o da consulenti.
 Le nuove versioni che vengono rilasciate possono essere scaricate dal sito per gli aggiornamenti.
 Il costo di licenza varia in funzione del numero di client del laboratorio.
-Il prezzo della licenza è comprensivo dell'invio delle nuove release per un anno e di un ticket per l'assistenza tecnica.
+Il prezzo della licenza è comprensivo dell'invio
+Delle nuove release per un anno e di un ticket per l'assistenza tecnica.
 Non esiste costo di licenza per iTALC essendo liberamente scaricabile da internet.
 Entrambi i software svolgono tutte le funzioni delle quali possa aver bisogno un docente.
 Voglia monitorare la classe all'interno del laboratorio informatico.
 Entrambe hanno delle funzionalità non presenti nel software concorrente.
 In particolare permette alcuni controlli sulle periferiche quali stampanti e penne USB.
 Dal canto suo permette la gestione di reti eterogenee.
-Può essere molto utile in caso si decida di utilizzare sistemi operativi diversi all'interno della rete.
+Può essere molto utile in caso si decida.
+Utilizzare sistemi operativi diversi all'interno della rete.
 Nel complesso la scelta di utilizzarlo sembra essere la più conveniente per un istituto scolastico.
-Il software è affidabile e risponde alle principali esigenze per la gestione di un laboratorio scolastico.
+Il software è affidabile.
+Risponde alle principali esigenze per la gestione di un laboratorio scolastico.
 Visti gli elevati costi di licenza.
-Offrendo in più il vantaggio di non essere vincolato al sistema operativo in uso né sul server né sulle postazioni.
-Inoltre è possibile senza spese aggiuntive aggiornare il programma.
+Offrendo in più il vantaggio di non essere vincolato al sistema operativo in uso
+né sul server né sulle postazioni.
+Inoltre, è possibile senza spese aggiuntive aggiornare il programma.
 I rilasci sono frequenti nell'ordine di uno ogni 2-3 mesi.
 Si ritengono gli istituti scolastici il soggetto ideale.
-Un'analisi delle possibilità di implementazione nella PA di soluzioni basate su software open source.
+Un'analisi delle possibilità di implementazione nella PA.
+Soluzioni basate su software open source.
 Considerato un'ottima alternativa per la gestione di infrastrutture informatiche.
 In questo particolare caso di laboratori informatici.
-Volendo fare un'analisi della conoscenza e della diffusione del software open source nelle scuole.
+Volendo fare un'analisi della conoscenza.
+Della diffusione del software open source nelle scuole.
 Si è cercato di individuare un campione il più possibile omogeneo ed accessibile.
 Sono state individuate a tal fine le scuole secondarie di primo grado statali del Comune di Brescia.
 Essendo un numero limitato di entità.
@@ -11502,7 +11530,7 @@ Anche se queste sono in numero maggiore.
 Le scuole secondarie di secondo grado sono invece state escluse.
 La mancata omogeneità del campione.
 Esiste troppa differenza tra le scuole di diverso indirizzo nella gestione e nell'utilizzo dei laboratori.
-La creazione del questionario è stata fatta tenendo conto delle competenze del target di riferimento.
+Nel creare il questionario si è tenuto conto delle competenze del target di riferimento.
 Evitando domande troppo tecniche.
 Le interviste sono state condotte personalmente.
 Aiutando quindi i soggetti nella compilazione.
@@ -11514,7 +11542,8 @@ Se sì potrebbe spiegare brevemente di cosa si tratta?
 Quali sistemi operativi sono utilizzati nei laboratori informatici?
 Conosce altri sistemi operativi?
 Quanto li conosce?
-Nei laboratori sono utilizzati sistemi operativi open source o è mai stata vagliata questa possibilità?
+Nei laboratori sono utilizzati sistemi operativi open source.
+È mai stata vagliata questa possibilità?
 Quali software sono utilizzati nei laboratori informatici?
 Indicare i nomi non solo la tipologia degli stessi.
 Utilizzate o state vagliando la possibilità di utilizzare software open source nei laboratori?
@@ -11526,9 +11555,11 @@ Sono compresi sia software open source che proprietari.
 I dati risultanti dai questionari somministrati sono stati catalogati ed analizzati.
 Mediante grafici per quanto riguarda le domande chiuse.
 Le domande aperte sono state catalogate.
-I risultati verranno utilizzati prevalentemente per fornire commenti addizionali ai grafici così ottenuti.
+I risultati verranno utilizzati prevalentemente
+fornire commenti addizionali ai grafici così ottenuti.
 I dati ricavabili dalla prima parte del questionario permettono di delineare.
-La situazione attuale dell'infrastruttura informatica dei laboratori didattici delle scuole del campione.
+La situazione attuale dell'infrastruttura informatica.
+Dei laboratori didattici delle scuole del campione.
 Rapportare la stessa alla dimensione dell'istituto.
 Individuata in base al numero di alunni iscritti.
 Quantificazione delle risorse disponibili nei laboratori.
@@ -11536,7 +11567,7 @@ La maggior parte degli istituti è dotata di un laboratorio informatico.
 Alcuni istituti con un più elevato numero di classi possiedono due laboratori.
 Agevolare l'accesso alle postazioni di tutti gli studenti.
 È presente un numero di postazioni variabile tra 9 e 22.
-Il numero di postazioni non consente nella maggior parte dei casi l'utilizzo di una postazione per ogni studente.
+Il numero di postazioni non consente l'utilizzo di una postazione per ogni studente.
 Questo può agevolare il lavoro collaborativo.
 Ma nello stesso tempo non permette l'acquisizione dell'indipendenza.
 La padronanza del mezzo agli studenti.
@@ -11559,10 +11590,12 @@ Le domande presenti in questa parte del questionario permettono di creare.
 Un quadro sufficientemente completo della conoscenza dell'open source.
 Inteso sia come fenomeno in generale sia a livello più pratico come singole applicazioni disponibili.
 Tra i responsabili dei laboratori informatici delle scuole del campione.
-Si indaga inoltre in questa sezione sul livello di conoscenza.
+Si indaga, inoltre, in questa sezione sul livello di conoscenza.
 I diversi sistemi operativi e quelli attualmente in uso all'interno dei laboratori didattici.
-Sui diversi software attualmente in utilizzo e sulla percezione delle caratteristiche dei software conosciuti.
-Con particolare interesse al confronto tra i software proprietari e i corrispondenti concorrenti open source.
+Sui diversi software attualmente in utilizzo
+sulla percezione delle caratteristiche dei software conosciuti.
+Con particolare interesse al confronto
+Tra i software proprietari e i corrispondenti concorrenti open source.
 Vengono valutati infine la conoscenza dei formati open source per il salvataggio.
 La portabilità dei dati e l'utilizzo degli stessi.
 Il 92% degli intervistati ha risposto in modo affermativo.
@@ -11583,26 +11616,28 @@ Il libero utilizzo dei programmi.
 La libera distribuzione degli stessi e la disponibilità e modificabilità del codice sorgente.
 Completezza delle definizioni di open source.
 Solo il 42% dei rispondenti ha individuato tutte e tre le caratteristiche.
-Mentre il 25% ne ha individuate due e il 33% ne ha individuata solamente una.
+Mentre il 25% ne ha individuate due.
+Il 33% ne ha individuata solamente una.
 Esso rivela come la maggioranza del campione abbia una discreta conoscenza del fenomeno open source.
 Hanno individuato correttamente due caratteristiche fondamentali su tre.
 Caratteristiche individuate dai rispondenti.
 Entrando nel dettaglio osserviamo che tutti i rispondenti hanno descritto il software open source.
 Software liberamente utilizzabile senza pagare costi di licenza.
-Il 50% ha indicato come caratteristica di questo tipo di software la libera distribuibilità dello stesso.
+Il 50% ha indicato come caratteristica di questo tipo di software la libera distribuibilità.
 La disponibilità del codice sorgente è stata invece indicata dal 42% dei rispondenti.
 Nel complesso benché solo una parte delle definizioni fornite dagli intervistati.
 Colga tutti gli aspetti individuati come caratteristici del software open source.
 È possibile affermare che la conoscenza del fenomeno è buona all'interno del campione.
 Mostra i sistemi operativi utilizzati attualmente nei laboratori delle scuole del campione.
 Nell'86% dei laboratori viene utilizzato esclusivamente il sistema operativo Windows.
-Mentre solo in una piccola parte dei laboratori del campione viene utilizzato il sistema operativo Linux.
+Solo in una piccola parte dei laboratori del campione viene utilizzato il sistema operativo Linux.
 Sempre in concomitanza a Windows.
 Risulta interessante verificare quali versioni di Windows vengano utilizzate.
 In più del 50% dei casi vengano utilizzate versioni datate del sistema operativo.
 Ormai non più supportate dal produttore Microsoft, si tratta di Windows 95, 98, e 2000.
 Per i quali non vengono più rilasciati aggiornamenti di sicurezza).
-Il mancato aggiornamento espone questi sistemi operativi problemi di sicurezza durante la navigazione internet.
+Il mancato aggiornamento espone questi sistemi operativi problemi di sicurezza.
+Durante la navigazione internet.
 Li rende vulnerabili all'attacco di virus e di programmi malware.
 Per quanto riguarda la conoscenza dei diversi sistemi operativi.
 Dove è stato chiesto di valutare la propria conoscenza dei sistemi operativi.
@@ -11618,7 +11653,7 @@ I risultati concordano con quelli raccolti.
 Spiegano la mancata diffusione del sistema operativo Linux all'interno delle scuole.
 La gestione di un sistema operativo la cui conoscenza sia sommaria.
 Risulterebbe difficoltosa per i responsabili dei laboratori.
-Si riscontra però un notevole interesse nei confronti dei sistemi operativi open source e quindi di Linux.
+Si riscontra, un notevole interesse nei confronti dei sistemi operativi open source e quindi di Linux.
 Solo il 14% degli istituti utilizzi sistemi operativi open source.
 Il 36% del totale degli intervistati segnala.
 Nell'istituto di appartenenza si stia vagliando la possibilità di iniziare ad utilizzarli.
@@ -11631,18 +11666,19 @@ Mentre il 23% degli istituti sta vagliando la possibilità di farlo.
 Quindi molto ma molto soggettiva.
 L'obiettivo era delineare un quadro della percezione degli applicativi.
 In relazione a diverse caratteristiche degli stessi quali: numero di funzionalità.
-È stato inoltre chiesto un giudizio complessivo sul software in esame.
+È stato Inoltre, chiesto un giudizio complessivo sul software in esame.
 I valori medi delle valutazioni raccolte sono presentati nelle tabelle seguenti.
 La scelta dei software da includere nella valutazione è stata effettuata.
-Abbinando a ciascuno dei software open source presentati l'equivalente software proprietario considerato più diffuso.
+Abbinando a ciascuno dei software open source presentati l'equivalente proprietario considerato più diffuso.
 Sono superiori al valore per tutte le caratteristiche.
 Si colloca oltre la metà della scala utilizzata.
 Il che indica che i software sono considerati validi dagli intervistati.
-In particolare viene percepito migliore per quanto riguarda tutte le caratteristiche prese in esame.
+In particolare viene percepito migliore
+Per quanto riguarda tutte le caratteristiche prese in esame.
 In particolare per quanto riguarda l'affidabilità Mozilla Firefox.
 Le valutazioni relative a Mozilla Firefox e Internet Explorer.
 Browser per la navigazione su internet risultano buone per entrambi gli applicativi.
-Risulta però superiore per tutte le caratteristiche prese in esame.
+Risulta, però, superiore per tutte le caratteristiche prese in esame.
 Mozilla Firefox considerato più affidabile più performante e più ricco di funzionalità.
 Questa valutazione che per la sicurezza su internet l'affidabilità è ritenuta essenziale.
 I risultati medi ottenuti dalle valutazioni di Mozilla Thunderbird e di Outlook Express.
@@ -11669,15 +11705,17 @@ I browser internet e i client di posta elettronica questi sono considerati addir
 Principalmente perché più performanti ed affidabili.
 Per quanto riguarda la conoscenza dell'esistenza di standard open source.
 Per la creazione e la diffusione dei documenti informatici.
-Creati per permettere a diversi software di leggere i dati contenuti nei documenti che utilizzano questi formati.
+Creati per permettere a diversi software effettuare alcune operazioni.
+leggere i dati contenuti nei documenti che utilizzano questi formati.
 Il 69% degli intervistati dichiara di essere a conoscenza dell'esistenza di questi standard.
-Ma la metà degli stessi si trova in difficoltà di fronte alla richiesta di esempi di questi standard.
-Lo standard che viene citato più spesso come esempio è il formato di salvataggio dei documenti.
+Ma la metà degli stessi si trova in difficoltà
+Di fronte alla richiesta di esempi di questi standard.
+Lo standard che viene citato più spesso è il formato di salvataggio dei documenti.
 Seguito da formati come l'rtf e il pdf per i documenti testuali e il jpeg per le immagini.
-Il 38% degli intervistati dichiara però di utilizzare questi standard per la creazione di documenti.
+Il 38% degli intervistati dichiara di utilizzare questi standard per la creazione di documenti.
 Anche se bisogna considerare la possibilità che parte di coloro.
-Hanno dichiarato di non conoscere l'esistenza degli standard effettivamente li utilizzi senza saperlo.
-Esistono numerosi progetti per l'utilizzo e la diffusione del software open source all'interno delle scuole.
+Hanno dichiarato di non conoscere l'esistenza degli standard.
+L'utilizzo E la diffusione del software open source all'interno delle scuole.
 Sia a livello nazionale che a livello locale.
 Quest'ultima parte del questionario valuta la conoscenza di questi progetti.
 L'interesse all'approfondimento dell'argomento.
@@ -11701,8 +11739,8 @@ Quelli proposti dal questionario: alfabetizzazione informatica mediante software
 Distribuzione di software open source agli studenti.
 Riutilizzo di pc obsoleti mediante l'utilizzo di software open source.
 Il 54% degli intervistati ha risposto.
-Indicando l'alfabetizzazione informatica mediante software open source come progetto di maggiore interesse.
-Il 31% indica invece come progetto più interessante la distribuzione di software open source agli studenti.
+Indicando l'alfabetizzazione informatica via software open source come progetto di maggiore interesse.
+Il 31% indica invece come più interessante la distribuzione di software open source agli studenti.
 Mentre il 15% indica il riutilizzo di pc obsoleti mediante l'utilizzo di software open source.
 Il fenomeno rappresentato dall'evoluzione del software open source.
 Rappresenta senza dubbio un'opportunità di crescita per le scuole.
@@ -11720,7 +11758,8 @@ La spinta maggiore in questo senso viene dalla possibilità di utilizzare softwa
 Liberamente distribuibile anche agli studenti all'interno dell'infrastruttura esistente.
 Senza per questo incidere sui costi di gestione dei laboratori didattici.
 Allo stesso tempo aumentandone le possibilità di utilizzo.
-Il software open source viene visto come valido sostituto sotto tutti i punti di vista degli equivalenti proprietari.
+Il software open source viene visto
+Come valido sostituto sotto tutti i punti di vista degli equivalenti proprietari.
 La sua diffusione è ancora frenata dalla difficoltà di adattamento ai nuovi sistemi degli insegnanti.
 Preferiscono continuare ad utilizzare i programmi ai quali sono abituati.
 Il timore di non riuscire ad imparare nuove procedure su software diversi.
@@ -11730,8 +11769,10 @@ Corsi di aggiornamento rivolti ai docenti che utilizzano i laboratori informatic
 Lo svolgimento dell'attività didattica.
 L'uso di software open source all'interno delle istituzioni scolastiche porterebbe indubbi benefici.
 In un ambiente recettivo come quello rilevato nelle scuole del campione.
-Potrebbe essere portata avanti in tempi non eccessivamente lunghi e senza complicazioni di particolare rilevanza.
-L'ostacolo maggiore è riscontrabile nella mancanza di informazioni utili allo studio di una soluzione concreta.
+Potrebbe essere portata avanti in tempi non eccessivamente lunghi
+Senza complicazioni di particolare rilevanza.
+L'ostacolo maggiore è riscontrabile.
+La mancanza di informazioni utili allo studio di una soluzione concreta.
 Per essere messa in atto richiede la redazione di un progetto articolato.
 All'interno del quale si tenga conto non solo dei vantaggi ottenibili.
 Ma anche di tutte le possibili problematiche che potrebbero sorgere.
@@ -11745,12 +11786,15 @@ Potrebbe permettere una valutazione più precisa delle reali opportunità offert
 Lo stesso Ministero della Pubblica Istruzione invita gli istituti scolastici.
 Valutare attentamente le possibilità offerte dall'utilizzo di software open source.
 Ma le direttive emanate in merito sono poco conosciute.
-Come pure le iniziative quali la distribuzione a tutte le scuole statali di dvd.
+Come pure le iniziative quali la distribuzione a tutte le scuole statali di DVD.
 Contenenti il materiale formativo per il corso denominato OPEN M.A.I.S.
 MAIS è acronimo di Moduli di Autoapprendimento di Informatica per le Scuole basati sui sistemi OPEN.
 E il sito dell'Osservatorio Tecnologico per la Scuola.
 Nel prossimo futuro si prevede un aumento della diffusione di soluzioni.
-Basate su software open source all'interno degli edifici scolastici negli istituti del campione di riferimento.
+Basate su software open source
+All'interno degli edifici scolastici negli istituti del campione di riferimento.
 Ma anche più in generale nelle Pubbliche Amministrazioni.
-Dovranno fare il possibile per sfruttare appieno le possibilità offerte nel lungo periodo da questi nuovi prodotti.
-Il materiale inviato a tutte le scuole sotto forma di dvd-rom con allegato manuale di istruzioni per i docenti.
+Dovranno fare il possibile
+Sfruttare appieno le possibilità offerte nel lungo periodo da questi nuovi prodotti.
+Il materiale inviato a tutte le scuole sotto forma di DVD-ROM.
+con allegato manuale di istruzioni per i docenti.
