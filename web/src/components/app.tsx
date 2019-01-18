@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Suspense } from 'react';
 import { connect, Provider } from 'react-redux';
 import {
   Redirect,
@@ -8,64 +9,55 @@ import {
   withRouter,
 } from 'react-router';
 import { Router } from 'react-router-dom';
-const { LocalizationProvider } = require('fluent-react');
+const { LocalizationProvider } = require('fluent-react/compat');
 import { createBrowserHistory } from 'history';
+const rtlLocales = require('../../../locales/rtl.json');
 import store from '../stores/root';
 import URLS from '../urls';
 import {
   isMobileWebkit,
   isFirefoxFocus,
   isNativeIOS,
-  sleep,
   isProduction,
   replacePathLocale,
+  isStaging,
 } from '../utility';
 import {
-  createMessagesGenerator,
+  createBundleGenerator,
   DEFAULT_LOCALE,
   LOCALES,
   negotiateLocales,
 } from '../services/localization';
 import API from '../services/api';
 import { Locale } from '../stores/locale';
+import { Notifications } from '../stores/notifications';
 import StateTree from '../stores/tree';
 import { Uploads } from '../stores/uploads';
+import { User } from '../stores/user';
 import Layout from './layout/layout';
-import ListenPage from './pages/contribution/listen/listen';
-import SpeakPage from './pages/contribution/speak/speak';
+import NotificationPill from './notification-pill/notification-pill';
+import { LoginFailure, LoginSuccess } from './pages/login';
+const ListenPage = React.lazy(() =>
+  import('./pages/contribution/listen/listen')
+);
+const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
+import { Spinner } from './ui/ui';
 import {
   isContributable,
   localeConnector,
   LocalePropsFromState,
 } from './locale-helpers';
 
-const LOAD_TIMEOUT = 5000; // we can only wait so long.
-
-/**
- * Preload these images before revealing contents.
- * TODO: right now we load all images, which is unnecessary.
- */
-const PRELOAD = [
-  '/img/cv-logo-bw.svg',
-  '/img/cv-logo-one-color-white.svg',
-  '/img/robot-greetings.png',
-  '/img/wave-blue-large.png',
-  '/img/wave-blue-mobile.png',
-  '/img/waves/_1.svg',
-  '/img/waves/_2.svg',
-  '/img/waves/_3.svg',
-  '/img/waves/fading.svg',
-  '/img/waves/Eq.svg',
-];
-
 interface PropsFromState {
   api: API;
+  notifications: Notifications.State;
   uploads: Uploads.State;
 }
 
 interface PropsFromDispatch {
   removeUpload: typeof Uploads.actions.remove;
   setLocale: typeof Locale.actions.set;
+  refreshUser: typeof User.actions.refresh;
 }
 
 interface LocalizedPagesProps
@@ -77,180 +69,203 @@ interface LocalizedPagesProps
 }
 
 interface LocalizedPagesState {
-  messagesGenerator: any;
+  hasScrolled: boolean;
+  bundleGenerator: any;
   uploadPercentage?: number;
 }
 
-const LocalizedLayout: any = withRouter(
-  localeConnector(
-    connect<PropsFromState, PropsFromDispatch>(
-      ({ api, uploads }: StateTree) => ({
-        api,
-        uploads,
-      }),
-      { removeUpload: Uploads.actions.remove, setLocale: Locale.actions.set }
-    )(
-      class extends React.Component<LocalizedPagesProps, LocalizedPagesState> {
-        state: LocalizedPagesState = {
-          messagesGenerator: null,
-          uploadPercentage: null,
-        };
+let LocalizedPage: any = class extends React.Component<
+  LocalizedPagesProps,
+  LocalizedPagesState
+> {
+  state: LocalizedPagesState = {
+    hasScrolled: false,
+    bundleGenerator: null,
+    uploadPercentage: null,
+  };
 
-        isUploading = false;
+  isUploading = false;
 
-        async componentDidMount() {
-          await this.prepareMessagesGenerator(this.props);
-        }
+  async componentDidMount() {
+    await this.prepareBundleGenerator(this.props);
+    window.addEventListener('scroll', this.handleScroll);
+    setTimeout(() => this.setState({ hasScrolled: true }), 5000);
+    this.props.refreshUser();
+  }
 
-        async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
-          const { uploads, userLocales } = nextProps;
+  async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
+    const { uploads, userLocales } = nextProps;
 
-          this.runUploads(uploads).catch(e => console.error(e));
+    this.runUploads(uploads).catch(e => console.error(e));
 
-          window.onbeforeunload =
-            uploads.length > 0
-              ? e =>
-                  (e.returnValue =
-                    'Leaving the page now aborts pending uploads. Are you sure?')
-              : undefined;
+    window.onbeforeunload =
+      uploads.length > 0
+        ? e =>
+            (e.returnValue =
+              'Leaving the page now aborts pending uploads. Are you sure?')
+        : undefined;
 
-          if (
-            userLocales.find(
-              (locale, i) => locale !== this.props.userLocales[i]
-            )
-          ) {
-            await this.prepareMessagesGenerator(nextProps);
+    if (userLocales.find((locale, i) => locale !== this.props.userLocales[i])) {
+      await this.prepareBundleGenerator(nextProps);
+    }
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  async runUploads(uploads: Uploads.State) {
+    if (this.isUploading) return;
+    this.isUploading = true;
+    this.setState({ uploadPercentage: 0 });
+    for (let i = 0; i < uploads.length; i++) {
+      this.setState({ uploadPercentage: (i + 1) / (uploads.length + 1) });
+      const upload = uploads[i];
+      try {
+        await upload();
+      } catch (e) {
+        console.error('upload error', e);
+      }
+      this.props.removeUpload(upload);
+    }
+    this.setState({ uploadPercentage: null });
+    this.isUploading = false;
+
+    if (this.props.uploads.length > 0) {
+      await this.runUploads(this.props.uploads);
+    }
+  }
+
+  async prepareBundleGenerator({
+    api,
+    history,
+    userLocales,
+  }: LocalizedPagesProps) {
+    const [mainLocale] = userLocales;
+    const pathname = history.location.pathname;
+
+    // Since we make no distinction between "en-US", "en-UK",... we redirect them all to "en"
+    if (mainLocale.startsWith('en-')) {
+      this.props.setLocale('en');
+      history.replace(replacePathLocale(pathname, 'en'));
+      return;
+    }
+
+    if (!LOCALES.includes(mainLocale)) {
+      this.props.setLocale(DEFAULT_LOCALE);
+      history.replace(replacePathLocale(pathname, DEFAULT_LOCALE));
+    } else {
+      this.props.setLocale(userLocales[0]);
+    }
+
+    const { documentElement } = document;
+    documentElement.setAttribute('lang', mainLocale);
+    documentElement.setAttribute(
+      'dir',
+      rtlLocales.includes(mainLocale) ? 'rtl' : 'ltr'
+    );
+
+    this.setState({
+      bundleGenerator: await createBundleGenerator(api, userLocales),
+    });
+  }
+
+  handleScroll = () => {
+    this.setState({ hasScrolled: true });
+  };
+
+  render() {
+    const { locale, notifications, toLocaleRoute } = this.props;
+    const { bundleGenerator, uploadPercentage } = this.state;
+
+    if (!bundleGenerator) return null;
+
+    return (
+      <div>
+        <div
+          className="upload-progress"
+          style={
+            uploadPercentage === null
+              ? {
+                  opacity: 0,
+                  width: '100%',
+                  background: '#59cbb7',
+                  animationPlayState: 'paused',
+                }
+              : {
+                  opacity: 1,
+                  width: uploadPercentage * 100 + '%',
+                  animationPlayState: 'running',
+                }
           }
-        }
+        />
+        <LocalizationProvider bundles={bundleGenerator}>
+          <div>
+            <div className="notifications">
+              {notifications
+                .slice()
+                .reverse()
+                .map(notification => (
+                  <NotificationPill key={notification.id} {...notification} />
+                ))}
+            </div>
 
-        async runUploads(uploads: Uploads.State) {
-          if (this.isUploading) return;
-          this.isUploading = true;
-          this.setState({ uploadPercentage: 0 });
-          for (let i = 0; i < uploads.length; i++) {
-            this.setState({ uploadPercentage: (i + 1) / (uploads.length + 1) });
-            const upload = uploads[i];
-            try {
-              await upload();
-            } catch (e) {
-              console.error('upload error', e);
-            }
-            this.props.removeUpload(upload);
-          }
-          this.setState({ uploadPercentage: null });
-          this.isUploading = false;
-
-          if (this.props.uploads.length > 0) {
-            await this.runUploads(this.props.uploads);
-          }
-        }
-
-        async prepareMessagesGenerator({
-          api,
-          history,
-          userLocales,
-        }: LocalizedPagesProps) {
-          const [mainLocale] = userLocales;
-          const pathname = history.location.pathname;
-
-          // Since we make no distinction between "en-US", "en-UK",... we redirect them all to "en"
-          if (mainLocale.startsWith('en-')) {
-            this.props.setLocale('en');
-            history.replace(replacePathLocale(pathname, 'en'));
-            return;
-          }
-
-          if (!LOCALES.includes(mainLocale)) {
-            this.props.setLocale(DEFAULT_LOCALE);
-            history.replace(replacePathLocale(pathname, DEFAULT_LOCALE));
-          } else {
-            this.props.setLocale(userLocales[0]);
-          }
-
-          document.documentElement.setAttribute('lang', mainLocale);
-
-          this.setState({
-            messagesGenerator: await createMessagesGenerator(api, userLocales),
-          });
-        }
-
-        render() {
-          const { locale, toLocaleRoute } = this.props;
-          const { messagesGenerator, uploadPercentage } = this.state;
-          return (
-            messagesGenerator && (
-              <div>
-                <div
-                  className="upload-progress"
-                  style={
-                    uploadPercentage === null
-                      ? {
-                          opacity: 0,
-                          width: '100%',
-                          background: '#59cbb7',
-                          animationPlayState: 'paused',
-                        }
-                      : {
-                          opacity: 1,
-                          width: uploadPercentage * 100 + '%',
-                          animationPlayState: 'running',
-                        }
+            <Switch>
+              {[
+                { route: URLS.SPEAK, Component: SpeakPage },
+                { route: URLS.LISTEN, Component: ListenPage },
+              ].map(({ route, Component }) => (
+                <Route
+                  key={route}
+                  exact
+                  path={toLocaleRoute(route)}
+                  render={props =>
+                    isContributable(locale) ? (
+                      <Component {...props} />
+                    ) : (
+                      <Redirect to={toLocaleRoute(URLS.ROOT)} />
+                    )
                   }
                 />
-                <LocalizationProvider messages={messagesGenerator}>
-                  <Switch>
-                    <Route
-                      exact
-                      path={toLocaleRoute(URLS.SPEAK)}
-                      render={props =>
-                        isContributable(locale) ? (
-                          <SpeakPage {...props} />
-                        ) : (
-                          <Redirect to={toLocaleRoute(URLS.ROOT)} />
-                        )
-                      }
-                    />
-                    <Route
-                      exact
-                      path={toLocaleRoute(URLS.LISTEN)}
-                      render={props =>
-                        isContributable(locale) ? (
-                          <ListenPage {...props} />
-                        ) : (
-                          <Redirect to={toLocaleRoute(URLS.ROOT)} />
-                        )
-                      }
-                    />
-                    <Layout />
-                  </Switch>
-                </LocalizationProvider>
-              </div>
-            )
-          );
-        }
+              ))}
+              <Layout />
+            </Switch>
+          </div>
+        </LocalizationProvider>
+      </div>
+    );
+  }
+};
+
+LocalizedPage = withRouter(
+  localeConnector(
+    connect<PropsFromState, PropsFromDispatch>(
+      ({ api, notifications, uploads }: StateTree) => ({
+        api,
+        notifications,
+        uploads,
+      }),
+      {
+        removeUpload: Uploads.actions.remove,
+        setLocale: Locale.actions.set,
+        refreshUser: User.actions.refresh,
       }
-    )
+    )(LocalizedPage)
   )
 );
 
 const history = createBrowserHistory();
 
-interface State {
-  loaded: boolean;
-}
-
-class App extends React.Component<void, State> {
+class App extends React.Component {
   main: HTMLElement;
   userLocales: string[];
 
-  state: State = {
-    loaded: false,
-  };
+  state: { error: Error; Sentry: any } = { error: null, Sentry: null };
 
   /**
    * App will handle routing to page controllers.
    */
-  constructor(props: void, context: any) {
+  constructor(props: any, context: any) {
     super(props, context);
 
     if (isNativeIOS()) {
@@ -268,24 +283,31 @@ class App extends React.Component<void, State> {
     this.userLocales = negotiateLocales(navigator.languages);
   }
 
-  /**
-   * Pre-Load all images before first content render.
-   */
-  private preloadImages(): Promise<void> {
-    return new Promise<void>(resolve => {
-      let loadedSoFar = 0;
-      const onLoad = () => {
-        ++loadedSoFar;
-        if (loadedSoFar === PRELOAD.length) {
-          resolve();
-        }
-      };
-      PRELOAD.forEach(imageUrl => {
-        const image = new Image();
-        image.addEventListener('load', onLoad);
-        image.src = imageUrl;
-      });
+  async componentDidMount() {
+    if (!isProduction()) {
+      const script = document.createElement('script');
+      script.src = 'https://pontoon.mozilla.org/pontoon.js';
+      document.head.appendChild(script);
+    }
+  }
+
+  async componentDidCatch(error: Error, errorInfo: any) {
+    this.setState({ error });
+
+    if (!isProduction() && !isStaging()) {
+      return;
+    }
+    const Sentry = await import('@sentry/browser');
+    Sentry.init({
+      dsn: 'https://e0ca8e37ef77492eb3ff46caeca385e5@sentry.io/1352219',
     });
+    Sentry.withScope(scope => {
+      Object.keys(errorInfo).forEach(key => {
+        scope.setExtra(key, errorInfo[key]);
+      });
+      Sentry.captureException(error);
+    });
+    this.setState({ Sentry });
   }
 
   /**
@@ -295,46 +317,55 @@ class App extends React.Component<void, State> {
     document.body.classList.add('ios');
   }
 
-  async componentDidMount() {
-    if (!isProduction()) {
-      const script = document.createElement('script');
-      script.src = 'https://pontoon.mozilla.org/pontoon.js';
-      document.head.appendChild(script);
+  render() {
+    const { error, Sentry } = this.state;
+    if (error) {
+      return (
+        <div>
+          An error occurred. Sorry!
+          <br />
+          <button onClick={() => Sentry.showReportDialog()} disabled={!Sentry}>
+            Report feedback
+          </button>
+          <br />
+          <button onClick={() => location.reload()}>Reload</button>
+        </div>
+      );
     }
 
-    await Promise.all([
-      Promise.race([sleep(LOAD_TIMEOUT), this.preloadImages()]).then(() =>
-        this.setState({ loaded: true })
-      ),
-    ]);
-  }
-
-  render() {
-    return this.state.loaded ? (
-      <Provider store={store}>
-        <Router history={history}>
-          <Switch>
-            {Object.values(URLS).map(url => (
+    return (
+      <Suspense fallback={<Spinner />}>
+        <Provider store={store}>
+          <Router history={history}>
+            <Switch>
+              <Route exact path="/login-failure" component={LoginFailure} />
+              <Route exact path="/login-success" component={LoginSuccess} />
+              {Object.values(URLS).map(url => (
+                <Route
+                  key={url}
+                  exact
+                  path={url || '/'}
+                  render={() => (
+                    <Redirect
+                      to={'/' + this.userLocales[0] + url + location.search}
+                    />
+                  )}
+                />
+              ))}
               <Route
-                key={url}
-                exact
-                path={url || '/'}
-                render={() => <Redirect to={'/' + this.userLocales[0] + url} />}
+                path="/:locale"
+                render={({
+                  match: {
+                    params: { locale },
+                  },
+                }) => (
+                  <LocalizedPage userLocales={[locale, ...this.userLocales]} />
+                )}
               />
-            ))}
-            <Route
-              path="/:locale"
-              render={({ match: { params: { locale } } }) => (
-                <LocalizedLayout userLocales={[locale, ...this.userLocales]} />
-              )}
-            />
-          </Switch>
-        </Router>
-      </Provider>
-    ) : (
-      <div id="spinner">
-        <span />
-      </div>
+            </Switch>
+          </Router>
+        </Provider>
+      </Suspense>
     );
   }
 }

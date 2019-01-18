@@ -1,5 +1,22 @@
 import * as React from 'react';
+import { HTMLProps } from 'react';
+import { Link } from 'react-router-dom';
 import { LocaleLink } from '../locale-helpers';
+import { Localized } from 'fluent-react/compat';
+
+export const Avatar = ({ url }: { url?: string }) => (
+  <div className="avatar-wrap">
+    {url ? (
+      <img src={url} />
+    ) : (
+      <img
+        className="mars-avatar"
+        src="/img/mars-avatar.svg"
+        alt="Robot Avatar"
+      />
+    )}
+  </div>
+);
 
 export const Button = ({
   className = '',
@@ -28,6 +45,13 @@ export const CardAction = ({ className, ...props }: any) =>
 
 export const Hr = (props: any) => <hr className="hr" {...props} />;
 
+export const LabeledCheckbox = ({ label, ...props }: any) => (
+  <label className="labeled-checkbox">
+    <input type="checkbox" {...props} />
+    <span className="label">{label}</span>
+  </label>
+);
+
 const LabeledFormControl = ({
   className = '',
   component: Component,
@@ -38,12 +62,17 @@ const LabeledFormControl = ({
   const child = <Component {...{ required, ...props }} />;
   return (
     <label
-      className={['labeled-form-control', 'for-' + Component, className].join(
-        ' '
-      )}
+      className={[
+        'labeled-form-control',
+        'for-' + Component,
+        className,
+        props.disabled ? 'disabled' : '',
+      ].join(' ')}
       {...props}>
-      {label}
-      {required && '*'}
+      <span className="label">
+        {required && '*'}
+        {label}
+      </span>
       {Component == 'select' ? (
         <div className="wrapper with-down-arrow">{child}</div>
       ) : (
@@ -53,8 +82,8 @@ const LabeledFormControl = ({
   );
 };
 
-export const LabeledInput = (props: any) => (
-  <LabeledFormControl component="input" {...props} />
+export const LabeledInput = ({ type, ...props }: any) => (
+  <LabeledFormControl component="input" type={type || 'text'} {...props} />
 );
 
 export const LabeledSelect = (props: any) => (
@@ -69,19 +98,70 @@ export const LinkButton = ({
   className = '',
   outline = false,
   rounded = false,
+  absolute = false,
   ...props
-}: any) => (
-  <LocaleLink
-    className={[
-      'button',
-      outline ? 'outline' : '',
-      rounded ? 'rounded' : '',
-      className,
-    ].join(' ')}
-    {...props}
-  />
-);
+}: any) => {
+  const Component = props.to ? (absolute ? Link : LocaleLink) : 'a';
+  return (
+    <Component
+      className={[
+        'button',
+        outline ? 'outline' : '',
+        rounded ? 'rounded' : '',
+        className,
+      ].join(' ')}
+      {...props}
+    />
+  );
+};
+
+type SpinnerState = { showSpinner: boolean };
+
+export class Spinner extends React.Component<
+  { delayMs: number },
+  SpinnerState
+> {
+  static defaultProps = { delayMs: 300 };
+
+  state: SpinnerState = { showSpinner: false };
+
+  delayTimeout: number;
+
+  componentDidMount() {
+    this.delayTimeout = setTimeout(() => {
+      this.setState({ showSpinner: true });
+    }, this.props.delayMs);
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.delayTimeout);
+  }
+
+  render() {
+    return this.state.showSpinner ? (
+      <div className="spinner">
+        <span />
+      </div>
+    ) : null;
+  }
+}
 
 export const TextButton = ({ className = '', ...props }: any) => (
   <button type="button" className={'text-button ' + className} {...props} />
+);
+
+export const Toggle = ({
+  offText,
+  onText,
+  ...props
+}: { offText: string; onText: string } & HTMLProps<HTMLInputElement>) => (
+  <div className="toggle-input">
+    <input type="checkbox" {...props} />
+    <Localized id={offText}>
+      <div />
+    </Localized>
+    <Localized id={onText}>
+      <div />
+    </Localized>
+  </div>
 );

@@ -3,32 +3,36 @@ import * as http from 'http';
 import * as path from 'path';
 import * as express from 'express';
 import { NextFunction, Request, Response } from 'express';
+require('source-map-support').install();
+const contributableLocales = require('locales/contributable.json');
+import { importLocales } from './lib/model/db/import-locales';
 import Model from './lib/model';
+import {
+  getFullClipLeaderboard,
+  getFullVoteLeaderboard,
+} from './lib/model/leaderboard';
 import API from './lib/api';
 import Logger from './lib/logger';
-import {
-  isLeaderServer,
-  getElapsedSeconds,
-  ClientError,
-  APIError,
-} from './lib/utility';
+import { getElapsedSeconds, ClientError, APIError } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
 import authRouter from './auth-router';
-import { router as adminRouter } from './admin';
 import fetchLegalDocument from './fetch-legal-document';
 
-const FULL_CLIENT_PATH = path.join(__dirname, '../web');
+const consul = require('consul')({ promisify: true });
+
+const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
 
 const CSP_HEADER = [
   `default-src 'none'`,
-  `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com`,
-  `img-src 'self' www.google-analytics.com`,
+  `style-src 'self' https://fonts.googleapis.com https://optimize.google.com 'unsafe-inline'`,
+  `img-src 'self' www.google-analytics.com www.gstatic.com https://optimize.google.com https://www.gstatic.com https://gravatar.com data:`,
   `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
   // Note: we allow unsafe-eval locally for certain webpack functionality.
-  `script-src 'self' 'unsafe-eval' 'sha256-it/hVbE0ffRQjkt+hTb6/JM7wKrTSMEK4CHF4s42Zu8=' https://www.google-analytics.com/analytics.js https://pontoon.mozilla.org/pontoon.js`,
+  `script-src 'self' 'unsafe-eval' 'sha256-yybRmIqa26xg7KGtrMnt72G0dH8BpYXt7P52opMh3pY=' 'sha256-jfhv8tvvalNCnKthfpd8uT4imR5CXYkGdysNzQ5599Q=' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com https://sentry.io`,
   `font-src 'self' https://fonts.gstatic.com`,
-  `connect-src 'self' https://pontoon.mozilla.org/graphql`,
+  `connect-src 'self' https://pontoon.mozilla.org/graphql https://*.amazonaws.com https://*.amazon.com https://www.gstatic.com https://www.google-analytics.com https://sentry.io`,
+  `frame-src https://optimize.google.com`,
 ].join(';');
 
 export default class Server {
@@ -65,7 +69,6 @@ export default class Server {
 
     app.use(authRouter);
     app.use('/api/v1', this.api.getRouter());
-    app.use(adminRouter);
 
     const staticOptions = {
       setHeaders: (response: express.Response) => {
@@ -81,6 +84,13 @@ export default class Server {
     app.use(
       '/contribute.json',
       express.static(path.join(__dirname, '..', 'contribute.json'))
+    );
+
+    app.use(
+      '/apple-app-site-association',
+      express.static(
+        path.join(FULL_CLIENT_PATH, 'apple-app-site-association.json')
+      )
     );
 
     if (options.bundleCrossLocaleMessages) {
@@ -154,29 +164,6 @@ export default class Server {
   }
 
   /**
-   * Check if we are the chosen leader server (for performance maintenance).
-   */
-  private async checkLeader(): Promise<boolean> {
-    if (this.isLeader !== null) {
-      return this.isLeader;
-    }
-
-    try {
-      const config = getConfig();
-      this.isLeader = await isLeaderServer(
-        config.ENVIRONMENT,
-        config.RELEASE_VERSION
-      );
-      this.print('leader', this.isLeader);
-    } catch (err) {
-      console.error('error checking for leader', err.message);
-      this.isLeader = false;
-    }
-
-    return this.isLeader;
-  }
-
-  /**
    * Perform any scheduled maintenance on the data model.
    */
   async performMaintenance(doImport: boolean): Promise<void> {
@@ -185,6 +172,7 @@ export default class Server {
 
     try {
       await this.model.performMaintenance();
+      await importLocales();
       if (doImport) {
         await importSentences(await this.model.db.mysql.createPool());
       }
@@ -240,12 +228,52 @@ export default class Server {
     await this.ensureDatabase();
 
     this.listen();
+    const { ENVIRONMENT, RELEASE_VERSION } = getConfig();
 
-    const isLeader = await this.checkLeader();
-
-    if (isLeader) {
+    if (!ENVIRONMENT || ENVIRONMENT === 'default') {
       await this.performMaintenance(options.doImport);
+      // await this.warmUpCaches();
+      return;
     }
+
+    const lock = consul.lock({ key: 'maintenance-lock' });
+
+    lock.on('acquire', async () => {
+      const key = ENVIRONMENT + RELEASE_VERSION;
+
+      try {
+        const result = await consul.kv.get(key);
+        const hasPerformedMaintenance = result && JSON.parse(result.Value);
+
+        if (hasPerformedMaintenance) {
+          this.print('maintenance already performed');
+        } else {
+          await this.performMaintenance(options.doImport);
+          await consul.kv.set(key, JSON.stringify(true));
+        }
+      } catch (e) {
+        this.print('error during maintenance', e);
+      }
+
+      await lock.release();
+    });
+
+    lock.acquire();
+
+    // await this.warmUpCaches();
+  }
+
+  async warmUpCaches() {
+    this.print('warming up caches');
+    const start = Date.now();
+    for (const locale of [null].concat(contributableLocales)) {
+      await this.model.getClipsStats(locale);
+      await this.model.getVoicesStats(locale);
+      await this.model.getContributionStats(locale);
+      await getFullVoteLeaderboard(locale);
+      await getFullClipLeaderboard(locale);
+    }
+    this.print(`took ${getElapsedSeconds(start)}s to warm up caches`);
   }
 
   /**
@@ -276,5 +304,7 @@ process.on('uncaughtException', function(err: any) {
 // If this file is run directly, boot up a new server instance.
 if (require.main === module) {
   let server = new Server();
-  server.run().catch(e => console.error(e));
+  server
+    .run({ doImport: getConfig().IMPORT_SENTENCES })
+    .catch(e => console.error(e));
 }

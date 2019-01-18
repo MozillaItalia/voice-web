@@ -1,6 +1,5 @@
 import Downshift from 'downshift';
-import { Localized } from 'fluent-react';
-import ISO6391 from 'iso-639-1';
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RequestedLanguages } from '../../stores/requested-languages';
@@ -26,9 +25,8 @@ class LanguageAutocomplete extends React.Component<Props> {
 
   render() {
     return (
-      <Downshift
-        onChange={this.props.onChange}
-        render={({
+      <Downshift onChange={this.props.onChange}>
+        {({
           getInputProps,
           getItemProps,
           isOpen,
@@ -37,23 +35,12 @@ class LanguageAutocomplete extends React.Component<Props> {
           highlightedIndex,
         }) => {
           const options = Array.from(
-            new Set(
-              ISO6391.getAllNames().concat(this.props.requestedLanguages || [])
-            )
-          )
-            .map(name => {
-              const code = ISO6391.getCode(name);
-              return code
-                ? [ISO6391.getName(code), ISO6391.getNativeName(code)]
-                : [name, ''];
-            })
-            .filter(
-              ([name, nativeName]) =>
-                name.toLowerCase().includes(inputValue.toLowerCase()) ||
-                nativeName.toLowerCase().includes(inputValue.toLowerCase())
-            );
+            new Set(this.props.requestedLanguages || [])
+          ).filter(name =>
+            name.toLowerCase().includes(inputValue.toLowerCase())
+          );
           const exactMatch = options.find(
-            ([name]) => name.toLowerCase() === inputValue.toLowerCase()
+            name => name.toLowerCase() === inputValue.toLowerCase()
           );
           return (
             <div>
@@ -91,7 +78,7 @@ class LanguageAutocomplete extends React.Component<Props> {
                         Add new Language "{inputValue}"
                       </div>
                     )}
-                    {options.map(([name, nativeName], index) => (
+                    {options.map((name, index) => (
                       <div
                         {...getItemProps({ item: name })}
                         key={name}
@@ -102,7 +89,7 @@ class LanguageAutocomplete extends React.Component<Props> {
                               : 'white',
                           fontWeight: selectedItem === name ? 'bold' : 'normal',
                         }}>
-                        {name + (nativeName ? ` (${nativeName})` : '')}
+                        {name}
                       </div>
                     ))}
                   </div>
@@ -111,7 +98,7 @@ class LanguageAutocomplete extends React.Component<Props> {
             </div>
           );
         }}
-      />
+      </Downshift>
     );
   }
 }

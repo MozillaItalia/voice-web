@@ -1,4 +1,8 @@
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
@@ -111,10 +115,6 @@ class DataPage extends React.Component<Props, State> {
     const { user } = this.props;
 
     trackDataset(`download-${info.nick}`);
-
-    if (!user.hasDownloaded) {
-      this.props.updateUser({ hasDownloaded: true });
-    }
 
     this.setState({
       showModalFor:

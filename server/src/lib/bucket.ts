@@ -24,6 +24,7 @@ export default class Bucket {
     return this.s3.getSignedUrl('getObject', {
       Bucket: getConfig().BUCKET_NAME,
       Key: key,
+      Expires: 24 * 60 * 30,
     });
   }
 
@@ -31,28 +32,33 @@ export default class Bucket {
    * Grab metadata to play clip on the front end.
    */
   async getRandomClips(
-    uid: string,
+    client_id: string,
     locale: string,
     count: number
   ): Promise<{ id: number; glob: string; text: string; sound: string }[]> {
-    const clips = await this.model.findEligibleClips(uid, locale, count);
-    return Promise.all(
-      clips.map(async ({ id, path, sentence }) => {
-        // We get a 400 from the signed URL without this request
-        await this.s3
-          .headObject({
-            Bucket: getConfig().BUCKET_NAME,
-            Key: path,
-          })
-          .promise();
+    const clips = await this.model.findEligibleClips(client_id, locale, count);
+    try {
+      return await Promise.all(
+        clips.map(async ({ id, path, sentence }) => {
+          // We get a 400 from the signed URL without this request
+          await this.s3
+            .headObject({
+              Bucket: getConfig().BUCKET_NAME,
+              Key: path,
+            })
+            .promise();
 
-        return {
-          id,
-          glob: path.replace('.mp3', ''),
-          text: sentence,
-          sound: this.getPublicUrl(path),
-        };
-      })
-    );
+          return {
+            id,
+            glob: path.replace('.mp3', ''),
+            text: sentence,
+            sound: this.getPublicUrl(path),
+          };
+        })
+      );
+    } catch (e) {
+      console.log('aws error', e, e.stack);
+      return [];
+    }
   }
 }

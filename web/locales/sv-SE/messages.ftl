@@ -8,6 +8,8 @@ email-input =
     .label = E-post
 submit-form-action = Skicka in
 loading = Laddar…
+email-opt-in-privacy = Genom att ta emot e-postmeddelanden godkänner du Mozillas hantering av denna information som förklaras i Mozillas <privacyLink>sekretesspolicy<privacyLink>.
+indicates-required = * Indikerar obligatoriska fält
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,21 +17,37 @@ loading = Laddar…
 
 ## Languages
 
+ab = Abkhaziska
+ace = Acehnesiska
+ady = Adygeiska
+af = Afrikaans
+am = Amhariska
+an = Aragonesiska
+ar = Arabiska
 as = Assamesiska
+ast = Asturiska
 az = Azerbajdzjanska
+bg = Bulgariska
 bn = Bengaliska
 br = Bretonska
+bxr = Buryat
 ca = Katalanska
+cak = Cakchiquel
 cnh = Burmesiska
 cs = Tjeckiska
 cv = Tjuvasjiska
 cy = Walesiska
 da = Danska
 de = Tyska
+dsb = Lågsorbiska
+dv = Dhivehi
 el = Grekiska
 en = Engelska
+eo = Esperanto
 es = Spanska
 et = Estländska
+eu = Baskiska
+fa = Persiska
 fi = Finska
 fo = Färöiska
 fr = Franska
@@ -38,6 +56,7 @@ ga-IE = Irländska
 he = Hebreiska
 hsb = Högsorbiska
 hu = Ungerska
+ia = Interlingua
 id = Indonesiska
 is = Isländska
 it = Italienska
@@ -49,18 +68,25 @@ ko = Koreanska
 kpv = Komi-syrjänska
 kw = Korniska
 ky = Kirgiziska
+mdf = Moksha
+mhr = Östmariska
 mk = Makedonska
+mn = Mongoliska
+mrj = Västmariska
 myv = Erzya
 nb-NO = Norska Bokmål
 ne-NP = Nepali
 nl = Nederländska
 nn-NO = Norska, nynorska
+oc = Occitanska
 or = Odia
 pl = Polska
 pt-BR = Portugisiska (Brasilien)
+rm-sursilv = Rätoromanska
 ro = Rumänska
 ru = Ryska
 sah = Sakha
+sc = Sardiska
 sk = Slovakiska
 sl = Slovenska
 sq = Albanska
@@ -71,8 +97,13 @@ te = Telugu
 th = Thailändska
 tr = Turkiska
 tt = Tatariska
+uby = Ubychiska
+udm = Udmurtiska
 uk = Ukrainska
+ur = Urdu
 uz = Uzbekistanska
+vi = Vietnamesiska
+vot = Votiska
 zh-CN = Kinesiska (Kina)
 zh-HK = Kinesiska (Hong Kong)
 zh-TW = Kinesiska (Taiwan)
@@ -96,8 +127,9 @@ faq = FAQ
 content-license-text = Innehåll tillgängligt under en <licenseLink>Creative Commons licens</licenseLink>
 share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
 share-text = Hjälp till att lära maskiner hur riktiga människor pratar, donera din röst på { $link }
+link-copied = Länk kopierad
 back-top = Tillbaka till toppen av sidan
-report-bugs-link = Hjälp oss att rapportera buggar
+logout = Logga ut
 
 ## Home Page
 
@@ -106,6 +138,11 @@ home-cta = Öppna din mun, stöd projekt och gör ett bidrag!
 wall-of-text-start = Språk är naturligt, språk är mänskligt. Därför fascineras vi av att skapa användbara taligenkänningsteknologier för våra enheter. Att utveckla röstbaserade system kräver emellertid en mycket stor mängd inspelningar i talat språk.
 wall-of-text-more-mobile = En större del av den data som används av stora företag är emellertid otillgänglig för de flesta människor. Vi tror att detta kommer att förhindra innovation. Därför lanserade vi projektet Common Voice, ett projekt som hjälper till att göra taligenkänning tillgänglig för alla.
 wall-of-text-more-desktop = Nu kan du donera din röst för att hjälpa oss att bygga en röstdatabas med öppen källkod som alla kan använda för att skapa innovativa appar för enheter och webben.<lineBreak></lineBreak>Läs en mening för att hjälpa maskiner att lära sig hur riktiga människor pratar. Kontrollera andra bidragsgivares arbete för att förbättra kvaliteten. Det är så enkelt!
+wall-of-text-first = Språk är naturligt, språk är mänskligt. Därför är vi glada att skapa användbar röstteknik för våra maskiner. Men för att skapa röstsystem behöver utvecklare en extremt stor mängd röstdata.
+wall-of-text-second =
+    De flesta av de data som används av stora företag är inte tillgängliga för de flesta människor. Vi tror det
+    kväver innovation. Så vi har lanserat Common Voice, ett projekt som gör att röstigenkänning öppnas upp
+    och blir tillgänglig för alla.
 show-wall-of-text = Läs mer
 help-us-title = Hjälp oss validera meningar!
 help-us-explain = Tryck på Play, lyssna och berätta: Var följande mening inspelad korrekt?
@@ -113,6 +150,58 @@ no-clips-to-validate = Det verkar som om det inte finns några klipp att lyssna 
 vote-yes = Ja
 vote-no = Nej
 toggle-play-tooltip = Tryck på { shortcut-play-toggle } för att växla uppspelningsläge
+speak-subtitle = Donera din röst
+speak-paragraph = Inspelning av röstklipp är en integrerad del av att bygga upp vår öppna datamängd; vissa skulle säga att det är den roliga delen också.
+speak-goal-text = Inspelade klipp
+listen-subtitle = Hjälp oss att validera röster
+listen-paragraph = Validera donerade klipp är lika viktigt för Common Voice. Lyssna och hjälp oss att skapa kvalitetsdata för öppen källkod.
+listen-goal-text = Klipp validerade
+hours-recorded = Timmar inspelade
+hours-validated = Timmar validerade
+voices-online = Voice på Internet
+todays-progress = Dagens framsteg
+help-reach-goal = Hjälp oss att nå { $goal }
+read-terms-q = Har du läst våra villkor?
+ready-to-record = Är du redo att donera din röst?
+all-locales = Alla
+today = Idag
+x-weeks-short =
+    { $count ->
+        [one] Vecka
+       *[other] { $count }wk
+    }
+x-months-short =
+    { $count ->
+        [one] Månad
+       *[other] { $count }mo
+    }
+x-years-short =
+    { $count ->
+        [one] År
+       *[other] { $count }y
+    }
+help-make-dataset = Hjälp oss bygga en högkvalitativ, öppen datamängd
+profile-not-required = Det behövs ingen profil för att bidra, men det underlättar
+sign-up-account = Registrera dig för ett konto
+
+## Account Benefits
+
+benefits = Fördelar
+rich-data = Gör dina inskickade data så utförliga som möjligt genom att bidra med anonym demografi. Vi anonymiserar all demografisk data innan den blir publik.
+improve-audio = Profilinformation förbättrar ljuddatan som används för att göra träningen av röstigenkänning bättre.
+keep-track = Håll reda på dina framsteg och mätvärden för flera språk.
+compare-progress = Se hur dina framsteg går mot andra som bidrar över hela världen.
+view-goals = Se dina personliga framsteg och projektmål.
+join-newsletter = Du kan, om du vill, gå med i vår e-postlista för uppdateringar och ny information om projektet.
+
+## What's public
+
+whats-public = Vad är offentligt?
+email-not-public = Vi kommer inte göra din e-post offentlig.
+recordings-and-locale-public = Antalet inspelningar och vilka språk du bidrar till kommer att vara offentligt.
+username-optin-public = Du kan välja att göra ditt användarnamn offentligt eller anonymt.
+demographic-deidentified = Om du valt att skicka demografisk data (t.ex. ålder, kön, och språk) anonymiseras den från dina inskickade röstdata och kommer aldrig bli publik på din profil.
+username-email-not-demographic = Ditt användarnamn och e-post kommer inte att kopplas till den publicerade datan.
 
 ## Speak & Listen Shortcuts
 
@@ -157,8 +246,6 @@ english = Engelska
 
 ## ProfileForm
 
-profile-form-cancel = Avsluta formulär
-profile-form-delete = Ta bort profil
 profile-form-username =
     .label = Användarnamn
 profile-form-language =
@@ -169,50 +256,124 @@ profile-form-age =
     .label = Ålder
 profile-form-gender =
     .label = Kön
+leaderboard-visibility =
+    .label = Synlighet på topplista
+hidden = Dold
+visible = Synlig
+native-language =
+    .label = Modersmål
 profile-form-submit-save = Spara
 profile-form-submit-saved = Sparad
-profile-keep-data = Behåll data
-profile-delete-data = Ta bort data
 male = Man
 female = Kvinna
 # Gender
 other = Annat
 why-profile-title = Varför behövs en profil?
 why-profile-text = Genom att ge lite information om dig själv kan det ljud du ger till Common Voice bli mer användbart för röstigenkänningsmotorer som använder denna data för att förbättra sin noggrannhet.
+dashboard = Översikt
+build-profile = Bygg profil
+avatar = Avatar
+goals = Mål
+settings = Inställningar
 edit-profile = Redigera profil
-profile-create = Skapa en profil
 profile-create-success = Profil skapad!
 profile-close = Stäng
-profile-clear-modal = Att rensa din profildata innebär att din demografiska information inte längre kommer att skickas till Common Voice med dina inspelningar.
 profile-explanation = Håll reda på dina framsteg med en profil och hjälp vår röstdata att bli mer exakt.
+thanks-for-account = Tack för att du har bekräftat ditt konto, nu bygger vi din profil.
+why-demographic = Vad innebär det?
+why-demographic-explanation = Anonymiserade användardata som ålder, kön och accent hjälper till att förbättra ljuddata som används för att träna noggrannheten för taligenkänningsmotorer. Ditt användarnamn och e-post kommer aldrig att kopplas till dina inlämnade data, och du kan välja om du vill göra ditt användarnamn offentligt eller anonymt.
+keep-me-posted =
+    .label = Jag skulle vilja ha uppdateringar och hålla mig uppdaterad med vad som händer med Common Voice.
+accept-privacy = Jag är okej med att du hanterar denna information som du förklarar i Mozillas <privacyLink>sekretesspolicy</privacyLink>
+login-identity = Inloggningsidentitet
+login-signup = Logga in / Registrera dig
+edit = Redigera
+email-subscriptions = E-prenumerationer
+download-profile = Hämta min data
+contribution-experience = Erfarenhet
+skip-submission-feedback = Hoppa över återkoppling
+skip-submission-description = Under inlämning av bidrag ignoreras återkoppling efter att du har klickat på "Skicka in". Bidrag fortsätter direkt med nästa uppsättning av 5 inspelningar eller valideringar.
+skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata och lyssna för att ändra bidragstyp.
+off = Av
+on = På
+add-avatar-title = Lägg till en avatar till din profil
+browse-file-title = Ladda upp en bildfil
+browse-file = Dra och släpp eller <browseWrap>Bläddra</browseWrap>
+connect-gravatar = Anslut med Gravatar
+gravatar_not_found = Ingen gravatar hittades för din e-postadress
+file_too_large = Den valda filen är för stor
+manage-subscriptions = Hantera prenumerationer
+email-already-used = E-postadress används redan för ett annat konto
+add-language = Lägg till språk
+change-email-setings = Ändra ditt e-post via Inställningar under inloggningsidentitet
 
 ## FAQ
 
 faq-title = Vanliga frågor och svar
-faq-what-q = Vad är Common Voice?
-faq-what-a = Röstigenkänningstekniken kan revolutionera hur vi interagerar med maskiner, men de system som finns tillgängliga är dyra och proprietära. Common Voice är ett projekt för att göra röstigenkänningsteknik lättillgänglig för alla. Människor donerar sina röster till en stor databas som låter vem som helst snabbt och enkelt träna röstaktiverade appar. Alla röstdata kommer att finnas tillgängliga för utvecklare.
-faq-important-q = Varför är detta viktigt?
-faq-important-a = Språk är naturligt, språk är mänskligt. Det är det enklaste och mest naturliga sättet att kommunicera. Vi vill att utvecklare ska kunna bygga fantastiska saker från realtidsöversättare till röstaktiverade administrativa assistenter. Men just nu finns det inte tillräckligt med allmänt tillgängliga data för att bygga dessa typer av appar. Vi hoppas att Common Voice kommer att ge utvecklare vad de behöver för sådan innovation.
-faq-get-q = Hur får jag tillgång till Common Voice data?
-faq-get-a = Datamängden är nu tillgänglig på vår <downloadLink>nedladdningssida</downloadLink> under licensen <licensLink>CC-0</ licenseLink>.
-faq-mission-q = Varför är Common Voice en del av Mozillas uppdrag?
-faq-mission-a = Mozilla är dedikerad till att hålla webben öppen och tillgänglig för alla. För att göra det behöver vi stärka webbskapare genom projekt som Common Voice. Eftersom röstteknologi växer utöver nischprogram, tror vi att de måste tjäna alla användare lika bra. Vi ser ett behov av att inkludera flera språk, accenter och demografi när vi bygger och testar röstteknik. Mozilla vill se ett hälsosamt och pulserande internet. Det innebär att nya skapare får tillgång till röstdata så att de kan bygga nya, extraordinära projekt. Common Voice kommer att vara en offentlig resurs som hjälper Mozilla-team och utvecklare runt om i världen.
-faq-native-q = { $lang } är inte mitt modersmål och jag pratar med en accent, är ni fortfarande intresserad av mina röstinspelningar?
-faq-native-a = Ja, vi vill definitivt ha din röst! En del av målet med Common Voice är att samla in så många olika accenter som möjligt, så att datorer bättre kan förstå <bold>alla</ bold> när de talar.
-faq-firefox-q = Kommer tal-till-text, via Common Voice, någonsin att bli en del av Firefox?
-faq-firefox-a = Common Voice har obegränsad potential och vi undersöker talgränssnitt i många Mozilla-produkter, inklusive Firefox.
-faq-quality-q = Vilken kvalitetsnivå krävs för ljudet för att det ska kunna användas?
-faq-quality-a = Vi vill att ljudkvaliteten ska reflektera kvaliteten en röst-till-text motor möter i vardagen. Därför vill vi ha variation. Det lär röst-till-tal motorn att hantera olika situationer—röster i bakgrunden, billjud, fläktar--utan problem.
-faq-hours-q = Varför är 10 000 timmar målet för inspelningen av ljud?
-faq-hours-a = Det är ungefär det antal timmar som krävs för att träna ett röst-till-tal system.
-faq-source-q = Var kommer källtexten ifrån?
-faq-source-a1 = De nuvarande meningarna kommer från bidragsgivare samt från dialoger från filmer som är "public domain" som till exempel filmen <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Du kan se våra källmeningar i <dataLink>denna GitHub-mapp</dataLink>
+faq-what-cv-q = Vad är Common Voice?
+faq-what-cv-a =
+    Teknik för röstigenkänning revolutionerar hur vi interagerar med maskiner, men nuvarande tillgängliga system är dyra och proprietära. Common Voice är en del av Mozillas initiativ för att göra röstigenkänning bättre och mer tillgänglig för alla. Common Voice är en massiv global databas av donerade röster som låter vem som helst snabbt och enkelt träna appar med röst-stöd i potentiellt vilket språk som helst.
+    
+    Vi samlar inte bara in röstprover i stora språk utan även i de som har färre talare. Genom att publicera en mångfaldig datauppsättning av röster gör vi det möjligt för utvecklare, entreprenörer, och gemenskaper att själva påverka klyftan som finns. Utöver datan i Common Voice, bygger vi också Deep Speech, en röstigenkänning i öppen källkod.
+faq-why-important-q = Varför är det viktigt?
+faq-why-important-a =
+    Tal är oftast det mest naturliga sättet vi kommunicerar med varann på och teknik tar den bekvämligheten till våra datorer och mobila enheter. Vi vill möjliggöra för utvecklare att bygga fantastiska appar med röstigenkänning, såsom översättare i realtid och röstaktiverade digitala assistenter. Men just nu är den mesta röstdatan som krävs för att bygga den här typen av appar dyr och proprietär. Vi hoppas att datamängden i Common Voice ger utvecklare vad de behöver för att innovera och göra röstteknik tillgängliga på deras egna språk.
+    
+    För att göra röstigenkänning mer universal, samlar vi in röstprover i brett talade språk, men även de som har en mindre befolkning av talare som oftast åsidosätts av kommersiella tjänster för röstigenkänning. Genom att publicera ett mångfaldig datamängd av röster möjliggör vi för utvecklare, entreprenörer och språkgemenskaper att själva täcka den här klyftan.
+faq-how-get-q = Hur kan jag hämta hem Common Voice-data?
+faq-how-get-a = Common Voice-datamängd finns tillgänglig för nedladdning under licensen <licenseLink>CC0</licenseLink> på <datasetLink>vår sida för datamängder</datasetLink>. Du kan också ladda ner flera andra publikt tillgängliga datamängder från samma sida.
+faq-when-release-q = När kommer ni släppa Common Voice-data på andra språk?
+faq-when-release-a = Den flerspråkiga versionen av Common Voice-datamängd genomgår för närvarande buntning och städning i vår community. Om du vill lära dig mer om hur du stödjer denna insats, vänligen <contactLink>kontakta oss</contactLink>. Vi riktar för närvarande in oss på ett publiceringsdatum i januari 2019. Därefter uppdaterar vi datamängd med nya språk och röstklipp när de blir tillgängliga. Inget beslut har tagits om hur ofta iterativa uppdateringar ska släppas.
+faq-why-mission-q = Varför är Common Voice en del av Mozillas uppdrag?
+faq-why-mission-a = Mozilla är dedikerat till att hålla webben öppen och tillgänglig för alla. För att göra det behöver vi stärka webbskapare genom projekt som Common Voice. Eftersom röstteknologi växer utöver nischprogram, tycker vi att de måste vara tillgängliga för alla användare. Det innebär en investering i fler språk och anpassning efter fler accenter och större demografi när man bygger och testar röstteknik. Common Voice är en offentlig resurs tillgänglig för alla och Mozilla-team och utvecklare runt om i världen använder den redan i sina egna projekt.
+faq-what-cv-and-deepspeech-q = Vad är skillnaden mellan Common Voice och Deep Speech?
+faq-what-cv-and-deepspeech-a = Common Voice-datamängd kompletterar Mozillas taligenkänningsmotor i öppen källkod, Deep Speech. Den första versionen av Deep Speech släpptes i november 2017 och har fortsatt att utvecklas sedan dess. Tillsammans med Common Voice-datamängd tycker vi att denna teknik för röstigenkänning i öppen källkod ska vara tillgänglig för alla. Det är vår förhoppning att dessa tekniker gör det möjligt för utvecklare att bygga en våg av innovativa produkter och tjänster.
+faq-is-goal-assistant-q = Är målet med Common Voice att bygga en röstassistent?
+faq-is-goal-assistant-a = Målet med Common Voice-datamängd är att göra det möjligt för alla i världen att bygga taligenkänning, talarigenkänning, eller andra typer av program som kräver röstdata. En röstassistent är bara en av många typer av program som du kan bygga med hjälp av datamängden.
+faq-do-want-native-q = Detta är inte mitt modersmål och jag pratar med en accent, är ni fortfarande intresserad av mina röst?
+faq-do-want-native-a = Ja, vi vill särskilt ha din röst! En del av syftet med Common Voice är att samla in så många olika accenter som möjligt så att röstigenkänningstjänster fungerar lika bra för alla. Detta innebär att donationer från de som inte har det som modersmål är särskilt viktiga.
+faq-why-different-speakers-q = Varför behöver ni så många olika talare per språk?
+faq-why-different-speakers-a =
+    De flesta taldatabaser tränas med en överrepresentation av en viss demografi vilket resulterar i en partiskhet mot <articleLink>man och medelklass</articleLink>. Accenter och dialekter som tenderar att vara underrepresenterade i träningsdata är vanligtvis förknippade med grupper av människor som redan är marginaliserade. Många maskiner kämpar också för att förstå kvinnliga röster.
+    Det är därför vi vill ha variation i vår röstdatabas!
+faq-why-my-lang-q = Varför är inte mitt språk inkluderat än?
+faq-why-my-lang-a = Mozilla väljer inte eller favoriserar ett språk över ett annat. Istället är Common Voice ett rent community-drivet initiativ, men det krävs <multilangLink>flera steg att lägga till ett nytt språk</multilangLink> och att börja samla röstdonationer. Först måste Common Voice-webbplatsen översättas så att medlemmar i communityn kan få tillgång till det på sitt eget språk. Därefter behöver vi en stor samling upphovsrättsfria meningar som människor ska kunna läsa upp. När båda dessa krav är uppfyllda, lanseras ett språk på Common Voice för att folk ska börja spela in sin röst och att bekräfta andras donationer.
+faq-what-quality-q = Vilken nivå på ljudkvalitet krävs för att ett röstklipp ska kunna användas i datamängden?
+faq-what-quality-a = Vi vill att Common Voice-datamängd ska återspegla ljudkvaliteten som en tal-till-text-motor kommer att höra naturligt, så vi letar efter en variation. Förutom en blandning av talare kommer en datamängd med varierande ljudkvalitet att lära tal-till-text-motorn att hantera olika verkliga situationer, från samtal i bakgrunden till oljud från en bil. Så länge ditt röstklipp är förståeligt ska det vara tillräckligt bra för datamängden.
+faq-why-10k-hours-q = Varför är 10 000 validerade timmar per språk målet för inspelat ljud?
+faq-why-10k-hours-a = Det är ungefär det antalet timmar som krävs för att träna ett röst-till-tal-system.
+faq-how-calc-hours-q = Hur beräknar Common Voice timmar?
+faq-how-calc-hours-a = Vi beräknar antalet timmar genom att uppskatta den genomsnittliga längden för varje inspelning och sedan multiplicera det antalet med det totala antalet inspelningar på alla språk.
+faq-where-src-from-2-q = Vart kommer denna källtexten ifrån?
+faq-where-src-from-2-a =
+    Vår källtext består av ursprungliga bidrag från bidragsgivare och dialoger från offentliga filmskript som <italic>It's a Wonderful Life</italic>.
+    
+    Du kan se våra källmeningar i denna <githubLink>GitHub-mapp</githubLink>.
+faq-why-not-ask-read-q = Varför frågar du inte folk att läsa från böcker eller Wikipedia-artiklar på olika språk?
+faq-why-not-ask-read-a = För att göra Common Voice-datamängd så användbart som möjligt har vi bestämt oss för att bara tillåta källtext som är tillgänglig under en Creative Commons (CC0) -licens. Med hjälp av CC0-standarden är det svårare att hitta och samla källtext, men det tillåter alla att använda den resulterande röstdatan utan begränsningar eller krav från Mozilla. I slutändan vill vi göra den flerspråkiga datamängden så användbar som möjlig för alla, inklusive forskare, universitet, nystartade företag, regeringar, sociala organisationer och hobbyister.
+faq-why-account-q = Varför ska jag registrera mig för ett konto?
+faq-is-account-public-q = Är min kontoinformation offentlig?
+faq-how-privacy-q = Hur säkerställer ni anonymitet och integritet hos de personer som donerat sina röster?
+faq-how-privacy-a = Alla röstklipp i datamängden har rensats från personidentifierande information. När en bidragsgivare tillhandahåller demografiska data via sin profil, anonymiseras den informationen från röstklippen innan de kombineras för nedladdning i datamängden och publiceras aldrig på deras profilsida.
+faq-what-determine-identity-q = Vad betyder det att jag inte kan "försöka bestämma identiteten" för talare i Common Voice-datamängd?
+faq-what-determine-identity-a =
+    Common Voice-datamängd är en öppen och allmänt tillgänglig resurs som kan användas för att träna ett brett utbud av röstaktiverade applikationer. För att skydda våra bidragsgivares säkerhet ber vi alla som hämtar Common Voice-datamängd att respektera bidragsgivarnas integritet.
+    
+    Alla röstklipp i datamängden rensas på personidentifierande information. När du hämtar datamängden godkänner du att du inte försöker ta reda på identiteten hos någon bidragsgivare. Det betyder att du inte får försöka länka information i datamängden till en bidragsgivares personuppgifter. Du kan dock använda datamängden för att träna taligenkänning, talarigenkänning eller andra program, t.ex. genom att länka information i datamängden till annan information som redan finns i datamängden.
 
-## Profile
+## Glossary
 
-profile-why-title = Varför en profil?
-profile-why-content = Genom att ge lite information om dig själv kan det inspelade datan du ger till Common Voice bli mer användbart för röstigenkänningsmotorer som använder denna data för att förbättra sin noggrannhet.
+glossary = Ordlista
+localization = Översättning
+localization-explanation = Det här är vår process för att översätta och anpassa vårt innehåll till många språk.
+sentence-collection = Insamling av meningar
+sentence-collection-explanation = Insamling av meningar från offentliga källor eller skriva nya tillgängliga för allmänheten.
+hours-recorded-explanation = Antalet röstinspelningstimmar vi hittills har samlat in.
+hours-validated-explanation = Antalet röstinspelningstimmar som har validerats av 2 av 3 användare med en röst på "Ja". Dessa markerar framsteg mot det övergripande projektmålet om 10 000 timmar.
+sst = Tal-till-text (STT)
+sst-explanation = Tal-till-text (STT)-tekniken konverterar röstdata till text.
+de-identified = Anonymisering
+de-identified-explanation = Processen genom vilken en bidragsgivares profilinformation döljs från sina donerade röstklipp när de är packade för nedladdning som en del av datamängden.
 
 ## NotFound
 
@@ -241,26 +402,11 @@ data-bundle-button = Ladda ner Dataset-paket
 data-bundle-description = Common Voice data plus alla andra röstdatamängder ovan.
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandat
-
-## Record Page
-
-record-platform-not-supported = Vi är ledsna, min din plattform stöds inte för tillfället. 
-record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
-record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
-record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
-record-retry = Försök igen
-record-no-mic-found = Ingen mikrofon kunde hittas.
-record-error-too-short = Inspelningen var för kort.
-record-error-too-long = Inspelningen var för lång.
-record-error-too-quiet = Inspelningen var för tyst.
-record-submit-success = Inskickat! Vill du spela in igen?
-record-help = Vänligen klicka för att spela in, läs sedan ovanstående mening högt.
-record-cancel = Avbryt återinspelning
 review-terms = Genom att använda Common Voice godkänner du våra <termsLink>villkor</termsLink> och <privacyLink> sekretesspolicy</privacyLink>
 terms-agree = Jag håller med
 terms-disagree = Jag håller inte med
 review-aborted = Uppladdningen avbröts. Vill du radera dina inspelningar?
-review-submit-title = Granska och skicka in 
+review-submit-title = Granska och skicka in
 review-submit-msg = Tack för inspelningen! <lineBreak></lineBreak>Granska och skicka in dina klipp nedan.
 review-recording = Granska
 review-rerecord = Spela in igen
@@ -300,7 +446,7 @@ request-language-success-content = Vi hör av oss med mer information om hur du 
 language-section-in-progress = Pågående
 language-section-in-progress-description = Pågående språk byggs nu för bidrag från våra gemenskaper. Deras framsteg återspeglar var de står i översättning av webbplatsen och insamling av meningar.
 language-section-launched = Lanserad
-language-section-launched-description = För dessa lanserade språk har webbplatsen översatts fullständigt och tillräckligt med meningar har samlats in för att möjliggöra ett pågående samarbete genom <italic>{ speak }</italic> och <italic>{ listen }</italic>.
+language-section-launched-new-description = För dessa lanserade språk har webbplatsen översatts fullständigt och tillräckligt med meningar har samlats in för att möjliggöra ett pågående samarbete genom <italic>Tala</italic> och <italic>Lyssna</italic>.
 languages-show-more = Läs mer
 languages-show-less = Visa mindre
 language-speakers = Talas av
@@ -308,6 +454,10 @@ language-meter-in-progress = Förlopp
 language-total-progress = Totalt
 language-search-input =
     .placeholder = Sök
+language-speakers = Talas av
+localized = Översatt
+sentences = Meningar
+total-hours = Validerade timmar
 
 ## New Contribution
 
@@ -317,17 +467,24 @@ contribute = Bidra
 listen = Lyssna
 skip = Hoppa över
 shortcuts = Genvägar
-clips = Klipp
-goal-type-record = inspelning
-goal-type-validation = validering
-# $goalType will either be the string goal-type-record or goal-type-validation
-toward-goal = Det är <goalPercentage></goalPercentage> närmare dagens Common Voice { $goalType } mål. Tack
+clips-with-count = <bold>{ $count }</bold> klipp
+goal-help-recording = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } inspelningsmål!
+goal-help-validation = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } valideringsmål!
 contribute-more =
     { $count ->
         [one] Redo att göra { $count } till?
        *[other] Redo att göra { $count } till?
     }
 record-cta = Starta inspelning
+record-platform-not-supported = Vi är ledsna, min din plattform stöds inte för tillfället.
+record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
+record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
+record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
+record-no-mic-found = Ingen mikrofon kunde hittas.
+record-error-too-short = Inspelningen var för kort.
+record-error-too-long = Inspelningen var för lång.
+record-error-too-quiet = Inspelningen var för tyst.
+record-cancel = Avbryt återinspelning
 record-instruction = { $actionType } <recordIcon></recordIcon> och läs sedan meningen högt
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> när du är klar
 record-three-more-instruction = Tre kvar!
@@ -338,11 +495,7 @@ review-tooltip = Här kan du kontrollera och återuppta inspelningar
 unable-speak = Kan inte prata just nu?
 review-instruction = Om det behövs kan du granska och återuppta inspelningar
 record-submit-tooltip = { $actionType } skicka in när du är redo
-clips-submitted =
-    { $count ->
-        [one] { $count } klipp lämnades
-       *[other] { $count } klipp lämnades
-    }
+clips-uploaded = Klipp uppladdade
 record-abort-title = Avsluta inspelningen först?
 record-abort-text = Om du slutar nu kommer dina framsteg att gå förlorade
 record-abort-submit = Skicka in klipp
@@ -352,4 +505,52 @@ listen-instruction = { $actionType }<playIcon></playIcon> var meningen uttalad k
 listen-again-instruction = Bra jobbat!<playIcon></playIcon> Lyssna igen när du är redo
 listen-3rd-time-instruction = Två färdiga, <playIcon></playIcon> bra jobbat!
 listen-last-time-instruction = <playIcon></playIcon> Sista!
+nothing-to-validate = Vi har inget att validera på det här språket, hjälp oss att fylla kön.
+record-button-label = Spela in din röst
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster
+
+## Goals
+
+streaks = Antal dagar i rad
+days =
+    { $count ->
+        [one] Dag
+       *[other] Dagar
+    }
+recordings =
+    { $count ->
+        [one] Inspelning
+       *[other] Inspelningar
+    }
+validations =
+    { $count ->
+        [one] Validering
+       *[other] Valideringar
+    }
+
+## Dashboard
+
+your-languages = Dina språk
+toward-next-goal = Till nästa mål
+clips-you-recorded = Klipp du har spelat in
+clips-you-validated = Klipp du har validerat
+todays-recorded-progress = Dagens framsteg på Common Voice för inspelade klipp
+todays-validated-progress = Dagens framsteg på Common Voice för validerade klipp
+stats = Statistik
+you = Du
+everyone = Alla
+contribution-activity = Bidragsaktivitet
+top-contributors = Bästa bidragare
+recorded-clips = Inspelade klipp
+validated-clips = Validerade klipp
+total-approved = Totalt godkända
+overall-accuracy = Övergripande noggrannhet
+
+## Profile Delete
+
+delete-q = Vill du begära att dina röstinspelningar tas bort också, eller föredrar du att behålla dem i Common Voice datamängd?
+keep = Behåll
+remove = Ta bort
+keep-info = Dina anonyma röstinspelningar förblir i Common Voice datamängd. När du har raderat din profil kan du inte längre skicka in en begäran om att ta bort dina inspelningar från datamängden
+remove-info = Vi kommer att granska din begäran om att ta bort dina röstinspelningar från datamängden. Om din förfrågan godkänns kontaktar vi dem som har laddat ner datamängden och begär att de även tar bort dina röstinspelningar.
+profile-form-delete = Ta bort profil

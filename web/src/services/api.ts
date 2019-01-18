@@ -1,6 +1,10 @@
+import { AllGoals } from 'common/goals';
+import { LanguageStats } from 'common/language-stats';
+import { UserClient } from 'common/user-clients';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
-import { Recordings } from '../stores/recordings';
+import { USER_KEY } from '../stores/root';
+import { Sentences } from '../stores/sentences';
 
 export interface Clip {
   id: string;
@@ -10,7 +14,7 @@ export interface Clip {
 }
 
 interface FetchOptions {
-  method?: 'GET' | 'POST' | 'PUT' | 'DELETE';
+  method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
   isJSON?: boolean;
   headers?: {
     [headerName: string]: string;
@@ -28,7 +32,7 @@ export default class API {
     this.user = user;
   }
 
-  private fetch(path: string, options: FetchOptions = {}): Promise<any> {
+  private async fetch(path: string, options: FetchOptions = {}): Promise<any> {
     const { method, headers, body, isJSON } = Object.assign(
       { isJSON: true },
       options
@@ -43,66 +47,45 @@ export default class API {
       headers
     );
 
-    if (path.startsWith(location.origin)) {
-      finalHeaders.uid = this.user.userId;
+    if (path.startsWith(location.origin) && !this.user.account) {
+      finalHeaders.client_id = this.user.userId;
     }
 
-    return fetch(path, {
+    const response = await fetch(path, {
       method: method || 'GET',
       headers: finalHeaders,
       body: body
-        ? body instanceof Blob ? body : JSON.stringify(body)
+        ? body instanceof Blob
+          ? body
+          : JSON.stringify(body)
         : undefined,
-    }).then(response => (isJSON ? response.json() : response.text()));
+    });
+    if (response.status == 401) {
+      localStorage.removeItem(USER_KEY);
+      location.reload();
+      return;
+    }
+    return isJSON ? response.json() : response.text();
+  }
+
+  forLocale(locale: string) {
+    return new API(locale, this.user);
   }
 
   getLocalePath() {
-    return API_PATH + '/' + this.locale;
+    return this.locale ? API_PATH + '/' + this.locale : API_PATH;
   }
 
   getClipPath() {
     return this.getLocalePath() + '/clips';
   }
 
-  fetchRandomSentences(count: number = 1): Promise<Recordings.Sentence[]> {
+  fetchRandomSentences(count: number = 1): Promise<Sentences.Sentence[]> {
     return this.fetch(`${this.getLocalePath()}/sentences?count=${count}`);
   }
 
   fetchRandomClips(count: number = 1): Promise<Clip[]> {
     return this.fetch(`${this.getClipPath()}?count=${count}`);
-  }
-
-  syncDemographics(): Promise<Event> {
-    // Note: Do not add more properties of this.user w/o legal review
-    const { userId, accents, age, gender } = this.user;
-    return this.fetch(API_PATH + '/user_clients/' + userId, {
-      method: 'PUT',
-      body: { accents, age, gender },
-    });
-  }
-
-  syncUser(): Promise<any> {
-    const {
-      age,
-      accents,
-      email,
-      gender,
-      hasDownloaded,
-      sendEmails,
-      userId,
-    } = this.user;
-
-    return this.fetch(`${API_PATH}/users/${userId}`, {
-      method: 'PUT',
-      body: {
-        age,
-        accents,
-        email,
-        gender,
-        has_downloaded: hasDownloaded,
-        send_emails: sendEmails,
-      },
-    });
   }
 
   uploadClip(blob: Blob, sentenceId: string, sentence: string): Promise<void> {
@@ -159,27 +142,8 @@ export default class API {
     });
   }
 
-  fetchPontoonLanguages() {
-    return this.fetch('https://pontoon.mozilla.org/graphql', {
-      method: 'POST',
-      body: {
-        query: `{
-          project(slug: "common-voice") {
-            slug
-            localizations {
-              totalStrings
-              approvedStrings
-              locale {
-                code
-                name
-                population
-              }
-            }
-          }
-        }`,
-        variables: null,
-      },
-    });
+  async fetchLanguageStats(): Promise<LanguageStats> {
+    return this.fetch(`${API_PATH}/language_stats`);
   }
 
   fetchDocument(name: 'privacy' | 'terms'): Promise<string> {
@@ -192,5 +156,80 @@ export default class API {
     return this.fetch(`${API_PATH}/skipped_sentences/` + id, {
       method: 'POST',
     });
+  }
+
+  fetchClipsStats(
+    locale?: string
+  ): Promise<{ date: string; total: number; valid: number }[]> {
+    return this.fetch(API_PATH + (locale ? '/' + locale : '') + '/clips/stats');
+  }
+
+  fetchClipVoices(locale?: string): Promise<{ date: string; value: number }[]> {
+    return this.fetch(
+      API_PATH + (locale ? '/' + locale : '') + '/clips/voices'
+    );
+  }
+
+  fetchContributionActivity(
+    from: 'you' | 'everyone',
+    locale?: string
+  ): Promise<{ date: string; value: number }[]> {
+    return this.fetch(
+      API_PATH +
+        (locale ? '/' + locale : '') +
+        '/contribution_activity?from=' +
+        from
+    );
+  }
+
+  fetchUserClients(): Promise<UserClient[]> {
+    return this.fetch(API_PATH + '/user_clients');
+  }
+
+  fetchAccount(): Promise<UserClient> {
+    return this.fetch(API_PATH + '/user_client');
+  }
+
+  saveAccount(data: UserClient): Promise<UserClient> {
+    return this.fetch(API_PATH + '/user_client', {
+      method: 'PATCH',
+      body: data,
+    });
+  }
+
+  subscribeToNewsletter(email: string): Promise<void> {
+    return this.fetch(API_PATH + '/newsletter/' + email, {
+      method: 'POST',
+    });
+  }
+
+  saveAvatar(type: 'default' | 'file' | 'gravatar', file?: Blob) {
+    return this.fetch(API_PATH + '/user_client/avatar/' + type, {
+      method: 'POST',
+      isJSON: false,
+      ...(file ? { body: file } : {}),
+    }).then(body => JSON.parse(body));
+  }
+
+  fetchLeaderboard(type: 'clip' | 'vote', cursor?: [number, number]) {
+    return this.fetch(
+      this.getClipPath() +
+        (type == 'clip' ? '' : '/votes') +
+        '/leaderboard' +
+        (cursor ? '?cursor=' + JSON.stringify(cursor) : '')
+    );
+  }
+
+  fetchGoals(locale?: string): Promise<AllGoals> {
+    return this.fetch(
+      API_PATH + '/user_client' + (locale ? '/' + locale : '') + '/goals'
+    );
+  }
+
+  claimAccount(): Promise<void> {
+    return this.fetch(
+      API_PATH + '/user_clients/' + this.user.userId + '/claim',
+      { method: 'POST' }
+    );
   }
 }

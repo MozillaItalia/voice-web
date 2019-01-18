@@ -15,33 +15,48 @@ loading = Ow karga...
 
 ## Languages
 
+an = Aragonek
+ar = Arabek
 as = Asamek
+ast = Asturiek
 az = Azerbayjanek
 bn = Bengalek
 br = Bretonek
+bxr = Buryat
 ca = Katalanek
+cnh = Hakha Chin
 cs = Check
 cv = Chouvash
 cy = Kembrek
 da = Danek
 de = Almaynek
+dsb = Iselsorbek
 el = Greka
 en = Sowsnek
 es = Spaynek
 et = Estonek
+fi = Finnek
+fo = Faroek
 fr = Frenkek
 fy-NL = Frisek
 ga-IE = Wordhenek
 he = Ebrow
+hsb = Ughelsorbek
 hu = Hongarek
+ia = Interlingua
 id = Indonesek
+is = Islondek
 it = Italek
+ja = Japanek
 ka = Jorjek
 kab = Kabyle
 kk = Kazakh
 ko = Koreek
+kpv = Komi-Zyrian
 kw = Kernowek
+ky = Kyrgyz
 mk = Makedonek
+myv = Erzya
 nb-NO = Norgaghek (Bokmål)
 ne-NP = Nepalek
 nl = Iseldiryek
@@ -65,6 +80,7 @@ tt = Tatar
 uk = Ukraynek
 uz = Uzbek
 zh-CN = Chinek (China)
+zh-HK = Chinek (Hong Kong)
 zh-TW = Chinek (Taiwan)
 
 # [/]
@@ -86,14 +102,18 @@ faq = Govynnow menowgh
 content-license-text = Kavadow yw an dalgh yn-dann <licenseLink>leshyans Creative Commons</licenseLink>
 share-title = Gweresowgh ni ow hwilas re erel dhe argevro aga lev!
 share-text = Gweresowgh ow tyski dhe jynnow kowsel kepar ha pobel gwir, argevrowgh agas lev orth { $link }
+link-copied = Kevren kopies
 back-top = Dehweles dhe benn an folen
+contribution-banner-text = Yma nowydh lonchys genen fordh nowydh dhe gevri
+contribution-banner-button = Gwrewgh gik
+report-bugs-link = Gweres ow terivas gwallow
 
 ## Home Page
 
-home-title = An ragdres Common Voice yw towl Mozilla dhe weres ow tyski dhe jynnow fatel wra tus gwir kowsel.
+home-title = Common Voice yw ragdres gans Mozilla dhe weres dyski dhe jynnow fatel wra tus gwir kowsel.
 home-cta = Kowsowgh yn ughel, kevrowgh omma!
-wall-of-text-start = Naturel yw an lev, dhe dhenses yma'n lev. Henn yw prag yma hwans dhyn gwul teknegieth lev dhe les rag agan jynnow. Mes rag gwul systemow lev, res yw kuntel myns bras dres eghen a dhata lev.
-wall-of-text-more-mobile = Nyns yw kavadow brassa rann an data usys gans kowethyansow bras dhe'n brassa rann a dus. Ni a grys henna dhe lettya awenekter. Ytho yma lonchyes genen an ragdres Common Voice, towl dhe weres ow kul aswonvos lev ygor dhe bubonen.
+wall-of-text-start = Naturel yw an lev, dhe dhenses yma'n lev. Henn yw prag yma hwans dhyn gwruthyl teknegieth lev rag agan jynnow. Mes rag gwruthyl systemow lev, res yw kuntel myns bras dres eghen a dhata lev.
+wall-of-text-more-mobile = Nyns yw brassa rann an data usys gans kowethyansow bras kavadow dhe'n brassa rann a dus. Ni a grys henna dhe lettya awenekter. Ytho yma lonchyes genen an ragdres Common Voice, towl dhe weres ow kul aswonvos lev ygor dhe bubonen.
 wall-of-text-more-desktop =
     Lemmyn ni a yll argevro agas lev dhe weres dhyn ow trehevel database pennfenten ygor a yll pubonen usya rag gwul towlennow awenek rag devisyow ha'n wias.<lineBreak></lineBreak>
     Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh an ober a gevriysi erel dhe wellhe aga hwalita. Mar sempel es henna yw!
@@ -293,10 +313,13 @@ request-language-success-content = Ni a vynn kestava genowgh gans moy kedhlow a-
 ## Languages Overview
 
 language-section-in-progress = Ow spedya
+language-section-in-progress-description = Yethow ow spedya yw an re usi ow pos drehevys may hallo agan kemenethow kevri; aga spedyans a dhastewyn kemmys leelheans re beu kowlwres ha kemmys lavarow re beu kuntellys.
 language-section-launched = Lonchys
+language-section-launched-description = Rag an yethow lonchys ma, an wiasva re beu leelhes yn sowen, hag yma lavarow lowr dhedhi re beu kuntellys, rag alowa kevri dre <italic>{ speak }</italic> ha <italic>{ listen }</italic>.
 languages-show-more = Gweles moy
 languages-show-less = Gweles le
 language-speakers = Kowsoryon
+language-meter-in-progress = Spedyans
 language-total-progress = Somm
 language-search-input =
     .placeholder = Hwilas
@@ -305,13 +328,13 @@ language-search-input =
 
 action-click = Klyckyowgh
 action-tap = Tappyowgh
+contribute = Kevri
 listen = Goslowowgh
 skip = Hepkor
 shortcuts = Skochfordhow
 clips = Klyppys
-goal-type-record = ow rekordya
-goal-type-validation = gwiryans
-toward-goal = Henn yw <goalPercentage></goalPercentage> war-tu ha amkan { $goalType } Common Voice hedhyw. Meur ras
+goal-help-recording = Hwi re weresas Common Voice dhe dhrehedhes <goalPercentage></goalPercentage> a'gan amkan rekordya dedhyek a { $goalValue }!
+goal-help-validation = Hwi re weresas Common Voice dhe dhrehedhes <goalPercentage></goalPercentage> a'gan amkan gwirya dedhyek a { $goalValue }!
 contribute-more =
     { $count ->
         [zero] Parys dhe wul { $count } moy?
@@ -332,15 +355,7 @@ review-tooltip = Dasweles ha dasrekordya klyppys omma
 unable-speak = Ny yllir kowsel lemmyn
 review-instruction = Dasweles ha dasrekordya klyppys mars yw res
 record-submit-tooltip = { $actionType } danvenowgh pan vo parys
-clips-submitted =
-    { $count ->
-        [zero] Ny veu klypp vyth danvenys!
-        [one] { $count } klypp danvenys!
-        [two] { $count } glypp danvenys!
-        [few] { $count } klypp danvenys!
-        [many] { $count } klypp danvenys!
-       *[other] { $count } klypp danvenys!
-    }
+clips-uploaded = Klyppys ughkergys
 record-abort-title = Gorfenna rekordya kens oll?
 record-abort-text = Mar tiberthowgh lemmyn, hwi a wra kelli agas ober
 record-abort-submit = Danvon klyppys
@@ -350,3 +365,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> a gowssons yn kewer an
 listen-again-instruction = Ober da! <playIcon></playIcon> Goslowowgh arta pan vowgh parys
 listen-3rd-time-instruction = 2 gwrys <playIcon></playIcon>, splann!
 listen-last-time-instruction = <playIcon></playIcon> An diwettha!
+nothing-to-validate = Nyns eus tra vyth dhe wirya y'n yeth ma, gweresowgh dhyn ow lenwel an lost.
+record-button-label = Rekordyowgh agas lev
+share-title-new = <bold>Gweresowgh ni</bold> ow kavos moy levow

@@ -1,6 +1,6 @@
-import { hash, getFirstDefined } from '../../utility';
 import { IConnection } from 'mysql2Types';
 import { getConfig } from '../../../config-helper';
+import { hash, getFirstDefined } from '../../utility';
 
 const SALT = 'hoads8fh49hgfls';
 
@@ -14,9 +14,9 @@ export type MysqlOptions = {
   password: string;
   host: string;
   port: number;
-  max: number;
-  idleTimeoutMillis: number;
+  connectTimeout: number;
   multipleStatements: boolean;
+  namedPlaceholders: boolean;
 };
 
 // Default configuration values, notice we dont have password.
@@ -26,15 +26,18 @@ const DEFAULTS: MysqlOptions = {
   password: '',
   host: 'localhost',
   port: 3306,
-  max: 10,
-  idleTimeoutMillis: 30000,
+  connectTimeout: 30000,
   multipleStatements: false,
+  namedPlaceholders: true,
 };
 
 export default class Mysql {
-  options: MysqlOptions;
   rootConn: IConnection;
   pool: any;
+
+  constructor() {
+    this.rootConn = null;
+  }
 
   /**
    * Get options from params first, then config, and falling back to defaults.
@@ -42,7 +45,7 @@ export default class Mysql {
    *     1. options in config.json
    *     2. hard coded DEFAULTS
    */
-  private getMysqlOptions(): MysqlOptions {
+  getMysqlOptions(): MysqlOptions {
     const config = getConfig();
     return {
       user: getFirstDefined(config.MYSQLUSER, DEFAULTS.user),
@@ -50,15 +53,10 @@ export default class Mysql {
       password: getFirstDefined(config.MYSQLPASS, DEFAULTS.password),
       host: getFirstDefined(config.MYSQLHOST, DEFAULTS.host),
       port: getFirstDefined(config.MYSQLPORT, DEFAULTS.port),
-      max: DEFAULTS.max,
-      idleTimeoutMillis: DEFAULTS.idleTimeoutMillis,
+      connectTimeout: DEFAULTS.connectTimeout,
       multipleStatements: false,
+      namedPlaceholders: true,
     };
-  }
-
-  constructor() {
-    this.options = this.getMysqlOptions();
-    this.rootConn = null;
   }
 
   async getConnection(options: MysqlOptions): Promise<IConnection> {
@@ -66,7 +64,7 @@ export default class Mysql {
   }
 
   async createPool(): Promise<any> {
-    return mysql2.createPool(this.options);
+    return mysql2.createPool(this.getMysqlOptions());
   }
 
   poolPromise: Promise<any>;
@@ -85,6 +83,10 @@ export default class Mysql {
     return (await this.getPool()).query(...args);
   }
 
+  async escape(...args: any[]) {
+    return (await this.getPool()).escape(...args);
+  }
+
   async ensureRootConnection(): Promise<void> {
     // Check if we already have the connection we want.
     if (this.rootConn) {
@@ -92,7 +94,7 @@ export default class Mysql {
     }
 
     // Copy our pre-installed configuration.
-    const opts: MysqlOptions = Object.assign({}, this.options);
+    const opts: MysqlOptions = Object.assign({}, this.getMysqlOptions());
 
     // Do not specify the database name when connecting.
     delete opts.database;
@@ -221,4 +223,10 @@ export default class Mysql {
       this.rootConn = null;
     }
   }
+}
+
+let instance: Mysql;
+
+export function getMySQLInstance() {
+  return instance || (instance = new Mysql());
 }

@@ -1,16 +1,18 @@
-const { Localized } = require('fluent-react');
-import ISO6391 from 'iso-639-1';
+const { Localized } = require('fluent-react/compat');
 import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
 import { SuccessIcon } from '../../ui/icons';
-import { Button, Hr, LabeledInput, TextButton } from '../../ui/ui';
+import API from '../../../services/api';
+import { NATIVE_NAMES } from '../../../services/localization';
 import { RequestedLanguages } from '../../../stores/requested-languages';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import PrivacyInfo from '../../privacy-info';
+import { Button, Hr, LabeledInput } from '../../ui/ui';
 
 interface PropsFromState {
+  api: API;
   user: User.State;
 }
 
@@ -20,10 +22,7 @@ interface PropsFromDispatch {
 }
 
 interface Props extends PropsFromState, PropsFromDispatch {
-  locale: {
-    code?: string;
-    name: string;
-  };
+  locale: string;
   onRequestClose: () => void;
 }
 
@@ -46,19 +45,23 @@ class GetInvolvedModal extends React.Component<Props, State> {
     } as any);
   };
 
-  private save = (event: React.FormEvent<HTMLFormElement>) => {
+  private save = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const { email } = this.state;
-    this.props.createLanguageRequest(this.props.locale.name);
-    this.props.updateUser({ email });
+    const { api, createLanguageRequest, locale, updateUser, user } = this.props;
+    const { email, sendEmails } = this.state;
+    createLanguageRequest(NATIVE_NAMES[locale]);
+    updateUser({ email, sendEmails });
     this.setState({ isSubmitted: true });
+    if (!user.sendEmails && sendEmails) {
+      await api.subscribeToNewsletter(email);
+    }
   };
 
   render() {
     const { locale, onRequestClose } = this.props;
     const { email, isSubmitted, sendEmails } = this.state;
 
-    const nativeName = ISO6391.getNativeName(locale.code) || locale.name;
+    const nativeName = NATIVE_NAMES[locale] || locale;
 
     return (
       <Modal
@@ -150,8 +153,9 @@ class GetInvolvedModal extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = (state: StateTree) => ({
-  user: state.user,
+const mapStateToProps = ({ api, user }: StateTree) => ({
+  api,
+  user,
 });
 
 const mapDispatchToProps = {

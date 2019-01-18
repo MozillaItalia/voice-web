@@ -1,23 +1,26 @@
-import { Localized } from 'fluent-react';
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { trackListening } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
+import URLS from '../../../../urls';
 import {
   CheckIcon,
   CrossIcon,
+  MicIcon,
   OldPlayIcon,
   ThumbsDownIcon,
   ThumbsUpIcon,
   VolumeIcon,
 } from '../../../ui/icons';
+import { LinkButton } from '../../../ui/ui';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
 } from '../contribution';
-import { PlayButton } from '../primary-buttons';
+import { PlayButton } from '../../../primary-buttons/primary-buttons';
 import Pill from '../pill';
 
 import './listen.css';
@@ -39,6 +42,7 @@ const VoteButton = ({
 
 interface PropsFromState {
   clips: Clips.Clip[];
+  isLoading: boolean;
   locale: Locale.State;
 }
 
@@ -87,6 +91,7 @@ class ListenPage extends React.Component<Props, State> {
 
   componentWillUnmount() {
     clearInterval(this.playedSomeInterval);
+    // this.audioPlayer.close();
   }
 
   private getClipIndex() {
@@ -125,15 +130,15 @@ class ListenPage extends React.Component<Props, State> {
     const { clips } = this.state;
     const clipIndex = this.getClipIndex();
 
-    clearInterval(this.playedSomeInterval);
+    this.stop();
     this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
     this.setState({
       hasPlayed: false,
       hasPlayedSome: false,
       isPlaying: false,
       isSubmitted: clipIndex === SET_COUNT - 1,
-      clips: clips.map(
-        (clip, i) => (i === clipIndex ? { ...clip, isValid } : clip)
+      clips: clips.map((clip, i) =>
+        i === clipIndex ? { ...clip, isValid } : clip
       ),
     });
   };
@@ -161,11 +166,10 @@ class ListenPage extends React.Component<Props, State> {
     this.stop();
     removeClip(clips[this.getClipIndex()].id);
     this.setState({
-      clips: clips.map(
-        (clip, i) =>
-          this.getClipIndex() === i
-            ? { ...this.props.clips.slice(SET_COUNT)[0], isValid: null }
-            : clip
+      clips: clips.map((clip, i) =>
+        this.getClipIndex() === i
+          ? { ...this.props.clips.slice(SET_COUNT)[0], isValid: null }
+          : clip
       ),
     });
   };
@@ -192,6 +196,27 @@ class ListenPage extends React.Component<Props, State> {
         />
         <ContributionPage
           activeIndex={clipIndex}
+          errorContent={
+            !this.props.isLoading &&
+            (clips.length === 0 || !activeClip) && (
+              <div className="empty-container">
+                <div className="error-card card-dimensions">
+                  <Localized id="nothing-to-validate">
+                    <span />
+                  </Localized>
+                  <LinkButton
+                    rounded
+                    to={URLS.SPEAK}
+                    className="record-instead">
+                    <MicIcon />{' '}
+                    <Localized id="record-button-label">
+                      <span />
+                    </Localized>
+                  </LinkButton>
+                </div>
+              </div>
+            )
+          }
           instruction={props =>
             activeClip &&
             !isPlaying &&
@@ -280,8 +305,10 @@ class ListenPage extends React.Component<Props, State> {
 }
 
 const mapStateToProps = (state: StateTree) => {
+  const { clips, isLoading } = Clips.selectors.localeClips(state);
   return {
-    clips: Clips.selectors.localeClips(state).clips,
+    clips,
+    isLoading,
     locale: state.locale,
   };
 };

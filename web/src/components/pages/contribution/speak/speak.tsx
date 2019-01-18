@@ -1,10 +1,15 @@
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
 const NavigationPrompt = require('react-router-navigation-prompt').default;
 import { Locale } from '../../../../stores/locale';
-import { Recordings } from '../../../../stores/recordings';
+import { Notifications } from '../../../../stores/notifications';
+import { Sentences } from '../../../../stores/sentences';
 import StateTree from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
 import { User } from '../../../../stores/user';
@@ -20,14 +25,18 @@ import Modal, { ModalButtons } from '../../../modal/modal';
 import { CheckIcon, FontIcon, MicIcon, StopIcon } from '../../../ui/icons';
 import { Button, TextButton } from '../../../ui/ui';
 import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
-import AudioIOS from '../../record/audio-ios';
-import AudioWeb, { AudioError, AudioInfo } from '../../record/audio-web';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
 } from '../contribution';
-import { RecordButton, RecordingStatus } from '../primary-buttons';
+import {
+  RecordButton,
+  RecordingStatus,
+} from '../../../primary-buttons/primary-buttons';
+import AudioIOS from './audio-ios';
+import AudioWeb, { AudioError, AudioInfo } from './audio-web';
 import RecordingPill from './recording-pill';
+import { SentenceRecording } from './sentence-recording';
 
 import './speak.css';
 
@@ -51,10 +60,12 @@ const UnsupportedInfo = () => (
         <span />
       </Localized>
       <a target="_blank" href="https://www.firefox.com/">
-        <FontIcon type="firefox" />Firefox
+        <FontIcon type="firefox" />
+        Firefox
       </a>{' '}
       <a target="_blank" href="https://www.google.com/chrome">
-        <FontIcon type="chrome" />Chrome
+        <FontIcon type="chrome" />
+        Chrome
       </a>
     </p>
     <p key="ios">
@@ -71,14 +82,16 @@ const UnsupportedInfo = () => (
 interface PropsFromState {
   api: API;
   locale: Locale.State;
-  sentences: Recordings.Sentence[];
+  sentences: Sentences.Sentence[];
   user: User.State;
 }
 
 interface PropsFromDispatch {
   addUploads: typeof Uploads.actions.add;
-  removeSentences: typeof Recordings.actions.removeSentences;
+  addNotification: typeof Notifications.actions.add;
+  removeSentences: typeof Sentences.actions.remove;
   tallyRecording: typeof User.actions.tallyRecording;
+  refreshUser: typeof User.actions.refresh;
   updateUser: typeof User.actions.update;
 }
 
@@ -90,7 +103,7 @@ interface Props
     RouteComponentProps<any> {}
 
 interface State {
-  clips: (Recordings.SentenceRecording)[];
+  clips: SentenceRecording[];
   isSubmitted: boolean;
   error?: RecordingError | AudioError;
   recordingStatus: RecordingStatus;
@@ -119,7 +132,21 @@ class SpeakPage extends React.Component<Props, State> {
   recordingStopTime = 0;
 
   static getDerivedStateFromProps(props: Props, state: State) {
-    if (state.clips.length > 0) return null;
+    if (state.clips.length > 0) {
+      const sentenceIds = state.clips
+        .map(({ sentence }) => (sentence ? sentence.id : null))
+        .filter(Boolean);
+      const unusedSentences = props.sentences.filter(
+        s => !sentenceIds.includes(s.id)
+      );
+      return {
+        clips: state.clips.map(clip =>
+          clip.sentence
+            ? clip
+            : { recording: null, sentence: unusedSentences.pop() || null }
+        ),
+      };
+    }
 
     if (props.sentences.length > 0) {
       return {
@@ -216,6 +243,7 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private rerecord = async (i: number) => {
+    trackRecording('rerecord', this.props.locale);
     await this.discardRecording();
 
     this.setState({
@@ -259,7 +287,11 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private saveRecording = () => {
-    this.audio.stop().then(this.processRecording);
+    const RECORD_STOP_DELAY = 500;
+    setTimeout(async () => {
+      const info = await this.audio.stop();
+      this.processRecording(info);
+    }, RECORD_STOP_DELAY);
     this.recordingStopTime = Date.now();
     this.setState({
       recordingStatus: null,
@@ -281,36 +313,38 @@ class SpeakPage extends React.Component<Props, State> {
     const { api, removeSentences, sentences } = this.props;
     const { clips } = this.state;
     await this.discardRecording();
-    const { id } = clips[this.getRecordingIndex()].sentence;
+    const current = this.getRecordingIndex();
+    const { id } = clips[current].sentence;
     removeSentences([id]);
     this.setState({
-      clips: clips.map(
-        (clip, i) =>
-          this.getRecordingIndex() === i
-            ? { recording: null, sentence: sentences.slice(SET_COUNT)[0] }
-            : clip
+      clips: clips.map((clip, i) =>
+        current === i ? { recording: null, sentence: null } : clip
       ),
       error: null,
     });
     await api.skipSentence(id);
   };
 
-  private upload = async (hasAgreed: boolean = false) => {
+  private upload = (hasAgreed: boolean = false) => {
     const {
+      addNotification,
       addUploads,
       api,
       locale,
       removeSentences,
       tallyRecording,
       user,
+      refreshUser,
     } = this.props;
 
-    if (!hasAgreed && !user.privacyAgreed) {
+    if (!hasAgreed && !(user.privacyAgreed || user.account)) {
       this.setState({ showPrivacyModal: true });
-      return;
+      return false;
     }
 
     const clips = this.state.clips.filter(clip => clip.recording);
+
+    removeSentences(clips.map(c => c.sentence.id));
 
     this.setState({ clips: [], isSubmitted: true });
 
@@ -320,7 +354,9 @@ class SpeakPage extends React.Component<Props, State> {
         while (retries) {
           try {
             await api.uploadClip(recording.blob, sentence.id, sentence.text);
-            tallyRecording();
+            if (!user.account) {
+              tallyRecording();
+            }
             retries = 0;
           } catch (e) {
             console.error(e);
@@ -336,12 +372,20 @@ class SpeakPage extends React.Component<Props, State> {
         }
       }),
       async () => {
-        await api.syncDemographics();
         trackRecording('submit', locale);
+        refreshUser();
+        addNotification(
+          <React.Fragment>
+            <CheckIcon />{' '}
+            <Localized id="clips-uploaded">
+              <span />
+            </Localized>
+          </React.Fragment>
+        );
       },
     ]);
 
-    removeSentences(clips.map(c => c.sentence.id));
+    return true;
   };
 
   private resetState = (callback?: any) =>
@@ -350,7 +394,7 @@ class SpeakPage extends React.Component<Props, State> {
   private agreeToTerms = async () => {
     this.setState({ showPrivacyModal: false });
     this.props.updateUser({ privacyAgreed: true });
-    await this.upload(true);
+    this.upload(true);
   };
 
   private toggleDiscardModal = () => {
@@ -401,8 +445,7 @@ class SpeakPage extends React.Component<Props, State> {
                     outline
                     rounded
                     onClick={() => {
-                      this.upload().catch(e => console.error(e));
-                      onConfirm();
+                      if (this.upload()) onConfirm();
                     }}
                   />
                 </Localized>
@@ -470,10 +513,10 @@ class SpeakPage extends React.Component<Props, State> {
                   this.isRecording
                     ? 'record-stop-instruction'
                     : recordingIndex === SET_COUNT - 1
-                      ? 'record-last-instruction'
-                      : ['record-instruction', 'record-again-instruction'][
-                          recordingIndex
-                        ] || 'record-again-instruction2'
+                    ? 'record-last-instruction'
+                    : ['record-instruction', 'record-again-instruction'][
+                        recordingIndex
+                      ] || 'record-again-instruction2'
                 }
                 recordIcon={<MicIcon />}
                 stopIcon={<StopIcon />}
@@ -500,7 +543,9 @@ class SpeakPage extends React.Component<Props, State> {
               status={
                 recordingIndex === i
                   ? 'active'
-                  : clip.recording ? 'done' : 'pending'
+                  : clip.recording
+                  ? 'done'
+                  : 'pending'
               }
               onRerecord={() => this.rerecord(i)}>
               {rerecordIndex === i && (
@@ -510,7 +555,7 @@ class SpeakPage extends React.Component<Props, State> {
               )}
             </RecordingPill>
           ))}
-          sentences={clips.map(({ sentence: { text } }) => text)}
+          sentences={clips.map(({ sentence }) => sentence && sentence.text)}
           shortcuts={[
             {
               key: 'shortcut-record-toggle',
@@ -529,15 +574,17 @@ const mapStateToProps = (state: StateTree) => {
   return {
     api: state.api,
     locale: state.locale,
-    sentences: Recordings.selectors.localeRecordings(state).sentences,
+    sentences: Sentences.selectors.localeSentences(state),
     user: state.user,
   };
 };
 
 const mapDispatchToProps = {
+  addNotification: Notifications.actions.add,
   addUploads: Uploads.actions.add,
-  removeSentences: Recordings.actions.removeSentences,
+  removeSentences: Sentences.actions.remove,
   tallyRecording: User.actions.tallyRecording,
+  refreshUser: User.actions.refresh,
   updateUser: User.actions.update,
 };
 

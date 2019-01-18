@@ -1,4 +1,5 @@
 import * as request from 'request-promise-native';
+import { LanguageStats } from 'common/language-stats';
 import DB, { Sentence } from './model/db';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import {
@@ -7,10 +8,52 @@ import {
   rowsToDistribution,
   Split,
 } from './model/split';
-import * as path from 'path';
-import * as fs from 'fs';
 import { getConfig } from '../config-helper';
+import lazyCache from './lazy-cache';
 
+const locales = require('locales/all.json') as string[];
+const contributableLocales = require('locales/contributable.json') as string[];
+
+const AVG_CLIP_SECONDS = 4.7; // I queried 40 recordings from prod and avg'd them
+
+function fetchLocalizedPercentagesByLocale() {
+  return request({
+    uri: 'https://pontoon.mozilla.org/graphql',
+    method: 'POST',
+    json: true,
+    body: {
+      query: `{
+            project(slug: "common-voice") {
+              localizations {
+                totalStrings
+                approvedStrings
+                locale {
+                  code
+                }
+              }
+            }
+          }`,
+      variables: null,
+    },
+  }).then(({ data }: any) =>
+    data.project.localizations.reduce(
+      (obj: { [locale: string]: number }, l: any) => {
+        obj[l.locale.code] = Math.round(
+          (100 * l.approvedStrings) / l.totalStrings
+        );
+        return obj;
+      },
+      {}
+    )
+  );
+}
+
+function clipCountToHours(count: number) {
+  return Math.round((count * AVG_CLIP_SECONDS) / 3600);
+}
+
+const MINUTE = 1000 * 60;
+const DAY = MINUTE * 60 * 24;
 /**
  * The Model loads all clip and user data into memory for quick access.
  */
@@ -54,7 +97,7 @@ export default class Model {
     const bucket = await this.db.getOrSetUserBucket(
       client_id,
       locale,
-      randomBucketFromDistribution(this.clipDistribution)
+      randomBucketFromDistribution(IDEAL_SPLIT)
     );
     return this.db.findSentencesWithFewClips(
       client_id,
@@ -62,35 +105,6 @@ export default class Model {
       locale,
       Math.min(count, 50)
     );
-  }
-
-  /**
-   * Update current user
-   */
-  async syncUser(uid: string, data: any): Promise<void> {
-    const user = await this.db.updateUser(uid, data);
-
-    const { BASKET_API_KEY, PROD } = getConfig();
-    if (BASKET_API_KEY && user.send_emails && !user.basket_token) {
-      const response = await request({
-        uri: `https://basket.${
-          PROD ? 'mozilla' : 'allizom'
-        }.org/news/subscribe/`,
-        method: 'POST',
-        form: {
-          'api-key': BASKET_API_KEY,
-          newsletters: 'common-voice',
-          format: 'H',
-          lang: 'en',
-          email: user.email,
-          sync: 'Y',
-        },
-      });
-      this.db.updateUser(uid, {
-        ...data,
-        basket_token: JSON.parse(response).token,
-      });
-    }
   }
 
   /**
@@ -120,4 +134,89 @@ export default class Model {
       (this.clipDistribution as any)[bucket]++;
     }
   }
+
+  getValidatedHours = lazyCache(
+    'validated-hours',
+    async () => {
+      const english = (await this.db.getValidClipCount(['en']))[0];
+      return clipCountToHours(english ? english.count : 0);
+    },
+    DAY
+  );
+
+  getLanguageStats = lazyCache(
+    'language-stats',
+    async (): Promise<LanguageStats> => {
+      const inProgressLocales = locales.filter(
+        locale => !contributableLocales.includes(locale)
+      );
+
+      function indexCountByLocale(
+        rows: { locale: string; count: number }[]
+      ): { [locale: string]: number } {
+        return rows.reduce(
+          (obj: { [locale: string]: number }, { count, locale }: any) => {
+            obj[locale] = count;
+            return obj;
+          },
+          {}
+        );
+      }
+
+      const [
+        localizedPercentages,
+        sentenceCounts,
+        validClipsCounts,
+        speakerCounts,
+      ] = await Promise.all([
+        fetchLocalizedPercentagesByLocale(),
+        this.db
+          .getSentenceCountByLocale(inProgressLocales)
+          .then(indexCountByLocale),
+        this.db
+          .getValidClipCount(contributableLocales)
+          .then(indexCountByLocale),
+        this.db.getSpeakerCount(contributableLocales).then(indexCountByLocale),
+      ]);
+
+      return {
+        inProgress: inProgressLocales.map(locale => ({
+          locale,
+          localizedPercentage: localizedPercentages[locale] || 0,
+          sentencesCount: sentenceCounts[locale] || 0,
+        })),
+        launched: contributableLocales.map(locale => ({
+          locale,
+          seconds: Math.floor(
+            (validClipsCounts[locale] || 0) * AVG_CLIP_SECONDS
+          ),
+          speakers: speakerCounts[locale] || 0,
+        })),
+      };
+    },
+    20 * MINUTE
+  );
+
+  getClipsStats = lazyCache(
+    'clips-stats',
+    async (locale: string) =>
+      (await this.db.getClipsStats(locale)).map(stat => ({
+        ...stat,
+        total: Math.round(stat.total * AVG_CLIP_SECONDS),
+        valid: Math.round(stat.valid * AVG_CLIP_SECONDS),
+      })),
+    DAY
+  );
+
+  getVoicesStats = lazyCache(
+    'voice-stats',
+    (locale: string) => this.db.getVoicesStats(locale),
+    20 * MINUTE
+  );
+
+  getContributionStats = lazyCache(
+    'contribution-stats',
+    (locale?: string) => this.db.getContributionStats(locale),
+    20 * MINUTE
+  );
 }

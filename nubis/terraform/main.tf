@@ -1,5 +1,10 @@
+provider "aws" {
+  region  = "${var.region}"
+  version = "~> 1"
+}
+
 module "worker" {
-  source        = "github.com/nubisproject/nubis-terraform//worker?ref=v2.2.0"
+  source        = "github.com/nubisproject/nubis-terraform//worker?ref=v2.3.1"
   region        = "${var.region}"
   environment   = "${var.environment}"
   account       = "${var.account}"
@@ -24,7 +29,7 @@ module "worker" {
 }
 
 module "load_balancer" {
-  source       = "github.com/nubisproject/nubis-terraform//load_balancer?ref=v2.2.0"
+  source       = "github.com/nubisproject/nubis-terraform//load_balancer?ref=6b91794839523ab5b3806824369efde2f61b3c17"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
@@ -38,12 +43,12 @@ module "load_balancer" {
 }
 
 module "dns" {
-  source       = "github.com/nubisproject/nubis-terraform//dns?ref=v2.2.0"
+  source       = "github.com/nubisproject/nubis-terraform//dns?ref=v2.3.1"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
   service_name = "${var.service_name}"
-  target       = "${module.load_balancer.address}"
+  target       = "${module.load_balancer.dualstack_address}"
 }
 
 resource "aws_db_parameter_group" "slow_query_enabled" {
@@ -58,7 +63,7 @@ resource "aws_db_parameter_group" "slow_query_enabled" {
 }
 
 module "database" {
-  source                 = "github.com/nubisproject/nubis-terraform//database?ref=v2.2.0"
+  source                 = "github.com/nubisproject/nubis-terraform//database?ref=v2.3.1"
   region                 = "${var.region}"
   environment            = "${var.environment}"
   account                = "${var.account}"
@@ -67,15 +72,34 @@ module "database" {
   service_name           = "${var.service_name}"
   client_security_groups = "${module.worker.security_group}"
   parameter_group_name   = "${aws_db_parameter_group.slow_query_enabled.id}"
-  instance_class         = "db.t2.small"
+  instance_class         = "${var.environment == "prod" ? "db.t2.medium" : "db.t2.small"}"
 }
 
 module "clips" {
-  source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v2.2.0"
+  #XXX: cors_rules will be added in Nubis v2.4.0
+  source       = "github.com/gozer/nubis-terraform//bucket?ref=issue%2F249%2Fcors"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
   service_name = "${var.service_name}"
   purpose      = "clips"
   role         = "${module.worker.role}"
+
+  cors_rules = [
+    {
+      allowed_headers = ["Authorization"]
+      allowed_methods = ["GET"]
+      allowed_origins = ["*"]
+    },
+  ]
+}
+
+# Add elastic cache (memcache)
+module "cache" {
+  source                 = "github.com/nubisproject/nubis-terraform//cache?ref=v2.3.1"
+  region                 = "${var.region}"
+  environment            = "${var.environment}"
+  account                = "${var.account}"
+  service_name           = "${var.service_name}"
+  client_security_groups = "${module.worker.security_group}"
 }

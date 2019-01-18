@@ -47,16 +47,6 @@ export namespace Clips {
 
   export type Action = LoadAction | RefillCacheAction | RemoveClipAction;
 
-  const preloadClip = (clip: any) =>
-    new Promise(resolve => {
-      const audioElement = document.createElement('audio');
-      audioElement.addEventListener('canplaythrough', () => {
-        audioElement.remove();
-        resolve();
-      });
-      audioElement.setAttribute('src', clip.sound);
-    });
-
   export const actions = {
     refillCache: () => async (
       dispatch: Dispatch<RefillCacheAction | LoadAction>,
@@ -72,14 +62,26 @@ export namespace Clips {
         const clips = await state.api.fetchRandomClips(MIN_CACHE_SIZE);
         dispatch({
           type: ActionType.REFILL_CACHE,
-          clips: clips.map(clip => ({
-            id: clip.id,
-            glob: clip.glob,
-            sentence: decodeURIComponent(clip.text),
-            audioSrc: clip.sound,
-          })),
+          clips: clips.map(clip => {
+            let sentence;
+            try {
+              sentence = decodeURIComponent(clip.text);
+            } catch (e) {
+              if (e.name !== 'URIError') {
+                throw e;
+              }
+              sentence = clip.text;
+            }
+
+            return {
+              id: clip.id,
+              glob: clip.glob,
+              sentence,
+              audioSrc: clip.sound,
+            };
+          }),
         });
-        await Promise.all(clips.map(preloadClip));
+        await Promise.all(clips.map(({ sound }) => fetch(sound)));
       } catch (err) {
         if (err instanceof XMLHttpRequest) {
           dispatch({ type: ActionType.REFILL_CACHE });
@@ -95,9 +97,12 @@ export namespace Clips {
     ) => {
       const state = getState();
       const id = clipId || localeClips(state).next.id;
-      await state.api.saveVote(id, isValid);
-      dispatch(User.actions.tallyVerification());
       dispatch({ type: ActionType.REMOVE_CLIP, clipId: id });
+      await state.api.saveVote(id, isValid);
+      if (!state.user.account) {
+        dispatch(User.actions.tallyVerification());
+      }
+      User.actions.refresh()(dispatch, getState);
       actions.refillCache()(dispatch, getState);
     },
 

@@ -1,6 +1,7 @@
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
+import { DAILY_GOAL } from '../../../constants';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
@@ -13,7 +14,6 @@ import { SET_COUNT } from './contribution';
 import './success.css';
 
 const COUNT_UP_MS = 500; // should be kept in sync with .contribution-success .done transition duration
-const DAILY_GOAL = Object.freeze({ speak: 1200, listen: 2400 });
 
 const GoalPercentage = ({
   current,
@@ -30,10 +30,10 @@ const GoalPercentage = ({
 
 interface PropsFromState {
   api: API;
-  hasEnteredInfo: boolean;
+  user: User.State;
 }
 
-interface Props extends LocalizationProps, PropsFromState {
+interface Props extends PropsFromState {
   type: 'speak' | 'listen';
   onReset: () => any;
 }
@@ -71,7 +71,7 @@ class Success extends React.Component<Props, State> {
     if (!this.startedAt) this.startedAt = time;
     const { contributionCount } = this.state;
     const newCount = Math.min(
-      Math.ceil(contributionCount * (time - this.startedAt) / COUNT_UP_MS),
+      Math.ceil((contributionCount * (time - this.startedAt)) / COUNT_UP_MS),
       contributionCount
     );
     this.setState({
@@ -83,14 +83,16 @@ class Success extends React.Component<Props, State> {
   };
 
   render() {
-    const { getString, hasEnteredInfo, onReset, type } = this.props;
+    const { onReset, type, user } = this.props;
     const { contributionCount, currentCount } = this.state;
     const finalPercentage = Math.ceil(
-      100 * (contributionCount || 0) / DAILY_GOAL[type]
+      (100 * (contributionCount || 0)) / DAILY_GOAL[type]
     );
 
+    const hasAccount = user.account;
+
     const ContributeMoreButton = (props: { children: React.ReactNode }) =>
-      hasEnteredInfo ? (
+      hasAccount ? (
         <Button
           className="contribute-more-button"
           rounded
@@ -109,8 +111,10 @@ class Success extends React.Component<Props, State> {
       <div className="contribution-success">
         <div className="counter done">
           <CheckIcon />
-          {SET_COUNT}/{SET_COUNT}
-          <Localized id="clips">
+          <Localized
+            id="clips-with-count"
+            bold={<b />}
+            $count={SET_COUNT + '/' + SET_COUNT}>
             <span className="text" />
           </Localized>
         </div>
@@ -120,8 +124,7 @@ class Success extends React.Component<Props, State> {
           goalPercentage={
             <GoalPercentage
               current={Math.ceil(
-                100 *
-                  (currentCount === null ? 0 : currentCount) /
+                (100 * (currentCount === null ? 0 : currentCount)) /
                   DAILY_GOAL[type]
               )}
               final={finalPercentage}
@@ -140,13 +143,13 @@ class Success extends React.Component<Props, State> {
           />
         </div>
 
-        {!hasEnteredInfo && (
+        {!hasAccount && (
           <div className="profile-card">
             <Localized id="profile-explanation">
               <p />
             </Localized>
-            <Localized id="profile-create">
-              <LinkButton rounded to={URLS.PROFILE} />
+            <Localized id="login-signup">
+              <LinkButton rounded href="/login" />
             </Localized>
           </div>
         )}
@@ -158,9 +161,9 @@ class Success extends React.Component<Props, State> {
           </Localized>
         </ContributeMoreButton>
 
-        {hasEnteredInfo && (
+        {hasAccount && (
           <Localized id="edit-profile">
-            <LocaleLink className="secondary" to={URLS.PROFILE} />
+            <LocaleLink className="secondary" to={URLS.PROFILE_INFO} />
           </Localized>
         )}
       </div>
@@ -168,9 +171,7 @@ class Success extends React.Component<Props, State> {
   }
 }
 
-export default withLocalization(
-  connect<PropsFromState>(({ api, user }: StateTree) => ({
-    api,
-    hasEnteredInfo: User.selectors.hasEnteredInfo(user),
-  }))(Success)
-);
+export default connect<PropsFromState>(({ api, user }: StateTree) => ({
+  api,
+  user,
+}))(Success);

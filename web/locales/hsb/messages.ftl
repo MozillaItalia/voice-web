@@ -8,6 +8,8 @@ email-input =
     .label = E-mejlowa adresa
 submit-form-action = Wotpósłać
 loading = Čita so…
+email-opt-in-privacy = Jeli chceće e-mejlki dóstać, dyrbiće do wobchadźenja Mozilla z tymi informacijemi zwolić, kotrež so w <privacyLink>prawidłach priwatnosće<privacyLink> Mozilla rozjasnjeja.
+indicates-required = * Woznamjenja trěbne polo
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,14 +17,22 @@ loading = Čita so…
 
 ## Languages
 
+ab = Abchazišćina
+ace = Ačehšćina
+ady = Adygišćina
+af = Afrikanšćina
+am = Amharšćina
 an = Aragonšćina
 ar = Arabšćina
 as = Asamšćina
 ast = Asturišćina
 az = Azerbajdźanšćina
+bg = Bołharšćina
 bn = Bengalšćina
 br = Bretonšćina
+bxr = Burjatšćina
 ca = Katalanšćina
+cak = Kaqchikel
 cnh = Hakha Chin
 cs = Čěšćina
 cv = Čuwašćina
@@ -30,10 +40,14 @@ cy = Walizišćina
 da = Danšćina
 de = Němčina
 dsb = Delnjoserbšćina
+dv = Dhivehi
 el = Grjekšćina
 en = Jendźelšćina
+eo = Esperanto
 es = Španišćina
 et = Estnišćina
+eu = Baskišćina
+fa = Persišćina
 fi = Finšćina
 fo = Ferejšćina
 fr = Francosćina
@@ -54,18 +68,25 @@ ko = Korejšćina
 kpv = Komi-syrjenšćina
 kw = Kornišćina
 ky = Kirgišćina
+mdf = Mokša
+mhr = Łučna marišćina
 mk = Makedonšćina
+mn = Mongolšćina
+mrj = Hórska marišćina
 myv = Erzya
 nb-NO = Norwegski Bokmål
 ne-NP = Nepalšćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
+oc = Okcitanšćina
 or = Odiašćina
 pl = Pólšćina
 pt-BR = Portugalšćina (Brazilska)
+rm-sursilv = Retoromanšćina (Sursilvan)
 ro = Rumunšćina
 ru = Rušćina
 sah = Sachašćina
+sc = Sardinšćina
 sk = Słowakšćina
 sl = Słowjenšćina
 sq = Albanšćina
@@ -76,8 +97,13 @@ te = Telugušćina
 th = Thaišćina
 tr = Turkowšćina
 tt = Tataršćina
+uby = Ubychišćina
+udm = Udmurtšćina
 uk = Ukrainšćina
+ur = Urdu
 uz = Uzbekšćina
+vi = Vietnamšćina
+vot = Wotšćina
 zh-CN = Chinšćina (China)
 zh-HK = Chinšćina (Hong Kong)
 zh-TW = Chinšćina (Taiwan)
@@ -101,10 +127,9 @@ faq = HUP
 content-license-text = Wobsah je k dispoziciji pod <licenseLink>licencu Creative Commons</licenseLink>
 share-title = Pomhajće nam, dalšich namakać, kotřiž swój hłós daruja!
 share-text = Pomhajće mašinam wučić, kak ludźo rěča, darće swój hłós na { $link }
+link-copied = Wotkaz kopěrowany
 back-top = Wróćo horje
-contribution-banner-text = Smy runje nowu móžnosć za sobudźěło startowali
-contribution-banner-button = Rozhladajće so
-report-bugs-link = Zdźělće programowe zmylki
+logout = Wotzjewić
 
 ## Home Page
 
@@ -113,6 +138,8 @@ home-cta = Rěčće runjewon, dźěłajće tu sobu!
 wall-of-text-start = Hłós je přirodny, hłós je čłowjeski. Tohodla smy fascinowani, wužitnu hłosowu technologiju za naše mašiny wutworić. Ale, za wutworjenje hłosowych systemow je jara wulke mnóstwo hłosowych datow trěbne.
 wall-of-text-more-mobile = Najwjace datow wužiwane wot wulkich předewzaćow za wjetšinu ludźi přistupne njeje. Myslimy, zo to inowaciju znjemóžnja. Tohodla smy projekt Common Voice startowali, projekt, kotryž kóždemu spóznawanje hłosow spřistupnja.
 wall-of-text-more-desktop = Nětko móžeće swój hłós dać, zo byšće nam pomhał, datowu banku hłosow wotewrjeneho žórła natwarić, kotruž kóždy móže wužiwać, zo by inowatiwne nałoženja za graty a web wutworił.<lineBreak></lineBreak>Čitajće sadu, zo byšće mašinam pomhał, wuknyć, kak woprawdźići ludźo rěča. Kontrolujće dźěło druhich sobuskutkowarjow, zo byšće kwalitu polěpšił. Je tak lochko!
+wall-of-text-first = Hłós jr přirodny, hłós je čłowjeski. Tohodla zahorjamy so za wutworjenje wužiwajomneje hłosoweje technologije za naše mašiny. Ale, zo bychu hłosowe systemy wutworili, trjebaja wuwiwarjo jara wulke mnóstwo hłosowych datow.
+wall-of-text-second = Najwjace datow, kotrež so wot wulkich předewzaćow wužiwa, wjetšinje ludźi k dispoziciji njesteji. Myslimy, zo to inowaciji zadźěwa. Tohodla smy startowali Common Voice , projekt, kotryž ma hłosowe spóznaće wotewrjene a přistupne za kóždeho činić.
 show-wall-of-text = Dalše informacije
 help-us-title = Pomhajće nam, sady wobkrućić!
 help-us-explain = Tłóčće na Wothrać, słuchajće a zdźělće nam: je so slědowaca sada korektnje wurjekowała?
@@ -120,6 +147,61 @@ no-clips-to-validate = Zda so, kaž njebychu žane natočenja byli, na kotrež m
 vote-yes = Haj
 vote-no = Ně
 toggle-play-tooltip = Tłóčće na { shortcut-play-toggle }, zo byšće wothrawanski modus přepinał
+speak-subtitle = Darće swój hłós
+speak-paragraph = Natočenja hłosow su bytostny wobstatk při wutworjenju našeje datoweje sadźby; někotři bychu prajili, je tež dźěl, kotryž zabawja.
+speak-goal-text = Natočene klipy
+listen-subtitle = Pomhajće nam, hłosy wobkrućić
+listen-paragraph = Wobkrućenje darjenych klipow jr runje tak wažne za misiju Common Voice. Słuchajće a pomhajće nam hłosowe daty wotewrjeneho žórła w dobrej kwaliće wutworić.
+listen-goal-text = Wobkrućene klipy
+hours-recorded = Natočenske hodźiny
+hours-validated = Wobkrućene hodźiny
+voices-online = Hłosy nětko online
+todays-progress = Dźensniši postup
+help-reach-goal = Pomhajće nam, { $goal } docpěć
+read-terms-q = Sće naše wužiwanske wuměnjenja přečitał?
+ready-to-record = Sće hotowy, swój hłós darić?
+all-locales = Wšě
+today = Dźensa
+x-weeks-short =
+    { $count ->
+        [one] { $count } tydźeń
+        [two] { $count } njedźeli
+        [few] { $count } njedźele
+       *[other] { $count } njedźel
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } měsac
+        [two] { $count } měsacaj
+        [few] { $count } měsacy
+       *[other] { $count } měsacow
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } lěto
+        [two] { $count } lěće
+        [few] { $count } lěta
+       *[other] { $count } lět
+    }
+help-make-dataset = Pomhajće nam, zjawnje přistupnu wotewrjenu datowu sadźbu wysokeje kwality wutworić
+profile-not-required = Za sobudźěło profil trěbny njeje, hačrunjez je wužitny
+sign-up-account = Konto załožić
+
+## Account Benefits
+
+benefits = Lěpšiny
+improve-audio = Profilowe informacije awdiodaty polěpšeja, kotrež so při trenowanju dokładnosće rěčenskeho spóznaća wužiwaja.
+keep-track = Wobchowajće swój postup a swoje měrjenske daty za wjacore rěče we wóčku.
+compare-progress = Hladajće, kak so swój postup z druhimi sobuskutkowajemi z cyłeho swěta přirunuje.
+view-goals = Přirunajće swój postup z wosobinskimi a projektowymi cilemi.
+
+## What's public
+
+whats-public = Što je zjawne?
+email-not-public = Wašu e-mejlowu adresu njewozjewimy.
+recordings-and-locale-public = Ličba natočenjow a rěčow, ke kotrymž přinošujeće, budu zjawne.
+username-optin-public = Móžeće swoje wužiwarske mjeno wozjewić abo anonymizować.
+username-email-not-demographic = Waše wužiwarske mjeno a e-mejlowa adresa so z wozjewjenymi datami njezwjazujetej.
 
 ## Speak & Listen Shortcuts
 
@@ -166,8 +248,6 @@ english = Jendźelšćina
 
 ## ProfileForm
 
-profile-form-cancel = Formular začinić
-profile-form-delete = Profil zhašeć
 profile-form-username =
     .label = Wužiwarske mjeno
 profile-form-language =
@@ -178,50 +258,88 @@ profile-form-age =
     .label = Staroba
 profile-form-gender =
     .label = Splah
+leaderboard-visibility =
+    .label = Widźomnosć lisćiny najlěpšich
+hidden = Schowany
+visible = Widźomny
+native-language =
+    .label = Maćeršćina
 profile-form-submit-save = Składować
 profile-form-submit-saved = Składowany
-profile-keep-data = Daty wobchować
-profile-delete-data = Daty zhašeć
 male = Muski
 female = Źónski
 # Gender
 other = Druhe
 why-profile-title = Čehodla profil?
 why-profile-text = Dajće nam někotre informacije wo sebi, zo bychu awdiodaty, kotrež na Common Voice sćeleće, wužitniše byli, zo by so dokładnosć systemow rěčenskeho spóznaća polěpšiła.
+dashboard = Přehlad
+build-profile = Profil natwarić
+avatar = Awatar
+goals = Cile
+settings = Nastajenja
 edit-profile = Profil wobdźěłać
-profile-create = Profil załožić
 profile-create-success = Profil je so wuspěšnje załožił!
 profile-close = Začinić
-profile-clear-modal = Hdyž swoje profilowe daty zhašeće, so tute demografiske informacije hižo na Common Voice hromadźe z natočenjemi njepósćelu.
 profile-explanation = Z profilom móžeće swój pokrok we wóčku wobchować a pomhać, naše hłosowe daty dokładniše činić.
+thanks-for-account = Dźakujemy so, zo sće swoje konto wobkrućił, chcemy nětko waš profil zarjadować.
+why-demographic = Čehodla je to wažne?
+why-demographic-explanation = Anonymizowane wužiwarske daty kaž staroba, splah a akcent pomhaja awdiodaty polěpšić, kotrež so wužiwaja, zo bychu dokładnosć softwary rěčenskeho spóznaća trenowali. Waše wužiwarske mjeno a e-mejlowa adresa so ženje z wašimi pósłanymi datami njezwjazujetej, a móžeće wubrać, hač ma waše wužiwarske mjeno zjawne abo anonymne być.
+keep-me-posted =
+    .label = Bych rady aktualizacije měł a informujće mje běžnje, hdyž je něšto nowe wo Common Voice.
+accept-privacy = Sym přezjedny, zo so tute informacije wužiwaja, kak so w <privacyLink>prawidłach priwatnosće</privacyLink> Mozilla wujasnja.
+login-identity = Přizjewjenska identita
+login-signup = Přizjewić/Registrować
+edit = Wobdźěłać
+email-subscriptions = E-mejlowe abonementy
+download-profile = Moje daty sćahnyć
+contribution-experience = Nazhonjenje při sobuskutkowanju
+skip-submission-feedback = Zapodawanski komentar přeskočić
+skip-submission-description = Při sobuskutkowanju so zapodawanski komentar po kliknjenju na 'Wotpósłać' přeskoči. Sobudźěło so direktnje z přichodnymi 5 natočenjemi abo přepruwowanjemi překročuje.
+skip-submission-note = Kedźbu: Dyrbiće hišće mjez Rěčeć abo Słuchać wubrać, zo byšće typ sobuskutkowanja změnił.
+off = Wupinjeny
+on = Zapinjeny
+add-avatar-title = Přidajće wašemu profilej awatar
+browse-file-title = Wobrazowu dataju nahrać
+browse-file = Čehńće a pušćće abo <browseWrap>přehladujće</browseWrap>
+connect-gravatar = Z gravatarom zwjazać
+gravatar_not_found = Njeje so žadyn gravatar za wašu e-mejl namakał
+file_too_large = Wubrana dataja je přewulka
+manage-subscriptions = Abonementy rjadować
+email-already-used = E-mejlowa adresa so hižo za druhe konto wužiwa
+add-language = Rěč přidać
+change-email-setings = Emejlowu adresu w nastajenjach pod přizjewjenskej identitu změnić
 
 ## FAQ
 
 faq-title = Huste prašenja
-faq-what-q = Što je Common Voice?
-faq-what-a = Technologija hłosoweho spóznaća móhła wašnje rewolucionować, z kotrymž z mašinami interagujemy, ale tuchwilu k dispoziciji stejace systemy su drohe a proprietarne. Common Voice je projekt, kotryž technologiju hłosoweho spóznaća za kóždeho lochko přistupnu čini. Ludźo masiwnej datowej bance swoje hłosy daruja, kotraž kóždemu zmóžnja, nałoženja za hłosowe spóznaće trenować. Wšě hłosowe daty budu wuwiwarjam k dispoziciji.
-faq-important-q = Čehodla je wažny?
-faq-important-a = Hłós je přirodny, hłós je čłowjeski. Je najlóše a najpřirodniše wašnje komunikacije. Chcemy, zo wuwiwarjo móža fantastiske wěcy wutworić, wot programow, kotrež we woprawdźitym času přełožuja hač do rjadowanskich asistentow z hłosowym spóznaćom. Ale tuchwilu dosć datow njeje, kotrež su za tute typy nałoženjow zjawnje k dispoziciji. Nadźijamy so, zo Common Voice wuwiwarjam to da, štož za inowacije trjebaja.
-faq-get-q = Kak móžu so k datam Common Voice dóstać?
-faq-get-a = Datowa sadźba je nětko na našej <downloadLink>sćehnjenskej stronje</downloadLink> pod licencu <licenseLink>CC-0</licenseLink> k dispoziciji.
-faq-mission-q = Čehodla je Common Voice dźěl misije Mozilla?
-faq-mission-a = Mozilla so za to zasadźuje, web wotewrjeny a za kóždeho přistupny dźeržeć. Zo bychmy to činili, dyrbimy webtworićeljow přez projekty kaž Common Voice wukmanić. Dokelž hłosowe technologije hižo žane nišowe nałoženja njejsu, měnimy, zo dyrbja wšěm wužiwarjam w jenakej měrja słužić. Widźimy nuznosć, dalše rěče, akcenty a demografiske daty zapřijeć, hdyž hłosowe technologije wuwiwamy a testujemy. Mozilla chce strowy a žiwy internet. To rěka, damy nowym tworićelam přistup na hłosowe daty, zo bychu móhli nowe, wurjadne projekty wutworić. Common Voice budźe zjawna resursa, kotraž teamam Mozilla a wuwiwarjam z cyłeho swěta pomha.
-faq-native-q = { $lang } moja maćeršćina njeje a rěcu z akcentom, chceće mój hłós?
-faq-native-a = Haj, chcemy waš hłós na kóždy pad měć! Dźěl cila Common voice je, wjele rozdźělnych akcentow kaž móžno zběrać, zo bychu ličaki móhli <bold>kóždeho </bold> lěpje rozumić, hdyž rěči.
-faq-firefox-q = Budźe něhdy přenjesenje rěčenja do teksta přez Common Voice dźěl Firefox?
-faq-firefox-a = Common Voice ma njewobmjezowany potencial a wuslědźamy woprawdźe rěčenske zwjazowanske městna we wjele produktach Mozilla, inkluziwnje Firefox.
-faq-quality-q = Kajka je trěbna kwalita za awdio, zo by so wužiwało?
-faq-quality-a = Chcemy, zo kwalita zynkowych natočenjow zynkowu kwalitu wotbłyšćuje, z kotrejž system hłosoweho spóznaća ma w praksy činić. Přetož chcemy wšelakorosć. To system hłosoweho spóznaća wukmanja, ze wšelakimi situacijemi wobchadźeć - z rěčenjom w pozadku, šumami awtow, šumami fanow - bjez zmylkow. 
-faq-hours-q = Čehodla je 10.000 hodźin cil za zynkowe natočenja?
-faq-hours-a = To je přibližnje ličba hodźin, kotrež su trěbne, zo by produktiwny system rěčenskeho spóžnaća trenowało.
-faq-source-q = Zwotkel žórłowy tekst přińdźe?
-faq-source-a1 = Aktualne sady su so wot sobuskutkowarjow přinošowali, kaž tež dialog z  filmowych scenarijow, kotrež su zhromadne swójstwo, kaž <italic>It¨s a Wonderful Life.</italic>
-faq-source-a2 = Móžeće sej naše žórłowe sady w <dataLink>tutym rjadowaku GitHub</dataLink> wobhladać.
+faq-what-cv-q = Što Common Voice je?
+faq-why-important-q = Čehodla je wažne?
+faq-how-get-q = Kak móžu daty Common Voice dóstać?
+faq-when-release-q = Hdy Common Voice w druhich rěčach wozjewiće?
+faq-why-mission-q = Čehodla je Common Voice dźěl misije Mozilla?
+faq-what-cv-and-deepspeech-q = Što je rozdźěl mjez Common Voice a Deep Speech?
+faq-is-goal-assistant-q = Je cil Common Voice, hłosowy asistent wutworić?
+faq-do-want-native-q = Njejsym maćernorěcny a rěču z akcentom, chceće mój hłós?
+faq-why-different-speakers-q = Čehodla trjebaće wjele rozdźělnych rěčnikow na rěč?
+faq-why-my-lang-q = Čehodla moja rěč hišće njeje?
+faq-what-quality-q = Kotra awdiokwalita je trěbna, zo by so hłosowy klip w datowej sadźbje wužiwał?
+faq-how-calc-hours-q = Kak Common Voice hodźiny wobličuje?
+faq-where-src-from-2-q = Zwotkel žórłowy tekst pochadźa?
+faq-why-not-ask-read-q = Čehodla ludźi njeprosyće, z knihow abo nastawkow Wikipedije w rozdźělnych rěčach předčitać?
+faq-why-account-q = Čehodla měł ja konto załožić?
+faq-is-account-public-q = Su moje kontowe informacije zjawne?
+faq-how-privacy-q = Kak zawěsćujeće anonymnosć a priwatnosć ludźi, kotřiž su swoje hłosy darili?
 
-## Profile
+## Glossary
 
-profile-why-title = Čehodla profil?
-profile-why-content = Zdźělće někotre informacije wo sebi, zo bychu awdiodaty, kotrež na Common Voice sćeleće, su wužitniše za systemy hłosoweho spóznaća, kotrež tute daty wužiwaja, zo bychu swoju dokładnosć polěpšili.
+glossary = Glosar
+localization = Lokalizacija
+localization-explanation = To je naš proces za přełožowanje a přiměrjenje našeho wobsaha za wjele lokalow (rěčow).
+sentence-collection = Zběrka sadow
+hours-recorded-explanation = Ličba dotal nahromadźenych natočenych hodźin.
+sst = Rěčenje-do-teksta (STT)
+sst-explanation = Technologije Rěčenje-do-teksta (STT) hłosowe daty to teksta konwertuja.
+de-identified = Anonymizowane
 
 ## NotFound
 
@@ -250,27 +368,12 @@ data-bundle-button = Paket datowych sadźbow sćahnyć
 data-bundle-description = Daty Common Voice plus wšě druhe hłosowe datowe sadźby horjeka.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
-
-## Record Page
-
-record-platform-not-supported = Je nam žel, ale waša platforma so tuchwilu njepodpěruje.
-record-platform-not-supported-desktop = Na desktopowych ličakach móžeće najnowšu wersiju sćahnyć:
-record-platform-not-supported-ios = Wužiwarjo <bold>iOS</bold> móža naše darmotne nałoženje sćahnyć:
-record-must-allow-microphone = Dyrbiće přistup na mikrofon dowolić.
-record-retry = Hišće raz spytać
-record-no-mic-found = Žadyn mikrofon namakany.
-record-error-too-short = Natočenje bě překrótke.
-record-error-too-long = Natočenje bě předołhe.
-record-error-too-quiet = Natočenje bě přećiche.
-record-submit-success = Wotpósłanje wuspěšne! Chceće znowa natočić?
-record-help = Prošu podótkńće so Natočić a předčitajće wótře hornju sadu.
-record-cancel = Zasonatočenje přetorhnyć
 review-terms = Hdyž Common Voice wužiwaće, zwoliće do našich <termsLink>wužiwarskich wuměnjenjow</termsLink> a <privacyLink>zdźělenki priwatnosće</privacyLink>
 terms-agree = Sym přezjedny
 terms-disagree = Njejsym přezjedny
 review-aborted = Nahraće přetorhnjene. Chceće swoje natočenja zhašeć?
 review-submit-title = Přepruwować a wotpósłać
-review-submit-msg = Wulki dźak za natočenje!<lineBreak></lineBreak>Přepruwujće swoje natočenja, prjedy hač je wotpósćeleće. 
+review-submit-msg = Wulki dźak za natočenje!<lineBreak></lineBreak>Přepruwujće swoje natočenja, prjedy hač je wotpósćeleće.
 review-recording = Přepruwować
 review-rerecord = Znowa natočić
 review-cancel = Wotpósłanje přetorhnyć
@@ -309,7 +412,7 @@ request-language-success-content = Přizjewimy so jara bórze z dalšimi informa
 language-section-in-progress = W přihotowanju
 language-section-in-progress-description = Rěče w přihotowanju so tuchwilu přez naše zhromadźenstwa wuwiwaja; jich postup wotbłyšćuje, na kotrym stawje přełožowanje jich websydła a fazy zběrki sadow su.
 language-section-launched = Startowany
-language-section-launched-description = Za tute startowane rěče je so websydło wuspěšnje přełožiło, a ma dosć zběranych sadow, zo by běžne sobudźěło přez <italic>{ speak }</italic> a <italic>{ listen }</italic> dowoliło.
+language-section-launched-new-description = Za tute aktiwizowane rěče je so websydło wuspěšnje přełožiło,  a ma dosć zhromadźenych sadow, zo by zmóžniło stajne sobudźěło přez <italic>rěčenje</italic> a <italic>słuchanje</italic>.
 languages-show-more = Wjace pokazać
 languages-show-less = Mjenje pokazać
 language-speakers = Rěčnicy
@@ -317,6 +420,10 @@ language-meter-in-progress = Postup
 language-total-progress = Dohromady
 language-search-input =
     .placeholder = Pytać
+language-speakers = Rěčnicy
+localized = Přełoženy
+sentences = Sady
+total-hours = Hodźiny dohromady
 
 ## New Contribution
 
@@ -326,7 +433,7 @@ contribute = Sobu dźěłać
 listen = Słuchać
 skip = Přeskočić
 shortcuts = Skrótšenki
-clips = Klipy
+clips-with-count = <bold>{ $count }</bold> klipow
 goal-help-recording = Sće Common Voice pomhał, <goalPercentage></goalPercentage> našeho wšědneho natočenskeho cila { $goalValue } docpěć!
 goal-help-validation = Sće Common Voice pomhał, <goalPercentage></goalPercentage> našeho wšědneho wobkručenskeho  cila { $goalValue } docpěć!
 contribute-more =
@@ -337,6 +444,15 @@ contribute-more =
        *[other] Sće hotowy, hišće { $count } dalšich činić?
     }
 record-cta = Natočenje startować
+record-platform-not-supported = Je nam žel, ale waša platforma so tuchwilu njepodpěruje.
+record-platform-not-supported-desktop = Na desktopowych ličakach móžeće najnowšu wersiju sćahnyć:
+record-platform-not-supported-ios = Wužiwarjo <bold>iOS</bold> móža naše darmotne nałoženje sćahnyć:
+record-must-allow-microphone = Dyrbiće přistup na mikrofon dowolić.
+record-no-mic-found = Žadyn mikrofon namakany.
+record-error-too-short = Natočenje bě překrótke.
+record-error-too-long = Natočenje bě předołhe.
+record-error-too-quiet = Natočenje bě přećiche.
+record-cancel = Zasonatočenje přetorhnyć
 record-instruction = { $actionType } <recordIcon></recordIcon> a předčitajće sadu wótře
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> hdyž sće hotowy
 record-three-more-instruction = Hišće tři!
@@ -347,13 +463,7 @@ review-tooltip = Tu móžeće klipy přepruwować a znowa natočić
 unable-speak = Njemóžeće runje rěčeć?
 review-instruction = Klipy přepruwować a znowa natočić, jeli trěbne
 record-submit-tooltip = { $actionType } wotpósłać, hdyž sće hotowy
-clips-submitted =
-    { $count ->
-        [one] { $count } natočenje wotpósłane
-        [two] { $count } natočeni wotpósłanej
-        [few] { $count } natočenja wotpósłane
-       *[other] { $count } natočenjow wotpósłane
-    }
+clips-uploaded = Natočenja nahrate
 record-abort-title = Chceće natočenje najprjedy dokónčić?
 record-abort-text = Jeli nětko přetorhnjeće, so waš postup zhubi
 record-abort-submit = Natočenja wotpósłać
@@ -363,4 +473,58 @@ listen-instruction = { $actionType } <playIcon></playIcon> je so sada korektnje 
 listen-again-instruction = Wulkotne dźěło! <playIcon></playIcon> Słuchajće znowa, hdyž sće hotowy
 listen-3rd-time-instruction = 2 sčinjenej, <playIcon></playIcon> dale tak!
 listen-last-time-instruction = <playIcon></playIcon> Poslednje!
+nothing-to-validate = Nimamy ničo, kotrež móžemy w tutej rěči přepruwować, prošu pomhajće nam čakanski rynk pjelnić.
+record-button-label = Nahrajće swój hłós
 share-title-new = <bold>Pomhajće nam</bold>, dalše hłosy namakać
+
+## Goals
+
+streaks = Smuhi
+days =
+    { $count ->
+        [one] dźeń
+        [two] dnjej
+        [few] dny
+       *[other] dnjow
+    }
+recordings =
+    { $count ->
+        [one] natočenje
+        [two] natočeni
+        [few] natočenja
+       *[other] natočenjow
+    }
+validations =
+    { $count ->
+        [one] přepruwwowanje
+        [two] přepruwowani
+        [few] přepruwowanja
+       *[other] přepruwowanjow
+    }
+
+## Dashboard
+
+your-languages = Waše rěče
+toward-next-goal = K přichodnemu cilej
+clips-you-recorded = Klipy, kotrež sće natočił
+clips-you-validated = Klipy, kotrež sće přepruwował
+todays-recorded-progress = Dźensniši postup Common Voice za natočene klipy
+todays-validated-progress = Dźensniši postup Common Voice za přepruwowane klipy
+stats = Statistika
+you = Wy
+everyone = Kóždy
+contribution-activity = Sobudźěłowa aktiwita
+top-contributors = Najaktiwniši sobuskutkowarjo
+recorded-clips = Natočene klipy
+validated-clips = Přepruwowane klipy
+total-approved = Schwalene dohromady
+overall-accuracy = Cyłkowna dokładnosć
+
+## Profile Delete
+
+delete-q = Chceće, zo so waše hłosowe nahraća tež zhašeja, abo chceće je radšo w datowej sadźbje Common Voice wobchować?
+keep = Wobchować
+remove = Wotstronić
+keep-info = Waše anonymne hłosowe nahraća wostanu w datowej sadźbje Common Voice. Hdyž swój profil zhašeće, njemóžeće hižo naprašowanje wotpósłać, zo byšće swoje nahraća z datoweje sadźby wotstronił
+remove-info = Budźemy waše naprašowanje, waše hłosowe nahraća z datoweje sadźby wotstronić, přepruwować. Jeli so waše naprašowanje schwali,  budźemy so z tymi do zwiska stajić, kotřiž su datowu sadźbu sćahnyli, a prosymy jich, zo bychu waše hłosowe nahraća tež wotstronili.
+profile-form-delete = Profil zhašeć

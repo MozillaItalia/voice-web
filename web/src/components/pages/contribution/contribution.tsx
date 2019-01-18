@@ -1,9 +1,14 @@
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 const { Tooltip } = require('react-tippy');
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
+import { User } from '../../../stores/user';
 import { trackListening, trackRecording } from '../../../services/tracker';
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
@@ -16,7 +21,7 @@ import {
   SkipIcon,
 } from '../../ui/icons';
 import { Button } from '../../ui/ui';
-import { PrimaryButton } from './primary-buttons';
+import { PrimaryButton } from '../../primary-buttons/primary-buttons';
 import ShareModal from './share-modal';
 import Success from './success';
 import Wave from './wave';
@@ -36,6 +41,7 @@ export interface ContributionPillProps {
 
 interface PropsFromState {
   locale: Locale.State;
+  user: User.State;
 }
 
 interface Props extends LocalizationProps, PropsFromState {
@@ -90,8 +96,14 @@ class ContributionPage extends React.Component<Props, State> {
   componentDidUpdate() {
     this.startWaving();
 
+    const { isPlaying, isSubmitted, onReset, user } = this.props;
+
     if (this.wave) {
-      this.props.isPlaying ? this.wave.play() : this.wave.idle();
+      isPlaying ? this.wave.play() : this.wave.idle();
+    }
+
+    if (isSubmitted && user.account && user.account.skip_submission_feedback) {
+      onReset();
     }
   }
 
@@ -140,8 +152,17 @@ class ContributionPage extends React.Component<Props, State> {
   private toggleShareModal = () =>
     this.setState({ showShareModal: !this.state.showShareModal });
 
-  private toggleShortcutsModal = () =>
-    this.setState({ showShortcutsModal: !this.state.showShortcutsModal });
+  private toggleShortcutsModal = () => {
+    const showShortcutsModal = !this.state.showShortcutsModal;
+    if (showShortcutsModal) {
+      const { locale, type } = this.props;
+      (type == 'listen' ? trackListening : (trackRecording as any))(
+        'view-shortcuts',
+        locale
+      );
+    }
+    return this.setState({ showShortcutsModal });
+  };
 
   private handleKeyDown = (event: any) => {
     const {
@@ -165,7 +186,7 @@ class ContributionPage extends React.Component<Props, State> {
     }
 
     const shortcut = this.shortcuts.find(
-      ({ key }) => getString(key) === event.key
+      ({ key }) => getString(key).toLowerCase() === event.key
     );
     if (!shortcut) return;
 
@@ -177,8 +198,17 @@ class ContributionPage extends React.Component<Props, State> {
     event.preventDefault();
   };
 
+  private handleSkip = () => {
+    const { locale, onSkip, type } = this.props;
+    ((type === 'listen' ? trackListening : trackRecording) as any)(
+      'skip',
+      locale
+    );
+    onSkip();
+  };
+
   render() {
-    const { errorContent, getString, isSubmitted, type } = this.props;
+    const { errorContent, getString, isSubmitted, type, user } = this.props;
     const { showShareModal, showShortcutsModal } = this.state;
 
     return (
@@ -212,7 +242,9 @@ class ContributionPage extends React.Component<Props, State> {
             this.isDone ? 'submittable' : '',
           ].join(' ')}>
           <div className="top">
-            <LocaleLink to={URLS.ROOT} className="back">
+            <LocaleLink
+              to={user.account ? URLS.DASHBOARD : URLS.ROOT}
+              className="back">
               <ArrowLeft />
             </LocaleLink>
 
@@ -225,18 +257,19 @@ class ContributionPage extends React.Component<Props, State> {
               </Localized>
             </div>
 
-            {this.isLoaded &&
-              !errorContent && (
-                <div className={'counter ' + (isSubmitted ? 'done' : '')}>
-                  {isSubmitted && <CheckIcon />}
-                  {this.renderCounter()}
-                  <Localized
-                    id={isSubmitted ? 'clips-submitted' : 'clips'}
-                    $count={''}>
-                    <span className="text" />
-                  </Localized>
-                </div>
-              )}
+            {this.isLoaded && !errorContent ? (
+              <div className={'counter ' + (isSubmitted ? 'done' : '')}>
+                {isSubmitted && <CheckIcon />}
+                <Localized
+                  id="clips-with-count"
+                  bold={<b />}
+                  $count={this.renderClipCount()}>
+                  <span className="text" />
+                </Localized>
+              </div>
+            ) : (
+              <div />
+            )}
             {isSubmitted && (
               <button className="open-share" onClick={this.toggleShareModal}>
                 <ShareIcon />
@@ -250,7 +283,7 @@ class ContributionPage extends React.Component<Props, State> {
     );
   }
 
-  renderCounter() {
+  renderClipCount() {
     const { activeIndex, isSubmitted } = this.props;
     return (
       (isSubmitted ? SET_COUNT : activeIndex + 1 || SET_COUNT) + '/' + SET_COUNT
@@ -300,11 +333,15 @@ class ContributionPage extends React.Component<Props, State> {
                     return (
                       <div
                         key={sentence}
-                        className={'card ' + (isActive ? '' : 'inactive')}
+                        className={
+                          'card card-dimensions ' + (isActive ? '' : 'inactive')
+                        }
                         style={{
                           transform: [
                             `scale(${isActive ? 1 : 0.9})`,
-                            `translateX(${(i - activeSentenceIndex) * -130}%)`,
+                            `translateX(${(document.dir == 'rtl' ? -1 : 1) *
+                              (i - activeSentenceIndex) *
+                              -130}%)`,
                           ].join(' '),
                           opacity: i < activeSentenceIndex ? 0 : 1,
                         }}>
@@ -321,8 +358,10 @@ class ContributionPage extends React.Component<Props, State> {
                 <div className="inner">
                   {!errorContent && (
                     <div className="counter">
-                      {this.renderCounter()}
-                      <Localized id="clips">
+                      <Localized
+                        id="clips-with-count"
+                        bold={<b />}
+                        $count={this.renderClipCount()}>
                         <span className="text" />
                       </Localized>
                     </div>
@@ -419,6 +458,7 @@ class ContributionPage extends React.Component<Props, State> {
   }
 }
 
-export default connect<PropsFromState>(({ locale }: StateTree) => ({ locale }))(
-  withLocalization(ContributionPage)
-);
+export default connect<PropsFromState>(({ locale, user }: StateTree) => ({
+  locale,
+  user,
+}))(withLocalization(ContributionPage));

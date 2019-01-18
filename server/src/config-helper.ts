@@ -25,6 +25,7 @@ export type CommonVoiceConfig = {
     CLIENT_SECRET: string;
   };
   BASKET_API_KEY?: string;
+  IMPORT_SENTENCES: boolean;
 };
 
 const DEFAULTS: CommonVoiceConfig = {
@@ -46,12 +47,14 @@ const DEFAULTS: CommonVoiceConfig = {
   ADMIN_EMAILS: '[]', // array of admin emails, as JSON
   S3_CONFIG: {
     signatureVersion: 'v4',
+    useDualstack: true,
   },
   AUTH0: {
     DOMAIN: '',
     CLIENT_ID: '',
     CLIENT_SECRET: '',
   },
+  IMPORT_SENTENCES: true,
 };
 
 let injectedConfig: CommonVoiceConfig;

@@ -1,196 +1,289 @@
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
-import { withRouter, RouteComponentProps } from 'react-router';
-const { LocalizationProvider, Localized } = require('fluent-react');
-import URLS from '../../../urls';
-import {
-  ContributableLocaleLock,
-  localeConnector,
-  LocalePropsFromState,
-} from '../../locale-helpers';
-import Validator from '../../validator';
-import RequestLanguageModal from '../../request-language-modal/request-language-modal';
-import { RecordIcon } from '../../ui/icons';
-import { CardAction, Hr } from '../../ui/ui';
-import GetInvolvedModal from '../languages/get-involved-modal';
-import ProjectStatus from './project-status';
-import {
-  createCrossLocaleMessagesGenerator,
-  getNativeNameWithFallback,
-} from '../../../services/localization';
 import { connect } from 'react-redux';
+import { BENEFITS, WHATS_PUBLIC } from '../../../constants';
+import { trackHome } from '../../../services/tracker';
+import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
-import API from '../../../services/api';
+import { User } from '../../../stores/user';
+import { ContributableLocaleLock } from '../../locale-helpers';
+import { RecordLink } from '../../primary-buttons/primary-buttons';
+import RequestLanguageModal from '../../request-language-modal/request-language-modal';
+import { LinkButton } from '../../ui/ui';
+import Hero from './hero';
+import { ClipsStats, VoiceStats } from './stats';
+
+import './home.css';
+
+interface RegisterState {
+  tab: 'benefits' | 'whats-public';
+  index: number;
+}
+
+class RegisterSection extends React.Component<{}, RegisterState> {
+  state: RegisterState = { tab: 'benefits', index: 0 };
+
+  render() {
+    const { index, tab } = this.state;
+    const isBenefits = tab == 'benefits';
+    const info = (
+      <div className="signup-info">
+        <div className="tabs">
+          <img className="waves" src="/img/signup-waves.png" alt="Waves" />
+          {['benefits', 'whats-public'].map(l => (
+            <label key={l}>
+              <input
+                type="radio"
+                name="tab"
+                checked={tab == l}
+                onChange={() => {
+                  this.setState({ tab: l as any, index: 0 });
+                  trackHome('change-benefits-tabs');
+                }}
+              />
+              <Localized id={l}>
+                <div />
+              </Localized>
+            </label>
+          ))}
+        </div>
+        <div className="list-and-bg">
+          <div className="bg" />
+          <ul key={tab}>
+            {(isBenefits ? BENEFITS : WHATS_PUBLIC).map((l, i) => (
+              <li
+                key={l}
+                className={i == index ? 'active' : ''}
+                onClick={() => {
+                  this.setState({ index: i });
+                  trackHome(
+                    isBenefits
+                      ? 'click-benefits-item'
+                      : 'click-whats-public-item'
+                  );
+                }}>
+                <span>{i + 1}.</span>
+                <Localized id={l}>
+                  <span />
+                </Localized>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    );
+
+    return (
+      <section className="register-section">
+        <div className="top">
+          <div className="cta-container">
+            <Localized id="help-make-dataset">
+              <h1 />
+            </Localized>
+            <Localized id="profile-not-required">
+              <h2 />
+            </Localized>
+            <Localized id="sign-up-account">
+              <LinkButton
+                rounded
+                href="/login"
+                onClick={() => trackHome('click-benefits-register')}
+              />
+            </Localized>
+            {info}
+          </div>
+          <div className="images-container">
+            <img className="mars" src="/img/mars.svg" alt="Mars" />
+            <img
+              className="screenshot"
+              src={`/img/screenshots/${isBenefits ? 1 : 2}-${index + 1}.png`}
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    );
+  }
+}
+
+type HeroType = 'speak' | 'listen';
 
 interface PropsFromState {
-  api: API;
+  locale: Locale.State;
+  user: User.State;
 }
 
-interface Props
-  extends RouteComponentProps<any>,
-    LocalePropsFromState,
-    PropsFromState {}
-
-interface State {
-  messagesGenerator: any;
-  showGetInvolvedModal: boolean;
-  showLanguageRequestModal: boolean;
+type State = {
+  activeHero: null | HeroType;
+  showRequestLanguageModal: boolean;
   showWallOfText: boolean;
-}
+};
 
-class HomePage extends React.Component<Props, State> {
+class HomePage extends React.Component<PropsFromState, State> {
   state: State = {
-    messagesGenerator: null,
-    showGetInvolvedModal: false,
-    showLanguageRequestModal: false,
+    activeHero: null,
+    showRequestLanguageModal: false,
     showWallOfText: false,
   };
 
-  toggleGetInvolvedModal = () => {
-    this.setState({ showGetInvolvedModal: !this.state.showGetInvolvedModal });
-  };
+  statsRef: React.RefObject<HTMLDivElement> = React.createRef();
 
-  async componentDidMount() {
-    await this.updateMessagesGenerator(this.props);
+  componentDidMount() {
+    if (location.hash == '#stats') {
+      this.statsRef.current.scrollIntoView(true);
+      window.scrollBy(0, -130);
+    }
   }
 
-  async componentWillReceiveProps(nextProps: Props) {
-    await this.updateMessagesGenerator(nextProps);
-  }
-
-  private isFetching = false;
-  async updateMessagesGenerator({ api, locale }: Props) {
-    if (
-      this.isFetching ||
-      (this.state.messagesGenerator && locale === this.props.locale)
-    )
-      return;
-    this.isFetching = true;
-    this.setState(
-      {
-        messagesGenerator: createCrossLocaleMessagesGenerator(
-          await api.fetchCrossLocaleMessages(),
-          [locale]
-        ),
-      },
-      () => {
-        this.isFetching = false;
-      }
-    );
-  }
+  showHandlerFor = (hero: HeroType) => () =>
+    this.setState({ activeHero: hero });
+  hideHandlerFor = (hero: HeroType) => () =>
+    this.setState(({ activeHero }) => ({
+      activeHero: activeHero === hero ? null : activeHero,
+    }));
 
   render() {
-    const { locale } = this.props;
-    const {
-      messagesGenerator,
-      showGetInvolvedModal,
-      showWallOfText,
-    } = this.state;
+    const { locale, user } = this.props;
+    const { activeHero, showRequestLanguageModal, showWallOfText } = this.state;
     return (
-      <div id="home-container">
-        {this.state.showLanguageRequestModal && (
-          <RequestLanguageModal
-            onRequestClose={() =>
-              this.setState({ showLanguageRequestModal: false })
-            }
-          />
-        )}
-        <Localized id="home-title">
-          <h2 id="home-title" />
-        </Localized>
-        <div
-          id="wall-of-text"
-          className={showWallOfText ? 'show-more-text' : ''}>
-          <ContributableLocaleLock
-            render={({ isContributable }: any) => (
-              <div className="home-cta-container">
-                {isContributable ? (
-                  <CardAction className="home-cta" to={URLS.SPEAK}>
-                    <div>
-                      <RecordIcon />
-                    </div>
-                    <Localized id="home-cta">
-                      <span />
-                    </Localized>
-                  </CardAction>
-                ) : (
-                  messagesGenerator && (
-                    <LocalizationProvider messages={messagesGenerator}>
-                      <React.Fragment>
-                        <Localized id="get-involved-button">
-                          <CardAction
-                            id="home-cta"
-                            onClick={this.toggleGetInvolvedModal}
-                          />
-                        </Localized>
-                        {showGetInvolvedModal && (
-                          <GetInvolvedModal
-                            locale={{
-                              code: locale,
-                              name: getNativeNameWithFallback(locale),
-                            }}
-                            onRequestClose={this.toggleGetInvolvedModal}
-                          />
-                        )}
-                      </React.Fragment>
-                    </LocalizationProvider>
-                  )
-                )}
+      <div className="home">
+        <ContributableLocaleLock
+          render={({ isContributable }: any) =>
+            isContributable ? (
+              <div className="heroes">
+                {['speak', 'listen'].map((type: HeroType) => (
+                  <Hero
+                    key={type + locale}
+                    type={type}
+                    status={
+                      activeHero === type
+                        ? 'active'
+                        : activeHero
+                        ? 'compressed'
+                        : null
+                    }
+                    onShow={this.showHandlerFor(type)}
+                    onHide={this.hideHandlerFor(type)}
+                  />
+                ))}
               </div>
-            )}
-          />
-
-          <Localized id="wall-of-text-start">
-            <p />
-          </Localized>
-
-          <Localized id="wall-of-text-more-mobile">
-            <p className="more-text-mobile" />
-          </Localized>
-
-          <Localized id="wall-of-text-more-desktop" lineBreak={<br />}>
-            <p className="more-text-desktop" />
-          </Localized>
-
-          {!showWallOfText && (
-            <Localized id="show-wall-of-text">
-              <a
-                id="show-more-button"
-                onClick={() => this.setState({ showWallOfText: true })}
-              />
-            </Localized>
-          )}
-        </div>
-
-        <ContributableLocaleLock>
-          <Hr />
-
-          <div>
-            <Localized id="help-us-title">
-              <h1 />
-            </Localized>
-            <Localized id="help-us-explain">
-              <div id="help-explain" />
-            </Localized>
-
-            <Validator />
-          </div>
-        </ContributableLocaleLock>
-
-        <br />
-        <Hr />
-        <br />
-
-        <ProjectStatus
-          onRequestLanguage={() =>
-            this.setState({ showLanguageRequestModal: true })
+            ) : (
+              <div className="non-contributable-hero">
+                <img className="fading" src="/img/fading.svg" alt="Fading" />
+                <img
+                  className="waves"
+                  src="/img/home-waves/speak.svg"
+                  alt="Waves"
+                />
+              </div>
+            )
           }
         />
 
-        <br />
+        <div className="text">
+          <div className="inner">
+            <div className="title">
+              <Localized id="home-title">
+                <h1 />
+              </Localized>
+            </div>
+
+            <div className="description">
+              <Localized id="wall-of-text-first">
+                <p />
+              </Localized>
+
+              <br />
+
+              <Localized id="wall-of-text-second">
+                <p />
+              </Localized>
+
+              <br />
+
+              {showWallOfText && (
+                <React.Fragment>
+                  <Localized id="wall-of-text-more-desktop">
+                    <p />
+                  </Localized>
+                  <br />
+                </React.Fragment>
+              )}
+
+              <Localized
+                id={
+                  showWallOfText ? 'languages-show-less' : 'show-wall-of-text'
+                }>
+                <button
+                  className="show-more"
+                  type="button"
+                  onClick={() => {
+                    this.setState({ showWallOfText: !showWallOfText });
+                    trackHome('read-more', locale);
+                  }}
+                />
+              </Localized>
+            </div>
+          </div>
+        </div>
+
+        <div className="stats" ref={this.statsRef}>
+          <ClipsStats.Root />
+          <VoiceStats />
+        </div>
+
+        {user.account ? (
+          <section className="contribute-section">
+            <div className="mars-container">
+              <img src="/img/mars.svg" alt="Mars" />
+            </div>
+            <div className="cta">
+              <ContributableLocaleLock
+                render={({ isContributable }: any) =>
+                  isContributable ? (
+                    <>
+                      <RecordLink onClick={() => trackHome('speak', locale)} />
+                      <Localized id="ready-to-record">
+                        <h1 />
+                      </Localized>
+                    </>
+                  ) : (
+                    <>
+                      <Localized id="request-language-text">
+                        <h1 />
+                      </Localized>
+                      <div style={{ width: '100%' }} />
+                      <Localized id="request-language-button">
+                        <button
+                          type="button"
+                          className="request-language"
+                          onClick={() =>
+                            this.setState({ showRequestLanguageModal: true })
+                          }
+                        />
+                      </Localized>
+                      {showRequestLanguageModal && (
+                        <RequestLanguageModal
+                          onRequestClose={() =>
+                            this.setState({ showRequestLanguageModal: false })
+                          }
+                        />
+                      )}
+                    </>
+                  )
+                }
+              />
+            </div>
+          </section>
+        ) : (
+          <RegisterSection />
+        )}
       </div>
     );
   }
 }
-export default withRouter(connect<PropsFromState>(({ api }: StateTree) => ({
-  api,
-}))(localeConnector(HomePage)) as any);
+
+export default connect<PropsFromState>(({ locale, user }: StateTree) => ({
+  locale,
+  user,
+}))(HomePage);

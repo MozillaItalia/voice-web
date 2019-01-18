@@ -1,11 +1,13 @@
 const fs = require('fs');
 const path = require('path');
+const { parse } = require('fluent-syntax');
 const request = require('request-promise-native');
 
 const TRANSLATED_MIN_PROGRESS = 0.95;
-const CONTRIBUTABLE_MIN_SENTENCES = 1000;
+const CONTRIBUTABLE_MIN_SENTENCES = 5000;
 
 const dataPath = path.join(__dirname, '..', 'locales');
+const localeMessagesPath = path.join(__dirname, '..', 'web', 'locales');
 
 function saveDataJSON(name, data) {
   fs.writeFileSync(
@@ -28,6 +30,7 @@ async function fetchPontoonLanguages() {
                 locale {
                   code
                   name
+                  direction
                 }
               }
             }
@@ -36,31 +39,25 @@ async function fetchPontoonLanguages() {
     },
   });
   return data.project.localizations
-    .map(({ totalStrings, approvedStrings, locale }) => [
-      locale.code,
-      locale.name,
-      approvedStrings / totalStrings,
-    ])
-    .concat([['en', 'English', 1]])
-    .sort(([code1], [code2]) => code1.localeCompare(code2));
+    .map(({ totalStrings, approvedStrings, locale }) => ({
+      code: locale.code,
+      name: locale.name,
+      direction: locale.direction,
+      translated: approvedStrings / totalStrings,
+    }))
+    .concat({ code: 'en', name: 'English', translated: 1, direction: 'LTR' })
+    .sort((l1, l2) => l1.code.localeCompare(l2.code));
 }
 
 async function saveToMessages(languages) {
-  const messagesPath = path.join(
-    __dirname,
-    '..',
-    'web',
-    'locales',
-    'en',
-    'messages.ftl'
-  );
+  const messagesPath = path.join(localeMessagesPath, 'en', 'messages.ftl');
   const messages = fs.readFileSync(messagesPath, 'utf-8');
   const newMessages = messages.replace(
     /#\s\[Languages]([\s\S]*?)#\s\[\/]/gm,
     [
       '# [Languages]',
       '## Languages',
-      languages.map(([code, name]) => `${code} = ${name}`).join('\n'),
+      languages.map(({ code, name }) => `${code} = ${name}`).join('\n'),
       '# [/]',
     ].join('\n')
   );
@@ -82,10 +79,8 @@ async function saveCompletedLocalesJSON(languages) {
       ...new Set([
         ...existingLocales,
         ...languages
-          .filter(
-            ([code, name, progress]) => progress >= TRANSLATED_MIN_PROGRESS
-          )
-          .map(l => l[0]),
+          .filter(l => l.translated >= TRANSLATED_MIN_PROGRESS)
+          .map(l => l.code),
       ]),
     ].sort()
   );
@@ -95,12 +90,13 @@ async function importPontoonLocales() {
   const languages = await fetchPontoonLanguages();
   await Promise.all([
     saveToMessages(languages),
+    saveDataJSON('all', languages.map(l => l.code)),
     saveDataJSON(
-      'all',
-      languages.reduce((obj, [k, v]) => {
-        obj[k] = v;
-        return obj;
-      }, {})
+      'rtl',
+      languages
+        .filter(l => l.direction === 'RTL')
+        .map(l => l.code)
+        .sort()
     ),
     saveCompletedLocalesJSON(languages),
   ]);
@@ -108,7 +104,13 @@ async function importPontoonLocales() {
 
 async function importContributableLocales() {
   const sentencesPath = path.join(__dirname, '..', 'server', 'data');
+  const oldContributable = JSON.parse(
+    fs.readFileSync(path.join(dataPath, 'contributable.json'), 'utf-8')
+  );
   const names = fs.readdirSync(sentencesPath).filter(name => {
+    if (oldContributable.includes(name)) {
+      return true;
+    }
     if (name === 'LICENSE') {
       return false;
     }
@@ -130,11 +132,35 @@ async function importContributableLocales() {
       );
     return count > CONTRIBUTABLE_MIN_SENTENCES;
   });
-  saveDataJSON('contributable', names.sort(), null, 2);
+  saveDataJSON('contributable', names.sort());
+}
+
+async function buildLocaleNativeNameMapping() {
+  const locales = fs.readdirSync(localeMessagesPath);
+  const nativeNames = {};
+  for (const locale of locales) {
+    const messagesPath = path.join(localeMessagesPath, locale, 'messages.ftl');
+
+    if (!fs.existsSync(messagesPath)) {
+      continue;
+    }
+
+    const messages = parse(fs.readFileSync(messagesPath, 'utf-8'));
+    const message = messages.body.find(
+      message => message.id && message.id.name === locale
+    );
+
+    nativeNames[locale] = message ? message.value.elements[0].value : locale;
+  }
+  saveDataJSON('native-names', nativeNames);
 }
 
 async function importLocales() {
-  await Promise.all([importPontoonLocales(), importContributableLocales()]);
+  await Promise.all([
+    importPontoonLocales(),
+    importContributableLocales(),
+    buildLocaleNativeNameMapping(),
+  ]);
 }
 
 importLocales().catch(e => console.error(e));

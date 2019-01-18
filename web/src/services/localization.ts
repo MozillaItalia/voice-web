@@ -1,8 +1,10 @@
 require('fluent-intl-polyfill');
-const { MessageContext } = require('fluent');
+const { FluentBundle } = require('fluent');
 const { negotiateLanguages } = require('fluent-langneg');
-import ISO6391 from 'iso-639-1';
-const locales = require('../../../locales/all.json');
+const locales = require('../../../locales/all.json') as string[];
+export const NATIVE_NAMES = require('../../../locales/native-names.json') as {
+  [key: string]: string;
+};
 const translatedLocales = require('../../../locales/translated.json');
 import { isProduction } from '../utility';
 import API from './api';
@@ -10,36 +12,7 @@ import API from './api';
 export const DEFAULT_LOCALE = 'en';
 export const LOCALES = isProduction()
   ? (translatedLocales as string[])
-  : Object.keys(locales);
-
-const localeNations: any = {
-  'pt-BR': 'Brasil',
-  'sv-SE': 'Sverige',
-  'zh-CN': '简体',
-  'zh-TW': '繁體',
-};
-
-export function getNativeNameWithFallback(locale: string) {
-  let nativeName = ISO6391.getNativeName(locale);
-
-  if (nativeName) {
-    return nativeName;
-  }
-
-  const [localePart, nationPart] = locale.split('-');
-  nativeName = ISO6391.getNativeName(localePart);
-  if (nativeName) {
-    // Norwegian locales are identifiable by their first part alone
-    if (nationPart == 'NO') return nativeName;
-
-    const nation = localeNations[locale];
-    return nation
-      ? `${nativeName} (${nation})`
-      : nativeName + ' ' + (locales[locale].split(' ')[1] || '');
-  }
-
-  return locale;
-}
+  : locales;
 
 export function negotiateLocales(locales: ReadonlyArray<string>) {
   return negotiateLanguages(locales, LOCALES, {
@@ -47,15 +20,15 @@ export function negotiateLocales(locales: ReadonlyArray<string>) {
   });
 }
 
-function* asMessageContextGenerator(localeMessages: string[][]) {
+function* asBundleGenerator(localeMessages: string[][]) {
   for (const [locale, messages] of localeMessages) {
-    const cx = new MessageContext(locale, { useIsolating: false });
-    cx.addMessages(messages);
-    yield cx;
+    const bundle = new FluentBundle(locale, { useIsolating: false });
+    bundle.addMessages(messages);
+    yield bundle;
   }
 }
 
-export function createCrossLocaleMessagesGenerator(
+export function createCrossLocaleBundleGenerator(
   localeMessages: string[][],
   locales: string[]
 ) {
@@ -63,17 +36,14 @@ export function createCrossLocaleMessagesGenerator(
 
   localeMessages = localeMessages
     .filter(([locale]) => currentLocales.includes(locale))
-    .sort(
-      ([locale1], [locale2]) =>
-        currentLocales.indexOf(locale1) > currentLocales.indexOf(locale2)
-          ? 1
-          : -1
+    .sort(([locale1], [locale2]) =>
+      currentLocales.indexOf(locale1) > currentLocales.indexOf(locale2) ? 1 : -1
     );
 
-  return asMessageContextGenerator(localeMessages);
+  return asBundleGenerator(localeMessages);
 }
 
-export async function createMessagesGenerator(api: API, userLocales: string[]) {
+export async function createBundleGenerator(api: API, userLocales: string[]) {
   const currentLocales = negotiateLocales(userLocales);
 
   const localeMessages: any = await Promise.all(
@@ -83,5 +53,5 @@ export async function createMessagesGenerator(api: API, userLocales: string[]) {
     ])
   );
 
-  return asMessageContextGenerator(localeMessages);
+  return asBundleGenerator(localeMessages);
 }
