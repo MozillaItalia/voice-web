@@ -80,7 +80,7 @@ A prescindere dal fatto che il software sia web, desktop o mobile.
 Effettivamente il fatto che il software open source sia gratuito è una leggenda metropolitana.
 La diffondiamo, sia noi produttori di software che noi fornitori di servizi.
 Dopotutto sponsorizziamo ovunque il fatto che scaricarlo e provarlo è gratuito perché ci serve nella promozione.
-Non richiediamo un’e-mail per inviare una versione di prova del software per qualche giorno.
+Non richiediamo un'e-mail per inviare una versione di prova del software per qualche giorno.
 Ci stiamo dando la zappa sui piedi per usare un termine molto (poco) tecnico.
 Però ci porta la notorietà e ci permette di crescere facilmente anche senza aiuto di pubblicità, in caso.
 Tornando alla domanda iniziale, effettivamente quanto costa un software open source?
@@ -670,7 +670,7 @@ Il nucleo centrale della performance organizzativa è costituito dalle dimension
 La dimensione dell'efficienza esprime la capacità di utilizzare le risorse (input) in modo sostenibile e tempestivo.
 Nel processo di produzione ed erogazione del servizio (output).
 In altri termini, la capacità di produrre beni e servizi minimizzando il tempo e/o le risorse impiegati.
-La dimensione dell’efficacia esprime l'adeguatezza dell'output erogato rispetto alle aspettative.
+La dimensione dell'efficacia esprime l'adeguatezza dell'output erogato rispetto alle aspettative.
 E alle necessità degli utenti (interni ed esterni).
 Per misurare l'efficacia dell'azione di una amministrazione.
 È quindi fondamentale individuare quali dimensioni siano rilevanti per gli utenti.
@@ -912,7 +912,7 @@ Non ve ne resterà per farvi saltare le cervella.
 Se per avventura sdegnassimo noi di farlo.
 Due altri colpi da fuoco scoppiarono contemporaneamente.
 L'uno forò il cappello del vetturino, l'altro sfiorò una spalla del brigante, senza che questi mostrasse avvedersene.
-Scendi disgraziato gli disse l’aggressore se no quei signori finiranno coll'ammazzarti.
+Scendi disgraziato gli disse l'aggressore se no quei signori finiranno coll'ammazzarti.
 Il cocchiere, non se lo fece dire due volte, scese in un salto da cassetta, tenendo ravvolte in mano le guide.
 Il vetturino si presentò allo sportello di sinistra e il viaggiatore che si trovava dalla sua parte.
 Gli consegnò tosto le sue armi.
@@ -1147,7 +1147,7 @@ Infatti, qui sono stati utilizzate diverse funzioni.
 Per la sinusoide il procedimento di realizzazione è stato più rapido grazie all'utilizzo della sub-routine apposita.
 Infine, il circuito si chiude con la combinazione dei due array iniziali su grafico.
 Che viene rappresentato sul pannello di controllo sottoforma di due grafici distinti.
-Il segnale che viene visualizzato nel grafico rosso è un’onda quadra che permette solo valori di tipo booleano.
+Il segnale che viene visualizzato nel grafico rosso è un'onda quadra che permette solo valori di tipo booleano.
 L'esempio pratico per ottenere questi grafici è un pendolo a cui è attaccata una penna che scrive su un foglio.
 In questo modo possiamo ottenere i grafici ma di una sola frequenza.
 Per ottenere un grafico con 2 frequenze diverse basta utilizzare un piano oscillante su cui "scrive" il pendolo.
@@ -1239,7 +1239,7 @@ La borsa a quest'annuncio ha avuto subito dei rialzi.
 L'Italia ha sempre proposte nuove per aiutare i suoi italiani.
 Le grandi catene e i vari negozi stanno facendo moltissime richieste ai loro produttori.
 A quanto si vede dai pareri dei sondaggi ci sarà un grande afflusso di acquirenti.
-L'idea di partenza l'ha ricevuta proprio da un’e-mail di un cittadino italiano anonimo.
+L'idea di partenza l'ha ricevuta proprio da un'e-mail di un cittadino italiano anonimo.
 A dimostrazione che l'informatica non serve solo per simulare ma anche per sconvolgere pareri.
 La nostra capacità di agire ha superato di molto la nostra capacità di prevedere grazie alla tecnologia.
 La tecnologia è importante per ciò che ci consente di fare, non di capire.
@@ -1364,7 +1364,7 @@ Il personaggio si rende conto del potere che subisce, non l'accetta, cerca di ri
 Non c'è via di scampo.
 Per questo motivo 1984 è definito un romanzo Distopico, che si ambienta in un posto dove non è preferibile vivere.
 L'identità dell'uomo viene schiacciata e resa uguale a quella di tutti, l'unica cosa da fare è seguire il partito.
-È una realtà portata all'estremo dell’irrealtà ma realistica allo stesso tempo.
+È una realtà portata all'estremo dell'irrealtà ma realistica allo stesso tempo.
 Stalin affermava di aver inventato il trattore e il carro armato quando non era vero.
 L'appellativo il Grande Fratello deriva da Piccolo Padre, appellativo di Stalin.
 L'alterazione della realtà è un fatto visto più volte non solo nello stalinismo ma anche nel nazismo.
@@ -1574,7 +1574,7 @@ Questi primati hanno delle caratteristiche sia comportamentali che fisiche simil
 Noi esseri umani abbiamo delle mani che sono molto simili a quelle dei primati.
 Sono gli unici essere viventi ad avere il pollice opponibile e cinque dita contemporaneamente.
 I primati rispetto agli altri animali hanno una maggiore acutezza visiva perché vivono sugli alberi.
-La postura eretta permette alla testa un’orientazione migliore così si può guardare davanti a sé in posizione eretta.
+La postura eretta permette alla testa un'orientazione migliore così si può guardare davanti a sé in posizione eretta.
 Gli ominidi discendono dalle scimmie catarrine che hanno la peculiarità di avere il naso rivolto verso il basso.
 Il primo ominide aveva un cranio molto simile a quello di un bambino e fu scoperto in Sud Africa.
 Le altre caratteristiche erano la postura eretta dovuta all'attacco della colonna vertebrale.
@@ -1597,7 +1597,7 @@ Ciò indica che il lungo muso delle scimmie si stava nel frattempo restringendo 
 Perché i crani di questo antenato erano molto più grossi.
 L'Australopithecus Robustus aveva anche un'andatura barcollante.
 Un bacino più simile al nostro e delle braccia più corte.
-Ad un certo punto compare l’Homo Habilis.
+Ad un certo punto compare l'Homo Habilis.
 Questo essere rappresentava un salto di qualità rispetto ai precedenti.
 Perché la cresta ossea non c'era.
 Camminava spedito e aveva uno stile di vita umano.
@@ -3407,7 +3407,7 @@ Se solo le pianure non si fossero messe in mezzo… No, probabilmente tutto ques
 Dovevamo farlo, dovevamo rischiare.
 Era nostro dovere farlo.
 La probabilità di trovarsi due stati alleati militarmente e economicamente a prevalere sugli altri quattro.
-E per giunta posti a due angoli opposti dell’esagono…
+E per giunta posti a due angoli opposti dell'esagono…
 No, era troppo bassa, e noi ci eravamo finiti dentro.
 Non potevamo non farlo, dovevamo, per rispetto nei confronti di qualche dio strano, ma dovevamo.
 La risposta partì a metà pomeriggio, sul cavallo con cui era arrivata la prima.
@@ -3726,7 +3726,7 @@ Tra continente interno e paesi esterni.
 Il restante cinque percento era diviso tra Durtar Hirin e Arat Vanur.
 Per cui un tempo passavano oltre i sette decimi di merci del mondo.
 E i porti minori degli altri stati.
-Il continente interno si trovava ad un’altezza media di trecento metri sul livello del mare.
+Il continente interno si trovava ad un'altezza media di trecento metri sul livello del mare.
 Ed erano pochi i punti in cui la costa si abbassava.
 Permettendo la creazione di porti e attracchi per i lunghi viaggi.
 Quasi totalmente rocciosa e a strapiombo.
@@ -3937,7 +3937,7 @@ Nella seconda metà del 1600 nessuno veniva con la mimosa in mano a dirti come e
 All'epoca le donne non si facevano troppi problemi su quali fossero i loro desideri, li realizzavano e basta.
 Certo l'aspettativa di vita era più bassa, gli uomini più puzzolenti e le spade più affilate.
 C'era un sacco da divertirsi.
-Era un’epoca in cui se ti venivano a dire che non potevi essere una fuorilegge, tu te ne fregavi e continuavi.
+Era un'epoca in cui se ti venivano a dire che non potevi essere una fuorilegge, tu te ne fregavi e continuavi.
 Anne Dieut-le-Veut nasce nel 1661 in Francia.
 Il suo desiderio profondo di essere una criminale la porta presto ad essere deportata sull'isola di Tortuga.
 In compagnia di tanti bei talenti della criminalità.
@@ -4655,7 +4655,7 @@ Per poterci conoscere e rimanere aggiornati sugli obbiettivi della Fondazione Mo
 La potenza di questo Gathering è stata l'energia e la voglia di mettersi in gioco tutti assieme.
 Sempre con il massimo rispetto e la vera voglia di conoscersi.
 Sono particolarmente contento di aver lavorato, durante il weekend, con tante altre persone.
-Queste persone perseguono l’obbiettivo di lottare per mantenere il Web una risorsa libera e accessibile.
+Queste persone perseguono l'obbiettivo di lottare per mantenere il Web una risorsa libera e accessibile.
 Vi voglio bene!
 Dal prossimo autunno ci saranno delle bellissime novità e prossimamente saranno annunciate ufficialmente.
 Vi posso anticipare è che localmente qui a Cagliari, stiamo lavorando per offrire degli incontri.
@@ -4959,7 +4959,7 @@ Alla presenza di Napoleone Primo Console.
 Circa diciotto anni prima.
 Un guardiano dei docks è la guida dei contrabbandieri.
 Non parlerà perché ha avuto un discreto gruzzolo di monete.
-D’altra parte, egli concorre ad un'opera buona.
+D'altra parte, egli concorre ad un'opera buona.
 Quei due americani sono mossi dal pio desiderio di riconquistare la prima nave sottomarina.
 Del loro compatriota Fulton.
 Per portarla in America e collocarla in un museo dedicato al grandissimo inventore…
@@ -5556,7 +5556,7 @@ Dormire tra due guanciali.
 Dormire sugli allori.
 Entrarci come il cavolo a merenda.
 Entrare da un orecchio e uscire dall'altro.
-Entrare nell’anta.
+Entrare nell'anta.
 Entrare papa in conclave e uscire cardinale.
 Entrare per il buco della chiave.
 Esser nero come un calabrone.
@@ -6355,7 +6355,7 @@ Scuoteva un braccio come per levarsi di torno quell'ombra esosa.
 Si vergognava d'aver già vent'anni, e d'essere così a dietro degli studi: questa cosa l'avviliva.
 Presa a Firenze una camera in Via Cimabue, mangiava a una trattoria, lì vicina.
 Stava lunghe ore con la testa tra le mani, immaginandosi di studiare.
-Con un’ansia attraversata e tagliata in tutti i sensi da malumore e da malinconia, come da linee tirate con una squadra.
+Con un'ansia attraversata e tagliata in tutti i sensi da malumore e da malinconia, come da linee tirate con una squadra.
 Si sforzava d'essere soddisfatto e di affezionarsi alla scuola.
 Ma gli pareva che i giorni fossero così staccati e separati l'uno dall'altro che sentiva prendersi dallo scoraggiamento.
 Il giorno dopo non era capace più a ricordarsi e a raccapezzarsi del giorno avanti.
@@ -7170,7 +7170,7 @@ Per il pastrano eccessivamente stretto alla cintola.
 Gli enormi pantaloni a campana.
 Un po' troppo elegante anzi.
 E aveva in testa una tuba grigia.
-Con il nastro nero di quelle che usavano i dadi dell’Ottocento.
+Con il nastro nero di quelle che usavano i dadi dell'Ottocento.
 Ancora gli Inglesi le inalberano a Epsom.
 Nelle giornate del derby.
 A completare quel suo abbigliamento eccentrico e non certo da mattina.
@@ -8644,7 +8644,7 @@ Fin dall'imbocco della via, vide un'auto ferma quasi davanti al villino della Lu
 Ma non aveva l'aspetto di un tassì.
 Si fermò e osservò meglio che poté.
 La via, per essere una trasversale, era abbastanza illuminata e riconobbe una macchina privata e anche gli sembrò di lusso.
-L’auto di Kid Tiger pensò subito.
+L'auto di Kid Tiger pensò subito.
 Se così, era lui che arrivava in ritardo, probabilmente!
 Passare da quella parte non era più possibile, senza scoprirsi.
 Ma che fine aveva fatto Appleby?
@@ -10083,15 +10083,15 @@ C'è un pezzo di noi.
 Riprendiamoci la libertà!
 Internet è una risorsa pubblica globale che deve rimanere aperta e accessibile.
 Internet deve arricchire la vita di ogni essere umano.
-L’efficacia di Internet come risorsa pubblica dipende dal suo carattere di interoperabilità.
+L'efficacia di Internet come risorsa pubblica dipende dal suo carattere di interoperabilità.
 Decentralizzata a livello mondiale.
 La partecipazione commerciale allo sviluppo di Internet è in grado di apportare numerosi benefici.
 È fondamentale un equilibrio tra profitto commerciale e benefici pubblici.
 La valorizzazione degli aspetti di pubblica utilità di Internet rappresenta un obiettivo importante.
 Che merita tempo, attenzione ed impegno.
-L’obiettivo di Mozilla è quello di aiutare chiunque a leggere, scrivere e partecipare nel web in modo informato.
-Il Diritto d’autore o Copyright serve a tutelare l’autore e fornire una remunerazione per un lasso di tempo.
-Definisce la tutela dopo i 50 anni dalla morte dell’autore
+L'obiettivo di Mozilla è quello di aiutare chiunque a leggere, scrivere e partecipare nel web in modo informato.
+Il Diritto d'autore o Copyright serve a tutelare l'autore e fornire una remunerazione per un lasso di tempo.
+Definisce la tutela dopo i 50 anni dalla morte dell'autore
 Il diritto è tutelato nei paesi che fanno parte della convenzione.
 Ultima revisione del 1971.
 Amministrata oggi da Organizzazione mondiale per la proprietà intellettuale dell'ONU.
@@ -10535,7 +10535,7 @@ La questione tratta della qualità del software open source.
 È molto difficile formulare un giudizio obiettivo sulla qualità di un prodotto software.
 Nasce probabilmente come conseguenza della soggettività del giudizio.
 Il dibattito sul confronto della qualità del software proprietario e del software libero è così infuocato.
-I produttori del software proprietario sostengono un’affermazione.
+I produttori del software proprietario sostengono un'affermazione.
 Non può offrire alcuna garanzia di qualità il frutto di un lavoro collettivo.
 Viene svolto con modalità caotiche e anarcoidi.
 È svolto da una pluralità di lavoratori disseminati sulla superficie dell'intero pianeta.
@@ -10990,7 +10990,7 @@ Migrazione al software libero dettata da motivazioni sia di ordine pratico che d
 La scelta del software è stata dettata infatti in passato da una molteplicità di motivazioni in parte tecniche.
 Per permettere l'avvicinamento delle scuole al mondo dell'ICT è nato l'"Osservatorio Tecnologico per la Scuola".
 Si propone di realizzare un collegamento stabile tra mondo accademico, ricerca, imprese della net-economy e scuola.
-L’Osservatorio Tecnologico nasce in forma sperimentale nel 2000-2001 ad opera del MIUR.
+L'Osservatorio Tecnologico nasce in forma sperimentale nel 2000-2001 ad opera del MIUR.
 L'Osservatorio Tecnologico è un servizio disponibile agli utenti solo su Internet.
 È un portale che permette soprattutto la diffusione delle informazioni e delle esperienze maturate nelle singole scuole.
 Il servizio è realizzato mediante cooperazione a distanza da un gruppo di professionisti impegnati nell'ICT.
