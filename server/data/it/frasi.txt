@@ -10719,7 +10719,7 @@ Decretando il successo insieme a Microsoft Office nella nuova versione XP, la po
 Le versioni Home e Professional di XP, lo rendono adatto alle diverse esigenze dell'utenza sia casalinga che professionale.
 Mentre per i sistemi server la Microsoft rilascia Windows Server 2003.
 Nella seconda metà del 2004 Microsoft propone al mercato una nuova visione del computer.
-Il pc da salotto pensato per realizzare la convergenza digitale nelle abitazioni.
+Il pc da salotto è pensato per realizzare la convergenza digitale nelle abitazioni.
 Windows Media Center 2005 commercializzato come sistema preinstallato su computer appositamente assemblati.
 Caratterizzati da un design che li renda simili a sistemi hi-fi o a videoregistratori.
 Ha come principale obiettivo rendere più facile la fruizione di contenuti multimediali.
